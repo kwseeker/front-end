@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- 标题 -->
+    <h1>一级标题</h1>
+    <h2>二级标题</h2>
+    <h3>三级标题</h3>
+    <h4>四级标题</h4>
+    <h5>五级标题</h5>
+    <h6>六级标题</h6>
+
+    <!-- 段落 -->
+    <!-- i: 斜体 em: 强调 strong 加粗 br -->
+    <!-- br: 换行 -->
+    <!-- hr:  -->
+    <!-- pre -->
+    <p id="para1"><i>request</i> 是指具体的模式 有<em>launch</em>和<strong>attach</strong>两种</p>
+    <p>书山有路勤为径<br>学海无涯苦作舟</p>
+    <p>
+        原价<del>188</del> <br>
+        co<sub>2</sub><br>
+        a<sup>2</sup><br>
+        <ins>abcdefg</ins>
+    </p>
+    <pre>
+        学习如逆水行舟
+        不进则退
+    </pre>
+    <hr />
+
+    <!-- 图片 -->
+    <!-- alt:图片加载失败显示内容 -->
+    <!-- usemap: 点图片不同位置跳转到不同的网络地址 -->
+    <img src="./imgs/girl.jpeg" />  <!--198*297-->
+    <img src="https://th.bing.com/th/id/OIP.aLZnu2g4LVN26pNCoYReJAHaLJ?w=198&h=298&c=7&o=5&pid=1.7" />
+    <br>
+    <img src="./imgs/girl.jpeg" width="200" height="300" title="女神" alt="女神照片" usemap="#mymap">
+    <map name="mymap">
+        <!-- rect: 矩形，coords（coordinate）:坐标  -->
+        <area shape="rect" coords="0,0,50,50" href="01-scaffold.html">
+        <!-- circle: 圆形，coords（coordinate）:坐标 圆心（100,100）半径30  -->
+        <area shape="circle" coords="100,100,30" href="03-element-ahref.html">
+    </map>
+
+    <!-- 列表 -->
+    <ul>
+        <li>无序列表item1</li>
+        <ul>
+            <li>无序子列表item1</li>
+            <li>无序子列表item2</li>
+            <li>无序子列表item3</li>
+        </ul>
+    </ul>
+    <ol>
+        <li>有序列表item1</li>
+        <li>有序列表item2</li>
+    </ol>
+    <dl>
+        <dt>Firefox</dt>
+        <dd>A free, open source, cross-platform, graphical web browser
+            developed by the Mozilla Corporation and hundreds of volunteers.
+        </dd>
+    </dl>
+    <dl>
+        <dt>购物指南</dt>
+        <dd>购物流程</dd>
+        <dd>会员介绍</dd>
+        <dt>配送方式</dt>
+        <dd>上门自提</dd>
+        <dd>211限时达</dd>
+        <dd>海外配送</dd>
+    </dl>
+
+    <!-- 超链接 -->
+    <a href="https://www.baidu.com" target="_blank" title="百度">百度一下</a><br>
+    <a href="../imgs/girl.jpeg" target="_blank">百度一下</a><br>
+    <a href="mailto:xiaohuileee@gmail.com">给我发邮件</a><br>
+    <a href="sms:10086">给10086发短信</a>
+    <!-- 跳转 -->
+    <p>
+        <a href="#para1">跳转到第一段</a><br>
+        <a href="03-element-ahref.html#p3">跳转到《三体》第一章第三段</a><br>
+        <a href="#">刷新本页面</a>
+    </p>
+    
+    <!-- 表格 -->
+    <!-- 其实不建议使用标签的属性控制样式，样式统一用CSS控制 -->
+    <table border="1" width="500", align="center", cellpadding="5", cellspacing="0">
+        <!-- 表格头 -->
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>学号</th>
+                <th>专业</th>
+                <th>电话</th>
+            </tr>
+        </thead>
+        <!-- 表格体 -->
+        <tbody>
+            <tr>
+                <td>张无忌</td>
+                <td>10001</td>
+                <td>武术</td>
+                <td>13811112222</td>    
+            </tr>
+            <tr>
+                <td>赵敏</td>
+                <td>10002</td>
+                <td>行政</td>
+                <td>13811112223</td>    
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- div & span -->
+    <div>
+        头部
+        <span>我的帐号</span>
+    </div>
+    <div>导航</div>
+    <div>主体</div>
+</body>
+
+</html>
