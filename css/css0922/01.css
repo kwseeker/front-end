@@ -1,0 +1,71 @@
+/* 背景相关 */
+body {
+    background-image: url(https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png);
+    background-color: burlywood;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* 文本相关 */
+.pbox {
+    /* 字符间距 */
+    letter-spacing: 5px;
+    /* 水平居左 */
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    /* 文本缩进 */
+    text-indent: 2em;           
+    text-indent: 10px;
+    /* 行高 */
+    line-height: 20px;
+}
+.pbox2 {
+    word-spacing: 10px;
+    /* 下划线 */
+    text-decoration: underline;
+    /* 上划线 */
+    text-decoration: overline;
+    /* 删除线 */
+    text-decoration: line-through;
+    /* 文本占据高度，但不是字体高度 */
+    height: 40px;
+    /* 行占据高度 */
+    line-height: 50px;
+    background-color: skyblue;
+    /* background-color: transparent; */
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    border: 1px solid red;
+    vertical-align: middle;
+    vertical-align: bottom;
+    vertical-align: top;
+    vertical-align: baseline;
+}
+
+.wrap {
+    width: 1300px;
+    height: 1300px;
+    border: 5px solid red;
+    /* background-color: red; */
+    background-image: url(https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y;
+    background-repeat: repeat; */
+}
+
+.travel {
+    border: 1px solid blue;
+    width: 48px;
+    height: 48px;
+    background-image: url(tb.png);
+    background-repeat: no-repeat;
+    background-position: 0 -86px;
+}

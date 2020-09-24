@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 颜色属性 */
+        .cl>.cl1 {
+            /* 下面都是同一种颜色 */
+            color:fuchsia;
+            color: #f0f;
+            color: #ff00ff;
+            color: rgb(255,0,255);
+            color: rgb(100%,0,100%);
+            color: rgba(255,0,255,1);
+        }
+        .cl>.cl2 {
+            /*增加了透明度*/
+            color: rgba(255,0,255,0.5);
+        }
+        /* 光标形状 */
+        .cs p {
+            cursor:cell;
+        }
+        .cs a {
+            cursor:crosshair;
+        }
+        /* 列表格式 */
+        .ls>.ul1 li {
+            list-style-type: circle;
+            list-style-type: square;
+            list-style-type: decimal;
+            list-style-type: lower-alpha;
+            list-style-position: outside;   /*默认，将标记放在外边*/
+            list-style-position: inside;
+        }
+        .ls>.ul2 li {
+            list-style: none;
+        }
+        /* 列表格式 */
+        #font p {
+            font-weight: normal;
+            font-weight: 200;
+            font-style: italic;
+            font-style: oblique;
+            font-variant: normal;
+            font-variant: small-caps;
+            font-family: "Arial", "宋体";   /*从左到右依次加载，直到遇到支持的字体*/
+        }
+    </style>
+</head>
+<body>
+    <div class="cl">
+        <div class="cl1">颜色</div>
+        <div class="cl2">带透明度的颜色</div>
+    </div>
+    <div class='cs'>
+        <!-- p标签 cursor 默认就是 text -->
+        <p>Hello CSS3!</p>
+        <a href="https://www.baidu.com" >百度一下</a>
+    </div>
+    <div class="ls">
+        <ul class="ul1">
+            <li>1</li>
+            <li>2</li>
+        </ul>
+        <ul class="ul2">
+            <li>列表无属性</li>
+        </ul>
+    </div>
+    <div id="font">
+        <p>字体属性演示</p>
+    </div>
+    
+</body>
+</html>
