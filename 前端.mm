@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="13" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="14" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="&#x6559;&#x7a0b;" POSITION="right" ID="ID_1709163217" CREATED="1599967001354" MODIFIED="1599967008258">
 <edge COLOR="#ff0000"/>
 <node TEXT="MDN&#x6587;&#x6863;" ID="ID_458601979" CREATED="1598178532588" MODIFIED="1599967047459" LINK="https://developer.mozilla.org/zh-CN/docs/Web"/>
@@ -426,7 +426,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x624b;&#x518c;" ID="ID_991268965" CREATED="1600788432784" MODIFIED="1600788438199" STYLE="bubble">
 <node TEXT="css&#x5c5e;&#x6027;&#x7d22;&#x5f15;" ID="ID_1084954206" CREATED="1600907143228" MODIFIED="1600907166259" LINK="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference"/>
@@ -465,7 +464,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="css&#x9009;&#x62e9;&#x5668;" ID="ID_883212037" CREATED="1600788781518" MODIFIED="1600788804626">
@@ -487,7 +485,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="ID&#x9009;&#x62e9;&#x5668;" ID="ID_1595071488" CREATED="1600788826246" MODIFIED="1600822804574"><richcontent TYPE="NOTE">
@@ -508,7 +505,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="class&#x9009;&#x62e9;&#x5668;" ID="ID_1472857695" CREATED="1600788831827" MODIFIED="1600905164341"><richcontent TYPE="NOTE">
@@ -529,7 +525,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x901a;&#x914d;&#x7b26;&#x9009;&#x62e9;&#x5668;" ID="ID_1759164702" CREATED="1600788838282" MODIFIED="1600905179282"><richcontent TYPE="NOTE">
@@ -550,7 +545,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x540e;&#x4ee3;&#x9009;&#x62e9;&#x5668;" ID="ID_1614782493" CREATED="1600788846738" MODIFIED="1600905204296"><richcontent TYPE="NOTE">
@@ -571,7 +565,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5b50;&#x4ee3;&#x9009;&#x62e9;&#x5668;" ID="ID_1476887575" CREATED="1600788864692" MODIFIED="1600788877325"/>
@@ -601,7 +594,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="cursor" ID="ID_1376878014" CREATED="1600788957080" MODIFIED="1600870641485"><richcontent TYPE="NOTE">
@@ -637,7 +629,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5b57;&#x4f53;&#x76f8;&#x5173;" ID="ID_193008456" CREATED="1600908787796" MODIFIED="1600908791717">
@@ -655,7 +646,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="font-variant" ID="ID_1383188515" CREATED="1600909691607" MODIFIED="1600909692594"/>
@@ -671,7 +661,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -693,7 +682,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="text-align" ID="ID_276664407" CREATED="1600908957801" MODIFIED="1600908959082"/>
@@ -704,9 +692,46 @@
 <node TEXT="&#x80cc;&#x666f;&#x76f8;&#x5173;" ID="ID_495817265" CREATED="1600908994487" MODIFIED="1600909013817">
 <node TEXT="background-color" ID="ID_95230967" CREATED="1600909014775" MODIFIED="1600909026020"/>
 <node TEXT="background-image" ID="ID_1753134257" CREATED="1600909027541" MODIFIED="1600909033702"/>
-<node TEXT="background-repeat" ID="ID_813982870" CREATED="1600909033984" MODIFIED="1600909041079"/>
+<node TEXT="background-repeat" ID="ID_813982870" CREATED="1600909033984" MODIFIED="1601102873333"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      no-repeat
+    </p>
+    <p>
+      repeat
+    </p>
+    <p>
+      repeat-x
+    </p>
+    <p>
+      repeat-y
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="background-position" ID="ID_1542813766" CREATED="1600909041312" MODIFIED="1600909049591"/>
-<node TEXT="background-attachment" ID="ID_1520839591" CREATED="1600909049800" MODIFIED="1600909057376"/>
+<node TEXT="background-attachment" ID="ID_1520839591" CREATED="1600909049800" MODIFIED="1601110430686"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32972;&#26223;&#22270;&#22266;&#23450;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="&#x7b80;&#x5199;&#x5c5e;&#x6027;" ID="ID_1261292731" CREATED="1600907587301" MODIFIED="1600908385024"><richcontent TYPE="NOTE">
@@ -721,7 +746,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -735,11 +759,95 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="list-style" ID="ID_783791291" CREATED="1600905745473" MODIFIED="1600905750346"/>
 <node TEXT="backgroud" ID="ID_1048658910" CREATED="1600908707792" MODIFIED="1600908713481"/>
 <node TEXT="font" ID="ID_856450844" CREATED="1600908746092" MODIFIED="1600908763408"/>
+<node TEXT="boarder" ID="ID_743762362" CREATED="1601093301265" MODIFIED="1601093303989"/>
+</node>
+</node>
+<node TEXT="&#x5176;&#x4ed6;" ID="ID_118996373" CREATED="1601094614985" MODIFIED="1601094621174">
+<node TEXT="&#x5e38;&#x7528;&#x5355;&#x4f4d;(em rem ex ch vw vh vmin vmax)" ID="ID_184468954" CREATED="1601094139716" MODIFIED="1601094190204" LINK="https://www.w3.org/TR/css3-values/#relative-lengths"/>
+<node TEXT="&#x9876;&#x7ebf; &#x4e2d;&#x7ebf; &#x5e95;&#x7ebf; &#x548c; &#x57fa;&#x7ebf;" ID="ID_527441190" CREATED="1601094623830" MODIFIED="1601094701425"/>
+<node TEXT="height line-height font-size &#x884c;&#x95f4;&#x8ddd;" ID="ID_761581641" CREATED="1601097781789" MODIFIED="1601103418315"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(77, 77, 77)" face="-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif" size="18px">&#24403;font-size&#31561;&#20110;line-height&#26102;&#65292;&#34892;&#36317; = line-height - font-size = 0&#65307;&#32780;&#24403;font-size&#22823;&#20110;line-height&#26102;&#65292;&#21017;&#20250;&#20986;&#29616;&#34892;&#36317;&#20026;&#36127;&#20540;&#65292;&#21017;&#20004;&#34892;&#37325;&#21472;</font> 
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x6587;&#x5b57;&#x9ed8;&#x8ba4;&#x662f;&#x6309;&#x7167;line-height&#x4e2d;&#x7ebf;&#x5bf9;&#x9f50;&#x663e;&#x793a;&#x7684;" ID="ID_39664489" CREATED="1601098226239" MODIFIED="1601098260292"/>
+<node TEXT="&#x4e3a;&#x4f55;margin&#x603b;&#x548c;&#x5b57;&#x4f53;&#x5927;&#x5c0f;&#x4e00;&#x6837;" ID="ID_1119923813" CREATED="1601098612032" MODIFIED="1601099963744"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22240;&#20026;p&#20803;&#32032;&#40664;&#35748;&#26377;&#19979;&#38754;&#30340;&#23646;&#24615;&#65292;
+    </p>
+    <p>
+      margin-block-start: 1em; &#25511;&#21046;&#19978;&#36793;&#36317;&#20026;1&#20493;&#23383;&#20307;&#22823;&#23567;
+    </p>
+    <p>
+      margin-block-end: 1em; &#25511;&#21046;&#19979;&#36793;&#36317;&#20026;1&#20493;&#23383;&#20307;&#22823;&#23567;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      p {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;display: block;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;margin-block-start: 1em;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;margin-block-end: 1em;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;margin-inline-start: 0px;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;margin-inline-end: 0px;
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="CSS&#x7cbe;&#x7075;&#x56fe;" ID="ID_1369136012" CREATED="1601103419111" MODIFIED="1601103460963"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 16px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 400; font-size: 18px; color: rgb(77, 77, 77); line-height: 26px !important; font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      1&#12289;&#31934;&#28789;&#22270;&#25216;&#26415;&#20135;&#29983;&#30340;&#30446;&#30340;&#65306;&#24456;&#22810;&#22823;&#22411;&#32593;&#39029;&#22312;&#39318;&#27425;&#21152;&#36733;&#30340;&#26102;&#20505;&#37117;&#38656;&#35201;&#21152;&#36733;&#24456;&#22810;&#30340;&#23567;&#22270;&#29255;&#65292;&#32780;&#32771;&#34385;&#21040;&#22312;&#21516;&#19968;&#26102;&#38388;&#65292;&#26381;&#21153;&#22120;&#25317;&#22581;&#30340;&#24773;&#20917;&#19979;&#65292;&#20026;&#20102;&#35299;&#20915;&#36825;&#19968;&#38382;&#39064;&#65292;&#37319;&#29992;&#20102;&#31934;&#28789;&#22270;&#36825;&#19968;&#25216;&#26415;&#26469;&#32531;&#35299;&#21152;&#36733;&#26102;&#38388;&#36807;&#38271;&#20174;&#32780;&#24433;&#21709;&#29992;&#25143;&#20307;&#39564;&#30340;&#36825;&#20010;&#38382;&#39064;&#12290;
+    </p>
+    <p style="margin-top: 0px; margin-right: 0px; margin-bottom: 16px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; font-weight: 400; font-size: 18px; color: rgb(77, 77, 77); line-height: 26px !important; font-family: -apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif, SimHei, SimSun; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      2&#12289;&#31934;&#28789;&#22270;&#25216;&#26415;&#30340;&#26412;&#36136;&#65306;&#25152;&#35859;&#31934;&#28789;&#22270;&#23601;&#26159;&#25226;&#24456;&#22810;&#30340;&#23567;&#22270;&#29255;&#21512;&#24182;&#21040;&#19968;&#24352;&#36739;&#22823;&#30340;&#22270;&#29255;&#37324;&#65292;&#25152;&#20197;&#22312;&#39318;&#27425;&#21152;&#36733;&#39029;&#38754;&#30340;&#26102;&#20505;&#65292;&#23601;&#19981;&#29992;&#21152;&#36733;&#36807;&#22810;&#30340;&#23567;&#22270;&#29255;&#65292;&#21482;&#38656;&#35201;&#21152;&#36733;&#20986;&#26469;&#23558;&#23567;&#22270;&#29255;&#21512;&#24182;&#36215;&#26469;&#30340;&#37027;&#19968;&#24352;&#22823;&#22270;&#29255;&#20063;&#23601;&#26159;&#31934;&#28789;&#22270;&#21363;&#21487;&#65292;&#36825;&#26679;&#22312;&#19968;&#23450;&#31243;&#24230;&#19978;&#20943;&#23569;&#20102;&#39029;&#38754;&#30340;&#21152;&#36733;&#36895;&#24230;&#65292;&#20063;&#19968;&#23450;&#31243;&#24230;&#19978;&#32531;&#35299;&#20102;&#26381;&#21153;&#22120;&#30340;&#21387;&#21147;&#12290;
+    </p>
+     
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
 </node>
@@ -1941,6 +2049,9 @@
 </node>
 <node TEXT="Deno" POSITION="right" ID="ID_645477021" CREATED="1599964192877" MODIFIED="1599964203335" STYLE="bubble">
 <edge COLOR="#00007c"/>
+</node>
+<node TEXT="JQuery" POSITION="right" ID="ID_1843616484" CREATED="1601110373262" MODIFIED="1601110379667" STYLE="bubble">
+<edge COLOR="#00ff00"/>
 </node>
 <node TEXT="React" POSITION="right" ID="ID_1050019187" CREATED="1599966460569" MODIFIED="1599966467104" STYLE="bubble">
 <edge COLOR="#007c00"/>
