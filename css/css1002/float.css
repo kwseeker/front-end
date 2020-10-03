@@ -1,0 +1,95 @@
+#d1 img {
+    width: 80px;
+    float: left;
+}
+#d1 p {
+    font-size: large;
+}
+/* #d11 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+} */
+
+#d2 div {
+    /* 浮动可以打破标准流显示模式 */
+    /* float: left; */
+    float: right;
+    /* 行内块显示模式，两个元素中间如果有空格或换行，会转换为一个空格再页面显示 */
+    /* display: inline-block; */
+    width: 200px;
+    height: 200px;
+}
+#d21 {
+    background-color: red;
+}
+#d22 {
+    background-color: orange;
+}
+
+#d3>div {
+    float: left;
+}
+.d31 {
+    background-color: yellow;
+    width: 800px;
+    height: 200px;
+}
+.d32 {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+}
+.d33 {
+    background-color: cyan;
+    width: 200px;
+    height: 100px;
+}
+.d34 {
+    background-color: blue;
+    width: 400px;
+    height: 100px;
+}
+.d35 {
+    background-color: purple;
+    width: 400px;
+    height: 300px;
+}
+.d36 {
+    background-color: red;
+    width: 300px;
+    height: 200px;
+}
+.d37 {
+    background-color: orange;
+    width: 300px;
+    height: 200px;
+}
+.d38 {
+    background-color: yellow;
+    width: 300px;
+    height: 200px;
+}
+.d39 {
+    background-color: green;
+    width: 300px;
+    height: 200px;
+}
+.d310 {
+    background-color: cyan;
+    width: 300px;
+    height: 200px;
+}
+
+.d41 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 0, 0, .5);
+}
+.d42 {
+    width: 200px;
+    height: 400px;
+    background-color: gray;
+}

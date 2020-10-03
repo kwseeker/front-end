@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 使用浮动的特点：
+        浮动元素会按照指定的方向移动，
+        遇到父亲的边界或上一个浮动元素或上一个不浮动兄弟元素就会停下来
+        */
+        .wrap1, 
+        .wrap2 {
+            /* 方法1 */
+            /* height: 200px; */
+            /* 方法2 */
+            /* overflow: hidden; */
+            border: 1px dashed blue;
+        }
+        .clearfix::after {
+            /* 方法3 */
+            content: '';
+            display: block;
+            clear:both;
+        }
+
+        .wrap1>div,
+        .wrap2>div {
+            float: left;
+            width: 200px;
+            height: 200px;
+        }
+        .wrap1>div {
+            background-color: red;
+        }
+        .wrap2>div {
+            background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap1 clearfix">
+        <div>div11</div>
+        <div>div12</div>
+    </div>
+    <div class="wrap2 clearfix">
+        <div>div21</div>
+        <div>div22</div>
+    </div>
+</body>
+</html>

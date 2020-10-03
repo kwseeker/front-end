@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 使用浮动实现常见的经典布局（上下banner,左侧菜单栏，右侧内容区） -->
+    <style>
+        /* 去掉所有元素默认的内外边距 */
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        .banner {
+            height: 60px;
+            background-color: lightblue;
+        }
+        .container {
+            height: 800px;
+        }
+        .item-list {
+            float: left;
+            width: 15%;
+            height: 100%;
+            background-color: blue;
+        }
+        .content {
+            float: left;
+            width: 85%;
+            height: 100%;
+        }
+        /* .container::after {
+            content: '';
+            display: block;
+            clear: both;
+        } */
+    </style>
+</head>
+<body>
+    <div class="banner header"></div>
+    <div class="container">
+        <div class="item-list"></div>
+        <div class="content"></div>
+    </div>
+    <div class="banner footer"></div>
+</body>
+</html>
