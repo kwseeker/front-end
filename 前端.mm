@@ -63,13 +63,13 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="15" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="&#x6559;&#x7a0b;" POSITION="right" ID="ID_1709163217" CREATED="1599967001354" MODIFIED="1599967008258">
 <edge COLOR="#ff0000"/>
 <node TEXT="MDN&#x6587;&#x6863;" ID="ID_458601979" CREATED="1598178532588" MODIFIED="1599967047459" LINK="https://developer.mozilla.org/zh-CN/docs/Web"/>
 <node TEXT="MDN&#x6559;&#x7a0b;" ID="ID_873430389" CREATED="1599967009750" MODIFIED="1599967025530" LINK="https://developer.mozilla.org/zh-CN/docs/Web/Tutorials"/>
 </node>
-<node TEXT="VSCode" POSITION="right" ID="ID_1329008435" CREATED="1598170399873" MODIFIED="1598170432687" STYLE="bubble">
+<node TEXT="VSCode" FOLDED="true" POSITION="right" ID="ID_1329008435" CREATED="1598170399873" MODIFIED="1598170432687" STYLE="bubble">
 <edge COLOR="#ff00ff"/>
 <node TEXT="&#x9ad8;&#x6548;&#x7f16;&#x7801;" ID="ID_739300616" CREATED="1598170435112" MODIFIED="1598170442759" STYLE="bubble">
 <node TEXT="&#x63d2;&#x4ef6;" ID="ID_787504312" CREATED="1598170489403" MODIFIED="1598170494325">
@@ -102,7 +102,7 @@
 <edge COLOR="#ff00ff"/>
 <node TEXT="1&#xff09;&#x5143;&#x7d20;&#x662f;&#x4ece;&#x5de6;&#x5411;&#x53f3;&#xff0c;&#x4ece;&#x4e0a;&#x5230;&#x4e0b;&#x4f9d;&#x6b21;&#x6e32;&#x67d3;&#x7684;" ID="ID_973489125" CREATED="1601692037748" MODIFIED="1601692075835"/>
 </node>
-<node TEXT="HTML" POSITION="right" ID="ID_1360212548" CREATED="1598168329431" MODIFIED="1598168668539" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML" STYLE="bubble">
+<node TEXT="HTML" FOLDED="true" POSITION="right" ID="ID_1360212548" CREATED="1598168329431" MODIFIED="1598168668539" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML" STYLE="bubble">
 <edge COLOR="#ff0000"/>
 <node TEXT="DTD" ID="ID_1532021464" CREATED="1598178640023" MODIFIED="1599977902238" LINK="https://www.w3school.com.cn/dtd/index.asp" STYLE="bubble"><richcontent TYPE="NOTE">
 
@@ -471,7 +471,8 @@
 </richcontent>
 </node>
 <node TEXT="css&#x9009;&#x62e9;&#x5668;" ID="ID_883212037" CREATED="1600788781518" MODIFIED="1600788804626">
-<node TEXT="&#x6807;&#x7b7e;&#x9009;&#x62e9;&#x5668;" ID="ID_744843169" CREATED="1600788810838" MODIFIED="1600822784339"><richcontent TYPE="NOTE">
+<node TEXT="&#x5206;&#x7c7b;" ID="ID_530955574" CREATED="1601865532833" MODIFIED="1601865539176">
+<node TEXT="&#x6807;&#x7b7e;&#x9009;&#x62e9;&#x5668;" ID="ID_744843169" CREATED="1600788810838" MODIFIED="1601865951378"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -574,6 +575,27 @@
 <node TEXT="&#x5b50;&#x4ee3;&#x9009;&#x62e9;&#x5668;" ID="ID_1476887575" CREATED="1600788864692" MODIFIED="1600788877325"/>
 <node TEXT="&#x5e76;&#x96c6;&#x9009;&#x62e9;&#x5668;" ID="ID_1947613314" CREATED="1600788877813" MODIFIED="1600788889723"/>
 <node TEXT="&#x4ea4;&#x96c6;&#x9009;&#x62e9;&#x5668;" ID="ID_1151163911" CREATED="1600788890072" MODIFIED="1600788906497"/>
+<node TEXT="&#x4f2a;&#x7c7b;&#x9009;&#x62e9;&#x5668;" ID="ID_802759179" CREATED="1601865485474" MODIFIED="1601865500522"/>
+</node>
+<node TEXT="&#x9009;&#x62e9;&#x5668;&#x6743;&#x91cd;&#xa;&#xff08;&#x4f18;&#x5148;&#x7ea7;&#xff09;" ID="ID_354815802" CREATED="1601865547217" MODIFIED="1601866920671">
+<node TEXT="&#x53ef;&#x4ee5;&#x901a;&#x8fc7; !important &#x63d0;&#x5347;&#x4f18;&#x5148;&#x7ea7;" ID="ID_17173893" CREATED="1601865583790" MODIFIED="1601865603432"/>
+<node TEXT="!important(&#x6743;&#x91cd;&#x65e0;&#x7a77;&#x5927;) &gt;&#x884c;&#x5185;&#x6837;&#x5f0f;(&#x6743;&#x91cd;1000) &gt;  ID&#x9009;&#x62e9;&#x5668;(&#x6743;&#x91cd;100) &gt; class&#x9009;&#x62e9;&#x5668;(&#x6743;&#x91cd;10) &gt; &#x6807;&#x7b7e;&#x9009;&#x62e9;&#x5668;(&#x6743;&#x91cd;1)" ID="ID_56153902" CREATED="1601865640996" MODIFIED="1601866503568"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25511;&#21046;&#31890;&#24230;&#36234;&#32454;&#26435;&#37325;&#36234;&#22823;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x6743;&#x91cd;&#x8ba1;&#x7b97;" ID="ID_321362746" CREATED="1601866078973" MODIFIED="1601866088600"/>
+</node>
 </node>
 <node TEXT="css&#x5e38;&#x7528;&#x5c5e;&#x6027;" ID="ID_837593155" CREATED="1600788919217" MODIFIED="1600789144109" LINK="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference">
 <node TEXT="&#x57fa;&#x672c;&#x5c5e;&#x6027;" ID="ID_1094587833" CREATED="1600908178119" MODIFIED="1600908183936">
@@ -851,8 +873,6 @@
 </node>
 </node>
 <node TEXT="&#x5e03;&#x5c40;" ID="ID_1040272974" CREATED="1601112698177" MODIFIED="1601112705542" STYLE="bubble">
-<node TEXT="&#x76d2;&#x5b50;&#x6a21;&#x578b;" ID="ID_1249708777" CREATED="1601112711172" MODIFIED="1601112718309" STYLE="bubble"/>
-<node TEXT="&#x6d6e;&#x52a8;" ID="ID_1665536697" CREATED="1601112659463" MODIFIED="1601112664062" STYLE="bubble">
 <node TEXT="&#x6807;&#x51c6;&#x6d41;&amp;&#x975e;&#x6807;&#x51c6;&#x6d41;" ID="ID_972419536" CREATED="1601646827303" MODIFIED="1601691601315" STYLE="bubble"><richcontent TYPE="NOTE">
 
 <html>
@@ -880,8 +900,129 @@
 
 </richcontent>
 </node>
-<node TEXT="&#x5c5e;&#x6027;" ID="ID_1657978047" CREATED="1601644705629" MODIFIED="1601644741943" STYLE="bubble">
-<node TEXT="float" ID="ID_1023497344" CREATED="1601644743113" MODIFIED="1601692240665"><richcontent TYPE="NOTE">
+<node TEXT="&#x76d2;&#x5b50;&#x6a21;&#x578b;" ID="ID_1249708777" CREATED="1601112711172" MODIFIED="1601112718309" STYLE="bubble">
+<node TEXT="&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_820928153" CREATED="1601867975054" MODIFIED="1601871216493" STYLE="fork">
+<node TEXT="&#x5757;&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_233014549" CREATED="1601868029417" MODIFIED="1601868036334"/>
+<node TEXT="&#x884c;&#x5185;&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_1520794631" CREATED="1601868037081" MODIFIED="1601868044745"/>
+<node TEXT="&#x884c;&#x5185;&#x5757;&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_1522184008" CREATED="1601868044969" MODIFIED="1601868057901"/>
+</node>
+<node TEXT="&#x884c;&#x5185;&#x5143;&#x7d20;&#x5e38;&#x89c1;&#x95ee;&#x9898;" ID="ID_1074052882" CREATED="1601871173827" MODIFIED="1601871184220">
+<node TEXT="img&#x7f16;&#x6392;&#x95f4;&#x9699;&#x95ee;&#x9898;" ID="ID_1793906068" CREATED="1601871220177" MODIFIED="1601874124357"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div charset="utf-8" style="color: #d4d4d4; background-color: #1e1e1e; font-family: Menlo, Monaco, Courier New, monospace; font-weight: normal; font-size: 12px; line-height: 18px; white-space: pre">
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">/* img&#38388;&#38553;&#26159;&#22240;&#20026;&#23427;&#26159;&#34892;&#20869;&#20803;&#32032;display: inline&#65292;&#40664;&#35748;&#26377;vertical-align&#23646;&#24615;&#65292;&#36825;&#23646;&#24615;&#40664;&#35748;&#20540;&#26159; baseline&#65288;&#23601;&#26159;&#35828;&#22270;&#29255;&#24213;&#37096;&#40664;&#35748;&#23545;&#20934;baseline&#65289;&#65292;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">baseline &#21644; bottom &#20043;&#38388;&#26377;&#19968;&#23450;&#30340;&#36317;&#31163;&#12290;&#23454;&#38469;&#19978;&#65292;inline &#30340;&#22270;&#29255;&#19979;&#38754;&#37027;&#19968;&#36947;&#31354;&#30333;&#27491;&#26159; baseline &#21644; bottom &#20043;&#38388;&#30340;&#36825;&#27573;&#36317;&#31163;&#12290;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#21363;&#20351;&#21482;&#26377;&#22270;&#29255;&#27809;&#26377;&#25991;&#23383;&#65292;&#21482;&#35201;&#26159; inline &#30340;&#22270;&#29255;&#36825;&#27573;&#31354;&#30333;&#37117;&#20250;&#23384;&#22312;&#12290; */</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">/* &#35299;&#20915;&#24213;&#37096;&#38388;&#38553; &#26041;&#27861;1&#65306;&#20174;&#21407;&#29702;&#19978;&#35299;&#20915;,&#19981;&#20351;&#29992;&#22522;&#20934;&#32447;&#23545;&#40784; */</font></span>
+      </div>
+      <div>
+        <span style="color: #d7ba7d"><font color="#d7ba7d">.box</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #d7ba7d"><font color="#d7ba7d">img</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;{</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">vertical-align</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">: </font></span><span style="color: #ce9178"><font color="#ce9178">top</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">;</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">vertical-align</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">: </font></span><span style="color: #ce9178"><font color="#ce9178">middle</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">;</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">vertical-align</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">: </font></span><span style="color: #ce9178"><font color="#ce9178">bottom</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">/* &#35299;&#20915;&#24213;&#37096;&#38388;&#38553; &#26041;&#27861;2&#65306;&#35774;&#32622;&#29238;&#20803;&#32032;&#21644;&#22270;&#29255;&#31561;&#39640;&#65288;&#19981;&#25512;&#33616;&#65292;&#38656;&#35201;&#30693;&#36947;&#22270;&#29255;&#39640;&#24230;&#65289; */</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">/* .box {</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">height: 200px ;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">} */</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">/* &#35299;&#20915;&#20840;&#37096;&#38388;&#38553; &#26041;&#27861;3&#65306;&#35774;&#32622;&#22270;&#29255;&#20026;&#22359;&#20803;&#32032;&#65292;&#28014;&#21160; */</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">/* .box::after {</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">content: '';</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">display: block;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">clear: both;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">}</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">.box img {</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">display: block;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">float: left;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">} */</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">/* &#35299;&#20915;&#20840;&#37096;&#38388;&#38553; &#26041;&#27861;4&#65306;&#35774;&#32622;&#23383;&#20307;&#22823;&#23567;&#20026;0&#65292;&#31354;&#26684;&#20063;&#26159;&#23383;&#20307;&#65292;&#28982;&#21518;&#23601;&#19981;&#20250;&#21344;&#20687;&#32032;,&#35299;&#20915;&#27700;&#24179;&#38388;&#38553;&#65292;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">line-height &#30340;&#40664;&#35748;&#20540;&#26159;&#22522;&#20110; font-size &#30340;&#65292;font-size&#20026;0&#65292;&#21017; line-height &#20063;&#20026;0&#65292;&#21017;baseline&#21644;bottom&#38388;&#36317;&#20063;&#20026;0</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#65288;&#36825;&#31181;&#26041;&#24335;&#23601;&#26080;&#27861;&#22312;&#21516;&#19968;&#20010;&#30418;&#23376;&#19979;&#26174;&#31034;&#25991;&#23383;&#20102;&#65289;*/</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">/* .box {</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">font-size: 0;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">} */</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x89e3;&#x51b3;&#x5e95;&#x90e8;&#x95f4;&#x9699;" ID="ID_562602975" CREATED="1601874153872" MODIFIED="1601874162260">
+<node TEXT="&#x4e0d;&#x4f7f;&#x7528;baseline&#x5bf9;&#x9f50;" ID="ID_492066728" CREATED="1601874163594" MODIFIED="1601874177238"/>
+<node TEXT="&#x5c06;&#x7236;&#x5143;&#x7d20;&#x548c;&#x56fe;&#x7247;&#x9ad8;&#x5ea6;&#x8bbe;&#x7f6e;&#x4e00;&#x81f4;" ID="ID_173284067" CREATED="1601874201784" MODIFIED="1601874226314"/>
+</node>
+<node TEXT="&#x89e3;&#x51b3;&#x5e95;&#x90e8;&#x548c;&#x6c34;&#x5e73;&#x95f4;&#x9699;" ID="ID_1338181539" CREATED="1601874233164" MODIFIED="1601874247885">
+<node TEXT="&#x8bbe;&#x7f6e;&#x5757;&#x663e;&#x793a;&#x6a21;&#x5f0f;&#x6d6e;&#x52a8;" ID="ID_239406072" CREATED="1601874249111" MODIFIED="1601874263447"/>
+<node TEXT="&#x8bbe;&#x7f6e;&#x5b57;&#x4f53;&#x5927;&#x5c0f;&#x4e3a;0&#xff0c;&#x95f4;&#x63a5;&#x5c06;baseline&#x548c;bottom&#x95f4;&#x8ddd;&#x6539;&#x4e3a;0" ID="ID_165524415" CREATED="1601874263893" MODIFIED="1601874321104"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x6d6e;&#x52a8;" ID="ID_1665536697" CREATED="1601112659463" MODIFIED="1601112664062" STYLE="bubble">
+<node TEXT="float" ID="ID_1023497344" CREATED="1601644743113" MODIFIED="1601786056511"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -890,6 +1031,20 @@
   <body>
     <p>
       &#20043;&#21069;&#20027;&#35201;&#29992;&#20110;&#25991;&#23383;&#29615;&#32469;&#22270;&#29255;&#65292;&#29616;&#22312;&#22810;&#29992;&#20110;&#24067;&#23616;&#65292;&#21487;&#20197;&#35753;&#20803;&#32032;&#65288;&#24517;&#39035;&#37117;&#26159;&#28014;&#21160;&#30340;&#20803;&#32032;&#65289;&#24182;&#25490;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#33073;&#26631;</font>
     </p>
   </body>
 </html>
@@ -1041,7 +1196,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="BFC" ID="ID_228859220" CREATED="1601735897920" MODIFIED="1601735932227"><richcontent TYPE="NOTE">
+<node TEXT="BFC" ID="ID_228859220" CREATED="1601735897920" MODIFIED="1601868017303"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1066,7 +1221,7 @@
           <font size="2">BFC&#30340;&#35302;&#21457;&#26041;&#24335; </font>
         </h6>
         <p>
-          <font size="2">&#25105;&#20204;&#21487;&#20197;&#32473;&#29238;&#20803;&#32032;&#28155;&#21152;&#20197;&#19979;&#23646;&#24615;&#26469;&#35302;&#21457;BFC&#65306;<br size="2"/>&#10022; <code>float</code>&#160;&#20026; <code>left</code>&#160;| <code>right</code><br size="2"/>&#10022; <code>overflow</code>&#160;&#20026; <code>hidden</code>&#160;| <code>auto</code>&#160;| <code>scorll</code><br size="2"/>&#10022; <code>display</code>&#160;&#20026; <code>table-cell</code>&#160;| <code>table-caption</code>&#160;| <code>inline-block</code>&#160;| <code>flex</code>&#160;| <code>inline-flex</code><br size="2"/>&#10022; <code>position</code>&#160;&#20026; <code>absolute</code>&#160;| <code>fixed</code> </font>
+          <font size="2">&#25105;&#20204;&#21487;&#20197;&#32473;&#29238;&#20803;&#32032;&#28155;&#21152;&#20197;&#19979;&#23646;&#24615;&#26469;&#35302;&#21457;BFC&#65306;<br size="2"/>&#10022; <code>float</code>&#160;&#20026; <code>left</code>&#160;| <code>right</code><br size="2"/>&#10022; <code>overflow</code>&#160;&#20026; <code>hidden</code>&#160;| <code>auto</code>&#160;| <code>scorll</code><br size="2"/>&#10022; <code>display</code>&#160;&#20026; <code>table-cell</code>&#160;| <code>table-caption</code>&#160;| <code>inline-block</code>&#160;| <code>flex</code>&#160;| <code>inline-flex</code><br size="2"/>&#10022; <code>position</code>&#160;&#20026; <code>absolute</code>&#160;| <code>fixed</code>&#160;</font>
         </p>
       </div>
     </div>
@@ -1076,8 +1231,206 @@
 </richcontent>
 </node>
 </node>
+<node TEXT="&#x5b9a;&#x4f4d;" ID="ID_57460600" CREATED="1601112664590" MODIFIED="1601783590885" STYLE="bubble"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23450;&#20301;&#20063;&#21487;&#20197;&#20351;&#20803;&#32032;&#33073;&#31163;&#26631;&#20934;&#27969;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x9ed8;&#x8ba4;&#xff1a;position: static" ID="ID_166885835" CREATED="1601783718890" MODIFIED="1601783734938"/>
+<node TEXT="&#x76f8;&#x5bf9;&#x5b9a;&#x4f4d; position: relative" ID="ID_1105576265" CREATED="1601780571939" MODIFIED="1601784079640"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30456;&#23545;&#20110;&#21407;&#26469;&#30340;&#20301;&#32622;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top: 0">
+      <font color="#0000c0">&#20173;&#28982;&#26159;&#26631;&#20934;&#27969;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_56044250" CREATED="1601783992816" MODIFIED="1601783999806">
+<node TEXT="&#x4f4d;&#x7f6e;&#x5fae;&#x8c03;" ID="ID_50228397" CREATED="1601784000657" MODIFIED="1601784013859"/>
+<node TEXT="&#x4e0e;&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d;&#x642d;&#x914d;&#x4f7f;&#x7528;" ID="ID_1706732188" CREATED="1601784014264" MODIFIED="1601784031178"/>
 </node>
-<node TEXT="&#x5b9a;&#x4f4d;" ID="ID_57460600" CREATED="1601112664590" MODIFIED="1601112671379" STYLE="bubble"/>
+</node>
+<node TEXT="&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d; position: absolute" ID="ID_1882101864" CREATED="1601780578568" MODIFIED="1601784844946"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#33073;&#26631;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#20197;&#26368;&#36817;&#30340;&#23450;&#20301;&#20102;&#30340;&#31062;&#20808;&#20803;&#32032;&#20316;&#20026;&#21442;&#32771;&#28857;</b>&#12290;
+    </p>
+    <p>
+      &#22914;&#26524;&#27809;&#26377;&#23450;&#20301;&#20102;&#30340;&#31062;&#20808;&#20803;&#32032;&#20197;body&#21306;&#22495;&#20026;&#21442;&#32771;&#28857;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<font BOLD="false"/>
+<node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_691033511" CREATED="1601784964716" MODIFIED="1601784971642">
+<node TEXT="&#x5b50;&#x7edd;&#x7236;&#x76f8;" ID="ID_856326813" CREATED="1601784972544" MODIFIED="1601785171359">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23454;&#29616;&#23376;&#20803;&#32032;&#22312;&#29238;&#20803;&#32032;&#33539;&#22260;&#20869;&#36827;&#34892;&#20301;&#32622;&#35843;&#25972;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7279;&#x70b9;" ID="ID_677317165" CREATED="1601785162305" MODIFIED="1601785165921">
+<node TEXT="&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d;&#x7684;&#x5143;&#x7d20;&#x65e0;&#x6cd5;&#x518d;&#x8bbe;&#x7f6e;&#x6d6e;&#x52a8;" ID="ID_609788507" CREATED="1601785174839" MODIFIED="1601785199732"/>
+</node>
+<node TEXT="&#x6280;&#x5de7;" ID="ID_511758118" CREATED="1601785215226" MODIFIED="1601785224034">
+<node TEXT="&#x8ba9;&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d;&#x7684;&#x5143;&#x7d20;&#x6c34;&#x5e73;&#x5c45;&#x4e2d;" ID="ID_287118419" CREATED="1601785225008" MODIFIED="1601785251928"/>
+</node>
+</node>
+<node TEXT="&#x56fa;&#x5b9a;&#x5b9a;&#x4f4d; position: fixed" ID="ID_1861369445" CREATED="1601780586706" MODIFIED="1601785851734"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#20197;&#26368;&#36817;&#30340;&#23450;&#20301;&#20102;&#30340;&#31062;&#20808;&#20803;&#32032;&#20316;&#20026;&#21442;&#32771;&#28857;</b>&#12290;
+    </p>
+    <p>
+      &#22914;&#26524;&#27809;&#26377;&#23450;&#20301;&#20102;&#30340;&#31062;&#20808;&#20803;&#32032;&#20197;&#24403;&#21069;&#27983;&#35272;&#22120;&#31383;&#21475;&#65288;&#35270;&#21475;&#65289;&#20026;&#21442;&#32771;&#28857;&#65292;&#27492;&#26102;&#30456;&#24403;&#20110;&#22266;&#23450;&#21040;&#31383;&#21475;&#19978;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19968;&#33324;&#37117;&#26159;&#35774;&#32622;&#20197;&#35270;&#21475;&#20316;&#20026;&#21442;&#32771;&#28857;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#33073;&#26631;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_1177157213" CREATED="1601781789133" MODIFIED="1601781796349">
+<node TEXT="&#x767b;&#x5f55;&#x5f39;&#x7a97;" ID="ID_1104301468" CREATED="1601781800154" MODIFIED="1601782603462"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24120;&#24120;&#32467;&#21512; z-index &#20351;&#29992;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x4fa7;&#x8fb9;&#x680f;&#x8d85;&#x94fe;" ID="ID_769779247" CREATED="1601785880524" MODIFIED="1601785899141"/>
+<node TEXT="&#x7a97;&#x53e3;&#x88c5;&#x9970;" ID="ID_1258490391" CREATED="1601782287421" MODIFIED="1601782298416"/>
+</node>
+</node>
+<node TEXT="&#x76f8;&#x5173;&#x5c5e;&#x6027;" ID="ID_518951082" CREATED="1601786071936" MODIFIED="1601786081524">
+<node TEXT="z-index" ID="ID_584547745" CREATED="1601786082605" MODIFIED="1601786179414"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35774;&#32622;&#20803;&#32032;&#26174;&#31034;&#23618;&#32423;&#12290;&#20540;&#36234;&#22823;&#65292;&#22312;&#36234;&#19978;&#23618;&#26174;&#31034;&#12290;
+    </p>
+    <p>
+      &#21482;&#23545;&#23450;&#20301;&#20803;&#32032;&#26377;&#25928;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x4e03;&#x9636;&#x5c42;&#x53e0;&#x6c34;&#x5e73;" ID="ID_937545473" CREATED="1601787068760" MODIFIED="1601787086162"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <img charset="utf-8" src="https://images2015.cnblogs.com/blog/1015026/201608/1015026-20160826174206944-994632417.jpg"/>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
 </node>
 </node>
 <node TEXT="SVG" POSITION="right" ID="ID_113460366" CREATED="1599966568838" MODIFIED="1599966573648" STYLE="bubble">
@@ -1379,15 +1732,72 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="NaN === NaN =&gt; false" ID="ID_733503450" CREATED="1599969101673" MODIFIED="1599969117439"/>
+<node TEXT="NaN === NaN =&gt; false" ID="ID_733503450" CREATED="1599969101673" MODIFIED="1601806601075">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20351;&#29992;isNaN()&#26041;&#27861;&#21028;&#26029;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="string &#x5b57;&#x7b26;&#x4e32;" ID="ID_539799266" CREATED="1599968257173" MODIFIED="1599968604912"/>
 <node TEXT="boolean &#x5e03;&#x5c14;&#x7c7b;&#x578b;" ID="ID_1453614512" CREATED="1599968363302" MODIFIED="1599968609488"/>
-<node TEXT="null" ID="ID_876947381" CREATED="1599968397724" MODIFIED="1599968402231"/>
-<node TEXT="undefine" ID="ID_651420055" CREATED="1599968560506" MODIFIED="1599968564259"/>
-<node TEXT="NaN" ID="ID_581457408" CREATED="1600569030683" MODIFIED="1600569033491"/>
+<node TEXT="null" ID="ID_876947381" CREATED="1599968397724" MODIFIED="1601802749527"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31354;&#24341;&#29992;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="&#x5bf9;&#x8c61;&#xff08;&#x5f15;&#x7528;&#xff09;&#x6570;&#x636e;&#x7c7b;&#x578b;" ID="ID_555261352" CREATED="1599968146533" MODIFIED="1599968162883">
+<node TEXT="undefine" ID="ID_651420055" CREATED="1599968560506" MODIFIED="1601802707478"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26410;&#36171;&#20540;&#31867;&#22411;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="symbol" ID="ID_294478882" CREATED="1601802774139" MODIFIED="1601802781336"/>
+</node>
+<node TEXT="&#x5bf9;&#x8c61;&#xff08;&#x5f15;&#x7528;&#xff09;&#x6570;&#x636e;&#x7c7b;&#x578b;" ID="ID_555261352" CREATED="1599968146533" MODIFIED="1601867115185"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24341;&#29992;&#31867;&#22411;&#21487;&#20197;&#38543;&#26102;&#25299;&#23637;&#23646;&#24615;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 <node TEXT="&#x6570;&#x7ec4;" ID="ID_20283980" CREATED="1599968424100" MODIFIED="1599968629824"/>
 <node TEXT="&#x51fd;&#x6570;" ID="ID_124415876" CREATED="1599968630171" MODIFIED="1599968634869"/>
 <node TEXT="&#x65e5;&#x671f;" ID="ID_921623188" CREATED="1599968635728" MODIFIED="1599968642552"/>
@@ -1395,6 +1805,24 @@
 <node TEXT="..." ID="ID_1180887909" CREATED="1599968642762" MODIFIED="1599968651445"/>
 </node>
 <node TEXT="&#x663e;&#x793a;&#x6570;&#x636e;&#x7c7b;&#x578b; typeof" ID="ID_1348272424" CREATED="1599969062291" MODIFIED="1599969075535"/>
+<node TEXT="NaN" ID="ID_1767206375" CREATED="1601803217690" MODIFIED="1601803281281"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      not a number&#65288;&#26080;&#27861;&#34920;&#36798;&#30340;number&#31867;&#22411;&#65289;&#12290;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x6570;&#x636e;&#x7c7b;&#x578b;&#x8f6c;&#x6362;" ID="ID_1701129706" CREATED="1600567586470" MODIFIED="1600567596922">
 <node TEXT="&#x5f3a;&#x5236;&#x7c7b;&#x578b;&#x8f6c;&#x6362;" ID="ID_546756992" CREATED="1600569071518" MODIFIED="1600569351748">
@@ -1430,7 +1858,8 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="NUmber.parseInt() &#x89e3;&#x6790;&#x6574;&#x6570;" ID="ID_1516212808" CREATED="1600568589439" MODIFIED="1600569628025"/>
+<node TEXT="Number.parseInt() &#x89e3;&#x6790;&#x6574;&#x6570;" ID="ID_1516212808" CREATED="1600568589439" MODIFIED="1601804828230"/>
+<node TEXT="Number.parseFloat()" ID="ID_1435308227" CREATED="1601804834632" MODIFIED="1601804847068"/>
 <node TEXT="String() &#x5176;&#x4ed6;&#x7c7b;&#x578b;&#x8f6c;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1126686849" CREATED="1600568620337" MODIFIED="1600569193385"><richcontent TYPE="NOTE">
 
 <html>
@@ -1453,7 +1882,6 @@
 </node>
 <node TEXT="String.charCodeAt()" ID="ID_1681849998" CREATED="1600569724824" MODIFIED="1600569738797"/>
 <node TEXT="Boolean() &#x5176;&#x4ed6;&#x7c7b;&#x578b;&#x8f6c;&#x5e03;&#x5c14;&#x7c7b;&#x578b;" ID="ID_494392723" CREATED="1600568964743" MODIFIED="1600568984515"/>
-<node TEXT="" ID="ID_758371125" CREATED="1600569691569" MODIFIED="1600569691569"/>
 </node>
 <node TEXT="&#x9690;&#x5f0f;&#x7c7b;&#x578b;&#x8f6c;&#x6362;" ID="ID_956008529" CREATED="1600569055669" MODIFIED="1600569369158">
 <node TEXT="&#x6570;&#x503c;&#x8fd0;&#x7b97;" ID="ID_265645501" CREATED="1600569122824" MODIFIED="1600569313376"><richcontent TYPE="NOTE">
@@ -1478,7 +1906,21 @@
 </node>
 <node TEXT="&#x8fd0;&#x7b97;&#x7b26;" ID="ID_1319825326" CREATED="1600570206795" MODIFIED="1600570380171">
 <node TEXT="&#x6570;&#x503c;&#x8fd0;&#x7b97;&#x7b26;" ID="ID_192346086" CREATED="1600570381973" MODIFIED="1600570403811">
-<node TEXT="+/-/*//" ID="ID_1654755414" CREATED="1600570413004" MODIFIED="1600570420632"/>
+<node TEXT="+/-/*//" ID="ID_1654755414" CREATED="1600570413004" MODIFIED="1601803385363"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      + &#65306; &#29992;&#22312;&#23383;&#31526;&#20018;&#21442;&#19982;&#30340;&#22320;&#26041;&#34920;&#31034;&#23383;&#31526;&#20018;&#25340;&#25509;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 <node TEXT="%" ID="ID_967151255" CREATED="1600570421490" MODIFIED="1600570426494"/>
 <node TEXT="++" ID="ID_1775709199" CREATED="1600570426866" MODIFIED="1600570548477"><richcontent TYPE="NOTE">
 
@@ -1586,9 +2028,26 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="&#x53d8;&#x91cf;&#x8f6c;Boolean -&gt; !!" ID="ID_1945351247" CREATED="1600572731947" MODIFIED="1600572782691"/>
+<node TEXT="&#x53d8;&#x91cf;&#x8f6c;Boolean -&gt; !!" ID="ID_1945351247" CREATED="1600572731947" MODIFIED="1601804694405"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20004;&#27425;&#21462;&#21453;&#23558;&#21464;&#37327;&#21487;&#20197;&#36716;&#25442;&#25104; Boolean&#31867;&#22411;
+    </p>
+  </body>
+</html>
+
+</richcontent>
 </node>
-<node TEXT="&#x8d4b;&#x503c;&#x8fd0;&#x7b97;&#x7b26;" ID="ID_731974357" CREATED="1600570747643" MODIFIED="1600570764369"/>
+<node TEXT="&#x903b;&#x8f91;&#x5224;&#x65ad;&#x65f6; 0 &#x7a7a;&#x5b57;&#x7b26;&#x4e32; undefine null NaN  &#x90fd;&#x89c6;&#x4e3a;false&#xff0c;&#x5176;&#x4f59;&#x89c6;&#x4e3a;true" ID="ID_839081844" CREATED="1601804412052" MODIFIED="1601804569051"/>
+</node>
+<node TEXT="&#x8d4b;&#x503c;&#x8fd0;&#x7b97;&#x7b26;" ID="ID_731974357" CREATED="1600570747643" MODIFIED="1600570764369">
+<node TEXT="=" ID="ID_614145768" CREATED="1601804526824" MODIFIED="1601804529650"/>
+</node>
 <node TEXT="&#x5176;&#x4ed6;&#x8fd0;&#x7b97;&#x7b26;" ID="ID_670802675" CREATED="1600570766788" MODIFIED="1600570795243">
 <node TEXT="?  typeof" ID="ID_1714223713" CREATED="1600570797539" MODIFIED="1600570822986"/>
 <node TEXT="&#x9017;&#x53f7;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1050745803" CREATED="1600573019972" MODIFIED="1600573072771"><richcontent TYPE="NOTE">
@@ -1607,7 +2066,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x8fd0;&#x7b97;&#x7b26;&#x4f18;&#x5148;&#x7ea7;" ID="ID_1929720653" CREATED="1600574138500" MODIFIED="1600574195677"><richcontent TYPE="NOTE">
+<node TEXT="&#x8fd0;&#x7b97;&#x7b26;&#x4f18;&#x5148;&#x7ea7;" ID="ID_1929720653" CREATED="1600574138500" MODIFIED="1601807474428"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1615,7 +2074,7 @@
   </head>
   <body>
     <p>
-      <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.04448px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px">&#19979;&#38754;&#30340;&#34920;&#23558;&#25152;&#26377;&#36816;&#31639;&#31526;&#25353;&#29031;&#20248;&#20808;&#32423;&#30340;&#19981;&#21516;&#20174;&#39640;&#65288;20&#65289;&#21040;&#20302;&#65288;1&#65289;&#25490;&#21015;&#12290;</font></span> 
+      <font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px">&#19979;&#38754;&#30340;&#34920;&#23558;&#25152;&#26377;&#36816;&#31639;&#31526;&#25353;&#29031;&#20248;&#20808;&#32423;&#30340;&#19981;&#21516;&#20174;&#39640;&#65288;20&#65289;&#21040;&#20302;&#65288;1&#65289;&#25490;&#21015;&#12290;</font>
     </p>
     <table http-equiv="content-type" content="text/html; charset=utf-8" class="fullwidth-table" style="margin-top: 0px; margin-right: 0px; margin-bottom: 20px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; width: 1014px; background-color: rgb(255,; background-position: 255, 255); background-image: null; background-repeat: repeat; background-attachment: scroll; color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.04448px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
       <tr style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px">
@@ -1673,7 +2132,7 @@
       </tr>
       <tr style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px">
         <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; text-align: left; vertical-align: top">
-          <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/new" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; color: rgb(61, 126, 154); text-decoration: none"><font color="rgb(61, 126, 154)" face="consolas, Liberation Mono, courier, monospace"><code style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 2px; padding-left: 2px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-weight: normal; font-family: consolas, Liberation Mono, courier, monospace">new</code></font></a><span>&#160;</span>(&#24102;&#21442;&#25968;&#21015;&#34920;)
+          <a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/new" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; color: rgb(61, 126, 154); text-decoration: none"><font color="rgb(61, 126, 154)" face="consolas, Liberation Mono, courier, monospace"><code style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 2px; padding-left: 2px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-weight: normal; font-family: consolas, Liberation Mono, courier, monospace">new</code></font></a>&#160;(&#24102;&#21442;&#25968;&#21015;&#34920;)
         </td>
         <td style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px; text-align: left; vertical-align: top">
           n/a
@@ -2218,21 +2677,392 @@
         </td>
       </tr>
     </table>
-     
   </body>
 </html>
+
 </richcontent>
 </node>
-</node>
-</node>
-</node>
-<node TEXT="ES6" ID="ID_1487606766" CREATED="1599963478182" MODIFIED="1599963700300" STYLE="bubble"><richcontent TYPE="NOTE">
+<node TEXT="&#x4f5c;&#x7528;&#x57df;" ID="ID_377174158" CREATED="1601808684804" MODIFIED="1601808707707">
+<node TEXT="&#x5168;&#x5c40;&#x4f5c;&#x7528;&#x57df;" ID="ID_817694101" CREATED="1601808748619" MODIFIED="1601808755738"/>
+<node TEXT="&#x5c40;&#x90e8;&#x4f5c;&#x7528;&#x57df;" ID="ID_1410021705" CREATED="1601808756082" MODIFIED="1601808762545"/>
+<node TEXT="&#x9690;&#x5f0f;&#x5168;&#x5c40;&#x53d8;&#x91cf;" ID="ID_1656614761" CREATED="1601809037382" MODIFIED="1601809284022"><richcontent TYPE="NOTE">
 
 <html>
   <head>
     
   </head>
   <body>
+    <p>
+      &#38544;&#24335;&#21464;&#37327;&#25351;&#27809;&#26377;var&#25110;let&#22768;&#26126;&#30452;&#25509;&#23450;&#20041;&#30340;&#21464;&#37327;&#65292;&#22914; num=10; &#12290;
+    </p>
+    <p>
+      &#22312;&#23616;&#37096;&#20316;&#29992;&#22495;&#20013;&#23450;&#20041;&#65292;&#22312;&#20840;&#23616;&#20316;&#29992;&#22495;&#20013;&#24341;&#29992;&#12290;&#36825;&#31181;&#21464;&#37327;&#20316;&#29992;&#22495;&#20250;&#25918;&#22823;&#21040;&#20840;&#23616;&#20316;&#29992;&#22495;&#65292;&#20294;&#26159;&#19981;&#25512;&#33616;&#36825;&#31181;&#24322;&#31867;&#20889;&#27861;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="js&#x5168;&#x5c40;&#x4f5c;&#x7528;&#x57df;&#x548c;&#x5c40;&#x90e8;&#x4f5c;&#x7528;&#x57df;&#x53ef;&#x4ee5;&#x5b9a;&#x4e49;&#x540c;&#x540d;&#x53d8;&#x91cf;" ID="ID_1336190681" CREATED="1601808844636" MODIFIED="1601808928520">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      C&#31995;&#35821;&#35328;&#65292;&#37117;&#19981;&#25903;&#25345;&#36825;&#31181;&#23450;&#20041;&#26041;&#24335;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x6570;&#x7ec4;" ID="ID_62800906" CREATED="1601819994518" MODIFIED="1601956474560" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array">
+<node TEXT="&#x6570;&#x7ec4;&#x957f;&#x5ea6;&#xff1a;length&#x5c5e;&#x6027;" ID="ID_910016684" CREATED="1601825300813" MODIFIED="1601825344695"/>
+<node TEXT="js&#x7684;&#x6570;&#x7ec4;&#x662f;&#x5bf9;&#x8c61;" ID="ID_126601592" CREATED="1601825452832" MODIFIED="1601825680155"/>
+<node TEXT="&#x5e38;&#x7528;&#x65b9;&#x6cd5;" ID="ID_464016519" CREATED="1601867288854" MODIFIED="1601867303832">
+<node TEXT="push() &#x5c3e;&#x90e8;&#x6dfb;&#x52a0;&#x5143;&#x7d20;" ID="ID_577119167" CREATED="1601867305394" MODIFIED="1601958756551"/>
+<node TEXT="unshift() &#x5934;&#x90e8;&#x6dfb;&#x52a0;&#x5143;&#x7d20;" ID="ID_1100935433" CREATED="1601958756860" MODIFIED="1601958771307"/>
+<node TEXT="pop() &#x5c3e;&#x90e8;&#x5220;&#x9664;&#x5143;&#x7d20;" ID="ID_1588428645" CREATED="1601958771688" MODIFIED="1601958788591"/>
+<node TEXT="shift() &#x5934;&#x90e8;&#x5220;&#x9664;&#x5143;&#x7d20;" ID="ID_1031059489" CREATED="1601958788878" MODIFIED="1601958801265"/>
+<node TEXT="reverse() &#x53cd;&#x8f6c;&#x6570;&#x7ec4;" ID="ID_1701924594" CREATED="1601958801811" MODIFIED="1601958826408"/>
+<node TEXT="slice() &#x622a;&#x53d6;&#x6570;&#x7ec4;" ID="ID_1670793047" CREATED="1601958836079" MODIFIED="1601958855328"/>
+<node TEXT="splice() &#x5220;&#x9664;&#x6307;&#x5b9a;&#x4f4d;&#x7f6e;&#x5143;&#x7d20;&#xff0c;&#x7ffb;&#x8bd1;&#x4e3a;&quot;&#x7ede;&#x63a5;&quot;" ID="ID_644970561" CREATED="1601958855729" MODIFIED="1601958986665"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32478;&#25509;&#27604;&#36739;&#24418;&#35937;&#65306;&#25226;&#25968;&#32452;&#20013;&#20803;&#32032;&#21024;&#25481;&#65292;&#20877;&#25340;&#25509;&#22312;&#19968;&#36215;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="concat() &#x62fc;&#x63a5;&#x6570;&#x7ec4;" ID="ID_468417327" CREATED="1601959000210" MODIFIED="1601959015517"/>
+<node TEXT="join() &#x5143;&#x7d20;&#x4f7f;&#x7528;&#x6307;&#x5b9a;&#x5b57;&#x7b26;&#x62fc;&#x63a5;&#x6210;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1540840737" CREATED="1601959015955" MODIFIED="1601959058486"/>
+<node TEXT="toString() join&#x4ee5;&apos;-&apos;&#x4e3a;&#x62fc;&#x63a5;&#x7b26;&#x7684;&#x7279;&#x6b8a;&#x60c5;&#x51b5;" ID="ID_1828191656" CREATED="1601959059197" MODIFIED="1601959096852"/>
+<node TEXT="forEach()" ID="ID_1433985171" CREATED="1601959104813" MODIFIED="1601959111847"/>
+<node TEXT="indexOf()" FOLDED="true" ID="ID_1549563151" CREATED="1601959112108" MODIFIED="1601959132988">
+<node TEXT="&#x5143;&#x7d20;&#x53bb;&#x91cd;" ID="ID_1949978946" CREATED="1601959133831" MODIFIED="1601959145969"/>
+</node>
+<node TEXT="map()" ID="ID_1483881877" CREATED="1601965818500" MODIFIED="1601965906126"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span charset="utf-8" style="color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.04448px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px">&#21019;&#24314;&#19968;&#20010;&#26032;&#25968;&#32452;&#65292;&#23558;&#21407;&#25968;&#32452;&#20013;&#30340;&#27599;&#20010;&#20803;&#32032;&#25191;&#34892;&#19968;&#27425;&#25552;&#20379;&#30340;&#26041;&#27861;&#24471;&#21040;&#30340;&#32467;&#26524;&#25918;&#21040;&#26032;&#30340;&#25968;&#32452;&#20013;&#12290;</font></span>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="some() &#x662f;&#x5426;&#x6709;&#x5143;&#x7d20;&#x6ee1;&#x8db3;&#x6761;&#x4ef6;" ID="ID_402155977" CREATED="1601966515266" MODIFIED="1601966552663"/>
+<node TEXT="every() &#x662f;&#x5426;&#x6240;&#x6709;&#x5143;&#x7d20;&#x6ee1;&#x8db3;&#x6761;&#x4ef6;" ID="ID_1017582411" CREATED="1601966520996" MODIFIED="1601966568692"/>
+<node TEXT="reduce() &#x7d2f;&#x8ba1;&#x8ba1;&#x7b97;" ID="ID_1249603010" CREATED="1601966751058" MODIFIED="1601966997176"/>
+<node TEXT="reduceRight() &#x4ece;&#x53f3;&#x5411;&#x5de6;&#x7d2f;&#x52a0;" ID="ID_964134535" CREATED="1601967280123" MODIFIED="1601967300014"/>
+<node TEXT="entries() &#x83b7;&#x53d6;&#x7d22;&#x5f15;&#x548c;&#x503c;&#x7684;&#x6570;&#x7ec4;&#x8fed;&#x4ee3;&#x5668;" ID="ID_909531203" CREATED="1601967615754" MODIFIED="1601967708096"/>
+<node TEXT="sort() &#x6392;&#x5e8f;" ID="ID_1736129037" CREATED="1601968342954" MODIFIED="1601968448480"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      arr2.sort((a, b) =&gt; a-b);
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5e38;&#x7528;&#x9759;&#x6001;&#x65b9;&#x6cd5;" ID="ID_765626908" CREATED="1601968252642" MODIFIED="1601968261808">
+<node TEXT="isArray()" ID="ID_769140811" CREATED="1601968262727" MODIFIED="1601968270654"/>
+</node>
+</node>
+<node TEXT="&#x6d41;&#x7a0b;&#x63a7;&#x5236;" ID="ID_582684548" CREATED="1601806664280" MODIFIED="1601806670635"/>
+<node TEXT="&#x51fd;&#x6570;" ID="ID_466951340" CREATED="1601807420681" MODIFIED="1601807425011">
+<node TEXT="&#x8bed;&#x6cd5;" ID="ID_536727232" CREATED="1601807436728" MODIFIED="1601807704508"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26684;&#24335;&#65306;
+    </p>
+    <p>
+      function func(param, ...) {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x51fd;&#x6570;&#x65e0;&#x8fd4;&#x56de;&#x503c;&#x7684;&#x65f6;&#x5019;console.log(func())&#x8fd4;&#x56de;undefined" ID="ID_160888650" CREATED="1601807818750" MODIFIED="1601958984111"/>
+<node TEXT="&#x7ed9;&#x51fd;&#x6570;&#x4f20;&#x9012;&#x7684;&#x5b9e;&#x53c2;&#x6570;&#x91cf;&#x5c0f;&#x4e8e;&#x5f62;&#x53c2;&#x6570;&#x91cf;&#xff0c;&#x9ed8;&#x8ba4;&#x4f1a;&#x8865;&#x4f20;undefined&#xa;&#x4f20;&#x9012;&#x5b9e;&#x53c2;&#x6570;&#x91cf;&#x5927;&#x4e8e;&#x5f62;&#x53c2;&#x6570;&#x91cf;&#xff0c;&#x591a;&#x4f59;&#x7684;&#x53c2;&#x6570;&#x4f1a;&#x88ab;&#x5ffd;&#x7565;&#xa;&#x5373;&#x5176;&#x5b9e;js&#x51fd;&#x6570;&#x53ef;&#x4ee5;&#x4f20;&#x9012;&#x4efb;&#x610f;&#x6570;&#x91cf;&#x5b9e;&#x53c2;" ID="ID_1135452497" CREATED="1601807959612" MODIFIED="1601808406278"/>
+</node>
+<node TEXT="&#x51fd;&#x6570;&#x5185;&#x7f6e;&#x5bf9;&#x8c61; arguments" ID="ID_1574895223" CREATED="1601808181615" MODIFIED="1601808248346"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23384;&#20648;&#25152;&#26377;&#20256;&#36882;&#36827;&#26469;&#30340;&#23454;&#21442;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5bf9;&#x8c61;" ID="ID_1312241319" CREATED="1601810046483" MODIFIED="1601810055861">
+<node TEXT="&#x9759;&#x6001;&#x7279;&#x5f81;&#xff08;&#x53d8;&#x91cf;&#xff09;+&#x52a8;&#x6001;&#x884c;&#x4e3a;&#xff08;&#x51fd;&#x6570;&#xff09;" ID="ID_1729376750" CREATED="1601810063530" MODIFIED="1601810365909"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26080;&#24207;&#30340;&#23646;&#24615;&#38598;&#21512;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="js&#x5bf9;&#x8c61;&#x652f;&#x6301;&#x52a8;&#x6001;&#x62d3;&#x5c55;&#x5c5e;&#x6027;" ID="ID_1422512920" CREATED="1601811072554" MODIFIED="1601824051314"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function Person(name, age) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;this.name = name;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;this.age = age;
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;this.eat = function() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log(&quot;eat ...&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x8bed;&#x6cd5;" ID="ID_1278553882" CREATED="1601810266073" MODIFIED="1601824360438">
+<node TEXT="&#x5bf9;&#x8c61;&#x5b9a;&#x4e49;" ID="ID_667236223" CREATED="1601810662344" MODIFIED="1601824363154"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var someone = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;name: 'zhangsan',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;age: '25',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;gender: 'male',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;eat: function() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;speak: function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      someone.coding = function() {
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x6210;&#x5458;&#x8bbf;&#x95ee;" ID="ID_1003676359" CREATED="1601810668059" MODIFIED="1601810926754"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      someone.name
+    </p>
+    <p>
+      someone['name']
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      someone.eat()
+    </p>
+    <p>
+      someone['eat']()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var attr = 'speak';
+    </p>
+    <p>
+      someone[attr]()
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7c7b;&#xff08;ES6&#x5f15;&#x5165;&#xff09;" ID="ID_507264298" CREATED="1601824087392" MODIFIED="1601824563711" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#24863;&#35273;&#21644;java&#30340;&#31867;&#24456;&#20687;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="class&#x7c7b;&#x58f0;&#x660e;" ID="ID_608289070" CREATED="1601824651631" MODIFIED="1601824661551"/>
+<node TEXT="&#x6784;&#x9020;&#x65b9;&#x6cd5;" ID="ID_492926577" CREATED="1601824679376" MODIFIED="1601824686654"/>
+<node TEXT="&#x7c7b;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_209078239" CREATED="1601824743592" MODIFIED="1601824751780"/>
+<node TEXT="&#x539f;&#x578b;&#x65b9;&#x6cd5;" ID="ID_1795573141" CREATED="1601824977676" MODIFIED="1601824989366"/>
+<node TEXT="&#x9759;&#x6001;&#x65b9;&#x6cd5;" ID="ID_746107215" CREATED="1601824989838" MODIFIED="1601824997788"/>
+<node TEXT="&#x516c;&#x6709;&#x5b57;&#x6bb5;&#x548c;&#x79c1;&#x6709;&#x5b57;&#x6bb5;" ID="ID_1691103516" CREATED="1601825013932" MODIFIED="1601957568162"/>
+<node TEXT="&#x5b50;&#x7c7b; extend" ID="ID_642936070" CREATED="1601825121196" MODIFIED="1601825134455"/>
+<node TEXT="&#x7236;&#x7c7b; super" ID="ID_16130385" CREATED="1601825134900" MODIFIED="1601825149020"/>
+<node TEXT="species" ID="ID_1162215916" CREATED="1601825159251" MODIFIED="1601825165793"/>
+<node TEXT="mix-ins" ID="ID_336553180" CREATED="1601825184763" MODIFIED="1601825185744"/>
+</node>
+<node TEXT="&#x5185;&#x7f6e;&#x5bf9;&#x8c61;" ID="ID_217860911" CREATED="1601823828567" MODIFIED="1601823834126"/>
+<node TEXT="&#x5bf9;&#x8c61;&#x539f;&#x578b;(prototype)" ID="ID_1917384826" CREATED="1601957407994" MODIFIED="1601958194799"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p charset="utf-8" style="margin-top: 0; margin-bottom: 0; margin-right: 0px; margin-left: 0px; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      &#25152;&#26377;&#30340;JS&#23545;&#35937;&#30340;&#23646;&#24615;&#21644;&#26041;&#27861;&#37117;&#32487;&#25215;&#33258;&#21407;&#22411;&#12290;
+    </p>
+    <p charset="utf-8" style="margin-top: 0; margin-bottom: 0; margin-right: 0px; margin-left: 0px; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      Object.prototype &#20301;&#20110;&#21407;&#22411;&#32487;&#25215;&#38142;&#30340;&#39030;&#37096;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21487;&#20197;&#36890;&#36807;&#23545;&#35937;&#21407;&#22411;&#20026;&#27492;&#31867;&#25152;&#26377;&#24050;&#26377;&#23545;&#35937;&#28155;&#21152;&#23646;&#24615;&#65292;&#26041;&#27861;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span charset="utf-8" class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">function</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">Person(first, last, age, eyecolor) {</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#160;</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">firstName</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">= first;</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#160;</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">lastName</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">= last;</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#160;</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">age</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">= age;</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#160;</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">eyeColor</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">= eyecolor;</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">}</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">//&#28155;&#21152;&#23646;&#24615;<br charset="utf-8" align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">Person.</span></font><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">prototype</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">nationality</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">=</span><span>&#160;</span></font><span class="jsstringcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">&quot;English&quot;</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">;</font></span>&#160;
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">//&#28155;&#21152;&#26041;&#27861;<br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">Person.</span></font><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">prototype</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">name</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">=</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">function</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">() {</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#160;</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">return</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">firstName</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">+</span><span>&#160;</span></font><span class="jsstringcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">&quot; &quot;</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">+</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">lastName</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">};</span></font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="ES6" ID="ID_1487606766" CREATED="1599963478182" MODIFIED="1601824594828" STYLE="bubble"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21448;&#31216;ES2015&#12290;
+    </p>
     <p>
       ES6&#26159;&#19968;&#20010;&#37325;&#22823;&#26356;&#26032;&#29256;&#26412;&#12290;&#22312;ES5&#22522;&#30784;&#19978;&#20462;&#25913;&#20102;&#24456;&#22810;&#12290;
     </p>
@@ -2241,6 +3071,7 @@
     </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 <node TEXT="DOM" ID="ID_672122591" CREATED="1599963489833" MODIFIED="1599963539517" STYLE="bubble"><richcontent TYPE="NOTE">
@@ -2256,6 +3087,9 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="&#x8f93;&#x5165;&#x5f39;&#x7a97;" ID="ID_268728707" CREATED="1601806404337" MODIFIED="1601806409668">
+<node TEXT="prompt()" ID="ID_1264421287" CREATED="1601806412422" MODIFIED="1601806448342"/>
+</node>
 </node>
 <node TEXT="BOM" ID="ID_263402758" CREATED="1599963546040" MODIFIED="1599963571550" STYLE="bubble"><richcontent TYPE="NOTE">
 
@@ -2290,6 +3124,69 @@
 <node TEXT="&#x89c4;&#x8303;" POSITION="right" ID="ID_1799369577" CREATED="1599967672615" MODIFIED="1599967676798" STYLE="bubble">
 <edge COLOR="#0000ff"/>
 <node TEXT="JS&#x6700;&#x4f73;&#x5b9e;&#x73b0;" ID="ID_1144769528" CREATED="1599967678678" MODIFIED="1599967694575" LINK="https://dev.opera.com/articles/javascript-best-practices/"/>
+</node>
+<node TEXT="&#x5b9e;&#x6218;" POSITION="right" ID="ID_232926957" CREATED="1601869076081" MODIFIED="1601869090688" STYLE="bubble">
+<edge COLOR="#00ffff"/>
+<node TEXT="&#x9875;&#x9762;&#x8bbe;&#x8ba1;" ID="ID_1001545947" CREATED="1601869092010" MODIFIED="1601869104895" STYLE="bubble">
+<node TEXT="1&#xff09;&#x9875;&#x9762;&#x7ec4;&#x6210;&#x5212;&#x5206;" ID="ID_611581202" CREATED="1601869106124" MODIFIED="1601869119083"/>
+<node TEXT="2&#xff09;&#x91cd;&#x7f6e;&#x6837;&#x5f0f;" ID="ID_1141466884" CREATED="1601869119319" MODIFIED="1601869810110"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22240;&#20026;&#26576;&#20123;&#20803;&#32032;&#27983;&#35272;&#22120;&#20250;&#40664;&#35748;&#28155;&#21152;&#26679;&#24335;&#65292;&#28155;&#21152;&#30340;&#26679;&#24335;&#21487;&#33021;&#19981;&#31526;&#21512;&#23454;&#38469;&#38656;&#35201;&#65292;&#23601;&#38656;&#35201;&#37325;&#32622;&#26679;&#24335;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x91cd;&#x7f6e;&#x65b9;&#x6848;" ID="ID_966275867" CREATED="1601869184583" MODIFIED="1601869193920">
+<node TEXT="a) * {...}" ID="ID_648375854" CREATED="1601869194856" MODIFIED="1601873569428"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24615;&#33021;&#38382;&#39064;&#24182;&#19981;&#24120;&#29992;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="b) reset.css" ID="ID_114964839" CREATED="1601869234752" MODIFIED="1601869655537"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21487;&#20197;&#21442;&#32771;&#21035;&#20154;&#23450;&#20041;&#30340;reset.css:
+    </p>
+    <p>
+      https://www.npmjs.com/package/reset-css
+    </p>
+    <p>
+      http://yui.github.io/yui2/docs/yui_2.9.0_full/reset/#code
+    </p>
+    <p>
+      https://cssreset.com/scripts/yahoo-css-reset-yui-3/
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="c) normalize.css" ID="ID_1824615702" CREATED="1601870970741" MODIFIED="1601870981761"/>
+</node>
+</node>
+</node>
 </node>
 <node TEXT="&#x6d4b;&#x8bd5;" POSITION="right" ID="ID_990480695" CREATED="1599966485181" MODIFIED="1599966492728" STYLE="bubble">
 <edge COLOR="#007c7c"/>

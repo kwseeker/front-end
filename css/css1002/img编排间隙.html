@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        img {
+            height: 200px;
+        }
+        div {
+            border: 1px solid red;
+        }
+        span {
+            background-color: lightblue;
+        }
+
+        /* img间隙是因为它是行内元素display: inline，默认有vertical-align属性，这属性默认值是 baseline（就是说图片底部默认对准baseline），
+        baseline 和 bottom 之间有一定的距离。实际上，inline 的图片下面那一道空白正是 baseline 和 bottom 之间的这段距离。
+        即使只有图片没有文字，只要是 inline 的图片这段空白都会存在。 */
+
+        /* 解决底部间隙 方法1：从原理上解决,不使用基准线对齐 */
+        .box img {
+            vertical-align: top;
+            vertical-align: middle;
+            vertical-align: bottom;
+        }
+        /* 解决底部间隙 方法2：设置父元素和图片等高（不推荐，需要知道图片高度） */
+        /* .box {
+            height: 200px ;
+        } */
+        /* 解决全部间隙 方法3：设置图片为块元素，浮动 */
+        /* .box::after {
+            content: '';
+            display: block;
+            clear: both;
+        }
+        .box img {
+            display: block;
+            float: left;
+        } */
+        /* 解决全部间隙 方法4：设置字体大小为0，空格也是字体，然后就不会占像素,解决水平间隙，
+        line-height 的默认值是基于 font-size 的，font-size为0，则 line-height 也为0，则baseline和bottom间距也为0
+        （这种方式就无法在同一个盒子下显示文字了）*/
+        /* .box {
+            font-size: 0;
+        } */
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./三体.jpg" alt="">
+        <img src="./三体.jpg" alt="">
+        <img src="./三体.jpg" alt="">
+    </div>
+    <div class="box">
+        <img src="./三体.jpg" alt="">
+        <img src="./三体.jpg" alt="">
+        <img src="./三体.jpg" alt="">
+    </div>
+    <div>
+        <span>HELLO</span>
+        <span>WORLD</span>
+    </div>
+</body>
+</html>
