@@ -1494,7 +1494,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5185;&#x5bb9;&#x53d8;&#x5316;(&#x5bbd;&#x9ad8;&#x56fa;&#x5b9a;)" ID="ID_1525277660" CREATED="1602991462011" MODIFIED="1602991488250"/>
@@ -1506,7 +1505,7 @@
 <node TEXT="SVG" POSITION="right" ID="ID_113460366" CREATED="1599966568838" MODIFIED="1599966573648" STYLE="bubble">
 <edge COLOR="#7c7c00"/>
 </node>
-<node TEXT="JS" FOLDED="true" POSITION="right" ID="ID_927417358" CREATED="1598168341836" MODIFIED="1599963085246" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" STYLE="bubble">
+<node TEXT="JS" POSITION="right" ID="ID_927417358" CREATED="1598168341836" MODIFIED="1599963085246" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" STYLE="bubble">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -2912,8 +2911,182 @@
 <node TEXT="&#x51fd;&#x6570;&#x8868;&#x8fbe;&#x5f0f;&#xff1a;&#xa;var func = function() {}" ID="ID_451043573" CREATED="1602461302246" MODIFIED="1602462394298"/>
 <node TEXT="Function&#x5bf9;&#x8c61;&#xff1a;&#xa;var func = new Function(&apos;a&apos;, &apos;b&apos;, &apos;console.log(a + b);&apos;);" ID="ID_1508341352" CREATED="1602462292682" MODIFIED="1602462401214"/>
 </node>
-<node TEXT="&#x4f5c;&#x7528;&#x57df;/&#x4f5c;&#x7528;&#x57df;&#x94fe;/&#x53d8;&#x91cf;&#x63d0;&#x5347;" ID="ID_1418815983" CREATED="1602462432881" MODIFIED="1602462467946"/>
-<node TEXT="IIFE" ID="ID_775227888" CREATED="1602462469235" MODIFIED="1602462475791"/>
+<node TEXT="IIFE(&#x7acb;&#x5373;&#x8c03;&#x7528;&#x51fd;&#x6570;&#x8868;&#x8fbe;&#x5f0f;)" ID="ID_775227888" CREATED="1602462469235" MODIFIED="1603595822016"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span><font color="rgb(102, 102, 102)" face="-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial" size="15px">&#160;</font></span><font color="rgb(102, 102, 102)" face="-apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial" size="15px"><span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(102, 102, 102); font-family: -apple-system, system-ui, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(248, 248, 248); display: inline !important; float: none">Immediately Invoked Function Expression&#65292;&#32763;&#35793;&#36807;&#26469;&#23601;&#26159;&#31435;&#21363;&#35843;&#29992;&#30340;&#20989;&#25968;&#34920;&#36798;&#24335;&#12290;&#20063;&#23601;&#26159;&#35828;&#65292;&#22312;&#20989;&#25968;&#22768;&#26126;&#30340;&#21516;&#26102;&#31435;&#21363;&#35843;&#29992;&#36825;&#20010;&#20989;&#25968;&#12290;</span></font> 
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      IIFE&#20989;&#25968;&#22768;&#26126;&#21644;&#35843;&#29992;&#65292;&#23454;&#20363;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (function foo(){
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;var a = 10;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;console.log(a);
+    </p>
+    <p>
+      })();
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      (function(a, b) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;console.log(a, b);
+    </p>
+    <p>
+      })(10, 20);
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x4f18;&#x70b9;" ID="ID_535181650" CREATED="1603595515331" MODIFIED="1603595524170">
+<node TEXT="1) &#x51cf;&#x5c11;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#x4f7f;&#x7528;&#xff0c;&#x9632;&#x6b62;&#x5916;&#x90e8;&#x547d;&#x540d;&#x7a7a;&#x95f4;&#x88ab;&#x6c61;&#x67d3;" ID="ID_1020224671" CREATED="1603595526071" MODIFIED="1603595593175"/>
+<node TEXT="2) &#x9690;&#x85cf;&#x5185;&#x90e8;&#x4ee3;&#x7801;&#x66b4;&#x9732;&#x63a5;&#x53e3;&#xff0c;&#x5b9e;&#x73b0;&#x6a21;&#x5757;&#x5316;" ID="ID_1662887145" CREATED="1603595541934" MODIFIED="1603595566179"/>
+</node>
+</node>
+<node TEXT="&#x56de;&#x8c03;&#x51fd;&#x6570;" ID="ID_306236997" CREATED="1603595619780" MODIFIED="1603595684361"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33258;&#23450;&#20041;&#65292;&#33258;&#24049;&#27809;&#26377;&#35843;&#29992;&#65292; &#20989;&#25968;&#26368;&#32456;&#26159;&#20250;&#34987;&#25191;&#34892;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="call/apply/this" ID="ID_1496731796" CREATED="1603596045658" MODIFIED="1603596056054"/>
+</node>
+<node TEXT="&#x4f5c;&#x7528;&#x57df;" ID="ID_1001942858" CREATED="1603594981703" MODIFIED="1603594983471"/>
+<node TEXT="&#x53d8;&#x91cf;&#x58f0;&#x660e;&#x63d0;&#x5347;&#x3001;&#x51fd;&#x6570;&#x63d0;&#x5347;" ID="ID_1495893564" CREATED="1603592405707" MODIFIED="1603603364740"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#23646;&#20110;&#39044;&#32534;&#35793;&#38454;&#27573;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x9884;&#x7f16;&#x8bd1;&#x5904;&#x7406;&#xff1a;&#x5c06;&#x76f8;&#x540c;&#x4f5c;&#x7528;&#x57df;&#x4e0b;&#x88ab;&#x4f9d;&#x8d56;&#x7684;&#x53d8;&#x91cf;&#x58f0;&#x660e;&#x6216;&#x51fd;&#x6570;&#x58f0;&#x660e;&#x548c;&#x51fd;&#x6570;&#x4f53;&#x79fb;&#x52a8;&#x5230;&#x4f9d;&#x8d56;&#x4f4d;&#x7f6e;&#x4e4b;&#x524d;; &#x51fd;&#x6570;&#x58f0;&#x660e;&#x4f18;&#x5148;&#x7ea7;&#x9ad8;&#x4e8e;&#x53d8;&#x91cf;&#x58f0;&#x660e;" ID="ID_1706776183" CREATED="1603593421490" MODIFIED="1603605801377">
+<icon BUILTIN="idea"/>
+<node TEXT="&#x51fd;&#x6570;&#x6267;&#x884c;&#x65f6;&#x624d;&#x9884;&#x89e3;&#x6790;" ID="ID_169798315" CREATED="1603593780666" MODIFIED="1603594227406"/>
+</node>
+<node TEXT="&#x53d8;&#x91cf;&#x63d0;&#x5347;&#x53ea;&#x662f;&#x58f0;&#x660e;&#x63d0;&#x5347;&#xff0c;&#x8d4b;&#x503c;&#x4e0d;&#x63d0;&#x5347;" ID="ID_13654525" CREATED="1603592459375" MODIFIED="1603592522541"/>
+<node TEXT="&#x51fd;&#x6570;&#x63d0;&#x5347;&#x662f;&#x58f0;&#x660e;&#x548c;&#x8d4b;&#x503c;&#xff08;&#x6307;&#x51fd;&#x6570;&#x4f53;&#xff09;&#x5747;&#x63d0;&#x5347;" ID="ID_1874783640" CREATED="1603592523001" MODIFIED="1603592715860"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27880;&#24847;&#20989;&#25968;&#21464;&#37327;(&#20063;&#31216;&#20989;&#25968;&#34920;&#36798;&#24335;)&#20540;&#20063;&#19981;&#25552;&#21319;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      func();
+    </p>
+    <p>
+      var func = function() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;...
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x53d8;&#x91cf;&#x4e0e;&#x51fd;&#x6570;&#x540c;&#x540d;&#xff0c;&#x51fd;&#x6570;&#x4f18;&#x5148;&#x63d0;&#x5347;" ID="ID_628721151" CREATED="1603592758031" MODIFIED="1603592784675"/>
+<node TEXT="var&#x58f0;&#x660e;&#x7684;&#x53d8;&#x91cf;&#x624d;&#x4f1a;&#x63d0;&#x5347;&#xff0c;&#x56e0;&#x4e3a;&#x4e0d;&#x5e26;var&#x7684;&#x53d8;&#x91cf;&#x4e0d;&#x4f1a;&#x9884;&#x89e3;&#x6790;" ID="ID_1968183710" CREATED="1603593039802" MODIFIED="1603593181836">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      alert(a);
+    </p>
+    <p>
+      a = 10;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#31181;&#20250;&#25253;&#38169;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      alert(10);
+    </p>
+    <p>
+      var a=10;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#36825;&#31181;&#27491;&#24120;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x7efc;&#x5408;&#x793a;&#x4f8b;" ID="ID_42328050" CREATED="1603593304529" MODIFIED="1603608186916"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21442;&#32771; &#65306;js/ js1025/&#21464;&#37327;&#22768;&#26126;&#25552;&#21319;&#20989;&#25968;&#25552;&#21319;.js
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x5bf9;&#x8c61;" ID="ID_1312241319" CREATED="1601810046483" MODIFIED="1601810055861">
 <node TEXT="&#x9759;&#x6001;&#x7279;&#x5f81;&#xff08;&#x53d8;&#x91cf;&#xff09;+&#x52a8;&#x6001;&#x884c;&#x4e3a;&#xff08;&#x51fd;&#x6570;&#xff09;" ID="ID_1729376750" CREATED="1601810063530" MODIFIED="1601810365909"><richcontent TYPE="NOTE">
@@ -3315,6 +3488,241 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x9ad8;&#x9636;" ID="ID_1648363227" CREATED="1603594689870" MODIFIED="1603594738476" STYLE="bubble">
+<node TEXT="JS&#x6267;&#x884c;&#x8fc7;&#x7a0b;" ID="ID_681752470" CREATED="1603594703568" MODIFIED="1603594896644" STYLE="bubble">
+<node TEXT="&#x8bcd;&#x6cd5;&#x89e3;&#x6790;" ID="ID_1853979420" CREATED="1603594809152" MODIFIED="1603603053565"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23558;&#23383;&#31526;&#27969;&#36716;&#25442;&#20026;&#35760;&#21495;&#27969;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x8bed;&#x6cd5;&#x89e3;&#x6790;" ID="ID_844271776" CREATED="1603594854770" MODIFIED="1603603297850"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20989;&#25968;&#25191;&#34892;&#21069;&#19968;&#21051;&#65292;&#23558;&#31243;&#24207;&#22823;&#33268;&#31895;&#30053;&#30340;&#25195;&#25551;&#19968;&#36941;&#65292;&#26816;&#26597;&#26159;&#21542;&#23384;&#22312;&#35821;&#27861;&#38169;&#35823;&#65292;&#28982;&#21518;&#29983;&#25104;&#23545;&#24212;&#30340;&#35821;&#27861;&#26641;&#65292;&#22914;&#65306;&#25324;&#21495;&#26159;&#21542;&#27491;&#30830;&#23545;&#24212;&#31561;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x9884;&#x7f16;&#x8bd1;" ID="ID_664890454" CREATED="1603594858020" MODIFIED="1603603307196"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;JavaScript&#24341;&#25806;&#35299;&#26512;&#33050;&#26412;&#26102;&#65292;&#20182;&#20250;&#22312;&#39044;&#32534;&#35793;&#38454;&#27573;&#23545;&#25152;&#26377;&#22768;&#26126;&#30340;&#21464;&#37327;&#21644;&#20989;&#25968;&#36827;&#34892;&#22788;&#29702;&#65292;&#24182;&#19988;&#26159;&#20808;&#39044;&#22768;&#26126;&#21464;&#37327;&#65292;&#20877;&#39044;&#23450;&#20041;&#20989;&#25968;&#65281;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x8bf4;&#x660e;" ID="ID_1200002789" CREATED="1603603865080" MODIFIED="1603603869025">
+<node TEXT="1) imply global &#x6697;&#x793a;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#xff1b;&#x5373;&#x4efb;&#x4f55;&#x53d8;&#x91cf;&#xff0c;&#x5982;&#x679c;&#x53d8;&#x91cf;&#x672a;&#x7ecf;&#x58f0;&#x660e;&#x5c31;&#x8d4b;&#x503c;&#xff0c;&#x6b64;&#x53d8;&#x91cf;&#x5c31;&#x4e3a;&#x5168;&#x5c40;&#x5bf9;&#x8c61;&#x6240;&#x6709;&#x3002;" ID="ID_1336121867" CREATED="1603603702279" MODIFIED="1603603855876"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      eg&#65306;a = 123&#65307;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//a&#26159;&#20840;&#23616;&#21464;&#37327;&#65288;&#20854;&#23454;&#26159;&#20840;&#23616;&#23545;&#35937;window&#30340;&#23646;&#24615;&#65289;
+    </p>
+    <p>
+      eg&#65306;var a = b = 123; //b&#26410;&#32463;&#22768;&#26126;&#23601;&#36171;&#20540;&#65292;b&#26159;&#20840;&#23616;&#21464;&#37327;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="2) &#x4e00;&#x5207;&#x58f0;&#x660e;&#x7684;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#xff0c;&#x5168;&#x662f;window&#x7684;&#x5c5e;&#x6027;&#x3002;" ID="ID_1926234914" CREATED="1603603830862" MODIFIED="1603603837257"/>
+</node>
+<node TEXT="&#x6d41;&#x7a0b;" ID="ID_1439135292" CREATED="1603603877628" MODIFIED="1603604534121"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#21738;&#37324;&#26377;&#23448;&#26041;&#28857;&#30340;&#35299;&#37322; </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#21518;&#38754;&#30340;&#35299;&#37322;&#34920;&#36848;&#19981;&#28165;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="1) &#x521b;&#x5efa;AO&#x5bf9;&#x8c61; Activation Object [&#x5e38;&#x8bf4;&#x7684;&#x4f5c;&#x7528;&#x57df;&#xff0c;&#x4e5f;&#x79f0;&#x4e3a;&#x6267;&#x884c;&#x5668;&#x4e0a;&#x4e0b;&#x6587;]" ID="ID_1170228501" CREATED="1603603881373" MODIFIED="1603603956561"/>
+<node TEXT="2) &#x67e5;&#x627e;&#x5f62;&#x53c2;&#x548c;&#x53d8;&#x91cf;&#x58f0;&#x660e;&#xff0c;&#x5c06;&#x53d8;&#x91cf;&#x548c;&#x5f62;&#x53c2;&#x540d;&#x4f5c;&#x4e3a;AO&#x5c5e;&#x6027;&#x540d;&#xff0c;&#x503c;&#x4e3a;undefined" ID="ID_1516210106" CREATED="1603603960066" MODIFIED="1603604701657">
+<node TEXT="&#x53d8;&#x91cf;&#x58f0;&#x660e;&#x63d0;&#x5347;&#x3001;&#x51fd;&#x6570;&#x63d0;&#x5347;" ID="ID_1376710200" CREATED="1603603336981" MODIFIED="1603603356062"/>
+</node>
+<node TEXT="3) &#x5b9e;&#x53c2;&#x503c;&#x8d4b;&#x7ed9;&#x5f62;&#x53c2;" ID="ID_1915732939" CREATED="1603604035184" MODIFIED="1603604715771"/>
+<node TEXT="4) &#x67e5;&#x627e;&#x51fd;&#x6570;&#x58f0;&#x660e;&#xff0c;&#x503c;&#x8d4b;&#x4e88;&#x51fd;&#x6570;&#x4f53;" ID="ID_1549405375" CREATED="1603604048431" MODIFIED="1603604745776"/>
+<node TEXT="&#x5b9e;&#x4f8b;" ID="ID_348313751" CREATED="1603604073653" MODIFIED="1603605346393"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div http-equiv="content-type" content="text/html; charset=utf-8" style="color: #d4d4d4; background-color: #1e1e1e; font-family: Droid Sans Mono, monospace, monospace, Droid Sans Fallback; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre">
+      <div>
+        <span style="color: #dcdcaa"><font color="#dcdcaa">scopeTest</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'global'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">); </font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">scopeTest</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">){</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">);</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">var</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;= </font></span><span style="color: #ce9178"><font color="#ce9178">&quot;local&quot;</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">;</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(){</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">);</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">} </font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">//&#25171;&#21360;&#32467;&#26524;&#20026;&#65306;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">// function scope(){}</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">// local</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">//&#19978;&#38754;&#20195;&#30721;&#39044;&#32534;&#35793;&#21518;</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">scopeTest</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">){ </font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">var</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">;</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">function</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(){ </font></span><span style="color: #6a9955"><font color="#6a9955">//&#21516;&#21517;&#30340;&#20989;&#25968;&#21644;&#21464;&#37327;&#65292;&#20989;&#25968;&#35206;&#30422;&#21464;&#37327;(?&#26159;&#19981;&#26159;&#39044;&#32534;&#35793;&#21518;&#21516;&#21517;&#20989;&#25968;&#20301;&#20110;&#21516;&#21517;&#21464;&#37327;&#22768;&#26126;&#20043;&#21518;&#30340;&#21407;&#22240;&#65292;&#21518;&#38754;&#35206;&#30422;&#21069;&#38754;)</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">); </font></span><span style="color: #6a9955"><font color="#6a9955">//2&#65289;AO{scope: function scope{}}</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;= </font></span><span style="color: #ce9178"><font color="#ce9178">&quot;local&quot;</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">;</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">scope</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">); </font></span><span style="color: #6a9955"><font color="#6a9955">//3) AO{scope:'local'}</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #dcdcaa"><font color="#dcdcaa">scopeTest</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'global'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">); </font></span><span style="color: #6a9955"><font color="#6a9955">//1) AO{} =&gt; AO{scope:undefined} =&gt; AO{scope:'global'}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">/*</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#39044;&#32534;&#35793;&#21457;&#29983;&#22312;&#20989;&#25968;&#25191;&#34892;&#30340;&#21069;&#19968;&#21051;&#65292;&#39318;&#20808;&#25353;&#27493;&#39588;&#26469;:</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#31532;&#19968;&#27493;&#65292;&#21019;&#24314;AO&#23545;&#35937;&#65292;AO{ }&#65307;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#31532;&#20108;&#27493;&#65292;&#25353;&#31532;2&#26465;&#26469;&#65292;&#24418;&#21442;&#21517;&#20026;scope&#65292;&#19988;&#20989;&#25968;&#20013;&#30340;&#21464;&#37327;&#22768;&#26126;&#20013;&#20063;&#26377;&#19968;&#20010;scope&#65292;&#34429;&#28982;&#20004;&#32773;&#21516;&#21517;&#65292;&#20294;&#26159;&#22312;AO&#23545;&#35937;&#20013;&#21482;&#20250;&#23384;&#20648;&#19968;&#20010;scope&#65292;&#24471;&#20986; AO{ scope&#65306;undefined} &#65307;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#31532;&#19977;&#27493;&#65292;&#25353;&#31532;3&#26465;&#26469;&#65292;&#23558;&#23454;&#21442;&#20540;&#21644;&#24418;&#21442;&#32479;&#19968;&#65292;&#20063;&#23601;&#26159;&#65292;&#23558;&#23454;&#21442;&#20013;&#20256;&#36882;&#36807;&#26469;&#30340;&#20540;&#36171;&#20540;&#32473;&#24418;&#21442;&#20013;&#29992;&#21040;&#30340;&#21464;&#37327;&#65292;&#24471;&#20986; AO{scope&#65306;&#8220;global&#8221;} &#65307;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#8203;&#31532;&#22235;&#27493;&#65292;&#25214;&#20989;&#25968;&#20307;&#20013;&#30340;&#20989;&#25968;&#22768;&#26126;&#65292;&#20540;&#36171;&#20104;&#20989;&#25968;&#20307; &#65292;&#25105;&#20204;&#24456;&#23481;&#26131;&#30475;&#21040;&#65292;&#20989;&#25968;scopeTest&#20013;&#65292;&#21253;&#21547;&#20102;&#19968;&#20010;&#20989;&#25968;scope&#30340;&#22768;&#26126;&#19988;&#20989;&#25968;&#21517;scope&#19982;AO&#23545;&#35937;&#30340;scope&#21516;&#21517;&#65292;&#32780;AO&#23545;&#35937;&#23545;&#24453;&#21516;&#21517;&#20063;&#21482;&#33021;&#23384;&#20648;&#19968;&#20010;&#65292;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#25509;&#30528;&#25353;&#29031;&#31532;4&#26465;&#65292;&#23558;&#20989;&#25968;&#20307;&#36171;&#32473;AO&#23545;&#35937;&#20013;&#30340;scope&#65292;&#24471;&#20986; AO{scope&#65306;function scope(){ }} &#65307;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#8203;&#39044;&#32534;&#35793;&#32467;&#26463; &#65292;&#28982;&#21518;&#19968;&#27493;&#19968;&#27493;&#25191;&#34892;&#20195;&#30721;&#12290;&#31532;&#19968;&#34892;&#35843;&#29992;scopeTest(&#8216;global&#8217;)&#20989;&#25968;&#65292;&#26368;&#24320;&#22987;&#36755;&#20986;scope&#30340;&#20540;&#65292;&#30005;&#33041;&#20250;&#20174;AO&#23545;&#35937;&#37324;&#38754;&#25343;&#19996;&#35199;&#65292;&#37324;&#38754;scope&#23384;&#20648;&#30340;&#20540;&#20026;function scope(){}, &#28982;&#21518;&#36755;&#20986;&#20989;&#25968;&#12290;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#25509;&#30528;&#32487;&#32493;&#25191;&#34892;&#20195;&#30721;&#65292;scope&#37325;&#26032;&#36171;&#20540;&#65292;scope= &#8220;local&#8221;&#65307; &#28982;&#21518; function scope(){}&#20043;&#21069;&#24050;&#32463;&#22312;&#39044;&#32534;&#35793;&#20013;&#33719;&#21462;&#20102;&#65292;&#24403;&#21069;&#21487;&#19981;&#24517;&#29702;&#20250;&#65292;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">&#26368;&#21518;&#20877;&#27425;&#38656;&#35201;&#36755;&#20986;scope&#20013;&#30340;&#20540;&#65292;&#29616;&#22312;AO&#23545;&#35937;&#37324;&#38754;&#20026;&#65306;AO{scope&#65306;&#8220;local&quot;}&#65292;&#25152;&#20197;&#36755;&#20986;local &#12290;&#25152;&#20197;&#26368;&#21518;&#30340;&#32467;&#26524;&#20026;&#65306;function scope(){} local</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">*/</font></span>
+      </div>
+    </div>
+     
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x89e3;&#x91ca;&#x6267;&#x884c;" ID="ID_636137421" CREATED="1603594870976" MODIFIED="1603603520409"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#25191;&#34892;&#36807;&#31243;&#20013;&#65292;JavaScript&#24341;&#25806;&#26159;&#20005;&#26684;&#25353;&#29031;&#20316;&#29992;&#22495;&#65288;scope&#65289;&#26426;&#21046;&#26469;&#25191;&#34892;&#30340;&#65292;&#24182;&#19988;JavaScript&#30340;&#21464;&#37327;&#21644;&#20989;&#25968;&#20316;&#29992;&#22495;&#26159;&#22312;&#23450;&#20041;&#26159;&#20915;&#23450;&#30340;&#65292;&#32780;&#19981;&#26159;&#25191;&#34892;&#26102;&#20915;&#23450;&#30340;&#12290;JavaScript&#20013;&#30340;&#21464;&#37327;&#20316;&#29992;&#22495;&#22312;&#20989;&#25968;&#20307;&#20869;&#26377;&#25928;&#65292;&#26080;&#22359;&#20316;&#29992;&#22495;&#65307;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      JavaScript&#24341;&#25806;&#36890;&#36807;&#20316;&#29992;&#22495;&#38142;scope chain&#25226;&#22810;&#20010;&#23884;&#22871;&#30340;&#20316;&#29992;&#22495;&#20018;&#32852;&#22312;&#19968;&#36215;&#65292;&#24182;&#20511;&#21161;&#36825;&#20010;&#38142;&#26465;&#24110;&#21161;JavaScript&#35299;&#37322;&#22120;&#26816;&#32034;&#21464;&#37327;&#30340;&#20540;&#12290;&#36825;&#20010;&#20316;&#29992;&#22495;&#38142;&#30456;&#24403;&#20110;&#19968;&#20010;&#32034;&#24341;&#24211;&#65292;&#24182;&#36890;&#36807;&#32534;&#21495;&#26469;&#23384;&#20648;&#23427;&#20204;&#30340;&#23884;&#22871;&#20851;&#31995;&#12290;&#24403;JavaScript&#35299;&#37322;&#22120;&#26816;&#32034;&#21464;&#37327;&#30340;&#20540;&#65292;&#20250;&#25353;&#30528;&#36825;&#20010;&#32034;&#24341;&#32534;&#21495;&#36827;&#34892;&#24555;&#36895;&#26597;&#25214;&#65292;&#30452;&#21040;&#25214;&#21040;&#20840;&#23616;&#23545;&#35937;global object&#20026;&#27490;&#65292;&#22914;&#26524;&#27809;&#26377;&#25214;&#21040;&#20540;&#65292;&#21017;&#20256;&#36882;&#19968;&#20010;&#29305;&#27530;&#30340;undefined &#20540;&#12290;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
 </richcontent>
 </node>
 </node>
@@ -3867,7 +4275,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
