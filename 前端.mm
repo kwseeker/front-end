@@ -102,7 +102,7 @@
 <edge COLOR="#ff00ff"/>
 <node TEXT="1&#xff09;&#x5143;&#x7d20;&#x662f;&#x4ece;&#x5de6;&#x5411;&#x53f3;&#xff0c;&#x4ece;&#x4e0a;&#x5230;&#x4e0b;&#x4f9d;&#x6b21;&#x6e32;&#x67d3;&#x7684;" ID="ID_973489125" CREATED="1601692037748" MODIFIED="1601692075835"/>
 </node>
-<node TEXT="HTML" FOLDED="true" POSITION="right" ID="ID_1360212548" CREATED="1598168329431" MODIFIED="1598168668539" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML" STYLE="bubble">
+<node TEXT="HTML" POSITION="right" ID="ID_1360212548" CREATED="1598168329431" MODIFIED="1598168668539" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML" STYLE="bubble">
 <edge COLOR="#ff0000"/>
 <node TEXT="DTD" ID="ID_1532021464" CREATED="1598178640023" MODIFIED="1599977902238" LINK="https://www.w3school.com.cn/dtd/index.asp" STYLE="bubble"><richcontent TYPE="NOTE">
 
@@ -229,7 +229,7 @@
 <node TEXT="&lt;del&gt;" ID="ID_76677817" CREATED="1599979493738" MODIFIED="1599979498427"/>
 <node TEXT="&lt;ins&gt;" ID="ID_890040613" CREATED="1599979498637" MODIFIED="1599979501853"/>
 </node>
-<node TEXT="&#x8868;&#x683c;&#x5185;&#x5bb9;" FOLDED="true" ID="ID_1871096061" CREATED="1599979513738" MODIFIED="1599979519203">
+<node TEXT="&#x8868;&#x683c;&#x5185;&#x5bb9;" ID="ID_1871096061" CREATED="1599979513738" MODIFIED="1599979519203">
 <node TEXT="&lt;caption&gt;" ID="ID_1154919000" CREATED="1599979527294" MODIFIED="1599979534396"/>
 <node TEXT="&lt;col&gt;" ID="ID_891958593" CREATED="1599979534582" MODIFIED="1599979538191"/>
 <node TEXT="`&lt;table&gt;`" ID="ID_1251168441" CREATED="1599979538493" MODIFIED="1599979562616"/>
@@ -239,7 +239,7 @@
 <node TEXT="&lt;thead&gt;" ID="ID_782526148" CREATED="1599979589389" MODIFIED="1599979593688"/>
 <node TEXT="&lt;tr&gt;" ID="ID_848842530" CREATED="1599979595441" MODIFIED="1599979601392"/>
 </node>
-<node TEXT="&#x8868;&#x5355;" FOLDED="true" ID="ID_1283961514" CREATED="1599979611566" MODIFIED="1599979616253">
+<node TEXT="&#x8868;&#x5355;" ID="ID_1283961514" CREATED="1599979611566" MODIFIED="1599979616253">
 <node TEXT="&lt;button&gt;" ID="ID_1276371721" CREATED="1599979619118" MODIFIED="1599979625612"/>
 <node TEXT="&lt;form&gt;" ID="ID_1467601357" CREATED="1599979625915" MODIFIED="1599979632027"/>
 <node TEXT="&lt;input&gt;" ID="ID_745826925" CREATED="1599979632399" MODIFIED="1599979636049"/>
@@ -591,7 +591,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6743;&#x91cd;&#x8ba1;&#x7b97;" ID="ID_321362746" CREATED="1601866078973" MODIFIED="1601866088600"/>
@@ -897,7 +896,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x76d2;&#x5b50;&#x6a21;&#x578b;" ID="ID_1249708777" CREATED="1601112711172" MODIFIED="1601112718309" STYLE="bubble">
@@ -905,6 +903,26 @@
 <node TEXT="&#x5757;&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_233014549" CREATED="1601868029417" MODIFIED="1601868036334"/>
 <node TEXT="&#x884c;&#x5185;&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_1520794631" CREATED="1601868037081" MODIFIED="1601868044745"/>
 <node TEXT="&#x884c;&#x5185;&#x5757;&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_1522184008" CREATED="1601868044969" MODIFIED="1601868057901"/>
+</node>
+<node TEXT="&#x76f8;&#x5173;&#x5c5e;&#x6027;" ID="ID_934171176" CREATED="1602067533850" MODIFIED="1602067546439">
+<node TEXT="display" ID="ID_193378357" CREATED="1602067547463" MODIFIED="1602067552359"/>
+<node TEXT="display:none &#x548c; visibility: hidden &#x533a;&#x522b;" ID="ID_1779934994" CREATED="1602067552789" MODIFIED="1602067708224"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      display:none&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#26159;&#19981;&#23545;&#20803;&#32032;&#36827;&#34892;&#26684;&#24335;&#28210;&#26579;&#65292;&#27809;&#26377;&#26684;&#24335;&#23601;&#22909;&#20687;&#27809;&#26377;&#36825;&#20010;&#20803;&#32032;&#19968;&#26679;&#12290;
+    </p>
+    <p>
+      visibility: hidden&#160;&#160;&#160;&#160;&#21482;&#26159;&#19981;&#26174;&#31034;&#20803;&#32032;&#65292;&#35813;&#21344;&#29992;&#30340;&#20301;&#32622;&#36824;&#26159;&#20250;&#21344;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 <node TEXT="&#x884c;&#x5185;&#x5143;&#x7d20;&#x5e38;&#x89c1;&#x95ee;&#x9898;" ID="ID_1074052882" CREATED="1601871173827" MODIFIED="1601871184220">
 <node TEXT="img&#x7f16;&#x6392;&#x95f4;&#x9699;&#x95ee;&#x9898;" ID="ID_1793906068" CREATED="1601871220177" MODIFIED="1601874124357"><richcontent TYPE="NOTE">
@@ -1008,7 +1026,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x89e3;&#x51b3;&#x5e95;&#x90e8;&#x95f4;&#x9699;" ID="ID_562602975" CREATED="1601874153872" MODIFIED="1601874162260">
 <node TEXT="&#x4e0d;&#x4f7f;&#x7528;baseline&#x5bf9;&#x9f50;" ID="ID_492066728" CREATED="1601874163594" MODIFIED="1601874177238"/>
@@ -1034,7 +1051,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1048,7 +1064,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x7279;&#x70b9;" ID="ID_964361037" CREATED="1601719561544" MODIFIED="1601724620510">
 <icon BUILTIN="yes"/>
@@ -1073,7 +1088,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font BOLD="true"/>
 </node>
@@ -1092,7 +1106,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5982;&#x4f55;&#x8ba9;&#x4e0d;&#x540c;&#x7684;&#x76d2;&#x5b50;&#x4e2d;&#x7684;&#x5143;&#x7d20;&#x5728;&#x4e0d;&#x540c;&#x7684;&#x7a7a;&#x95f4;&#x6d6e;&#x52a8;" ID="ID_585559738" CREATED="1601723410788" MODIFIED="1601734927822">
@@ -1112,7 +1125,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1129,7 +1141,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="2&#xff09;&#x8bbe;&#x7f6e;&#x7236;&#x5143;&#x7d20;&#x6d6e;&#x52a8;&#xff08;&#x4e0d;&#x63a8;&#x8350;&#xff09;" ID="ID_979407140" CREATED="1601734272463" MODIFIED="1601734436831"><richcontent TYPE="NOTE">
@@ -1144,7 +1155,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="3&#xff09;&#x7ed9;&#x7236;&#x5143;&#x7d20;&#x8bbe;&#x7f6e;overflow:hidden&#x89e6;&#x53d1;BFC" ID="ID_1124465739" CREATED="1601734437139" MODIFIED="1601734620003"><richcontent TYPE="NOTE">
@@ -1162,7 +1172,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="4&#xff09;&#x6dfb;&#x52a0;&#x4e00;&#x4e2a;&#x5144;&#x5f1f;&#x5757;&#x5143;&#x7d20;&#x8bbe;&#x7f6e;clear:both" ID="ID_1399481390" CREATED="1601734730842" MODIFIED="1601735218273"/>
@@ -1192,7 +1201,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1227,7 +1235,6 @@
     </div>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1243,7 +1250,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x9ed8;&#x8ba4;&#xff1a;position: static" ID="ID_166885835" CREATED="1601783718890" MODIFIED="1601783734938"/>
 <node TEXT="&#x76f8;&#x5bf9;&#x5b9a;&#x4f4d; position: relative" ID="ID_1105576265" CREATED="1601780571939" MODIFIED="1601784079640"><richcontent TYPE="NOTE">
@@ -1258,7 +1264,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1272,14 +1277,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_56044250" CREATED="1601783992816" MODIFIED="1601783999806">
 <node TEXT="&#x4f4d;&#x7f6e;&#x5fae;&#x8c03;" ID="ID_50228397" CREATED="1601784000657" MODIFIED="1601784013859"/>
 <node TEXT="&#x4e0e;&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d;&#x642d;&#x914d;&#x4f7f;&#x7528;" ID="ID_1706732188" CREATED="1601784014264" MODIFIED="1601784031178"/>
 </node>
 </node>
-<node TEXT="&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d; position: absolute" ID="ID_1882101864" CREATED="1601780578568" MODIFIED="1601784844946"><richcontent TYPE="DETAILS">
+<node TEXT="&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d; position: absolute" FOLDED="true" ID="ID_1882101864" CREATED="1601780578568" MODIFIED="1601784844946"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -1291,7 +1295,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -1308,7 +1311,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <font BOLD="false"/>
 <node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_691033511" CREATED="1601784964716" MODIFIED="1601784971642">
@@ -1326,7 +1328,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1358,7 +1359,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -1372,7 +1372,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_1177157213" CREATED="1601781789133" MODIFIED="1601781796349">
 <node TEXT="&#x767b;&#x5f55;&#x5f39;&#x7a97;" ID="ID_1104301468" CREATED="1601781800154" MODIFIED="1601782603462"><richcontent TYPE="NOTE">
@@ -1387,7 +1386,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4fa7;&#x8fb9;&#x680f;&#x8d85;&#x94fe;" ID="ID_769779247" CREATED="1601785880524" MODIFIED="1601785899141"/>
@@ -1410,7 +1408,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4e03;&#x9636;&#x5c42;&#x53e0;&#x6c34;&#x5e73;" ID="ID_937545473" CREATED="1601787068760" MODIFIED="1601787086162"><richcontent TYPE="NOTE">
@@ -1426,17 +1423,90 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
+</node>
+<node TEXT="&#x5c5e;&#x6027;&#x7ee7;&#x627f;&#xa;&#x4e0e;&#x4f18;&#x5148;&#x7ea7;" ID="ID_472041085" CREATED="1602705365275" MODIFIED="1602705390291" STYLE="bubble">
+<node TEXT="&#x53ef;&#x7ee7;&#x627f;&#x7684;&#x5c5e;&#x6027;" ID="ID_1851518435" CREATED="1602705412525" MODIFIED="1602705423637"/>
+<node TEXT="&#x6807;&#x7b7e;&#x9ed8;&#x8ba4;&#x5c5e;&#x6027;" ID="ID_1169501458" CREATED="1602705426634" MODIFIED="1602705437041"/>
+</node>
+</node>
+<node TEXT="&#x5e38;&#x7528;&#x9875;&#x9762;&#x8bbe;&#x8ba1;" ID="ID_1329354200" CREATED="1602704620889" MODIFIED="1602704634031" STYLE="bubble">
+<node TEXT="&#x5143;&#x7d20;&#x5c45;&#x4e2d;" ID="ID_644411251" CREATED="1602704635647" MODIFIED="1602704700376" STYLE="bubble">
+<node TEXT="&#x5143;&#x7d20;&#x6c34;&#x5e73;&#x5c45;&#x4e2d;" ID="ID_931731197" CREATED="1602984008871" MODIFIED="1602984180156">
+<node TEXT="&#x884c;&#x5185;&#x5143;&#x7d20;/&#x884c;&#x5185;&#x5757;&#x5143;&#x7d20; &#x8bbe;&#x7f6e;&#x7236;&#x4eb2;&#x5143;&#x7d20; text-align:  center" ID="ID_735046589" CREATED="1602984034085" MODIFIED="1602984166362"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403;&#25104;&#25991;&#26412;&#22788;&#29702;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5757;&#x7ea7;&#x5143;&#x7d20; margin-left: auto; margin-right: auto;&#xa;(&#x5bf9;&#x4e8e;&#x8131;&#x6807;&#x5143;&#x7d20;&#xff0c;&#x5982;&#x6d6e;&#x52a8;&#x5b9a;&#x4f4d;&#x548c;&#x56fa;&#x5b9a;&#x5143;&#x7d20;&#xff0c;&#x6b64;&#x6cd5;&#x65e0;&#x6548;)" ID="ID_1539653549" CREATED="1602984396040" MODIFIED="1602984585604"/>
+</node>
+<node TEXT="&#x5143;&#x7d20;&#x5782;&#x76f4;&#x5c45;&#x4e2d;" ID="ID_200300797" CREATED="1602984220219" MODIFIED="1602984232163">
+<node TEXT="&#x884c;&#x5185;&#x5143;&#x7d20;/&#x884c;&#x5185;&#x5757;&#x5143;&#x7d20; &#x8bbe;&#x7f6e;&#x7236;&#x4eb2;&#x5143;&#x7d20; height = line-height" ID="ID_340641414" CREATED="1602984232847" MODIFIED="1602984313033"/>
+</node>
+<node TEXT="&#x5757;&#x5143;&#x7d20;&#x5728;&#x7236;&#x4eb2;&#x5143;&#x7d20;&#xa;&#x6c34;&#x5e73;&#x5782;&#x76f4;&#x5c45;&#x4e2d;" ID="ID_1351560236" CREATED="1602984664152" MODIFIED="1602984711318">
+<node TEXT="&#x5b50;&#x7edd;&#x7236;&#x76f8;&#xa;left: 50%; margin-left: -&#x81ea;&#x5df1;&#x5bbd;&#x5ea6;/2;&#xa;top: 50%; margin-top: -&#x81ea;&#x5df1;&#x9ad8;&#x5ea6;/2;" ID="ID_977773994" CREATED="1602984890430" MODIFIED="1602985057089"/>
+</node>
+<node TEXT="&#x56fa;&#x5b9a;&#x5b9a;&#x4f4d;&#x5143;&#x7d20;&#xa;&#x6c34;&#x5e73;&#x5782;&#x76f4;&#x5c45;&#x4e2d;" ID="ID_1950247879" CREATED="1602991027015" MODIFIED="1602991096491">
+<node TEXT="&#x5185;&#x5bb9;&#x56fa;&#x5b9a;&#x4e0d;&#x53d8;(&#x5bbd;&#x9ad8;&#x56fa;&#x5b9a;)" ID="ID_280639675" CREATED="1602991102160" MODIFIED="1602991474659"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      margin: auto;
+    </p>
+    <p>
+      left: 0;
+    </p>
+    <p>
+      right: 0;
+    </p>
+    <p>
+      top: 0;
+    </p>
+    <p>
+      bottom: 0;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      width:600px;
+    </p>
+    <p>
+      height: 600px;
+    </p>
+    <p>
+      background-color: red;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5185;&#x5bb9;&#x53d8;&#x5316;(&#x5bbd;&#x9ad8;&#x56fa;&#x5b9a;)" ID="ID_1525277660" CREATED="1602991462011" MODIFIED="1602991488250"/>
+</node>
+<node TEXT="&#x793a;&#x4f8b;" ID="ID_482315148" CREATED="1602990876341" MODIFIED="1602990912674"/>
 </node>
 </node>
 </node>
 <node TEXT="SVG" POSITION="right" ID="ID_113460366" CREATED="1599966568838" MODIFIED="1599966573648" STYLE="bubble">
 <edge COLOR="#7c7c00"/>
 </node>
-<node TEXT="JS" POSITION="right" ID="ID_927417358" CREATED="1598168341836" MODIFIED="1599963085246" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" STYLE="bubble">
+<node TEXT="JS" FOLDED="true" POSITION="right" ID="ID_927417358" CREATED="1598168341836" MODIFIED="1599963085246" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" STYLE="bubble">
 <edge COLOR="#00ff00"/>
 <richcontent TYPE="NOTE">
 
@@ -1746,7 +1816,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1764,7 +1833,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="undefine" ID="ID_651420055" CREATED="1599968560506" MODIFIED="1601802707478"><richcontent TYPE="NOTE">
@@ -1779,7 +1847,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="symbol" ID="ID_294478882" CREATED="1601802774139" MODIFIED="1601802781336"/>
@@ -1796,7 +1863,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x6570;&#x7ec4;" ID="ID_20283980" CREATED="1599968424100" MODIFIED="1599968629824"/>
 <node TEXT="&#x51fd;&#x6570;" ID="ID_124415876" CREATED="1599968630171" MODIFIED="1599968634869"/>
@@ -1820,7 +1886,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -1918,7 +1983,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="%" ID="ID_967151255" CREATED="1600570421490" MODIFIED="1600570426494"/>
@@ -2040,7 +2104,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x903b;&#x8f91;&#x5224;&#x65ad;&#x65f6; 0 &#x7a7a;&#x5b57;&#x7b26;&#x4e32; undefine null NaN  &#x90fd;&#x89c6;&#x4e3a;false&#xff0c;&#x5176;&#x4f59;&#x89c6;&#x4e3a;true" ID="ID_839081844" CREATED="1601804412052" MODIFIED="1601804569051"/>
@@ -2679,7 +2742,6 @@
     </table>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4f5c;&#x7528;&#x57df;" ID="ID_377174158" CREATED="1601808684804" MODIFIED="1601808707707">
@@ -2700,7 +2762,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="js&#x5168;&#x5c40;&#x4f5c;&#x7528;&#x57df;&#x548c;&#x5c40;&#x90e8;&#x4f5c;&#x7528;&#x57df;&#x53ef;&#x4ee5;&#x5b9a;&#x4e49;&#x540c;&#x540d;&#x53d8;&#x91cf;" ID="ID_1336190681" CREATED="1601808844636" MODIFIED="1601808928520">
@@ -2717,9 +2778,46 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
+</node>
+<node TEXT="&#x53d8;&#x91cf;&#x52a0;var&#x548c;&#x4e0d;&#x52a0;var&#x7684;&#x533a;&#x522b;" ID="ID_834207090" CREATED="1602039061814" MODIFIED="1602039176899"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var num = 1&#65307;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#26159;&#22312;&#24403;&#21069;&#22495;&#20013;&#22768;&#26126;&#21464;&#37327;. &#22914;&#26524;&#22312;&#26041;&#27861;&#20013;&#22768;&#26126;&#65292;&#21017;&#20026;&#23616;&#37096;&#21464;&#37327;&#65288;local variable&#65289;&#65307;&#22914;&#26524;&#26159;&#22312;&#20840;&#23616;&#22495;&#20013;&#22768;&#26126;&#65292;&#21017;&#20026;&#20840;&#23616;&#21464;&#37327;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#32780; num = 1&#65307;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20107;&#23454;&#19978;&#26159;&#23545;&#23646;&#24615;&#36171;&#20540;&#25805;&#20316;&#12290;&#39318;&#20808;&#65292;&#23427;&#20250;&#23581;&#35797;&#22312;&#24403;&#21069;&#20316;&#29992;&#22495;&#38142;&#65288;&#22914;&#22312;&#26041;&#27861;&#20013;&#22768;&#26126;&#65292;&#21017;&#24403;&#21069;&#20316;&#29992;&#22495;&#38142;&#20195;&#34920;&#20840;&#23616;&#20316;&#29992;&#22495;&#21644;&#26041;&#27861;&#23616;&#37096;&#20316;&#29992;&#22495;etc&#12290;&#12290;&#12290;&#65289;&#20013;&#35299;&#26512; num&#65307; &#22914;&#26524;&#22312;&#20219;&#20309;&#24403;&#21069;&#20316;&#29992;&#22495;&#38142;&#20013;&#25214;&#21040;num&#65292;&#21017;&#20250;&#25191;&#34892;&#23545;num&#23646;&#24615;&#36171;&#20540;&#65307; &#22914;&#26524;&#27809;&#26377;&#25214;&#21040;num&#65292;&#23427;&#25165;&#20250;&#22312;&#20840;&#23616;&#23545;&#35937;&#65288;&#21363;&#24403;&#21069;&#20316;&#29992;&#22495;&#38142;&#30340;&#26368;&#39030;&#23618;&#23545;&#35937;&#65292;&#22914;window&#23545;&#35937;&#65289;&#20013;&#21019;&#36896;num&#23646;&#24615;&#24182;&#36171;&#20540;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27880;&#24847;&#65281;&#23427;&#24182;&#19981;&#26159;&#22768;&#26126;&#20102;&#19968;&#20010;&#20840;&#23616;&#21464;&#37327;&#65292;&#32780;&#26159;&#21019;&#24314;&#20102;&#19968;&#20010;&#20840;&#23616;&#23545;&#35937;&#30340;&#23646;&#24615;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="&#x6570;&#x7ec4;" ID="ID_62800906" CREATED="1601819994518" MODIFIED="1601956474560" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array">
@@ -2744,7 +2842,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="concat() &#x62fc;&#x63a5;&#x6570;&#x7ec4;" ID="ID_468417327" CREATED="1601959000210" MODIFIED="1601959015517"/>
@@ -2766,7 +2863,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="some() &#x662f;&#x5426;&#x6709;&#x5143;&#x7d20;&#x6ee1;&#x8db3;&#x6761;&#x4ef6;" ID="ID_402155977" CREATED="1601966515266" MODIFIED="1601966552663"/>
@@ -2786,7 +2882,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -2796,32 +2891,7 @@
 </node>
 <node TEXT="&#x6d41;&#x7a0b;&#x63a7;&#x5236;" ID="ID_582684548" CREATED="1601806664280" MODIFIED="1601806670635"/>
 <node TEXT="&#x51fd;&#x6570;" ID="ID_466951340" CREATED="1601807420681" MODIFIED="1601807425011">
-<node TEXT="&#x8bed;&#x6cd5;" ID="ID_536727232" CREATED="1601807436728" MODIFIED="1601807704508"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      &#26684;&#24335;&#65306;
-    </p>
-    <p>
-      function func(param, ...) {
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      }
-    </p>
-  </body>
-</html>
-
-</richcontent>
 <node TEXT="&#x51fd;&#x6570;&#x65e0;&#x8fd4;&#x56de;&#x503c;&#x7684;&#x65f6;&#x5019;console.log(func())&#x8fd4;&#x56de;undefined" ID="ID_160888650" CREATED="1601807818750" MODIFIED="1601958984111"/>
-<node TEXT="&#x7ed9;&#x51fd;&#x6570;&#x4f20;&#x9012;&#x7684;&#x5b9e;&#x53c2;&#x6570;&#x91cf;&#x5c0f;&#x4e8e;&#x5f62;&#x53c2;&#x6570;&#x91cf;&#xff0c;&#x9ed8;&#x8ba4;&#x4f1a;&#x8865;&#x4f20;undefined&#xa;&#x4f20;&#x9012;&#x5b9e;&#x53c2;&#x6570;&#x91cf;&#x5927;&#x4e8e;&#x5f62;&#x53c2;&#x6570;&#x91cf;&#xff0c;&#x591a;&#x4f59;&#x7684;&#x53c2;&#x6570;&#x4f1a;&#x88ab;&#x5ffd;&#x7565;&#xa;&#x5373;&#x5176;&#x5b9e;js&#x51fd;&#x6570;&#x53ef;&#x4ee5;&#x4f20;&#x9012;&#x4efb;&#x610f;&#x6570;&#x91cf;&#x5b9e;&#x53c2;" ID="ID_1135452497" CREATED="1601807959612" MODIFIED="1601808406278"/>
-</node>
 <node TEXT="&#x51fd;&#x6570;&#x5185;&#x7f6e;&#x5bf9;&#x8c61; arguments" ID="ID_1574895223" CREATED="1601808181615" MODIFIED="1601808248346"><richcontent TYPE="NOTE">
 
 <html>
@@ -2834,9 +2904,16 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+<node TEXT="&#x7ed9;&#x51fd;&#x6570;&#x4f20;&#x9012;&#x7684;&#x5b9e;&#x53c2;&#x6570;&#x91cf;&#x5c0f;&#x4e8e;&#x5f62;&#x53c2;&#x6570;&#x91cf;&#xff0c;&#x9ed8;&#x8ba4;&#x4f1a;&#x8865;&#x4f20;undefined&#xa;&#x4f20;&#x9012;&#x5b9e;&#x53c2;&#x6570;&#x91cf;&#x5927;&#x4e8e;&#x5f62;&#x53c2;&#x6570;&#x91cf;&#xff0c;&#x591a;&#x4f59;&#x7684;&#x53c2;&#x6570;&#x4f1a;&#x88ab;&#x5ffd;&#x7565;&#xa;&#x5373;&#x5176;&#x5b9e;js&#x51fd;&#x6570;&#x53ef;&#x4ee5;&#x4f20;&#x9012;&#x4efb;&#x610f;&#x6570;&#x91cf;&#x5b9e;&#x53c2;" ID="ID_1135452497" CREATED="1601807959612" MODIFIED="1601808406278"/>
 </node>
+<node TEXT="&#x51fd;&#x6570;&#x5b9a;&#x4e49;&#x65b9;&#x5f0f;" ID="ID_863877357" CREATED="1602462142787" MODIFIED="1602462151964">
+<node TEXT="function func(param, ...) {}" ID="ID_1826408161" CREATED="1602462252643" MODIFIED="1602462258310"/>
+<node TEXT="&#x51fd;&#x6570;&#x8868;&#x8fbe;&#x5f0f;&#xff1a;&#xa;var func = function() {}" ID="ID_451043573" CREATED="1602461302246" MODIFIED="1602462394298"/>
+<node TEXT="Function&#x5bf9;&#x8c61;&#xff1a;&#xa;var func = new Function(&apos;a&apos;, &apos;b&apos;, &apos;console.log(a + b);&apos;);" ID="ID_1508341352" CREATED="1602462292682" MODIFIED="1602462401214"/>
+</node>
+<node TEXT="&#x4f5c;&#x7528;&#x57df;/&#x4f5c;&#x7528;&#x57df;&#x94fe;/&#x53d8;&#x91cf;&#x63d0;&#x5347;" ID="ID_1418815983" CREATED="1602462432881" MODIFIED="1602462467946"/>
+<node TEXT="IIFE" ID="ID_775227888" CREATED="1602462469235" MODIFIED="1602462475791"/>
 </node>
 <node TEXT="&#x5bf9;&#x8c61;" ID="ID_1312241319" CREATED="1601810046483" MODIFIED="1601810055861">
 <node TEXT="&#x9759;&#x6001;&#x7279;&#x5f81;&#xff08;&#x53d8;&#x91cf;&#xff09;+&#x52a8;&#x6001;&#x884c;&#x4e3a;&#xff08;&#x51fd;&#x6570;&#xff09;" ID="ID_1729376750" CREATED="1601810063530" MODIFIED="1601810365909"><richcontent TYPE="NOTE">
@@ -2851,7 +2928,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="js&#x5bf9;&#x8c61;&#x652f;&#x6301;&#x52a8;&#x6001;&#x62d3;&#x5c55;&#x5c5e;&#x6027;" ID="ID_1422512920" CREATED="1601811072554" MODIFIED="1601824051314"><richcontent TYPE="NOTE">
@@ -2890,7 +2966,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x8bed;&#x6cd5;" ID="ID_1278553882" CREATED="1601810266073" MODIFIED="1601824360438">
@@ -2948,7 +3023,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x6210;&#x5458;&#x8bbf;&#x95ee;" ID="ID_1003676359" CREATED="1601810668059" MODIFIED="1601810926754"><richcontent TYPE="NOTE">
@@ -2984,7 +3058,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3000,7 +3073,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="class&#x7c7b;&#x58f0;&#x660e;" ID="ID_608289070" CREATED="1601824651631" MODIFIED="1601824661551"/>
 <node TEXT="&#x6784;&#x9020;&#x65b9;&#x6cd5;" ID="ID_492926577" CREATED="1601824679376" MODIFIED="1601824686654"/>
@@ -3013,7 +3085,203 @@
 <node TEXT="species" ID="ID_1162215916" CREATED="1601825159251" MODIFIED="1601825165793"/>
 <node TEXT="mix-ins" ID="ID_336553180" CREATED="1601825184763" MODIFIED="1601825185744"/>
 </node>
-<node TEXT="&#x5185;&#x7f6e;&#x5bf9;&#x8c61;" ID="ID_217860911" CREATED="1601823828567" MODIFIED="1601823834126"/>
+<node TEXT="&#x5185;&#x7f6e;&#x5bf9;&#x8c61;" ID="ID_217860911" CREATED="1601823828567" MODIFIED="1601823834126">
+<node TEXT="Array" ID="ID_1101740722" CREATED="1601990023475" MODIFIED="1601990064442" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array"/>
+<node TEXT="String" ID="ID_1176913937" CREATED="1601969917283" MODIFIED="1601989834414" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div charset="utf-8" style="color: #d4d4d4; background-color: #1e1e1e; font-family: Menlo, Monaco, Courier New, monospace; font-weight: normal; font-size: 12px; line-height: 18px; white-space: pre">
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">var</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;= </font></span><span style="color: #ce9178"><font color="#ce9178">'hello world !'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">;</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">//&#23383;&#31526;&#20018;&#38271;&#24230;</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">length</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">);</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">//&#33719;&#21462;&#23383;&#31526;&#20018;&#20013;&#23383;&#31526;&#32034;&#24341;</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">var</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">achar</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;= </font></span><span style="color: #ce9178"><font color="#ce9178">'a'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">; </font></span><span style="color: #6a9955"><font color="#6a9955">//97</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">var</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">wchar</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;= </font></span><span style="color: #ce9178"><font color="#ce9178">'w'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">;</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">achar</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">charCodeAt</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(), </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">wchar</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">charCodeAt</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">());</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">charCodeAt</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">());</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #4ec9b0"><font color="#4ec9b0">String</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">fromCharCode</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">97</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">));</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">charAt</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)); </font></span><span style="color: #6a9955"><font color="#6a9955">//&#33719;&#21462;&#23383;&#31526;&#20018;&#32034;&#24341;&#20026;0&#22788;&#30340;&#23383;&#31526;</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">charCodeAt</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #4fc1ff"><font color="#4fc1ff">length</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;- </font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)); </font></span><span style="color: #6a9955"><font color="#6a9955">//&#33719;&#21462;&#23383;&#31526;&#20018;&#26368;&#21518;&#19968;&#20010;&#23383;&#31526;&#30340;ASCII&#30721;</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">indexOf</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'o'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">));</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">lastIndexOf</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'o'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">));</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">//&#23383;&#31526;&#20018;&#25130;&#21462;</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">substr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #b5cea8"><font color="#b5cea8">5</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">));</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">substr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">6</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">));</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">substring</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #b5cea8"><font color="#b5cea8">6</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">));</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">substring</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">6</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)); </font></span><span style="color: #6a9955"><font color="#6a9955">//&#20869;&#37096;&#20250;&#33258;&#21160;&#23545;&#35843;6&#21644;0</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">substring</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">6</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">));</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">slice</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #b5cea8"><font color="#b5cea8">6</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">));</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">slice</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">6</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)); </font></span><span style="color: #6a9955"><font color="#6a9955">//&#20869;&#37096;&#19981;&#20250;&#33258;&#21160;&#23545;&#35843;6&#21644;0</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">slice</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">6</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">));</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">//&#36716;&#25442;&#22823;&#23567;&#20889;</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">toUpperCase</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">());</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">toLowerCase</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">());</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">charAt</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">).</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">toUpperCase</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">() + </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">substr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">));</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">//&#25286;&#20998;&#25104;&#25968;&#32452;</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">var</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">strArr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;= </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">str</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">split</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">' '</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">);</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">strArr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">);</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">var</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">reqStr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;= </font></span><span style="color: #ce9178"><font color="#ce9178">&quot;http://www.baidu.com?a=1&quot;</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">;</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">var</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">reqArr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;= </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">reqStr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">split</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'?'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">);</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">reqArr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">[</font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">].</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">split</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'='</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)[</font></span><span style="color: #b5cea8"><font color="#b5cea8">0</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">]);</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">reqArr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">[</font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">].</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">split</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'='</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">)[</font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">]);</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">//&#23383;&#31526;&#20018;&#26367;&#25442;</font></span>
+      </div>
+      <div>
+        <span style="color: #6a9955"><font color="#6a9955">//&#25935;&#24863;&#35789;&#26367;&#25442;</font></span>
+      </div>
+      <div>
+        <span style="color: #569cd6"><font color="#569cd6">var</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">sensitiveStr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;= </font></span><span style="color: #ce9178"><font color="#ce9178">&quot;sb&#20204;,&#22823;&#23478;&#22909;,&#25105;&#26159;sb&quot;</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">;</font></span>
+      </div>
+      <div>
+        <span style="color: #c586c0"><font color="#c586c0">while</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">sensitiveStr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">indexOf</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'sb'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) != -</font></span><span style="color: #b5cea8"><font color="#b5cea8">1</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">) {</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">sensitiveStr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">&#160;= </font></span><span style="color: #9cdcfe"><font color="#9cdcfe">sensitiveStr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">replace</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #ce9178"><font color="#ce9178">'sb'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">, </font></span><span style="color: #ce9178"><font color="#ce9178">'**'</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">);</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #9cdcfe"><font color="#9cdcfe">console</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">.</font></span><span style="color: #dcdcaa"><font color="#dcdcaa">log</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">(</font></span><span style="color: #9cdcfe"><font color="#9cdcfe">sensitiveStr</font></span><span style="color: #d4d4d4"><font color="#d4d4d4">);</font></span>
+      </div>
+      <br/>
+      
+    </div>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5b57;&#x7b26;&#x8f6c;ASCII&#x7801; charCodeAt()" ID="ID_218377569" CREATED="1601985311389" MODIFIED="1601985776966"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26412;&#24847;&#26159;&#33719;&#21462;&#23383;&#31526;&#20018;&#26576;&#20010;&#32034;&#24341;&#20301;&#32622;&#30340;&#23383;&#31526;ASCII&#30721;&#12290;&#19981;&#20256;&#21442;&#25968;&#40664;&#35748;&#33719;&#21462;&#31532;&#19968;&#20010;&#23383;&#31526;&#30340;ASCII&#30721;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ASCII&#x7801;&#x8f6c;&#x5b57;&#x7b26; String.fromCharCode()" ID="ID_601114347" CREATED="1601985971640" MODIFIED="1601986002090"/>
+<node TEXT="&#x5b57;&#x7b26;&#x7d22;&#x5f15;" ID="ID_1934622171" CREATED="1601985346965" MODIFIED="1601989569911"/>
+<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x622a;&#x53d6;" ID="ID_1127624613" CREATED="1601989570418" MODIFIED="1601989588861"/>
+<node TEXT="&#x8f6c;&#x6362;&#x5927;&#x5c0f;&#x5199;" ID="ID_1489391366" CREATED="1601989589089" MODIFIED="1601989600134"/>
+<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x62c6;&#x5206;" ID="ID_1117073024" CREATED="1601989600305" MODIFIED="1601989613645"/>
+<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x66ff;&#x6362;" ID="ID_6173516" CREATED="1601989622283" MODIFIED="1601989634597"/>
+</node>
+<node TEXT="Math" ID="ID_840999706" CREATED="1601989659286" MODIFIED="1601989810239" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math"/>
+<node TEXT="Date" ID="ID_207315330" CREATED="1601989909133" MODIFIED="1601989985193" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date">
+<node TEXT="&#x600e;&#x4e48;&#x5728;&#x67d0;&#x4e2a;&#x65f6;&#x95f4;&#x4e0a;&#x52a0;&#x4e00;&#x6bb5;&#x65f6;&#x95f4;&#x83b7;&#x53d6;&#x7ed3;&#x679c;&#x65f6;&#x95f4;" ID="ID_1904957458" CREATED="1601990906195" MODIFIED="1601990952382">
+<icon BUILTIN="help"/>
+</node>
+</node>
+</node>
 <node TEXT="&#x5bf9;&#x8c61;&#x539f;&#x578b;(prototype)" ID="ID_1917384826" CREATED="1601957407994" MODIFIED="1601958194799"><richcontent TYPE="NOTE">
 
 <html>
@@ -3047,7 +3315,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3071,10 +3338,9 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
-<node TEXT="DOM" ID="ID_672122591" CREATED="1599963489833" MODIFIED="1599963539517" STYLE="bubble"><richcontent TYPE="NOTE">
+<node TEXT="DOM" ID="ID_672122591" CREATED="1599963489833" MODIFIED="1602037875473" STYLE="bubble"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3082,13 +3348,107 @@
   </head>
   <body>
     <p>
-      &#25991;&#26723;&#23545;&#35937;&#27169;&#22411;
+      &#25991;&#26723;&#23545;&#35937;&#27169;&#22411;&#65288;Document Object Model&#65289;
     </p>
   </body>
 </html>
 </richcontent>
 <node TEXT="&#x8f93;&#x5165;&#x5f39;&#x7a97;" ID="ID_268728707" CREATED="1601806404337" MODIFIED="1601806409668">
 <node TEXT="prompt()" ID="ID_1264421287" CREATED="1601806412422" MODIFIED="1601806448342"/>
+</node>
+<node TEXT="&#x57fa;&#x7840;" ID="ID_744229041" CREATED="1602065466034" MODIFIED="1602065476169">
+<node TEXT="window&#x4e0e;document&#x5bf9;&#x8c61;" ID="ID_274784095" CREATED="1602065476736" MODIFIED="1602065687538"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Window &#23545;&#35937;&#34920;&#31034;&#27983;&#35272;&#22120;&#20013;&#25171;&#24320;&#30340;&#31383;&#21475;&#12290;
+    </p>
+    <p>
+      &#22914;&#26524;&#25991;&#26723;&#21253;&#21547;&#26694;&#26550;&#65288;frame &#25110; iframe &#26631;&#31614;&#65289;&#65292;&#27983;&#35272;&#22120;&#20250;&#20026; HTML &#25991;&#26723;&#21019;&#24314;&#19968;&#20010; window &#23545;&#35937;&#65292;&#24182;&#20026;&#27599;&#20010;&#26694;&#26550;&#21019;&#24314;&#19968;&#20010;&#39069;&#22806;&#30340; window &#23545;&#35937;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27599;&#20010;&#36733;&#20837;&#27983;&#35272;&#22120;&#30340; HTML &#25991;&#26723;&#37117;&#20250;&#25104;&#20026; Document &#23545;&#35937;&#12290;
+    </p>
+    <p>
+      Document &#23545;&#35937;&#20351;&#25105;&#20204;&#21487;&#20197;&#20174;&#33050;&#26412;&#20013;&#23545; HTML &#39029;&#38754;&#20013;&#30340;&#25152;&#26377;&#20803;&#32032;&#36827;&#34892;&#35775;&#38382;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="DOM&#x6811;" ID="ID_364265294" CREATED="1602037965666" MODIFIED="1602037975015">
+<node TEXT="&#x8282;&#x70b9;" ID="ID_1707661937" CREATED="1602038014230" MODIFIED="1602038023405">
+<node TEXT="&#x5143;&#x7d20;&#x8282;&#x70b9;" ID="ID_766157187" CREATED="1602038023851" MODIFIED="1602038030512"/>
+<node TEXT="&#x5c5e;&#x6027;&#x8282;&#x70b9;" ID="ID_1741083944" CREATED="1602038030691" MODIFIED="1602038040408"/>
+<node TEXT="&#x6587;&#x672c;&#x8282;&#x70b9;" ID="ID_1563244491" CREATED="1602038040589" MODIFIED="1602038050321"/>
+</node>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;" ID="ID_892279546" CREATED="1602038590243" MODIFIED="1602038599000">
+<node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x6a21;&#x578b;" ID="ID_162688640" CREATED="1602064952223" MODIFIED="1602064965115">
+<node TEXT="&#x4e8b;&#x4ef6;&#x6e90;.&#x4e8b;&#x4ef6; = &#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_1792986979" CREATED="1602064965975" MODIFIED="1602065003922"/>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;&#x6e90;" ID="ID_1315723216" CREATED="1602038601047" MODIFIED="1602038610231">
+<node TEXT="&#x5143;&#x7d20;" ID="ID_571470025" CREATED="1602065041611" MODIFIED="1602065048149"/>
+<node TEXT="window&#x662f;&#x6839;&#x5143;&#x7d20;" ID="ID_917495590" CREATED="1602065220785" MODIFIED="1602065230605"/>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;" ID="ID_722103745" CREATED="1602038610714" MODIFIED="1602074260734" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalEventHandlers">
+<node TEXT="DOM&#x5143;&#x7d20;&#x52a0;&#x8f7d;&#x5b8c;&#x6210; window.onload" ID="ID_570685437" CREATED="1602039348140" MODIFIED="1602065809164"/>
+<node TEXT="&#x5355;&#x51fb; onclick" ID="ID_111110445" CREATED="1602038290929" MODIFIED="1602065195004"/>
+<node TEXT="&#x53cc;&#x51fb;" ID="ID_135253765" CREATED="1602038328148" MODIFIED="1602038332981"/>
+<node TEXT="&#x9f20;&#x6807;&#x79fb;&#x5165; onmouseenter" ID="ID_1018662231" CREATED="1602038365802" MODIFIED="1602073829826"/>
+<node TEXT="&#x9f20;&#x6807;&#x79fb;&#x5f00; onmouseleave" ID="ID_970084293" CREATED="1602038374008" MODIFIED="1602073840768"/>
+<node TEXT="&#x952e;&#x76d8;&#x4e8b;&#x4ef6;" ID="ID_1712243822" CREATED="1602038379453" MODIFIED="1602038394977"/>
+<node TEXT="..." ID="ID_1980362554" CREATED="1602038417902" MODIFIED="1602038427016"/>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_658079866" CREATED="1601997544420" MODIFIED="1602065091926"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31995;&#32479;&#39044;&#23450;&#20041;&#22909;&#30340;&#34892;&#20026;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5143;&#x7d20;&#x64cd;&#x4f5c;" ID="ID_745118796" CREATED="1601997550340" MODIFIED="1602038196214"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21019;&#24314;
+    </p>
+    <p>
+      &#21024;&#38500;
+    </p>
+    <p>
+      &#22797;&#21046;
+    </p>
+    <p>
+      &#20462;&#25913;
+    </p>
+    <p>
+      &#35774;&#32622;&#26679;&#24335;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x67e5;&#x627e;&#x5143;&#x7d20; getElementById()" ID="ID_328440457" CREATED="1602064591349" MODIFIED="1602064611418"/>
 </node>
 </node>
 <node TEXT="BOM" ID="ID_263402758" CREATED="1599963546040" MODIFIED="1599963571550" STYLE="bubble"><richcontent TYPE="NOTE">
@@ -3141,7 +3501,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x91cd;&#x7f6e;&#x65b9;&#x6848;" ID="ID_966275867" CREATED="1601869184583" MODIFIED="1601869193920">
 <node TEXT="a) * {...}" ID="ID_648375854" CREATED="1601869194856" MODIFIED="1601873569428"><richcontent TYPE="NOTE">
@@ -3156,7 +3515,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="b) reset.css" ID="ID_114964839" CREATED="1601869234752" MODIFIED="1601869655537"><richcontent TYPE="NOTE">
@@ -3180,12 +3538,341 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="c) normalize.css" ID="ID_1824615702" CREATED="1601870970741" MODIFIED="1601870981761"/>
+<node TEXT="&#x8303;&#x4f8b;" ID="ID_1512836063" CREATED="1602463060689" MODIFIED="1602463111160"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <div charset="utf-8" style="color: #d4d4d4; background-color: #1e1e1e; font-family: Menlo, Monaco, Courier New, monospace; font-weight: normal; font-size: 12px; line-height: 18px; white-space: pre">
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">body,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">div,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">dl,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">dt,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">dd,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">ul,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">ol,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">li,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h1,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h2,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h3,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h4,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h5,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h6,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">pre,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">code,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">form,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">fieldset,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">legend,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">input,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">textarea,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">p,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">blockquote,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">th,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">td {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">margin:0;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">padding:0;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">table {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">border-collapse:collapse;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">border-spacing:0;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">fieldset,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">img {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">border:0;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">display:block</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">/*</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">TODO think about hanlding inheritence differently, maybe letting IE6 fail a bit...</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">*/</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">address,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">caption,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">cite,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">code,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">dfn,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">em,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">i,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">b,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">strong,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">th,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">var {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">font-style:normal;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">font-weight:normal;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">ol,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">ul {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">list-style:none;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">caption,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">th {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">text-align:left;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h1,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h2,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h3,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h4,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h5,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">h6 {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">font-size:100%;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">font-weight:normal;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">input,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">textarea,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">select {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">font-family:inherit;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">font-size:inherit;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">font-weight:inherit;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">u,del,s,ins {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">text-decoration:none;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">input,button {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">outline: none;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">border:none;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">.clearfix::after {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">content: '';</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">display: block;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">clear: both; </font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">body {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">font: 12px/1.3 &quot;....&quot;,</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">color: #333</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">} </font></span>
+      </div>
+      <br/>
+      
+
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">a {</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">text-decoration:none;</font></span>
+      </div>
+      <div>
+        <span style="color: #d4d4d4"><font color="#d4d4d4">}</font></span>
+      </div>
+    </div>
+  </body>
+</html>
+
+</richcontent>
 </node>
 </node>
+</node>
+<node TEXT="3) &#x7f51;&#x9875;&#x7248;&#x5fc3;" ID="ID_1067618501" CREATED="1602983975200" MODIFIED="1602984004233"/>
 </node>
 </node>
 <node TEXT="&#x6d4b;&#x8bd5;" POSITION="right" ID="ID_990480695" CREATED="1599966485181" MODIFIED="1599966492728" STYLE="bubble">

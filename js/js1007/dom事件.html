@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        #d3 img{
+            width: 200px;
+            height: 200px;
+        }
+    </style>
+    <script>
+        //onload是window的事件，window可以省略
+        onload =  function() {      //onload 等同于 window.onload
+            var btn1 = document.getElementById('btn1');
+            // btn1.onclick = function() {
+            //     console.log('btn1 clicked!')
+            // };
+            btn1.onclick = () => console.log('btn1 clicked!');
+            // btn1.onclick = () => alert('btn1 clicked!');
+        }
+    </script>
+</head>
+<body>
+    <div id='d1'>
+        <button id="btn1">点我点我！</button>
+    </div>
+    <div id='d2'>
+        <div id='div1'></div>
+        <button class="btn2">显示</button>
+        <button class="btn2">隐藏</button>
+    </div>
+    <!-- 隐藏图片，鼠标放上去才显示 -->
+    <div id='d3'>
+        <img  src="./nuli.jpeg" alt="努力">
+    </div>
+
+    <!-- ****************************************************************** -->
+    <script>
+        // 图片隐藏与显示
+        var div1 = document.getElementById('div1');
+        var btns = document.getElementsByClassName('btn2');
+        console.dir(btns);
+        btns[0].onclick = () => {
+            div1.style.display = 'block';
+        }; 
+        btns[1].onclick = () => {
+            div1.style.display = 'none';
+        }
+
+        // 图片切换
+        var img = document.getElementById('d3').getElementsByTagName('img')[0];
+        img.onmouseover = () => img.src = './nuli2.gif';
+        // img.onmouseleave = () => img.src = './nuli.jpeg';
+        img.onmouseout = () => img.src = './nuli.jpeg';
+        
+    </script>
+</body>
+
+</html>
