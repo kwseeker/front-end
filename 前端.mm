@@ -3103,44 +3103,6 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="js&#x5bf9;&#x8c61;&#x652f;&#x6301;&#x52a8;&#x6001;&#x62d3;&#x5c55;&#x5c5e;&#x6027;" ID="ID_1422512920" CREATED="1601811072554" MODIFIED="1601824051314"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      function Person(name, age) {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;this.name = name;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;this.age = age;
-    </p>
-    <p>
-      &#160;&#160;&#160;
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;this.eat = function() {
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log(&quot;eat ...&quot;);
-    </p>
-    <p>
-      &#160;&#160;&#160;&#160;}
-    </p>
-    <p>
-      }
-    </p>
-    <p>
-      
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
 <node TEXT="&#x8bed;&#x6cd5;" ID="ID_1278553882" CREATED="1601810266073" MODIFIED="1601824360438">
 <node TEXT="&#x5bf9;&#x8c61;&#x5b9a;&#x4e49;" ID="ID_667236223" CREATED="1601810662344" MODIFIED="1601824363154"><richcontent TYPE="NOTE">
 
@@ -3197,14 +3159,45 @@
   </body>
 </html>
 </richcontent>
-</node>
-<node TEXT="&#x6210;&#x5458;&#x8bbf;&#x95ee;" ID="ID_1003676359" CREATED="1601810668059" MODIFIED="1601810926754"><richcontent TYPE="NOTE">
+<node TEXT="&#x65b9;&#x5f0f;1&#xff1a;&#x901a;&#x8fc7;&#x5bf9;&#x8c61;&#x5b57;&#x9762;&#x91cf;&#x521b;&#x5efa;&#xff1a;var object = {}" ID="ID_716039687" CREATED="1603608440292" MODIFIED="1603609290910"/>
+<node TEXT="&#x65b9;&#x5f0f;2&#xff1a;&#x901a;&#x8fc7;&#x7c7b;&#x6784;&#x9020;&#x51fd;&#x6570;&#x521b;&#x5efa;&#xff1a; var object = new Object();" ID="ID_880657079" CREATED="1603608464953" MODIFIED="1603609299046"/>
+<node TEXT="&#x4e0a;&#x9762;&#x4e24;&#x79cd;&#x65b9;&#x5f0f;&#x7684;&#x533a;&#x522b;" ID="ID_392083048" CREATED="1603609485114" MODIFIED="1603609577861">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
     
   </head>
   <body>
+    <p>
+      <b>1) this&#25351;&#38024;&#25351;&#21521;&#19981;&#21516;</b>
+    </p>
+    <p>
+      &#24403;&#29992;new&#30340;&#26102;&#20505;&#65292;&#20989;&#25968;&#20869;&#37096;&#30340;this&#26159;&#19968;&#20010;&#26032;&#30340;&#23545;&#35937;&#65292;&#22914;&#26524;&#19981;&#29992;new&#65292;&#20063;&#23601;&#26159;&#25226;&#23427;&#24403;&#25104;&#19968;&#20010;&#26222;&#36890;&#30340;&#20989;&#25968;&#25191;&#34892;&#65292;&#23427;&#30340;this&#26159;window&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="1) &#x6210;&#x5458;&#x8bbf;&#x95ee;" ID="ID_1003676359" CREATED="1601810668059" MODIFIED="1603609021792"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>// .&#23646;&#24615;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; </b>
+    </p>
+    <p>
+      <b>// ['&#23646;&#24615;&#21517;']</b>
+    </p>
+    <p>
+      
+    </p>
     <p>
       someone.name
     </p>
@@ -3227,11 +3220,83 @@
       var attr = 'speak';
     </p>
     <p>
-      someone[attr]()
+      someone[attr]()&#160;&#160;&#160;&#160;
     </p>
   </body>
 </html>
+
 </richcontent>
+</node>
+<node TEXT="2) &#x5faa;&#x73af;&#x904d;&#x5386;" ID="ID_861625068" CREATED="1603609022673" MODIFIED="1603609029766"/>
+<node TEXT="3) &#x5c5e;&#x6027;&#x5220;&#x9664;" ID="ID_638164249" CREATED="1603609029954" MODIFIED="1603609066213"/>
+<node TEXT="4) &#x5224;&#x65ad;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x62e5;&#x6709;&#x5c5e;&#x6027;" ID="ID_1010916831" CREATED="1603609039236" MODIFIED="1603609061295"/>
+<node TEXT="&#x7279;&#x6027;" ID="ID_1436106667" CREATED="1603608518051" MODIFIED="1603608520519">
+<node TEXT="js&#x5bf9;&#x8c61;&#x652f;&#x6301;&#x52a8;&#x6001;&#x62d3;&#x5c55;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;" ID="ID_1422512920" CREATED="1601811072554" MODIFIED="1603608783718"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      function Person(name, age) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;this.name = name;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;this.age = age;
+    </p>
+    <p>
+      &#160;&#160;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;this.eat = function() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log(&quot;eat ...&quot;);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var someone = new Person('Arvin', 27);
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //&#25299;&#23637;&#23646;&#24615;
+    </p>
+    <p>
+      someone.role = 'programmer';
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //&#25299;&#23637;&#26041;&#27861;
+    </p>
+    <p>
+      someone.coding = function() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;console.log('&#25105;&#20250;js');
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="&#x7c7b;&#xff08;ES6&#x5f15;&#x5165;&#xff09;" ID="ID_507264298" CREATED="1601824087392" MODIFIED="1601824563711" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes"><richcontent TYPE="DETAILS">
