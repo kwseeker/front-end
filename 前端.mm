@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#x524d;&#x7aef;" FOLDED="false" ID="ID_1272274355" CREATED="1598168296865" MODIFIED="1598168308233" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
+<hook NAME="MapStyle" zoom="1.331">
     <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="16" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="&#x6559;&#x7a0b;" POSITION="right" ID="ID_1709163217" CREATED="1599967001354" MODIFIED="1599967008258">
 <edge COLOR="#ff0000"/>
 <node TEXT="MDN&#x6587;&#x6863;" ID="ID_458601979" CREATED="1598178532588" MODIFIED="1599967047459" LINK="https://developer.mozilla.org/zh-CN/docs/Web"/>
@@ -102,7 +102,7 @@
 <edge COLOR="#ff00ff"/>
 <node TEXT="1&#xff09;&#x5143;&#x7d20;&#x662f;&#x4ece;&#x5de6;&#x5411;&#x53f3;&#xff0c;&#x4ece;&#x4e0a;&#x5230;&#x4e0b;&#x4f9d;&#x6b21;&#x6e32;&#x67d3;&#x7684;" ID="ID_973489125" CREATED="1601692037748" MODIFIED="1601692075835"/>
 </node>
-<node TEXT="HTML" POSITION="right" ID="ID_1360212548" CREATED="1598168329431" MODIFIED="1598168668539" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML" STYLE="bubble">
+<node TEXT="HTML" FOLDED="true" POSITION="right" ID="ID_1360212548" CREATED="1598168329431" MODIFIED="1598168668539" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML" STYLE="bubble">
 <edge COLOR="#ff0000"/>
 <node TEXT="DTD" ID="ID_1532021464" CREATED="1598178640023" MODIFIED="1599977902238" LINK="https://www.w3school.com.cn/dtd/index.asp" STYLE="bubble"><richcontent TYPE="NOTE">
 
@@ -241,7 +241,23 @@
 </node>
 <node TEXT="&#x8868;&#x5355;" ID="ID_1283961514" CREATED="1599979611566" MODIFIED="1599979616253">
 <node TEXT="&lt;button&gt;" ID="ID_1276371721" CREATED="1599979619118" MODIFIED="1599979625612"/>
-<node TEXT="&lt;form&gt;" ID="ID_1467601357" CREATED="1599979625915" MODIFIED="1599979632027"/>
+<node TEXT="&lt;form&gt;" ID="ID_1467601357" CREATED="1599979625915" MODIFIED="1603638051200"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23646;&#24615;&#65306;
+    </p>
+    <p>
+      action: &#22788;&#29702;&#34920;&#21333;&#25552;&#20132;&#30340; URL&#12290;&#36825;&#20010;&#20540;&#21487;&#34987; &lt;button&gt;&#12289;&lt;input type=&quot;submit&quot;&gt; &#25110; &lt;input type=&quot;image&quot;&gt; &#20803;&#32032;&#19978;&#30340; formaction &#23646;&#24615;&#35206;&#30422;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="&lt;input&gt;" ID="ID_745826925" CREATED="1599979632399" MODIFIED="1599979636049"/>
 <node TEXT="&lt;label&gt;" ID="ID_1714898371" CREATED="1599979636560" MODIFIED="1599979640604"/>
 <node TEXT="&lt;progress&gt;" ID="ID_127488969" CREATED="1599979652657" MODIFIED="1599979656862"/>
@@ -416,7 +432,188 @@
 </node>
 </node>
 </node>
-<node TEXT="CSS" POSITION="right" ID="ID_569575831" CREATED="1598168338574" MODIFIED="1600786887960" STYLE="bubble">
+<node TEXT="HTML5" FOLDED="true" POSITION="right" ID="ID_1354320549" CREATED="1603609770845" MODIFIED="1603628325746" LINK="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5" STYLE="bubble">
+<edge COLOR="#7c0000"/>
+<node TEXT="&#x53d8;&#x5316;" ID="ID_262333970" CREATED="1603627034531" MODIFIED="1603627055149" STYLE="bubble">
+<node TEXT="&#x65b0;&#x589e;&#x529f;&#x80fd;" ID="ID_679933584" CREATED="1603627216471" MODIFIED="1603627222037">
+<node TEXT="&#x8bed;&#x4e49;&#x5316;&#x6807;&#x7b7e;" ID="ID_599942240" CREATED="1603627059053" MODIFIED="1603627065612"/>
+<node TEXT="&#x8868;&#x5355;&#x5143;&#x7d20;&#x548c;&#x5c5e;&#x6027;" ID="ID_1597166506" CREATED="1603627123811" MODIFIED="1603627134497"/>
+<node TEXT="&#x591a;&#x5a92;&#x4f53;" ID="ID_1166506403" CREATED="1603627134747" MODIFIED="1603627143614"/>
+<node TEXT="&#x672c;&#x5730;&#x5b58;&#x50a8;" ID="ID_33768979" CREATED="1603627143887" MODIFIED="1603627149134"/>
+<node TEXT="2D&#x3001;3D" ID="ID_1512168179" CREATED="1603627149293" MODIFIED="1603627155664"/>
+<node TEXT="&#x52a8;&#x753b;&#x3001;&#x8fc7;&#x6e21;" ID="ID_168469488" CREATED="1603627155879" MODIFIED="1603627165289"/>
+<node TEXT="..." ID="ID_708414441" CREATED="1603627177049" MODIFIED="1603627178894"/>
+</node>
+<node TEXT="&#x517c;&#x5bb9;&#x6027;" ID="ID_891805114" CREATED="1603627233693" MODIFIED="1603627758692"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29616;&#20195;&#27983;&#35272;&#22120;&#38470;&#32493;&#25903;&#25345;html5&#26032;&#30340;&#29305;&#24615;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#31227;&#21160;&#31471;&#25903;&#25345;&#33391;&#22909;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x8bed;&#x4e49;&#x5316;&#x6807;&#x7b7e;" ID="ID_1529771175" CREATED="1603627302313" MODIFIED="1603628770474" STYLE="bubble"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21518;&#38754;&#21015;&#20030;&#30340;&#27983;&#35272;&#22120;&#37117;&#35270;&#20026;&#22359;&#20803;&#32032;&#65292;&#38500;&#20102;IE9&#20013;&#19981;&#26159;&#20316;&#20026;&#22359;&#20803;&#32032;&#12290;
+    </p>
+    <p>
+      &#23601;&#20687;&#26159;div&#21152;&#20010;class
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&lt;header&gt;" ID="ID_1051726149" CREATED="1603627328186" MODIFIED="1603627474428"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19987;&#38376;&#29992;&#20316;&#23450;&#20041;&#22836;&#37096;&#21306;&#22495;&#30340;&#26631;&#31614;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;header&gt;&lt;/header&gt;
+    </p>
+    <p>
+      &#31561;&#21516;&#20110;
+    </p>
+    <p>
+      &lt;div class=&quot;header&quot;&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;nav&gt;" ID="ID_1444296807" CREATED="1603627491050" MODIFIED="1603627536124"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23548;&#33322;&#21306;&#22495;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;article&gt;" ID="ID_76575117" CREATED="1603627541902" MODIFIED="1603627591464"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20869;&#23481;&#21306;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="aside" ID="ID_851572639" CREATED="1603627559780" MODIFIED="1603627578251"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20391;&#36793;&#26639;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;footer&gt;" ID="ID_236721958" CREATED="1603627593826" MODIFIED="1603627601748"/>
+<node TEXT="&lt;section&gt;" ID="ID_384071029" CREATED="1603627685652" MODIFIED="1603627698683"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20027;&#39064;&#26631;&#31614;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="main" ID="ID_1771829446" CREATED="1603627764933" MODIFIED="1603627791254"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20027;&#20307;&#21306;&#22495;&#65292; IE&#19981;&#25903;&#25345;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5217;&#x8868;&#x6807;&#x7b7e;" ID="ID_840004413" CREATED="1603628113655" MODIFIED="1603628122172" STYLE="bubble">
+<node TEXT="&lt;datalist&gt;" ID="ID_1761754230" CREATED="1603628124406" MODIFIED="1603628180311"/>
+<node TEXT="&lt;details&gt; &lt;summary&gt;" ID="ID_1797875830" CREATED="1603628128713" MODIFIED="1603628193526"/>
+<node TEXT="&lt;ruby&gt;" ID="ID_346979847" CREATED="1603628193805" MODIFIED="1603628198791"/>
+<node TEXT="&lt;rt&gt;" ID="ID_594937972" CREATED="1603628199000" MODIFIED="1603628203419"/>
+<node TEXT="&lt;mark&gt;" ID="ID_1771374901" CREATED="1603628204063" MODIFIED="1603628207896"/>
+<node TEXT="&lt;figure&gt; &lt;figcaption&gt;" ID="ID_1619244845" CREATED="1603628208309" MODIFIED="1603628226279"/>
+</node>
+<node TEXT="&#x8868;&#x5355;(form)&#x5143;&#x7d20;" ID="ID_972127747" CREATED="1603635723912" MODIFIED="1603637917863" STYLE="bubble">
+<node TEXT="&lt;input&gt;" ID="ID_796929446" CREATED="1603635732684" MODIFIED="1603638315958" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input">
+<node TEXT="email" ID="ID_1346802393" CREATED="1603635780427" MODIFIED="1603635782943"/>
+<node TEXT="url" ID="ID_1564034129" CREATED="1603635783180" MODIFIED="1603635784839"/>
+<node TEXT="number" ID="ID_1556889277" CREATED="1603637817048" MODIFIED="1603637822988"/>
+<node TEXT="search" ID="ID_1763954812" CREATED="1603637823452" MODIFIED="1603637829931"/>
+<node TEXT="tel" ID="ID_1242137489" CREATED="1603637830348" MODIFIED="1603637833024"/>
+<node TEXT="range" ID="ID_1548783658" CREATED="1603637833788" MODIFIED="1603637836625"/>
+<node TEXT="color" ID="ID_263109719" CREATED="1603637837013" MODIFIED="1603637840053"/>
+<node TEXT="date" ID="ID_593940001" CREATED="1603637840818" MODIFIED="1603637842531"/>
+<node TEXT="month" ID="ID_109463498" CREATED="1603637842856" MODIFIED="1603637846484"/>
+<node TEXT="week" ID="ID_1981254333" CREATED="1603637846694" MODIFIED="1603637853167"/>
+<node TEXT="time" ID="ID_179309598" CREATED="1603637853353" MODIFIED="1603637855442"/>
+<node TEXT="datetime" ID="ID_2940066" CREATED="1603637855762" MODIFIED="1603637859404"/>
+<node TEXT="datetime-local" ID="ID_916318710" CREATED="1603637859753" MODIFIED="1603637867125"/>
+</node>
+</node>
+<node TEXT="&#x591a;&#x5a92;&#x4f53;" ID="ID_255503413" CREATED="1603639029186" MODIFIED="1603639044082" STYLE="bubble">
+<node TEXT="&#x97f3;&#x9891;" ID="ID_908137658" CREATED="1603639045167" MODIFIED="1603639049043">
+<node TEXT="&lt;audio&gt;" ID="ID_895136818" CREATED="1603639056586" MODIFIED="1603642983965" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/audio"/>
+</node>
+<node TEXT="&#x89c6;&#x9891;" ID="ID_730746439" CREATED="1603639049368" MODIFIED="1603639054208">
+<node TEXT="&lt;video&gt;" ID="ID_64744398" CREATED="1603639068875" MODIFIED="1603642961119" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/video"/>
+</node>
+</node>
+</node>
+<node TEXT="CSS" FOLDED="true" POSITION="right" ID="ID_569575831" CREATED="1598168338574" MODIFIED="1600786887960" STYLE="bubble">
 <edge COLOR="#0000ff"/>
 <richcontent TYPE="NOTE">
 
@@ -470,8 +667,20 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="css&#x9009;&#x62e9;&#x5668;" ID="ID_883212037" CREATED="1600788781518" MODIFIED="1600788804626">
-<node TEXT="&#x5206;&#x7c7b;" ID="ID_530955574" CREATED="1601865532833" MODIFIED="1601865539176">
+<node TEXT="css&#x9009;&#x62e9;&#x5668;" ID="ID_883212037" CREATED="1600788781518" MODIFIED="1609664900061" LINK="https://www.w3school.com.cn/cssref/css_selectors.asp">
+<node TEXT="&#x5206;&#x7c7b;" ID="ID_530955574" CREATED="1601865532833" MODIFIED="1609664940287"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">css1~3&#26377;40&#22810;&#31181;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 <node TEXT="&#x6807;&#x7b7e;&#x9009;&#x62e9;&#x5668;" ID="ID_744843169" CREATED="1600788810838" MODIFIED="1601865951378"><richcontent TYPE="NOTE">
 
 <html>
@@ -1502,6 +1711,9 @@
 </node>
 </node>
 </node>
+<node TEXT="CSS3" POSITION="right" ID="ID_1298979961" CREATED="1603643032029" MODIFIED="1603643041533" STYLE="bubble">
+<edge COLOR="#00007c"/>
+</node>
 <node TEXT="SVG" POSITION="right" ID="ID_113460366" CREATED="1599966568838" MODIFIED="1599966573648" STYLE="bubble">
 <edge COLOR="#7c7c00"/>
 </node>
@@ -1637,6 +1849,44 @@
 </html>
 </richcontent>
 </node>
+</node>
+<node TEXT="JS&#x6587;&#x4ef6;&#x547d;&#x540d;&#x89c4;&#x8303;" ID="ID_986970552" CREATED="1607835659253" MODIFIED="1607835883034"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      JavaScript &#28304;&#25991;&#20214;&#21629;&#21517;&#27809;&#26377;&#20160;&#20040;&#30828;&#24615;&#35268;&#23450;&#25110;&#25512;&#33616;&#26631;&#20934;&#65292;&#23436;&#20840;&#21487;&#20197;&#20973;&#20010;&#20154;&#21916;&#22909;&#21629;&#21517;&#65292;&#21482;&#35201;&#31526;&#21512; URI/URL &#21629;&#21517;&#35268;&#21017;&#21363;&#21487;&#65292;&#20064;&#24815;&#20351;&#29992;&#30701;&#32447;&#65288;-&#65289;&#25110;&#21477;&#28857;&#65288;.&#65289;&#20316;&#20026;&#20998;&#38548;&#31526;&#21495;&#65292;&#26368;&#22909;&#20351;&#29992;&#23567;&#20889;&#33521;&#25991;&#23383;&#31526;&#65292;&#19981;&#35201;&#20351;&#29992;&#20854;&#20182;&#31526;&#21495;&#21644;&#25193;&#23637;&#23383;&#31526;&#65288;&#22914;&#20013;&#25991;&#23383;&#31526;&#65289;&#12290;&#20063;&#26377;&#19968;&#20123;&#21629;&#21517;&#24815;&#20363;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      1. &#19968;&#33324;&#20351;&#29992; .js &#25193;&#23637;&#21517;&#65292;&#36825;&#20010;&#25193;&#23637;&#21517;&#30340;&#20860;&#23481;&#24615;&#26368;&#22909;&#12290;&#20854;&#23454;&#20219;&#20309;&#25193;&#23637;&#21517;&#37117;&#21487;&#20197;&#65292;&#21482;&#35201;&#26159; text &#31867;&#22411;&#12289;&#32534;&#30721;&#27491;&#30830;&#21363;&#21487;&#65292;&#20294;&#24341;&#29992;&#26102;&#39035;&#27880;&#26126;&#31867;&#22411;&#65288;type=&quot;text/javascript&quot; &#25110; &quot;application/javascript&quot;&#65289;&#21450;&#32534;&#30721;&#23383;&#31526;&#38598;&#65288;charset=&quot;UTF-8&quot; &#31561;&#31561;&#65289;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2.&#160;&#19968;&#33324;&#20351;&#29992;&#30701;&#32447;&#26367;&#20195;&#33258;&#28982;&#35821;&#35328;&#21517;&#31216;&#20013;&#30340;&#31354;&#26684;&#65292;&#27604;&#22914; jQuery UI 1.9.0 &#30340;&#28304;&#25991;&#20214;&#21487;&#21629;&#21517;&#20026;&#8220;jquery-ui-1.9.0.js&#8221;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3. &#19968;&#33324;&#29992;&#21477;&#28857;&#20998;&#38548;&#34920;&#31034;&#21517;&#31216;&#20013;&#30340;&#20174;&#23646;&#20851;&#31995;&#65292;&#33539;&#22260;&#22823;&#30340;&#22312;&#21069;&#38754;&#12290;&#27604;&#22914;&#20320;&#25552;&#21040;&#30340; MooFx2 &#30340;&#65288;&#20027;&#27169;&#22359;&#65289;&#28304;&#25991;&#20214;&#23601;&#21487;&#21629;&#21517;&#20026;&#8220;moo.fx.js&#8221;&#65292;MooFx2 &#30340;&#21487;&#36873;&#29305;&#25928;&#21253;&#65292;&#23646;&#20110; MooFx2 &#30340;&#23376;&#27169;&#22359;&#65292;&#21487;&#21629;&#21517;&#20026;&#8220;moo.fx.pack.js&#8221;&#65307;&#36824;&#26377;&#65292;&#27604;&#22914; jQuery &#30340;&#34920;&#21333;&#25554;&#20214; Form&#65292;&#23646;&#20110; jQuery &#25193;&#23637;&#25554;&#20214;&#65292;&#21017;&#21487;&#21629;&#21517;&#20026;&#8220;jquery.form.js&#8221;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      4. &#32463;&#36807;&#21387;&#32553;&#30340;&#28304;&#25991;&#20214;&#21487;&#20197;&#20351;&#29992;&#8220;min&#8221;&#34920;&#31034;&#65292;&#21306;&#21035;&#20110;&#21407;&#22987;&#29256;&#26412;&#12290;&#27604;&#22914;&#32463;&#36807;&#21387;&#32553;&#30340; jQuery &#28304;&#25991;&#20214;&#21487;&#20197;&#21629;&#21517;&#20026;&#8220;jquery.min.js&#8221;&#65292;YUI &#21017;&#20064;&#24815;&#21629;&#21517;&#20026;&quot;yui-min.js&quot;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
 <node TEXT="ES5" ID="ID_103058380" CREATED="1599963473278" MODIFIED="1599963482971" STYLE="bubble">
@@ -2956,14 +3206,13 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x4f18;&#x70b9;" ID="ID_535181650" CREATED="1603595515331" MODIFIED="1603595524170">
 <node TEXT="1) &#x51cf;&#x5c11;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#x4f7f;&#x7528;&#xff0c;&#x9632;&#x6b62;&#x5916;&#x90e8;&#x547d;&#x540d;&#x7a7a;&#x95f4;&#x88ab;&#x6c61;&#x67d3;" ID="ID_1020224671" CREATED="1603595526071" MODIFIED="1603595593175"/>
 <node TEXT="2) &#x9690;&#x85cf;&#x5185;&#x90e8;&#x4ee3;&#x7801;&#x66b4;&#x9732;&#x63a5;&#x53e3;&#xff0c;&#x5b9e;&#x73b0;&#x6a21;&#x5757;&#x5316;" ID="ID_1662887145" CREATED="1603595541934" MODIFIED="1603595566179"/>
 </node>
 </node>
-<node TEXT="&#x56de;&#x8c03;&#x51fd;&#x6570;" ID="ID_306236997" CREATED="1603595619780" MODIFIED="1603595684361"><richcontent TYPE="NOTE">
+<node TEXT="&#x56de;&#x8c03;&#x51fd;&#x6570;" ID="ID_306236997" CREATED="1603595619780" MODIFIED="1608474668643"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -2971,11 +3220,22 @@
   </head>
   <body>
     <p>
+      &#22238;&#35843;&#20989;&#25968;&#20316;&#20026;&#21442;&#25968;&#20256;&#32473;&#21478;&#19968;&#20010;&#20989;&#25968;&#65288;&#29238;&#20989;&#25968;&#65289;&#65292;&#29238;&#20989;&#25968;&#34987;&#25191;&#34892;&#21518;&#25191;&#34892;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;DOM&#20013;&#28857;&#20987;&#20107;&#20214;&#30340;&#22238;&#35843;&#22788;&#29702;&#20989;&#25968;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
       &#33258;&#23450;&#20041;&#65292;&#33258;&#24049;&#27809;&#26377;&#35843;&#29992;&#65292; &#20989;&#25968;&#26368;&#32456;&#26159;&#20250;&#34987;&#25191;&#34892;&#30340;&#12290;
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="call/apply/this" ID="ID_1496731796" CREATED="1603596045658" MODIFIED="1603596056054"/>
@@ -2993,7 +3253,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x9884;&#x7f16;&#x8bd1;&#x5904;&#x7406;&#xff1a;&#x5c06;&#x76f8;&#x540c;&#x4f5c;&#x7528;&#x57df;&#x4e0b;&#x88ab;&#x4f9d;&#x8d56;&#x7684;&#x53d8;&#x91cf;&#x58f0;&#x660e;&#x6216;&#x51fd;&#x6570;&#x58f0;&#x660e;&#x548c;&#x51fd;&#x6570;&#x4f53;&#x79fb;&#x52a8;&#x5230;&#x4f9d;&#x8d56;&#x4f4d;&#x7f6e;&#x4e4b;&#x524d;; &#x51fd;&#x6570;&#x58f0;&#x660e;&#x4f18;&#x5148;&#x7ea7;&#x9ad8;&#x4e8e;&#x53d8;&#x91cf;&#x58f0;&#x660e;" ID="ID_1706776183" CREATED="1603593421490" MODIFIED="1603605801377">
 <icon BUILTIN="idea"/>
@@ -3027,7 +3286,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x53d8;&#x91cf;&#x4e0e;&#x51fd;&#x6570;&#x540c;&#x540d;&#xff0c;&#x51fd;&#x6570;&#x4f18;&#x5148;&#x63d0;&#x5347;" ID="ID_628721151" CREATED="1603592758031" MODIFIED="1603592784675"/>
@@ -3069,7 +3327,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x7efc;&#x5408;&#x793a;&#x4f8b;" ID="ID_42328050" CREATED="1603593304529" MODIFIED="1603608186916"><richcontent TYPE="NOTE">
@@ -3084,7 +3341,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3178,11 +3434,10 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
-<node TEXT="1) &#x6210;&#x5458;&#x8bbf;&#x95ee;" ID="ID_1003676359" CREATED="1601810668059" MODIFIED="1603609021792"><richcontent TYPE="NOTE">
+<node TEXT="1) &#x5c5e;&#x6027;&#xff08;&#x503c;/&#x65b9;&#x6cd5;&#xff09;&#x589e;&#x5220;&#x6539;&#x67e5;" ID="ID_1003676359" CREATED="1601810668059" MODIFIED="1607835226551"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3224,12 +3479,11 @@
     </p>
   </body>
 </html>
-
 </richcontent>
+<node TEXT="&#x5220;&#x9664;&#x5c5e;&#x6027; delete obj.attr;" ID="ID_614210323" CREATED="1607834566009" MODIFIED="1607834591861"/>
 </node>
-<node TEXT="2) &#x5faa;&#x73af;&#x904d;&#x5386;" ID="ID_861625068" CREATED="1603609022673" MODIFIED="1603609029766"/>
-<node TEXT="3) &#x5c5e;&#x6027;&#x5220;&#x9664;" ID="ID_638164249" CREATED="1603609029954" MODIFIED="1603609066213"/>
-<node TEXT="4) &#x5224;&#x65ad;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x62e5;&#x6709;&#x5c5e;&#x6027;" ID="ID_1010916831" CREATED="1603609039236" MODIFIED="1603609061295"/>
+<node TEXT="2) &#x5bf9;&#x5c5e;&#x6027;&#x5faa;&#x73af;&#x904d;&#x5386;" ID="ID_861625068" CREATED="1603609022673" MODIFIED="1607835176632"/>
+<node TEXT="3) &#x5224;&#x65ad;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x62e5;&#x6709;&#x5c5e;&#x6027;" ID="ID_1010916831" CREATED="1603609039236" MODIFIED="1607845008900"/>
 <node TEXT="&#x7279;&#x6027;" ID="ID_1436106667" CREATED="1603608518051" MODIFIED="1603608520519">
 <node TEXT="js&#x5bf9;&#x8c61;&#x652f;&#x6301;&#x52a8;&#x6001;&#x62d3;&#x5c55;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;" ID="ID_1422512920" CREATED="1601811072554" MODIFIED="1603608783718"><richcontent TYPE="NOTE">
 
@@ -3294,36 +3548,12 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x7c7b;&#xff08;ES6&#x5f15;&#x5165;&#xff09;" ID="ID_507264298" CREATED="1601824087392" MODIFIED="1601824563711" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#0000c0">&#24863;&#35273;&#21644;java&#30340;&#31867;&#24456;&#20687;</font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="class&#x7c7b;&#x58f0;&#x660e;" ID="ID_608289070" CREATED="1601824651631" MODIFIED="1601824661551"/>
-<node TEXT="&#x6784;&#x9020;&#x65b9;&#x6cd5;" ID="ID_492926577" CREATED="1601824679376" MODIFIED="1601824686654"/>
-<node TEXT="&#x7c7b;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_209078239" CREATED="1601824743592" MODIFIED="1601824751780"/>
-<node TEXT="&#x539f;&#x578b;&#x65b9;&#x6cd5;" ID="ID_1795573141" CREATED="1601824977676" MODIFIED="1601824989366"/>
-<node TEXT="&#x9759;&#x6001;&#x65b9;&#x6cd5;" ID="ID_746107215" CREATED="1601824989838" MODIFIED="1601824997788"/>
-<node TEXT="&#x516c;&#x6709;&#x5b57;&#x6bb5;&#x548c;&#x79c1;&#x6709;&#x5b57;&#x6bb5;" ID="ID_1691103516" CREATED="1601825013932" MODIFIED="1601957568162"/>
-<node TEXT="&#x5b50;&#x7c7b; extend" ID="ID_642936070" CREATED="1601825121196" MODIFIED="1601825134455"/>
-<node TEXT="&#x7236;&#x7c7b; super" ID="ID_16130385" CREATED="1601825134900" MODIFIED="1601825149020"/>
-<node TEXT="species" ID="ID_1162215916" CREATED="1601825159251" MODIFIED="1601825165793"/>
-<node TEXT="mix-ins" ID="ID_336553180" CREATED="1601825184763" MODIFIED="1601825185744"/>
-</node>
-<node TEXT="&#x5185;&#x7f6e;&#x5bf9;&#x8c61;" ID="ID_217860911" CREATED="1601823828567" MODIFIED="1601823834126">
+<node TEXT="&#x6807;&#x51c6;&#x5185;&#x7f6e;&#x5bf9;&#x8c61;" ID="ID_217860911" CREATED="1601823828567" MODIFIED="1607845379145" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects">
+<node TEXT="Object" ID="ID_1002710364" CREATED="1607835088917" MODIFIED="1607835100514" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object"/>
 <node TEXT="Array" ID="ID_1101740722" CREATED="1601990023475" MODIFIED="1601990064442" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array"/>
 <node TEXT="String" ID="ID_1176913937" CREATED="1601969917283" MODIFIED="1601989834414" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String"><richcontent TYPE="NOTE">
 
@@ -3513,47 +3743,15 @@
 <node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x62c6;&#x5206;" ID="ID_1117073024" CREATED="1601989600305" MODIFIED="1601989613645"/>
 <node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x66ff;&#x6362;" ID="ID_6173516" CREATED="1601989622283" MODIFIED="1601989634597"/>
 </node>
+<node TEXT="Boolean" ID="ID_794560259" CREATED="1607845528456" MODIFIED="1607845531543"/>
 <node TEXT="Math" ID="ID_840999706" CREATED="1601989659286" MODIFIED="1601989810239" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math"/>
 <node TEXT="Date" ID="ID_207315330" CREATED="1601989909133" MODIFIED="1601989985193" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date">
 <node TEXT="&#x600e;&#x4e48;&#x5728;&#x67d0;&#x4e2a;&#x65f6;&#x95f4;&#x4e0a;&#x52a0;&#x4e00;&#x6bb5;&#x65f6;&#x95f4;&#x83b7;&#x53d6;&#x7ed3;&#x679c;&#x65f6;&#x95f4;" ID="ID_1904957458" CREATED="1601990906195" MODIFIED="1601990952382">
 <icon BUILTIN="help"/>
 </node>
 </node>
-</node>
-<node TEXT="&#x5bf9;&#x8c61;&#x539f;&#x578b;(prototype)" ID="ID_1917384826" CREATED="1601957407994" MODIFIED="1601958194799"><richcontent TYPE="NOTE">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p charset="utf-8" style="margin-top: 0; margin-bottom: 0; margin-right: 0px; margin-left: 0px; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      &#25152;&#26377;&#30340;JS&#23545;&#35937;&#30340;&#23646;&#24615;&#21644;&#26041;&#27861;&#37117;&#32487;&#25215;&#33258;&#21407;&#22411;&#12290;
-    </p>
-    <p charset="utf-8" style="margin-top: 0; margin-bottom: 0; margin-right: 0px; margin-left: 0px; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
-      Object.prototype &#20301;&#20110;&#21407;&#22411;&#32487;&#25215;&#38142;&#30340;&#39030;&#37096;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      &#21487;&#20197;&#36890;&#36807;&#23545;&#35937;&#21407;&#22411;&#20026;&#27492;&#31867;&#25152;&#26377;&#24050;&#26377;&#23545;&#35937;&#28155;&#21152;&#23646;&#24615;&#65292;&#26041;&#27861;&#12290;
-    </p>
-    <p>
-      
-    </p>
-    <p>
-      <span charset="utf-8" class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">function</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">Person(first, last, age, eyecolor) {</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#160;</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">firstName</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">= first;</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#160;</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">lastName</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">= last;</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#160;</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">age</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">= age;</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#160;</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">eyeColor</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">= eyecolor;</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">}</span><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font>
-    </p>
-    <p>
-      <font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">//&#28155;&#21152;&#23646;&#24615;<br charset="utf-8" align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">Person.</span></font><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">prototype</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">nationality</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">=</span><span>&#160;</span></font><span class="jsstringcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">&quot;English&quot;</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">;</font></span>&#160;
-    </p>
-    <p>
-      <font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">//&#28155;&#21152;&#26041;&#27861;<br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">Person.</span></font><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">prototype</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">name</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">=</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">function</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">() {</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#160;</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">return</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">firstName</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">+</span><span>&#160;</span></font><span class="jsstringcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">&quot; &quot;</font></span><span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">+</span><span>&#160;</span></font><span class="jskeywordcolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">this</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font></span><span class="jspropertycolor" style="color: black; font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="black" face="Consolas, courier new" size="15px">lastName</font></span><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">;</font></span><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/><span style="color: rgb(0, 0, 0); font-family: Consolas, courier new; font-size: 15px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none">};</span></font>
-    </p>
-  </body>
-</html>
-</richcontent>
+<node TEXT="JSON" ID="ID_1512551681" CREATED="1607845574846" MODIFIED="1607845591408" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/JSON"/>
+<node TEXT="..." ID="ID_1597066347" CREATED="1607845354378" MODIFIED="1607845356429"/>
 </node>
 </node>
 </node>
@@ -3571,7 +3769,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x8bed;&#x6cd5;&#x89e3;&#x6790;" ID="ID_844271776" CREATED="1603594854770" MODIFIED="1603603297850"><richcontent TYPE="NOTE">
@@ -3586,7 +3783,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x9884;&#x7f16;&#x8bd1;" ID="ID_664890454" CREATED="1603594858020" MODIFIED="1603603307196"><richcontent TYPE="NOTE">
@@ -3601,7 +3797,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x8bf4;&#x660e;" ID="ID_1200002789" CREATED="1603603865080" MODIFIED="1603603869025">
 <node TEXT="1) imply global &#x6697;&#x793a;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#xff1b;&#x5373;&#x4efb;&#x4f55;&#x53d8;&#x91cf;&#xff0c;&#x5982;&#x679c;&#x53d8;&#x91cf;&#x672a;&#x7ecf;&#x58f0;&#x660e;&#x5c31;&#x8d4b;&#x503c;&#xff0c;&#x6b64;&#x53d8;&#x91cf;&#x5c31;&#x4e3a;&#x5168;&#x5c40;&#x5bf9;&#x8c61;&#x6240;&#x6709;&#x3002;" ID="ID_1336121867" CREATED="1603603702279" MODIFIED="1603603855876"><richcontent TYPE="NOTE">
@@ -3619,7 +3814,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="2) &#x4e00;&#x5207;&#x58f0;&#x660e;&#x7684;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#xff0c;&#x5168;&#x662f;window&#x7684;&#x5c5e;&#x6027;&#x3002;" ID="ID_1926234914" CREATED="1603603830862" MODIFIED="1603603837257"/>
@@ -3639,7 +3833,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="1) &#x521b;&#x5efa;AO&#x5bf9;&#x8c61; Activation Object [&#x5e38;&#x8bf4;&#x7684;&#x4f5c;&#x7528;&#x57df;&#xff0c;&#x4e5f;&#x79f0;&#x4e3a;&#x6267;&#x884c;&#x5668;&#x4e0a;&#x4e0b;&#x6587;]" ID="ID_1170228501" CREATED="1603603881373" MODIFIED="1603603956561"/>
 <node TEXT="2) &#x67e5;&#x627e;&#x5f62;&#x53c2;&#x548c;&#x53d8;&#x91cf;&#x58f0;&#x660e;&#xff0c;&#x5c06;&#x53d8;&#x91cf;&#x548c;&#x5f62;&#x53c2;&#x540d;&#x4f5c;&#x4e3a;AO&#x5c5e;&#x6027;&#x540d;&#xff0c;&#x503c;&#x4e3a;undefined" ID="ID_1516210106" CREATED="1603603960066" MODIFIED="1603604701657">
@@ -3761,7 +3954,6 @@
      
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3787,7 +3979,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>
@@ -3812,8 +4003,72 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="&#x57fa;&#x7840;" ID="ID_1152505178" CREATED="1607845401701" MODIFIED="1607845408118" STYLE="bubble">
+<node TEXT="&#x5bf9;&#x8c61;" ID="ID_1969433936" CREATED="1607845411846" MODIFIED="1607845416896">
+<node TEXT="&#x53cd;&#x5c04; Reflect" ID="ID_100340772" CREATED="1607835329972" MODIFIED="1607835382013" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Reflect"/>
+<node TEXT="&#x5bf9;&#x8c61;&#x539f;&#x578b;(prototype)" ID="ID_1917384826" CREATED="1601957407994" MODIFIED="1607845423884"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p charset="utf-8" style="margin-top: 0; margin-bottom: 0; margin-right: 0px; margin-left: 0px; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      &#25152;&#26377;&#30340;JS&#23545;&#35937;&#30340;&#23646;&#24615;&#21644;&#26041;&#27861;&#37117;&#32487;&#25215;&#33258;&#21407;&#22411;&#12290;
+    </p>
+    <p charset="utf-8" style="margin-top: 0; margin-bottom: 0; margin-right: 0px; margin-left: 0px; color: rgb(51, 51, 51); font-family: Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif; font-size: 13px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px">
+      Object.prototype &#20301;&#20110;&#21407;&#22411;&#32487;&#25215;&#38142;&#30340;&#39030;&#37096;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21487;&#20197;&#36890;&#36807;&#23545;&#35937;&#21407;&#22411;&#20026;&#27492;&#31867;&#25152;&#26377;&#24050;&#26377;&#23545;&#35937;&#28155;&#21152;&#23646;&#24615;&#65292;&#26041;&#27861;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="black" face="Consolas, courier new" size="15px">function</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">Person(first, last, age, eyecolor) {</font><font color="rgb(0, 0, 0)" face="Consolas, courier new"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">this</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">firstName</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">= first;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">this</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">lastName</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">= last;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">this</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">age</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">= age;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">this</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">eyeColor</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">= eyecolor;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">}</font><font color="rgb(0, 0, 0)" face="Consolas, courier new"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font>
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)" face="Consolas, courier new">//&#28155;&#21152;&#23646;&#24615;<br charset="utf-8" align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">Person.</font><font color="black" face="Consolas, courier new" size="15px">prototype</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">nationality</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">=</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">&quot;English&quot;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">;</font>&#160;
+    </p>
+    <p>
+      <font color="rgb(0, 0, 0)" face="Consolas, courier new">//&#28155;&#21152;&#26041;&#27861;<br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">Person.</font><font color="black" face="Consolas, courier new" size="15px">prototype</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">name</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">=</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">function</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">() {</font><font color="rgb(0, 0, 0)" face="Consolas, courier new"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">return</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">this</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">firstName</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">+</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">&quot; &quot;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">+</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">this</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">lastName</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">};</font>
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
-<node TEXT="DOM" ID="ID_672122591" CREATED="1599963489833" MODIFIED="1602037875473" STYLE="bubble"><richcontent TYPE="NOTE">
+<node TEXT="&#x7c7b;&#xff08;ES6&#x5f15;&#x5165;&#xff09;" ID="ID_507264298" CREATED="1601824087392" MODIFIED="1601824563711" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#24863;&#35273;&#21644;java&#30340;&#31867;&#24456;&#20687;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="class&#x7c7b;&#x58f0;&#x660e;" ID="ID_608289070" CREATED="1601824651631" MODIFIED="1601824661551"/>
+<node TEXT="&#x6784;&#x9020;&#x65b9;&#x6cd5;" ID="ID_492926577" CREATED="1601824679376" MODIFIED="1601824686654"/>
+<node TEXT="&#x7c7b;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_209078239" CREATED="1601824743592" MODIFIED="1601824751780"/>
+<node TEXT="&#x539f;&#x578b;&#x65b9;&#x6cd5;" ID="ID_1795573141" CREATED="1601824977676" MODIFIED="1601824989366"/>
+<node TEXT="&#x9759;&#x6001;&#x65b9;&#x6cd5;" ID="ID_746107215" CREATED="1601824989838" MODIFIED="1601824997788"/>
+<node TEXT="&#x516c;&#x6709;&#x5b57;&#x6bb5;&#x548c;&#x79c1;&#x6709;&#x5b57;&#x6bb5;" ID="ID_1691103516" CREATED="1601825013932" MODIFIED="1601957568162"/>
+<node TEXT="&#x5b50;&#x7c7b; extend" ID="ID_642936070" CREATED="1601825121196" MODIFIED="1601825134455"/>
+<node TEXT="&#x7236;&#x7c7b; super" ID="ID_16130385" CREATED="1601825134900" MODIFIED="1601825149020"/>
+<node TEXT="species" ID="ID_1162215916" CREATED="1601825159251" MODIFIED="1601825165793"/>
+<node TEXT="mix-ins" ID="ID_336553180" CREATED="1601825184763" MODIFIED="1601825185744"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="DOM" ID="ID_672122591" CREATED="1599963489833" MODIFIED="1608475386941" LINK="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model" STYLE="bubble"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3823,14 +4078,38 @@
     <p>
       &#25991;&#26723;&#23545;&#35937;&#27169;&#22411;&#65288;Document Object Model&#65289;
     </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19968;&#20010;&#32593;&#39029;&#23601;&#26159;&#19968;&#20010;&#25991;&#26723;&#23545;&#35937;&#21040;&#21734;&#20986;&#65292;document&#12290;
+    </p>
+    <p>
+      &#25552;&#20379;&#25509;&#21475;&#65292;&#20379;&#24320;&#21457;&#32773;&#21160;&#24577;&#35775;&#38382;&#21644;&#20462;&#25913;&#25991;&#26723;&#30340;&#20869;&#23481;&#12289;&#32467;&#26500;&#21644;&#26679;&#24335;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      DOM&#29256;&#26412;&#65306;
+    </p>
+    <p>
+      DOM0
+    </p>
+    <p>
+      DOM1
+    </p>
+    <p>
+      DOM2
+    </p>
+    <p>
+      DOM3
+    </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x8f93;&#x5165;&#x5f39;&#x7a97;" ID="ID_268728707" CREATED="1601806404337" MODIFIED="1601806409668">
-<node TEXT="prompt()" ID="ID_1264421287" CREATED="1601806412422" MODIFIED="1601806448342"/>
-</node>
 <node TEXT="&#x57fa;&#x7840;" ID="ID_744229041" CREATED="1602065466034" MODIFIED="1602065476169">
-<node TEXT="window&#x4e0e;document&#x5bf9;&#x8c61;" ID="ID_274784095" CREATED="1602065476736" MODIFIED="1602065687538"><richcontent TYPE="NOTE">
+<node TEXT="window&#x4e0e;document&#x5bf9;&#x8c61;" ID="ID_274784095" CREATED="1602065476736" MODIFIED="1608475059103"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3852,36 +4131,23 @@
     <p>
       Document &#23545;&#35937;&#20351;&#25105;&#20204;&#21487;&#20197;&#20174;&#33050;&#26412;&#20013;&#23545; HTML &#39029;&#38754;&#20013;&#30340;&#25152;&#26377;&#20803;&#32032;&#36827;&#34892;&#35775;&#38382;&#12290;
     </p>
+    <p>
+      
+    </p>
+    <p>
+      DOM&#19981;&#20165;&#21487;&#20197;&#22788;&#29702;HTML&#25991;&#20214;&#20063;&#21487;&#20197;&#22788;&#29702;XML&#25991;&#20214;&#12290;
+    </p>
   </body>
 </html>
 </richcontent>
+<node TEXT="Document&#x5bf9;&#x8c61;&#x96c6;&#x5408;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_1152346006" CREATED="1610254003547" MODIFIED="1610254096627"/>
+<node TEXT="Element&#x5bf9;&#x8c61;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_534657234" CREATED="1610254017340" MODIFIED="1610254120155"/>
+<node TEXT="Attribute(HTML&#x5c5e;&#x6027;)&#x5bf9;&#x8c61;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_1380617509" CREATED="1610254017340" MODIFIED="1610254182415"/>
+<node TEXT="Event&#x5bf9;&#x8c61;/&#x53e5;&#x67c4;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_1297857771" CREATED="1610254205273" MODIFIED="1610254218982"/>
 </node>
 </node>
 <node TEXT="DOM&#x6811;" ID="ID_364265294" CREATED="1602037965666" MODIFIED="1602037975015">
-<node TEXT="&#x8282;&#x70b9;" ID="ID_1707661937" CREATED="1602038014230" MODIFIED="1602038023405">
-<node TEXT="&#x5143;&#x7d20;&#x8282;&#x70b9;" ID="ID_766157187" CREATED="1602038023851" MODIFIED="1602038030512"/>
-<node TEXT="&#x5c5e;&#x6027;&#x8282;&#x70b9;" ID="ID_1741083944" CREATED="1602038030691" MODIFIED="1602038040408"/>
-<node TEXT="&#x6587;&#x672c;&#x8282;&#x70b9;" ID="ID_1563244491" CREATED="1602038040589" MODIFIED="1602038050321"/>
-</node>
-</node>
-<node TEXT="&#x4e8b;&#x4ef6;" ID="ID_892279546" CREATED="1602038590243" MODIFIED="1602038599000">
-<node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x6a21;&#x578b;" ID="ID_162688640" CREATED="1602064952223" MODIFIED="1602064965115">
-<node TEXT="&#x4e8b;&#x4ef6;&#x6e90;.&#x4e8b;&#x4ef6; = &#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_1792986979" CREATED="1602064965975" MODIFIED="1602065003922"/>
-</node>
-<node TEXT="&#x4e8b;&#x4ef6;&#x6e90;" ID="ID_1315723216" CREATED="1602038601047" MODIFIED="1602038610231">
-<node TEXT="&#x5143;&#x7d20;" ID="ID_571470025" CREATED="1602065041611" MODIFIED="1602065048149"/>
-<node TEXT="window&#x662f;&#x6839;&#x5143;&#x7d20;" ID="ID_917495590" CREATED="1602065220785" MODIFIED="1602065230605"/>
-</node>
-<node TEXT="&#x4e8b;&#x4ef6;" ID="ID_722103745" CREATED="1602038610714" MODIFIED="1602074260734" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalEventHandlers">
-<node TEXT="DOM&#x5143;&#x7d20;&#x52a0;&#x8f7d;&#x5b8c;&#x6210; window.onload" ID="ID_570685437" CREATED="1602039348140" MODIFIED="1602065809164"/>
-<node TEXT="&#x5355;&#x51fb; onclick" ID="ID_111110445" CREATED="1602038290929" MODIFIED="1602065195004"/>
-<node TEXT="&#x53cc;&#x51fb;" ID="ID_135253765" CREATED="1602038328148" MODIFIED="1602038332981"/>
-<node TEXT="&#x9f20;&#x6807;&#x79fb;&#x5165; onmouseenter" ID="ID_1018662231" CREATED="1602038365802" MODIFIED="1602073829826"/>
-<node TEXT="&#x9f20;&#x6807;&#x79fb;&#x5f00; onmouseleave" ID="ID_970084293" CREATED="1602038374008" MODIFIED="1602073840768"/>
-<node TEXT="&#x952e;&#x76d8;&#x4e8b;&#x4ef6;" ID="ID_1712243822" CREATED="1602038379453" MODIFIED="1602038394977"/>
-<node TEXT="..." ID="ID_1980362554" CREATED="1602038417902" MODIFIED="1602038427016"/>
-</node>
-<node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_658079866" CREATED="1601997544420" MODIFIED="1602065091926"><richcontent TYPE="NOTE">
+<node TEXT="&#x8282;&#x70b9;" ID="ID_1707661937" CREATED="1602038014230" MODIFIED="1609673176772"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3889,11 +4155,183 @@
   </head>
   <body>
     <p>
-      &#31995;&#32479;&#39044;&#23450;&#20041;&#22909;&#30340;&#34892;&#20026;&#12290;
+      &#160;&#160;&#160;&#160;&lt;ul&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;li&gt;111&lt;/li&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;li&gt;222&lt;/li&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;li&gt;333&lt;/li&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&lt;/ul&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19978;&#38754;ul&#33410;&#28857;&#37324;&#38754;&#21253;&#21547;&#20102;7&#20010;&#23376;&#33410;&#28857;&#65306;
+    </p>
+    <p>
+      4&#20010;&#25991;&#26412;&#33410;&#28857;&#65288;&#22238;&#36710;&#25442;&#34892;&#65289;
+    </p>
+    <p>
+      3&#20010;&#20803;&#32032;&#33410;&#28857;&#65288;li&#65289;
     </p>
   </body>
 </html>
 </richcontent>
+<node TEXT="&#x5143;&#x7d20;&#x8282;&#x70b9;" ID="ID_766157187" CREATED="1602038023851" MODIFIED="1609674031030"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      div header &#31561;&#26631;&#31614;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      nodeType = 1
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5c5e;&#x6027;&#x8282;&#x70b9;" ID="ID_1741083944" CREATED="1602038030691" MODIFIED="1609674035574"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25351;&#20803;&#32032;&#30340;&#23646;&#24615;&#22914; class&#23646;&#24615;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      nodeType = 2
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5185;&#x5bb9;&#x8282;&#x70b9;" ID="ID_1563244491" CREATED="1602038040589" MODIFIED="1609674043114"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25351;&#20803;&#32032;&#30340;&#20869;&#23481;, &#22914; &lt;p&gt;test&lt;/p&gt; &#20013;&#30340;test&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      nodeType = 3
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x8282;&#x70b9;&#x5c42;&#x7ea7;" ID="ID_921531030" CREATED="1609667670151" MODIFIED="1609667678306">
+<node TEXT="&lt;element&gt;.childNodes" ID="ID_782832837" CREATED="1609672449278" MODIFIED="1609674745273">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462;&#20803;&#32032;&#25152;&#26377;&#30340;&#23376;&#33410;&#28857;&#65288;&#21253;&#25324;&#20803;&#32032;&#33410;&#28857; &#12289;&#20869;&#23481;&#33410;&#28857;&#65292;&#22909;&#20687;&#19981;&#21253;&#21547;&#23646;&#24615;&#33410;&#28857;&#65289;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;element&gt;.children" ID="ID_682212329" CREATED="1609672527000" MODIFIED="1609672698746"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21482;&#33719;&#21462;&#20803;&#32032;&#25152;&#26377;&#23376;&#20803;&#32032;&#33410;&#28857;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;element&gt;.parentNode" ID="ID_648188327" CREATED="1609672713277" MODIFIED="1609672760003"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462;&#20803;&#32032;&#29238;&#33410;&#28857;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;element&gt;.firstChild" ID="ID_832768414" CREATED="1609672798879" MODIFIED="1609672808994"/>
+<node TEXT="&lt;element&gt;.lastChild" ID="ID_1809208142" CREATED="1609672809273" MODIFIED="1609672841591"/>
+<node TEXT="&lt;element&gt;.nextSibling" ID="ID_1382116481" CREATED="1609673367698" MODIFIED="1609673566216"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      sibling: &#20804;&#24351;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;element&gt;.previousSibling" ID="ID_1778761923" CREATED="1609673445575" MODIFIED="1609673457410"/>
+<node TEXT="&lt;element&gt;.firstElementChild" ID="ID_1306638140" CREATED="1609672842517" MODIFIED="1609673823671">
+<icon BUILTIN="info"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21487;&#33021;&#26377;&#20860;&#23481;&#38382;&#39064;&#65292;&#32769;&#29256;&#26412;&#27983;&#35272;&#22120;&#21487;&#33021;&#19981;&#20860;&#23481;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;element&gt;.lastElementChild" ID="ID_1707523691" CREATED="1609672861064" MODIFIED="1609673787192">
+<icon BUILTIN="info"/>
+</node>
+<node TEXT="&lt;element&gt;.nextElementSibling" ID="ID_1057096536" CREATED="1609673405456" MODIFIED="1609673791353">
+<icon BUILTIN="info"/>
+</node>
+<node TEXT="&lt;element&gt;.previousElementSibling" ID="ID_325475762" CREATED="1609673462538" MODIFIED="1609673794048">
+<icon BUILTIN="info"/>
+</node>
 </node>
 </node>
 <node TEXT="&#x5143;&#x7d20;&#x64cd;&#x4f5c;" ID="ID_745118796" CREATED="1601997550340" MODIFIED="1602038196214"><richcontent TYPE="NOTE">
@@ -3921,10 +4359,886 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x67e5;&#x627e;&#x5143;&#x7d20; getElementById()" ID="ID_328440457" CREATED="1602064591349" MODIFIED="1602064611418"/>
+<node TEXT="&#x5143;&#x7d20;&#x83b7;&#x53d6;&#x589e;&#x5220;&#x6539;&#x67e5;" ID="ID_328440457" CREATED="1602064591349" MODIFIED="1609672749300">
+<node ID="ID_1371519817" CREATED="1607847380020" MODIFIED="1608478350426"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      getElementById()
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21482;&#26377;document&#23545;&#35937;&#26377;&#36825;&#20010;&#26041;&#27861;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top: 0">
+      <font color="#0000c0">document&#19987;&#26377;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="getElementByName()" ID="ID_1082598101" CREATED="1608476784418" MODIFIED="1608478363670"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">document&#19987;&#26377;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="getElementByTagName()" ID="ID_924230827" CREATED="1608476065928" MODIFIED="1608476566261"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#38500;&#20102;document&#19979;&#38754;&#30340;&#23376;&#33410;&#28857;&#20063;&#25317;&#26377;&#36825;&#20010;&#26041;&#27861;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="getElementByClassName()" ID="ID_1142996278" CREATED="1608476731527" MODIFIED="1608476752671"/>
+<node TEXT="querySelectorAll()" ID="ID_334069414" CREATED="1608477316735" MODIFIED="1608479129130"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;&#36873;&#25321;&#22120;&#23383;&#31526;&#20018;&#65288;DOMString&#65289;&#26597;&#25214;&#25152;&#26377;&#31526;&#21512;&#30340;&#20803;&#32032;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="querySelector()" ID="ID_1743405206" CREATED="1608478524816" MODIFIED="1608478572559"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21482;&#36820;&#22238;&#31532;&#19968;&#20010;&#21305;&#37197;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="document.all (&#x5df2;&#x5e9f;&#x5f03;)" ID="ID_474855812" CREATED="1608478674996" MODIFIED="1608478740010"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33719;&#21462;document&#25152;&#26377;&#20803;&#32032;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="document.body" ID="ID_1349396403" CREATED="1608479218230" MODIFIED="1608479227600"/>
+<node TEXT="document.documentElement" ID="ID_1342509835" CREATED="1608479227810" MODIFIED="1608479445403"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#24212;html&#20803;&#32032;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="document.createElement()" ID="ID_847912038" CREATED="1609674843439" MODIFIED="1609678973296"/>
+<node TEXT="&lt;element&gt;.appendChild()" ID="ID_766643774" CREATED="1609678973713" MODIFIED="1609679137326"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#29238;&#20803;&#32032;&#26368;&#21518;&#38754;&#25554;&#20837;&#20803;&#32032;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;element&gt;.insertBefore()" ID="ID_848889880" CREATED="1609679138004" MODIFIED="1609679174043"/>
+<node TEXT="&lt;element&gt;.remove()" ID="ID_531610867" CREATED="1609679558819" MODIFIED="1609679582083"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20803;&#32032;&#21024;&#38500;&#33258;&#24049;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;element&gt;.remvoeChild()" ID="ID_1169234620" CREATED="1609679584559" MODIFIED="1609679614547"/>
+<node TEXT="&lt;element&gt;.cloneNode()" ID="ID_112605375" CREATED="1609680091131" MODIFIED="1609680159748"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      cloneNode(true)
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      // &#21442;&#25968;&#20256;&#20837;true &#34920;&#31034;&#28145;&#25335;&#36125; &#22797;&#21046;&#26631;&#31614;&#21450;&#20854;&#20869;&#37096;&#30340;&#20869;&#23481;
+    </p>
+    <p>
+      // &#40664;&#35748;&#21442;&#25968;false &#34920;&#31034;&#27973;&#25335;&#36125; &#21482;&#22797;&#21046;&#26631;&#31614;&#26412;&#36523;
+    </p>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
-<node TEXT="BOM" ID="ID_263402758" CREATED="1599963546040" MODIFIED="1599963571550" STYLE="bubble"><richcontent TYPE="NOTE">
+<node TEXT="&#x5143;&#x7d20;&#x521b;&#x5efa;&#x7684;&#x51e0;&#x79cd;&#x65b9;&#x5f0f;&#x5bf9;&#x6bd4;" ID="ID_631767865" CREATED="1609680557519" MODIFIED="1609680728089"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1 document.write()
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      2&#160;&#160;&#20803;&#32032;html&#23383;&#31526;&#20018;&#25340;&#25509; + &lt;element&gt;.innerHTML
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      3 document.createElement() + &lt;element&gt;.appendChild()
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5143;&#x7d20;&#x7684;&#x5c42;&#x6b21;&#x5173;&#x7cfb;" ID="ID_1017164787" CREATED="1607847382372" MODIFIED="1607848392840">
+<icon BUILTIN="idea"/>
+</node>
+<node TEXT="&#x5c5e;&#x6027;&#x64cd;&#x4f5c;" ID="ID_1594057925" CREATED="1607847393125" MODIFIED="1607847400179">
+<node TEXT="&lt;element&gt;.&lt;attr&gt; = &lt;value&gt;" ID="ID_622916480" CREATED="1609663915201" MODIFIED="1609663947872"/>
+<node TEXT="&lt;element&gt;[&quot;attrName&quot;] = &lt;value&gt;" ID="ID_348195920" CREATED="1609683210382" MODIFIED="1609683248322"/>
+<node TEXT="&lt;element&gt;.getAttribute()" ID="ID_839719790" CREATED="1609663593837" MODIFIED="1609663654914"/>
+<node TEXT="&lt;element&gt;.setAttribute()" ID="ID_1589158701" CREATED="1609663625931" MODIFIED="1609663664446"/>
+<node TEXT="&lt;element&gt;.removeAttribute()" ID="ID_1974847034" CREATED="1609663967915" MODIFIED="1609663984582"/>
+</node>
+<node TEXT="&#x5185;&#x5bb9;&#x64cd;&#x4f5c;" ID="ID_1357973261" CREATED="1607847449274" MODIFIED="1607847458265"/>
+<node TEXT="document.write()" ID="ID_1795668447" CREATED="1609680377823" MODIFIED="1609680460297"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25991;&#26723;&#27969;&#21152;&#36733;&#25191;&#34892;&#23436;&#27605;&#21518; &#20877;&#25191;&#34892;document.write() &#20250;&#23548;&#33268;&#39029;&#38754;&#20840;&#37096;&#37325;&#32472;&#12290;
+    </p>
+    <p>
+      &#25991;&#26723;&#27969;&#21152;&#36733;&#36807;&#31243;&#20013;&#25191;&#34892;document.write() &#20250;&#36861;&#21152;&#20869;&#23481;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;" ID="ID_892279546" CREATED="1602038590243" MODIFIED="1608479520536"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39044;&#20808;&#23450;&#20041;&#22909;&#30340;&#34892;&#20026;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x624b;&#x518c;" ID="ID_1201496754" CREATED="1610253363376" MODIFIED="1610253369974">
+<node TEXT="HTML DOM Event &#x5bf9;&#x8c61;" ID="ID_1186544864" CREATED="1610253889233" MODIFIED="1610253901469" LINK="https://www.w3school.com.cn/jsref/dom_obj_event.asp"/>
+<node TEXT="HTML DOM &#x4e8b;&#x4ef6;" ID="ID_1576371996" CREATED="1610253371728" MODIFIED="1610253389006" LINK="https://www.runoob.com/jsref/dom-obj-event.html"/>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x6a21;&#x578b;" ID="ID_162688640" CREATED="1602064952223" MODIFIED="1602064965115">
+<node TEXT="&#x4e8b;&#x4ef6;&#x6e90;.&#x4e8b;&#x4ef6; = &#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_1792986979" CREATED="1602064965975" MODIFIED="1602065003922"/>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;&#x6e90;" ID="ID_1315723216" CREATED="1602038601047" MODIFIED="1609672755286">
+<node TEXT="&#x5143;&#x7d20;" ID="ID_571470025" CREATED="1602065041611" MODIFIED="1602065048149"/>
+<node TEXT="window&#x662f;&#x6839;&#x5143;&#x7d20;" ID="ID_917495590" CREATED="1602065220785" MODIFIED="1602065230605"/>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;&#x53e5;&#x67c4;" ID="ID_722103745" CREATED="1602038610714" MODIFIED="1610254251943" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalEventHandlers">
+<node TEXT="DOM&#x5143;&#x7d20;&#x52a0;&#x8f7d;&#x5b8c;&#x6210; window.onload" ID="ID_570685437" CREATED="1602039348140" MODIFIED="1602065809164"/>
+<node TEXT="&#x9f20;&#x6807;&#x4e8b;&#x4ef6;" ID="ID_708907678" CREATED="1609581872665" MODIFIED="1609956647802"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">MouseEvent</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="onclick &#x5355;&#x51fb;" ID="ID_111110445" CREATED="1602038290929" MODIFIED="1610253129241"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#40736;&#26631;&#25353;&#19979;&#24182;&#24377;&#36215;&#21518;&#25165;&#20250;&#35302;&#21457;&#20107;&#20214;&#22788;&#29702;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="ondblclick &#x53cc;&#x51fb;" ID="ID_135253765" CREATED="1602038328148" MODIFIED="1610253453167"/>
+<node TEXT="onmousedown &#x9f20;&#x6807;&#x6309;&#x4e0b;" ID="ID_1012998406" CREATED="1609582443443" MODIFIED="1610253118768"/>
+<node TEXT="onmouseup &#x9f20;&#x6807;&#x5f39;&#x8d77;" ID="ID_1414311221" CREATED="1609582454937" MODIFIED="1610253110290"/>
+<node TEXT="onmouseenter &#x9f20;&#x6807;&#x79fb;&#x5165;" ID="ID_1018662231" CREATED="1602038365802" MODIFIED="1610253100860"/>
+<node TEXT="onmouseleave &#x9f20;&#x6807;&#x79fb;&#x5f00;" ID="ID_970084293" CREATED="1602038374008" MODIFIED="1610253091577"/>
+<node TEXT="onmousemove &#x9f20;&#x6807;&#x5728;&#x5143;&#x7d20;&#x4e0a;&#x79fb;&#x52a8;" ID="ID_795100860" CREATED="1609583115243" MODIFIED="1610253082116"/>
+<node TEXT="onmouseover &#x9f20;&#x6807;&#x5728;&#x5143;&#x7d20;&#x4e0a;" ID="ID_1037965304" CREATED="1609583145660" MODIFIED="1610253071941"/>
+<node TEXT="&#x533a;&#x522b;" ID="ID_1937143823" CREATED="1609583419892" MODIFIED="1609583429957"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;// onmousemove&#160;&#160;&#26159;&#40736;&#26631;&#22312;&#20803;&#32032;&#19978;&#31227;&#21160;&#26102;&#35302;&#21457;&#65292;&#19988;&#22312;&#20803;&#32032;&#19978;&#27599;&#31227;&#21160;&#19968;&#19979;&#23601;&#20250;&#35302;&#21457;&#19968;&#27425;&#12290;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// onmouseover&#160;&#160;&#26159;&#40736;&#26631;&#31227;&#20837;&#20803;&#32032;&#26102;&#35302;&#21457;&#19968;&#27425;&#65292;&#20877;&#27425;&#22312;&#20803;&#32032;&#19978;&#31227;&#21160;&#26102;&#19981;&#20250;&#35302;&#21457;&#65292;&#20294;&#26159;&#40736;&#26631;&#31227;&#20837;&#20803;&#32032;&#20869;&#30340;&#23376;&#20803;&#32032;&#26102;&#20063;&#20250;&#35302;&#21457;&#65288;&#20882;&#27873;&#65289;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// onmouseenter &#20165;&#40736;&#26631;&#31227;&#20837;&#26102;&#65292;&#35302;&#21457;&#19968;&#27425;&#65292;&#19988;&#19981;&#20882;&#27873;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// onmouseout&#160;&#160;&#160;&#40736;&#26631;&#36827;&#20837;&#25351;&#23450;&#20803;&#32032;&#35302;&#21457;&#20107;&#20214;&#65292;&#36827;&#20837;&#23376;&#20803;&#32032;&#36824;&#20250;&#35302;&#21457;&#20107;&#20214;&#12290;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// onmouseleave &#40736;&#26631;&#31163;&#24320;&#25351;&#23450;&#20803;&#32032;&#35302;&#21457;&#20107;&#20214;&#65292;&#19981;&#21253;&#21547;&#23376;&#20803;&#32032;&#21306;&#22495;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="contextmenu &#x53f3;&#x952e;&#x83dc;&#x5355;" ID="ID_44055291" CREATED="1610252686813" MODIFIED="1610253054671"/>
+<node TEXT="selectstart &#x9f20;&#x6807;&#x9009;&#x4e2d;" ID="ID_250308261" CREATED="1610253034666" MODIFIED="1610253042823"/>
+</node>
+<node TEXT="&#x952e;&#x76d8;&#x4e8b;&#x4ef6;" ID="ID_1712243822" CREATED="1602038379453" MODIFIED="1610255244881"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">KeyBoardEvent</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="onkeydown &#x952e;&#x6309;&#x4e0b;" ID="ID_706566837" CREATED="1610255343496" MODIFIED="1610256413531"/>
+<node TEXT="onkeyup &#x952e;&#x5f39;&#x8d77;" ID="ID_1706673400" CREATED="1610255338753" MODIFIED="1610256421250"/>
+<node TEXT="onkeypress &#x952e;&#x6309;&#x4e0b;" ID="ID_924853925" CREATED="1610255346731" MODIFIED="1610259757719"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#19981;&#21333;&#29420;&#35782;&#21035;&#21151;&#33021;&#38190;&#20294;&#26159;shift+A&#26159;&#21487;&#35782;&#21035;&#30340; </font>
+    </p>
+    <p>
+      <font color="#0000c0">ctrL+shift+A&#20063;&#26159;&#21487;&#20197;&#35782;&#21035;&#30340;, &#19988;keyCode&#19981;&#21516;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6846;&#x67b6;/&#x5bf9;&#x8c61;&#x4e8b;&#x4ef6;" ID="ID_1474972414" CREATED="1610253400830" MODIFIED="1610253416929"/>
+<node TEXT="&#x8868;&#x5355;&#x4e8b;&#x4ef6;" ID="ID_140618028" CREATED="1610253417914" MODIFIED="1610253431718">
+<node TEXT="onfocus" ID="ID_789667919" CREATED="1609584898334" MODIFIED="1609584907034"/>
+<node TEXT="onblur" ID="ID_1632200042" CREATED="1609584907314" MODIFIED="1609584911380"/>
+</node>
+<node TEXT="&#x526a;&#x5207;&#x677f;&#x4e8b;&#x4ef6;" ID="ID_1377268337" CREATED="1610253459294" MODIFIED="1610253471880"/>
+<node TEXT="&#x6253;&#x5370;&#x4e8b;&#x4ef6;" ID="ID_1687357641" CREATED="1610253473039" MODIFIED="1610253479285"/>
+<node TEXT="&#x62d6;&#x52a8;&#x4e8b;&#x4ef6;" ID="ID_619930869" CREATED="1610253479465" MODIFIED="1610253485592"/>
+<node TEXT="&#x591a;&#x5a92;&#x4f53;&#x4e8b;&#x4ef6;" ID="ID_1687179753" CREATED="1610253492666" MODIFIED="1610253506171"/>
+<node TEXT="&#x52a8;&#x753b;&#x4e8b;&#x4ef6;" ID="ID_218918352" CREATED="1610253507238" MODIFIED="1610253514243"/>
+<node TEXT="&#x8fc7;&#x6e21;&#x4e8b;&#x4ef6;" ID="ID_1477424161" CREATED="1610253514707" MODIFIED="1610253523416"/>
+<node TEXT="..." ID="ID_1980362554" CREATED="1602038417902" MODIFIED="1610253532284" LINK="https://www.runoob.com/jsref/dom-obj-event.html"/>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;&#x5c5e;&#x6027;" ID="ID_1323533528" CREATED="1610254448359" MODIFIED="1610255198604" LINK="https://developer.mozilla.org/en-US/docs/Web/API"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20855;&#20307;&#23646;&#24615;&#20540; </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#26597;&#25509;&#21475;&#25991;&#26723;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x9f20;&#x6807;&#x4e8b;&#x4ef6;" ID="ID_419609542" CREATED="1610254454628" MODIFIED="1610255911102" LINK="https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol http-equiv="content-type" content="text/html; charset=utf-8" class="tree-outline hide-selection-when-blurred source-code object-properties-section" role="tree" tabindex="-1" style="font-family: dejavu sans mono, monospace; white-space: pre-wrap; font-size: 11px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; display: flex; color: rgb(33, 33, 33) !important; list-style-type: none; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0px">
+      <li role="treeitem" class="parent object-properties-section-root-element expanded selected" aria-expanded="true" tabindex="-1" style="display: flex; white-space: nowrap">
+        <span class="console-object" tabindex="-1" style="white-space: pre-wrap">MouseEvent</span>
+      </li>
+      <ol class="children expanded" role="group" style="list-style-type: none; padding-left: 12px; display: block">
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">altKey</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">false</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">bubbles</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">true</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">button</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">0</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">buttons</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">0</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">cancelBubble</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">false</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">cancelable</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">true</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">clientX</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">565</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">clientY</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">26</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">composed</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">true</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">ctrlKey</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">false</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">currentTarget</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-null value" style="color: rgb(128, 128, 128)"><font color="rgb(128, 128, 128)">null</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">defaultPrevented</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">false</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">detail</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">0</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">eventPhase</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">0</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">fromElement</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-null value" style="color: rgb(128, 128, 128)"><font color="rgb(128, 128, 128)">null</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">isTrusted</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">true</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">layerX</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">250</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">layerY</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">26</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">metaKey</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">false</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">movementX</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">1</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">movementY</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">0</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">offsetX</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">199</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">offsetY</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">25</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">pageX</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">565</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">pageY</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">26</font></span>
+        </li>
+        <li role="treeitem" class="parent" aria-expanded="false" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">path</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-description" style="color: gray"><font color="gray">(6)&#160;</font></span><span class="object-properties-preview" style="white-space: nowrap">[</span><span class="webkit-html-tag-name" style="color: black"><font color="black">div</font></span><font color="black"><span class="webkit-html-attribute-name" style="color: black">.box</span></font><span class="object-properties-preview" style="white-space: nowrap">,</span><span>&#160;</span><span class="webkit-html-tag-name" style="color: black"><font color="black">div</font></span><font color="black"><span class="webkit-html-attribute-name" style="color: black">.fa</span></font><span class="object-properties-preview" style="white-space: nowrap">,</span><span>&#160;</span><span class="webkit-html-tag-name" style="color: black"><font color="black">body</font></span><span class="object-properties-preview" style="white-space: nowrap">,</span><span>&#160;</span><span class="webkit-html-tag-name" style="color: black"><font color="black">html</font></span><span class="object-properties-preview" style="white-space: nowrap">,</span><span>&#160;</span><span class="webkit-html-tag-name" style="color: black"><font color="black">document</font></span><span class="object-properties-preview" style="white-space: nowrap">,</span><span>&#160;</span><span class="object-value-object">Window</span><span class="object-properties-preview" style="white-space: nowrap">]</span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">relatedTarget</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-null value" style="color: rgb(128, 128, 128)"><font color="rgb(128, 128, 128)">null</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">returnValue</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">true</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">screenX</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">565</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">screenY</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">196</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">shiftKey</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-boolean value" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">false</font></span>
+        </li>
+        <li role="treeitem" class="parent" aria-expanded="false" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">sourceCapabilities</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-description" style="color: gray"><font color="gray">InputDeviceCapabilities&#160;</font></span><span class="object-properties-preview" style="white-space: nowrap">{</span><span class="name" style="color: rgb(86, 86, 86)"><font color="rgb(86, 86, 86)">firesTouchEvents</font></span><span class="object-properties-preview" style="white-space: nowrap">:</span><span>&#160;</span><span class="object-value-boolean" style="color: rgb(13, 34, 170)"><font color="rgb(13, 34, 170)">false</font></span><span class="object-properties-preview" style="white-space: nowrap">}</span>
+        </li>
+        <li role="treeitem" class="parent" aria-expanded="false" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">srcElement</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="webkit-html-tag-name" style="color: black"><font color="black">div</font></span><font color="black"><span class="webkit-html-attribute-name" style="color: black">.box</span></font>
+        </li>
+        <li role="treeitem" class="parent" aria-expanded="false" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">target</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="webkit-html-tag-name" style="color: black"><font color="black">div</font></span><font color="black"><span class="webkit-html-attribute-name" style="color: black">.box</span></font>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">timeStamp</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">1192.0649999992747</font></span>
+        </li>
+        <li role="treeitem" class="parent" aria-expanded="false" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">toElement</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="webkit-html-tag-name" style="color: black"><font color="black">div</font></span><font color="black"><span class="webkit-html-attribute-name" style="color: black">.box</span></font>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">type</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-string-quote" style="color: rgb(34, 34, 34)"><font color="rgb(34, 34, 34)">&quot;</font></span><span class="object-value-string value" style="white-space: pre; color: rgb(196, 26, 22)"><font color="rgb(196, 26, 22)">mousemove</font></span><span class="object-value-string-quote" style="color: rgb(34, 34, 34)"><font color="rgb(34, 34, 34)">&quot;</font></span>
+        </li>
+        <li role="treeitem" class="parent" aria-expanded="false" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">view</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-description" style="color: gray"><font color="gray">Window&#160;</font></span><span class="object-properties-preview" style="white-space: nowrap">{</span><span class="name" style="color: rgb(86, 86, 86)"><font color="rgb(86, 86, 86)">postMessage</font></span><span class="object-properties-preview" style="white-space: nowrap">:</span><span>&#160;</span><span class="object-value-function" style="font-style: italic"><i>&#402;</i></span><span class="object-properties-preview" style="white-space: nowrap">,</span><span>&#160;</span><span class="name" style="color: rgb(86, 86, 86)"><font color="rgb(86, 86, 86)">blur</font></span><span class="object-properties-preview" style="white-space: nowrap">:</span><span>&#160;</span><span class="object-value-function" style="font-style: italic"><i>&#402;</i></span><span class="object-properties-preview" style="white-space: nowrap">,</span><span>&#160;</span><span class="name" style="color: rgb(86, 86, 86)"><font color="rgb(86, 86, 86)">focus</font></span><span class="object-properties-preview" style="white-space: nowrap">:</span><span>&#160;</span><span class="object-value-function" style="font-style: italic"><i>&#402;</i></span><span class="object-properties-preview" style="white-space: nowrap">,</span><span>&#160;</span><span class="name" style="color: rgb(86, 86, 86)"><font color="rgb(86, 86, 86)">close</font></span><span class="object-properties-preview" style="white-space: nowrap">:</span><span>&#160;</span><span class="object-value-function" style="font-style: italic"><i>&#402;</i></span><span class="object-properties-preview" style="white-space: nowrap">,</span><span>&#160;</span><span class="name" style="color: rgb(86, 86, 86)"><font color="rgb(86, 86, 86)">parent</font></span><span class="object-properties-preview" style="white-space: nowrap">:</span><span>&#160;</span><span class="object-value-object">Window</span><span>,&#160;&#8230;</span><span class="object-properties-preview" style="white-space: nowrap">}</span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">which</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">0</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">x</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">565</font></span>
+        </li>
+        <li role="treeitem" style="white-space: nowrap; display: flex">
+          <span class="name" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">y</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-number value" style="color: rgb(28, 0, 207)"><font color="rgb(28, 0, 207)">26</font></span>
+        </li>
+        <li role="treeitem" class="parent" aria-expanded="false" style="white-space: nowrap; display: flex">
+          <span class="name object-properties-section-dimmed" style="color: rgb(136, 19, 145)"><font color="rgb(136, 19, 145)">__proto__</font></span><span class="name-and-value" style="line-height: 16px">:</span><span>&#160;</span><span class="object-value-object value">MouseEvent</span>
+        </li>
+      </ol>
+    </ol>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">MouseEvent</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="clientX" ID="ID_812119620" CREATED="1610254893602" MODIFIED="1610254913060"/>
+<node TEXT="clientY" ID="ID_935559583" CREATED="1610254915490" MODIFIED="1610254918691"/>
+<node TEXT="pageX" ID="ID_25255219" CREATED="1610254939748" MODIFIED="1610254943998"/>
+<node TEXT="pageY" ID="ID_160512908" CREATED="1610254944184" MODIFIED="1610254946584"/>
+<node TEXT="ScreenX" ID="ID_617819817" CREATED="1610255050018" MODIFIED="1610255060971"/>
+<node TEXT="ScreenY" ID="ID_164121435" CREATED="1610255061111" MODIFIED="1610255065177"/>
+<node TEXT="movementX" ID="ID_571248091" CREATED="1610254918925" MODIFIED="1610254933359"/>
+<node TEXT="movementY" ID="ID_1378601383" CREATED="1610254933523" MODIFIED="1610254939262"/>
+<node TEXT="..." ID="ID_1066273726" CREATED="1610254954342" MODIFIED="1610254956935"/>
+</node>
+<node TEXT="&#x952e;&#x76d8;&#x4e8b;&#x4ef6;" ID="ID_847195091" CREATED="1610255247926" MODIFIED="1610255923089" LINK="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">KeyBoardEvent</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="..." ID="ID_1192153695" CREATED="1610255302422" MODIFIED="1610255304079"/>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;&#x6d41;" ID="ID_723081079" CREATED="1609683647043" MODIFIED="1609953761445"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20107;&#20214;&#27969;&#65306;&#20107;&#20214;&#21457;&#29983;&#21518;&#20250;&#22312;&#20803;&#32032;&#33410;&#28857;&#20043;&#38388;&#25353;&#29031;&#29305;&#23450;&#30340;&#39034;&#24207;&#36827;&#34892;&#20256;&#25773;&#12290;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x4e09;&#x4e2a;&#x9636;&#x6bb5;" ID="ID_227223180" CREATED="1609953732368" MODIFIED="1609955371272"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20107;&#20214;&#27969;&#30340;&#19977;&#20010;&#38454;&#27573;
+    </p>
+    <p>
+      1.&#25429;&#33719;&#38454;&#27573;&#65306;&#20107;&#20214;&#23545;&#35937;&#20174;&#30446;&#26631;&#30340;&#31062;&#20808;&#33410;&#28857;Window&#24320;&#22987;&#20256;&#25773;&#30452;&#33267;&#30446;&#26631;&#12290;
+    </p>
+    <p>
+      2.&#30446;&#26631;&#38454;&#27573;&#65306;&#20107;&#20214;&#23545;&#35937;&#20256;&#36882;&#21040;&#20107;&#20214;&#30446;&#26631;&#12290;&#22914;&#26524;&#20107;&#20214;&#30340;type&#23646;&#24615;&#34920;&#26126;&#21518;&#38754;&#19981;&#20250;&#36827;&#34892;&#20882;&#27873;&#25805;&#20316;&#65292;&#37027;&#20040;&#20107;&#20214;&#21040;&#27492;&#23601;&#32467;&#26463;&#20102;&#12290;
+    </p>
+    <p>
+      &#160;&#160;&#160; <b>&#21644;&#30446;&#26631;son&#32465;&#23450;&#30340;&#20107;&#20214;&#19981;&#31649;&#26159;&#25429;&#33719;&#27169;&#24335;&#36824;&#26159;&#20882;&#27873;&#27169;&#24335;&#37117;&#26159;&#25353;&#29031;&#20195;&#30721;&#32465;&#23450;&#39034;&#24207;&#25191;&#34892;&#30340;</b>
+    </p>
+    <p>
+      3.&#20882;&#27873;&#38454;&#27573;&#65306;&#20107;&#20214;&#23545;&#35937;&#20197;&#19968;&#20010;&#30456;&#21453;&#30340;&#26041;&#21521;&#36827;&#34892;&#20256;&#36882;&#65292;&#20174;&#30446;&#26631;&#24320;&#22987;&#65292;&#21040;Window&#23545;&#35937;&#32467;&#26463;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&lt;element&gt;.addEventListener()&#xa;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x53c2;&#x6570;&#x5207;&#x6362;&#xff1a;&#x4e8b;&#x4ef6;&#x6355;&#x83b7;&#x6a21;&#x5f0f; &amp; &#x4e8b;&#x4ef6;&#x5192;&#x6ce1;&#x6a21;&#x5f0f;" ID="ID_150238564" CREATED="1609953786643" MODIFIED="1609954347608"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      addEventListener&#26368;&#21518;&#19968;&#20010;&#21442;&#25968;&#65292;&#20026;true&#21017;&#20195;&#34920;&#20351;&#29992;&#20107;&#20214;&#25429;&#33719;&#27169;&#24335;&#65292;false&#21017;&#34920;&#31034;&#20351;&#29992;&#20107;&#20214;&#20882;&#27873;&#27169;&#24335;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      //&#36825;&#27573;&#20195;&#30721;&#34920;&#31034;&#20026;window&#27880;&#20876;&#25429;&#33719;&#38454;&#27573;&#30340;&#20107;&#20214;&#22788;&#29702;&#26041;&#27861;&#65292;&#24403;&#20107;&#20214;&#21457;&#29983;&#22312;&#25429;&#33719;&#38454;&#27573;&#20256;&#21040;window&#26102;&#25191;&#34892;&#12290;
+    </p>
+    <p>
+      window.addEventListener('click', function() {
+    </p>
+    <p>
+      &#160;&#160;console.log('4. You click window');
+    </p>
+    <p>
+      }, true);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="attachEvent &#x53ea;&#x652f;&#x6301;&#x5192;&#x6ce1;&#x6a21;&#x5f0f;" ID="ID_1788843997" CREATED="1609954348393" MODIFIED="1609954590358"/>
+<node TEXT="onblur onfocus onmouseenter onmouseleave &#x4e0d;&#x652f;&#x6301;&#x5192;&#x6ce1;" ID="ID_1174017784" CREATED="1609955734917" MODIFIED="1609955745607"/>
+<node TEXT="&#x4e8b;&#x4ef6;&#x59d4;&#x6258;" ID="ID_474887797" CREATED="1609955832619" MODIFIED="1610251259847"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#30446;&#26631;&#20803;&#32032;&#19981;&#22788;&#29702;&#20107;&#20214;&#65292;&#20132;&#30001;&#31062;&#20808;&#20803;&#32032;&#22788;&#29702;&#12290; </b>
+    </p>
+    <p>
+      <b>&#36890;&#36807;&#20107;&#20214;&#20882;&#27873;&#22312;&#31062;&#20808;&#20803;&#32032;&#32465;&#23450;&#20107;&#20214;&#22788;&#29702;&#26041;&#27861;,&#26041;&#27861;&#20013;&#36890;&#36807;e.target&#33719;&#21462;&#20107;&#20214;&#26469;&#28304;&#23376;&#20803;&#32032;&#20570;&#20107;&#20214;&#22788;&#29702; </b>
+    </p>
+    <p>
+      &#21487;&#20197;&#36991;&#20813;&#32473;&#25152;&#26377;&#23376;&#23385;&#20803;&#32032;&#19968;&#19968;&#32465;&#23450;&#20107;&#20214;&#65292;&#21482;&#32473;&#31062;&#20808;&#20803;&#32032;&#32465;&#23450;&#19968;&#27425;&#23601;&#34892;&#20102;&#12290;
+    </p>
+    <p>
+      &#20063;&#21487;&#20197;&#22788;&#29702;&#21160;&#24577;&#28155;&#21152;&#30340;&#20803;&#32032;&#30340;&#20107;&#20214;&#22788;&#29702;.
+    </p>
+    <p>
+      &#31867;&#20284;Java&#31867;&#21152;&#36733;&#22120;&#30340;&#22996;&#25176;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x6b64;&#x65f6;&#x4e8b;&#x4ef6;&#x7ed1;&#x5b9a;&#x5143;&#x7d20;&#x548c;&#x4e8b;&#x4ef6;&#x89e6;&#x53d1;&#x5143;&#x7d20;&#x53ef;&#x80fd;&#x4e0d;&#x4e00;&#x6837;" ID="ID_1489007897" CREATED="1610248108559" MODIFIED="1610248179907">
+<icon BUILTIN="yes"/>
+</node>
+</node>
+<node TEXT="&#x963b;&#x6b62;&#x5192;&#x6ce1;" ID="ID_183439451" CREATED="1609955839115" MODIFIED="1609956093112"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#38450;&#27490;&#20107;&#20214;&#20256;&#36882;&#21040;&#31062;&#20808;&#20803;&#32032;&#12290;</b>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&lt;event&gt;.stopPropagation()" ID="ID_39515449" CREATED="1610249864052" MODIFIED="1610249892355"/>
+<node TEXT="IE6-8: cancelBuble&#x5c5e;&#x6027;" ID="ID_610482312" CREATED="1610249943002" MODIFIED="1610249958462"/>
+</node>
+<node TEXT="&#x963b;&#x6b62;&#x4e8b;&#x4ef6;&#x9ed8;&#x8ba4;&#x884c;&#x4e3a;" ID="ID_909706746" CREATED="1610249900286" MODIFIED="1610249912423">
+<node TEXT="&lt;event&gt;.preventDefault()" ID="ID_1834258326" CREATED="1610249913884" MODIFIED="1610249927533"/>
+<node TEXT="IE6-8: returnVlue&#x5c5e;&#x6027;" ID="ID_1735348209" CREATED="1610249961445" MODIFIED="1610249984647"/>
+<node TEXT="addEventListener&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x65b9;&#x6cd5;&#x8fd4;&#x56de;false" ID="ID_1098372008" CREATED="1610250195282" MODIFIED="1610250295838"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#35813;&#21477;&#27809;&#26377;&#20860;&#23481;&#24615; &#20294;&#26159;&#21482;&#33021;&#29992;&#22312;dom0&#30340;&#20107;&#20214;(dom0&#20107;&#20214;&#26377;&#21738;&#20123;?)&#32465;&#23450;.
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_658079866" CREATED="1601997544420" MODIFIED="1602065091926"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31995;&#32479;&#39044;&#23450;&#20041;&#22909;&#30340;&#34892;&#20026;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x4e00;&#x4e2a;&#x4e8b;&#x4ef6;&#x7ed1;&#x5b9a;&#x591a;&#x4e2a;&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_378686646" CREATED="1609682116837" MODIFIED="1609683494948"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // &#23553;&#35013;&#19968;&#20010;&#20989;&#25968; &#36827;&#34892;dom&#20803;&#32032;&#20107;&#20214;&#32465;&#23450; &#35299;&#20915;&#20860;&#23481;&#24615;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;function addEventListener(ele, type, fn) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (ele.addEventListener) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ele.addEventListener(type, fn);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} else if (ele.attachEvent) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ele.attachEvent(&quot;on&quot; + type, fn);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} else {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ele[&quot;on&quot; + type] = fn;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_811806983" CREATED="1609683484476" MODIFIED="1609683489586"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      addEventListener()
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      btns[0].addEventListener('click', fun);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="attachEvent()" ID="ID_817417203" CREATED="1609683519730" MODIFIED="1609683585507"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ie&#20302;&#29256;&#26412;&#19981;&#25903;&#25345;addEventListener&#65292;&#35201;&#20351;&#29992;&#36825;&#20010;&#26041;&#27861;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x79fb;&#x9664;&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_642864134" CREATED="1609683297541" MODIFIED="1609683510628">
+<node TEXT="removeEventListener" ID="ID_564968846" CREATED="1609683502845" MODIFIED="1609683513373"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      btns[0].removeEventListener('click', fun);
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="detachEvent" ID="ID_1393942953" CREATED="1609683535193" MODIFIED="1609683598953"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      ie&#20302;&#29256;&#26412;&#29992;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x5de5;&#x5177;" ID="ID_878066206" CREATED="1607847043701" MODIFIED="1607847049299">
+<node TEXT="console.dir()" ID="ID_1773156792" CREATED="1607847901029" MODIFIED="1608475710395">
+<icon BUILTIN="idea"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25171;&#21360;&#23545;&#35937;&#25152;&#26377;&#23646;&#24615;&#21644;&#26041;&#27861;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x901a;&#x8fc7;&#x8fd9;&#x4e2a;&#x65b9;&#x6cd5;&#x53ef;&#x4ee5;&#x67e5;&#x770b;&#x5143;&#x7d20;&#x7684;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;&#xa;&#x7136;&#x540e;&#x8fdb;&#x884c;&#x4fee;&#x6539;&#x548c;&#x64cd;&#x4f5c;" ID="ID_9436921" CREATED="1609663492767" MODIFIED="1609952606613">
+<icon BUILTIN="idea"/>
+</node>
+</node>
+<node TEXT="prompt()" ID="ID_1264421287" CREATED="1601806412422" MODIFIED="1608475701382"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36755;&#20837;&#24377;&#31383;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x6d4f;&#x89c8;&#x5668;console&#x4e2d;&#x53ef;&#x4ee5;&#x67e5;&#x770b;&#x6587;&#x6863;&#x5bf9;&#x8c61;&#x7684;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;" ID="ID_1733445549" CREATED="1608475893840" MODIFIED="1608476002136"/>
+</node>
+</node>
+<node TEXT="BOM" ID="ID_263402758" CREATED="1599963546040" MODIFIED="1607846336783" STYLE="bubble"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -3933,6 +5247,12 @@
   <body>
     <p>
       &#27983;&#35272;&#22120;&#23545;&#35937;&#27169;&#22411;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#33719;&#21462;&#27983;&#35272;&#22120;&#30340;&#23646;&#24615;&#12290;
     </p>
   </body>
 </html>
@@ -3947,6 +5267,7 @@
 </node>
 <node TEXT="JQuery" POSITION="right" ID="ID_1843616484" CREATED="1601110373262" MODIFIED="1601110379667" STYLE="bubble">
 <edge COLOR="#00ff00"/>
+<node TEXT="" ID="ID_1256626879" CREATED="1608986669654" MODIFIED="1608986669654"/>
 </node>
 <node TEXT="React" POSITION="right" ID="ID_1050019187" CREATED="1599966460569" MODIFIED="1599966467104" STYLE="bubble">
 <edge COLOR="#007c00"/>

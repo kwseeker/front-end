@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+        }
+        
+        .box>.son {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        .box1 {
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+        }
+        
+        .box1>.son1 {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <div class="son"></div>
+    </div>
+    <div class="box1">
+        <div class="son1"></div>
+    </div>
+    <div>
+        <a href="http://www.baidu.com">百度一下</a>
+    </div>
+    <div>
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <button>动态添加li</button>
+    </div>
+    <script>
+        // 事件发生后会在元素节点之间按照特定的顺序进行传播 传播过程叫事件流
+
+        // 1 事件传播
+        // 对于当前html,点击son元素，事件传播顺序：
+        // window -> document -> html -> body -> box -> son (事件捕获阶段)
+        // 传递到son后处于目标阶段（和目标son绑定的事件不管是捕获模式还是冒泡模式都是按照代码绑定顺序执行的）
+        // window <- document <- html <- body <- box <- son (事件冒泡阶段)
+        var htmlEle = document.querySelector("html");
+        var bodyEle = document.querySelector("body");
+        var box = document.querySelector('.box');
+        var son = box.children[0];
+        // onclick /attachEvent 只支持冒泡模式
+        // addEventListener() 默认是冒泡模式，可以设置第三个参数为true，开启事件捕获模式。
+        // 下面依次给上面的节点绑定事件
+        window.addEventListener('click', function() {
+            console.log('window 捕获');
+        }, true);
+        document.addEventListener('click', function() {
+            console.log('document 捕获');
+        }, true);
+        htmlEle.addEventListener('click', function() {
+            console.log('html 捕获');
+        }, true);
+        bodyEle.addEventListener('click', function() {
+            console.log('body 捕获');
+        }, true);
+        box.addEventListener('click', function() {
+            console.log('box 捕获');
+        }, true);
+        // 和目标son绑定的事件不管是捕获模式还是冒泡模式都是按照代码绑定顺序执行的
+        son.addEventListener('click', function() {
+            console.log('son 冒泡');
+        });
+        son.addEventListener('click', function() {
+            console.log('son 捕获');
+        }, true);
+        
+        box.addEventListener('click', function() {
+            console.log('box 冒泡');
+        });
+        bodyEle.addEventListener('click', function() {
+            console.log('body 冒泡');
+        });
+        htmlEle.addEventListener('click', function() {
+            console.log('html 冒泡');
+        });
+        document.addEventListener('click', function() {
+            console.log('document 冒泡');
+        });
+        window.addEventListener('click', function() {
+            console.log('window 冒泡');
+        });
+        //结果：
+        // window 捕获
+        // document 捕获
+        // html 捕获
+        // body 捕获
+        // box 捕获
+        // son 冒泡     //注意son（目标元素）的事件
+        // son 捕获
+        // box 冒泡
+        // body 冒泡
+        // html 冒泡
+        // document 冒泡
+        // window 冒泡
+
+        // 注意 1 有些事件没有冒泡 如onblur onfocus onmouseenter onmouseleave
+
+        
+        // 2 事件对象与事件委托
+
+        // 事件触发对象: e.target
+        var box1 = document.querySelector('.box1');
+        box1.onclick = function(e) {
+            e = e || window.event;
+            console.log(e.target);  // 事件触发的元素（事件冒泡根本来源）， ie6-8是srcElement属性
+            console.log(this);      // 事件绑定的元素
+            console.log(e.type);
+        }
+        // 阻止冒泡
+        box1.children[0].onclick = function(e) {
+            console.log('son1');
+            e.stopPropagation();        // 阻止子元素click事件向上冒泡,包括父元素在内的祖先元素的click事件不会被子元素click触发
+            // e.cancelBubble = true;   // ie6-8是cancelBubble属性
+        }
+        // 阻止事件默认行为（如：超链接跳转）
+        var alink = document.querySelector('a');
+        alink.addEventListener('click', function(e) {
+            alert(1);
+            e.preventDefault();         //标准写法 
+            // e.returnValue = false;   //ie6-8写法
+            // return false;            //该句没有兼容性 但是只能用在dom0的事件绑定
+        });
+
+        // 事件委托(如针对动态添加的子节点, 通过事件冒泡在祖先元素绑定事件处理方法,方法中通过e.target获取事件来源子元素做事件处理)
+        // 案例: 点击每个li的时候 让当前li背景色为粉红色,对动态添加的li要同样生效
+        var oUl = document.querySelector('ul');
+        var lis = document.querySelectorAll('li');
+        // for (var i = 0; i < lis.length; i++) {       //如果没有动态添加的li可以为每个子元素添加绑定事件,但是这种写法很繁杂
+        //     lis[i].addEventListener('click', function() {
+        //         this.style.background = "pink";
+        //     });
+        // }
+        document.querySelector('button').addEventListener('click', function() {
+            var oli = document.createElement('li');
+            oli.innerHTML = 4;
+            oUl.appendChild(oli);
+        });
+        oUl.addEventListener('click', function(e) {     //通过将事件委托给唯一的父元素处理
+            // 让真正触发的元素实现背景色改变
+            if (e.target != this) {
+                e.target.style.background = "pink";
+            }
+        });
+
+    </script>
+</body>
+
+</html>

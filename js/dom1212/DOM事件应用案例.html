@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* * {
+            padding: 0;
+            margin: 0;
+        }
+
+        .top {
+            height: 58px;
+            background-color: skyblue;
+            position: relative;
+        }
+
+        .top>span {
+            font-size: 20px;
+            position: absolute;
+            top: 8px;
+            right: 20px;
+            cursor: pointer;
+        }
+
+        div {
+            float: left;
+            height: 200px;
+            width: 200px;
+            margin: 5px;
+            background-color: pink;
+        }
+
+        .hl {
+            border: 2px solid blue;
+        }
+
+        table {
+            width: 800px;
+            margin: 100px auto;
+            text-align: center;
+            border-collapse: collapse;
+            font-size: 16px;
+        }
+
+        thead>tr {
+            background-color: skyblue;
+            height: 30px;
+        }
+
+        tbody>tr {
+            height: 30px;
+        }
+
+        tbody td {
+            border-bottom: 1px solid #ccc;
+            color: blue;
+            font-size: 14px;
+        }
+
+        .orange {
+            background-color: orange;
+        }
+
+        .lightgreen {
+            background-color: lightgreen;
+        } */
+
+
+    </style>
+</head>
+
+<body>
+    <!-- 1 关闭广告 -->
+    <!-- <div class="top" id="top">
+        <span>×</span>
+    </div>
+    <script>
+        var top_obj = document.querySelector('.top');
+        var span_obj = top_obj.getElementsByTagName('span');
+        span_obj[0].onclick = function() {
+            top_obj.style.display = 'none';
+        };
+    </script> -->
+
+    <!-- 2 选中的突出显示 -->
+    <!-- <div class="hl"></div>
+    <div></div>
+    <div></div>
+    <script>
+        var divs = document.querySelectorAll('div');
+        for (var i = 0; i < divs.length; i++) {
+            divs[i].onclick = function () {
+                for (var j = 0; j < divs.length; j++) {    //排他思想
+                    divs[j].className = '';
+                }
+                this.className = 'hl';
+            }
+        }
+    </script> -->
+
+    <!-- 3 隔行变色 -->
+    <!-- <table>
+        <thead>
+            <tr>
+                <th>姓名</th>
+                <th>年龄</th>
+                <th>学历</th>
+                <th>婚姻</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>张三</th>
+                <th>21</th>
+                <th>高中</th>
+                <th>未婚</th>
+            </tr>
+            <tr>
+                <th>李四</th>
+                <th>22</th>
+                <th>本科</th>
+                <th>未婚</th>
+            </tr>
+            <tr>
+                <th>王五</th>
+                <th>23</th>
+                <th>本科</th>
+                <th>未婚</th>
+            </tr>
+            <tr>
+                <th>赵六</th>
+                <th>26</th>
+                <th>本科</th>
+                <th>已婚</th>
+            </tr>
+            <tr>
+                <th>孙七</th>
+                <th>25</th>
+                <th>大专</th>
+                <th>已婚</th>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        var trs = document.querySelectorAll('tbody tr');
+        for (var i = 0; i < trs.length; i++) {
+            if (!(i % 2)) {
+                trs[i].className += 'orange';
+            } else {
+                trs[i].className += 'lightgreen';
+            }
+        }
+    </script> -->
+
+    <!-- 4 全选，全不选，反选 input元素checked属性 -->
+    
+    <!-- 5 图片放大镜 -->
+  
+    <!-- 6 京东快递单号查询,输入字符放大镜 -->
+
+    
+</body>
+
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- novalidate: 不验证格式，新增表单属性 -->
+    <form action="" novalidate>
+        <!-- 优点：简单方便，缺点：样式问题估计无法和需求页面统一 -->
+        <!-- autofocus: 页面加载时自动聚焦到此表单控件
+            autocomplete: 提示以往输入历史 -->
+        邮箱：<input type="email" name="" id="" placeholder="请输入邮箱" autofocus autocomplete="on"><br>
+        URL：<input type="url" name="" id="" required><br>
+        数字：<input type="number" name="" id="" max="100" step="5"><br>
+        搜索：<input type="search" name="" id=""><br>
+        <!-- pattern: 格式校验（针对type: password, text, tel） -->
+        Tel：<input type="tel" name="" id="" pattern=""><br>
+        <!-- 范围选择框 -->
+        范围：<input type="range" name="" id="" value="50" min="0" max="100"><br>
+        <!-- 颜色选择框 -->
+        颜色：<input type="color" name="" id=""><br>
+        <!-- 日期事件相关 -->
+        日期：<input type="date" name="" id=""><br>
+        月：<input type="month" name="" id=""><br>
+        星期：<input type="week" name="" id=""><br>
+        时间：<input type="time" name="" id=""><br>
+        日期时间：<input type="datetime" name="" id=""><br>
+        日期时间（本地）：<input type="datetime-local" name="" id=""><br>
+        <!-- multiple: 文件多选 -->
+        文件：<input type="file" name="" id="" multiple>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>

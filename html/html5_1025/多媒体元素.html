@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        controls: 展示音视频控件
+        autoplay: 自动播放，google浏览器禁用了自动播放
+    -->
+    <audio class="audio" src="/home/lee/音乐/CloudMusic/玉置成実 - Believe.mp3" controls loop autoplay></audio><br>
+    <video src="/home/lee/音乐/CloudMusic/MV/Aimer - Last Stardust.mp4" controls loop autoplay width="600" height="400" muted preload poster="/home/lee/图片/Last Stardust.png"></video><br>
+    <!-- 兼容性问题 mp3 wav ogg(Vorbis)
+        ie: mp3
+        google: mp3 ogg
+        safari: mp3 wav
+        opera: wav ogg
+        可以通过source,为一个视频准备多种格式 
+    -->
+    <audio class="audio" controls loop>
+        <source src="/home/lee/音乐/CloudMusic/玉置成実 - Believe.mp3" type="audio/mpeg">
+        <source src="/home/lee/音乐/CloudMusic/玉置成実 - Believe.opus" type="audio/ogg; codecs=opus"/>
+        <source src="/home/lee/音乐/CloudMusic/玉置成実 - Believe.ogg" type="audio/ogg; codecs=vorbis"/>
+    </audio><br>
+    <video controls loop autoplay width="600" height="400" muted preload poster="/home/lee/图片/Last Stardust.png">
+        <source src="/home/lee/音乐/CloudMusic/MV/Aimer - Last Stardust.mp4" type="video/mp4">
+        <source src="/home/lee/音乐/CloudMusic/MV/Aimer - Last Stardust.webm" type="video/webm">
+    </video><br>
+
+</body>
+<script>
+    onload = function() {
+        var audios = document.getElementsByClassName("audio");
+        //for(var i=0; i<audios.length; i++) {
+        //    audios[i].volume=0.5;
+        //}
+        //Array.prototype.forEach.call(audios, function(audio) {
+        //    audio.volume=0.5;
+        //});
+        [].forEach.call(audios, function (audio) {
+            audio.volume=0.5;
+        });
+    }
+</script>
+</html>

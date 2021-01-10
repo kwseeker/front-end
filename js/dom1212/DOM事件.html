@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .pbox {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+
+        .cbox {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <button id="btn">按钮1</button>
+    <button onclick="fn()">按钮2</button>
+    <button id="btn_et">按钮(测试事件类型)</button>
+    <div id="pbox" class="pbox">
+        <div class="cbox"></div>
+    </div>
+    <input id="txt" type="text">
+    <p>书山有路勤为径!</p>
+</body>
+<script>
+    // *********************************************************
+    // 1 事件源.事件 = 事件处理函数
+    var btn = document.getElementById('btn');
+
+    // 获取事件对象 (如鼠标事件 MouseEvent)
+    btn.ondblclick = function (e) {
+        console.log(e);
+    }
+
+    // btn.onclick = function() {
+    //     alert("你点了按钮1");
+    // };
+    function fn() {
+        alert("你点了按钮2");
+    }
+
+    // *********************************************************
+    // 2 事件类型
+    // 2.1 常见鼠标事件
+    var btnEventType = document.getElementById('btn_et');
+    btnEventType.onmousedown = function () {
+        console.log('鼠标按下！')
+    };
+    btnEventType.onmouseup = function () {
+        console.log('鼠标弹起！');
+    }
+    // onmousemove  是鼠标在元素上移动时触发，且在元素上每移动一下就会触发一次。
+    // onmouseover  是鼠标移入元素时触发一次，再次在元素上移动时不会触发，但是鼠标移入元素内的子元素时也会触发（冒泡）
+    // onmouseenter 仅鼠标移入时，触发一次，且不冒泡 
+    // onmouseout   鼠标进入指定元素触发事件，进入子元素还会触发事件。
+    // onmouseleave 鼠标离开指定元素触发事件，不包含子元素区域。
+    var pbox = document.getElementById('pbox');
+    function fn2() {
+        console.log("触发了事件！");
+    }
+    // pbox.onmouseenter = fn2;
+    // pbox.onmouseleave = fn2;
+    // pbox.onmousemove = fn2;
+    // pbox.onmouseout = fn2;
+    pbox.onmouseover = fn2;
+
+    var txt = document.querySelector('#txt');
+    txt.onfocus = function () {  //光标放入输入框
+        console.log("获得焦点");
+    };
+    txt.onblur = function () {   //光标移出输入框
+        console.log("失去焦点");
+    };
+
+    //contextmenu 右键菜单事件
+    document.addEventListener('contextmenu', function (e) {
+        e = e || window.event;  // e = e || event
+        // e.preventDefault();     // 阻止右键菜单事件默认行为,即不弹出右键菜单
+    });
+    //selectstart 鼠标选中事件
+    document.addEventListener('selectstart', function (e) {
+        console.log('我开始选中啦');
+        console.dir(e);
+        e.preventDefault();     // 阻止鼠标选中, 案例: 禁止文本拷贝
+    });
+
+    // 2.2 键盘事件
+    // onkeyup  onkeydown onkeypress
+    // 三个事件的顺序 按键被keydown keypress keyup
+    // onkeypress不识别ctrl、shift、上下左右箭头
+    // 通过键盘事件对象的keyCode属性得到对应键的ASCII码
+    // onkeyup或keydown不区分大小写 a-----97 A-----65, keypress区分大小写,a-----97 A-----65
+    // document.onkeyup = function(e) {
+    //     // console.log("key up!");
+    // }
+    // document.onkeydown = function(e) {
+    //     console.dir(e);
+    //     // console.log('key down');
+    //     if(e.keyCode >= 65 && e.keyCode <= 90) {    //结合shiftKey和keyCode,实现区分大小写
+    //         if(e.shiftKey) {
+    //             console.log(String.fromCharCode(e.keyCode));
+    //         } else {
+    //             console.log(String.fromCharCode(e.keyCode+32));
+    //         }
+    //     }
+    // }
+    // document.onkeypress = function(e) {
+    //     // console.log("key press!");
+    //     console.log(String.fromCharCode(e.keyCode));
+    // }
+    
+    document.onkeypress = function(e) {
+        // console.log(e.keyCode);
+        keySave(e);
+    }
+    // document.onkeydown = function(e) {
+    //     // console.log(e.keyCode);
+    //     keySave(e);
+    // }
+    //ctrl+shift+s保存
+    function keySave(e) {
+        // console.dir(e);
+        // console.log(e.type);
+        if((e.type == 'keypress' && e.keyCode == 19)                                   //对于 ctrl+shift+<char> 好像keypress事件的keyCode重新编码了
+            || (e.type == 'keydown' && e.keyCode == 83 && e.ctrlKey && e.shiftKey)) {  
+            console.log("执行保存操作...");
+        }
+    }   
+    
+    // 2.3 框架对象事件
+
+    // 2.4 表单事件
+
+    // 2.5 ... For more : https://www.runoob.com/jsref/dom-obj-event.html
+
+</script>
+
+</html>

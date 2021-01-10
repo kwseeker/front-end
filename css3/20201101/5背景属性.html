@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            width: 800px;
+            height: 300px;
+            padding: 20px;
+            border: 5px solid red;
+            background: url(./imgs/picture.jpeg) no-repeat;
+
+            /* 设置背景显示原点 */
+            /* 设置从border开始显示 */
+            background-origin: border-box;
+            /* 设置从padding开始显示 */   
+            background-origin: padding-box;
+            /* 设置从content开始显示 */
+            background-origin: content-box;     
+
+            /* 设置背景大小 */
+            background-size: 500px 300px;  
+            /* 设置盒子宽高的50% */
+            background-size: 50% 50%;
+            /* 真实大小 */
+            background-size: auto;  
+            /* 宽高等比例缩放直到完全覆盖容器 */            
+            background-size: cover;
+            /* 宽高等比例缩放，完整显示在容器并尽可能大 */
+            background-size: contain;
+
+            /* 背景裁剪 */ 
+            /* 只留下border+padding+content区域 */ 
+            background-clip: border-box;
+            /* 只留下padding+content区域 */ 
+            background-clip: padding-box;
+            /* 只留下content区域 */ 
+            background-clip: content-box;
+            /* 背景被裁剪为文字的前景色，兼容性不好，大多数浏览器无法正常显示 */
+            background-clip: text;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        box
+    </div>
+</body>
+</html>

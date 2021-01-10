@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="box">
+        一个div容器
+    </div>
+    <ul id="list1">
+        <li class="first" name="firstLi">1</li>
+        <li class="second">2</li>
+        <li>3</li>
+    </ul>
+    <ul id="list2">
+        <li class="first" name="firstLi">4</li>
+        <li class="second">5</li>
+        <li>6</li>
+    </ul>
+
+    <p>第一自然段</p>
+    <p>第二自然段</p>
+    <img src="./imgs/1.jpg" alt=""><br>
+
+    <input type="text">
+
+    <script>
+        // ====================>
+        // 1 打印对象所有属性和属性值
+        console.dir(document);
+
+        // ====================>
+        // 2 获取DOM元素
+        var box = document.getElementById('box');
+        console.log(typeof box);                        //Object
+        
+        var lis = document.getElementsByTagName('li');  //通过tag（div、ul、li等）获取所有符合的元素，返回的是集合对象 HTMLCollection
+        
+        var firstLis = document.getElementsByName('firstLi');       //通过name属性获取所有符合的元素，NodeList
+
+        var secondLis = document.getElementsByClassName('second');
+
+        var fls = document.querySelectorAll('#list1 .first');       //通过选择器字符串获取元素，返回NodeList
+        var secondLis = document.querySelector('.second');          //和querySelectorAll()的区别是只返回第一个
+        console.log(fls);
+        console.log(secondLis);
+
+        //通过document属性获取元素
+        console.log(document.all);
+        console.log(document.body);
+        console.log(document.documentElement);
+        
+        // ====================>
+        // 4 元素内容操作
+        var paragraphs = document.getElementsByTagName('p');
+        console.log(paragraphs[0].innerText);
+        console.log(paragraphs[0].innerHTML);
+        paragraphs[0].innerText = 'First paragraph';
+        paragraphs[1].innerHTML = '<span>Second paragraph</span>';
+
+        // ====================>
+        // 5 元素属性操作
+        //   图片src
+        var img = document.querySelector('img');
+        var imgSrc = ['./imgs/1.jpg', './imgs/2.jpg', './imgs/3.jpg'];
+        img.onclick = function() {
+            console.dir(img);
+            var index = Math.floor(Math.random()*3);
+            img.src = imgSrc[index];
+        };
+        //   表单元素属性
+
+        //   样式属性操作(通过style属性操作) <element>.style.<attr> = <value>
+        paragraphs[0].style.fontSize = '20px';
+        
+        // 6 
+
+    </script>
+</body>
+</html>

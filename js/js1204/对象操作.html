@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="../utils/object-info.js"></script> -->
+</head>
+<body>
+    <script>
+        //1) 对象创建
+        var myJob = {
+            jobType: "programmer",
+            workAge: 4,
+            domain: "Internet"
+        };
+        var me = {
+            name: "Arvin",
+            age: 100,
+            gender: 1,
+            job: myJob
+        };
+
+        //2) 成员增删改查
+        //  增加属性
+        me.hobby = ["sing", "read"];
+        //  增加方法
+        me.cook = function() {
+            console.log("I can cook delicious foods!");
+        }
+        console.log(Reflect.ownKeys(me));
+        //  删除属性
+        delete me.age;      //年龄是个秘密
+        //  修改属性
+        me.name = "Arvin Lee";
+        me["name"] = "ArvinLee";
+        //  查询成员
+        console.log(me.name);
+        console.log(me.job.jobType);
+        
+        //3) 循环遍历属性
+        for(attr in me) {
+            console.log(attr);
+        }
+    
+        //4) 属性是否存在与对象中
+        console.log("age" in me);
+        console.log(Reflect.has(me, "age"));
+        console.log("name" in me);
+        console.log("job" in me);
+    </script>
+</body>
+</html>

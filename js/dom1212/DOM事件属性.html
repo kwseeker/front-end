@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            height: 2000px;
+        }
+        
+        .fa {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border: 1px solid red;
+            margin: 0 auto;
+        }
+        
+        .box {
+            width: 200px;
+            height: 200px;
+            background-color: pink;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="fa">
+        <div class="box"></div>
+    </div>
+
+    <script>
+        document.querySelector('.box').addEventListener('mousemove', function(e) {
+            e = e || event;
+            // console.dir(e);
+            // 可视区域的x和y坐标
+            //console.log(e.clientX + ":" + e.clientY);
+            // 以页面文档左上角为参考原点
+            //console.log(e.pageX + ":" + e.pageY);
+            // 以电脑屏幕左上角为参考原点
+            //console.log(e.screenX + ":" + e.screenY);
+            console.log(e.layerX);
+        })
+    </script>
+</body>
+</html>
