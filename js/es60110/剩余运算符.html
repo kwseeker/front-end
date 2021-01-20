@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>div1</div>
+    <div>div2</div>
+    <script>
+        const getSum = (...args) => {
+            let sum = 0;
+            args.forEach(arg => sum += arg);
+            return sum;
+        }
+        console.log(getSum(1, 2, 3, 4));
+
+        let [a, ...left] = [1, 2, 3, 4];
+        let {name, ...info} = {name: 'Arvin', age: 100, gender: 'M'};
+        console.log(left);      // [2, 3, 4] 
+        console.log(info);
+
+        //
+        let arr1 = [1, 2, 3];
+        let arr2 = [-1, -2];
+        console.log(...arr1);   //把内部的元素都拿出来
+        console.log(...arr1, ...arr2);
+        console.log([...arr1, ...arr2]);    //数组合并
+        // let obj = {a: 'A', b: 'B', c: 'C'};  
+        // console.log(...obj); //不支持，显示没有iterator方法可调用
+
+        let divs = document.querySelectorAll('div');
+        console.dir(divs);
+        let divArr = [...divs]; //NodeList 转 Array
+        console.dir(divArr);
+
+        //对象拷贝(浅拷贝，内部共用对象)
+        let obj = {a: 'A', b: 'B', c: 'C'};
+        let objCopy = {...obj};
+        console.log(objCopy);
+    </script>
+</body>
+
+</html>

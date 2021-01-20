@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button>按钮</button>
+    <script>
+        //旧写法
+        const func = function () {
+            console.log('旧的写法');
+        }
+        
+        //箭头函数写法
+        const func1 = () => {
+            console.log('箭头函数写法');
+        };
+        const func2 = (a, b) => {
+            console.log('a+b=' + (a+b));
+        };
+        const func3 = (a, b) => console.log('a+b=' + (a+b));
+        const func4 = a => console.log(Math.abs(a));
+
+        func();
+        func1();
+        func2(1,2);
+        func3(1,2);
+        func4(-3.5);
+
+        //箭头函数this由所处作用域this决定
+        // var num = 100;  //在全局作用域定义等同于 window.num = 100;
+        // num = 100;      //在任何位置这么定义都等同于 window.num = 100; 
+        let num = 100;
+        let obj = {
+            num: 200,
+            func: function() {
+                console.dir(this);
+                console.log(this.num);
+            }
+        }
+        obj.func();     //通过对象调用this指向对象: Object 200
+        let objFunc = obj.func;
+        objFunc();      //直接调用函数this执行全局对象window: Window undefined
+
+        let　obj2 = {                       //这个大括号不是作用域，作用域只有全局作用域和函数的局部作用域
+            num: 300,
+            func: () => console.dir(this)   //这一行作为整体，处于全局作用域，此时this是window
+        }
+        obj2.func();
+
+        //按钮禁用后一段时间自动还原
+        let btn = document.querySelector('button');
+        btn.addEventListener('click', function() {  // A
+            this.disabled = true;
+            // setTimeout(function() {      //改造前
+            //     this.disabled = false;
+            // }.bind(this), 1000);
+            setTimeout(() => this.disabled = false, 1000);  //箭头函数this指向外部函数的作用域即A
+        });
+    </script>
+</body>
+
+</html>

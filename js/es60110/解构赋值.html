@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let [a, b, c, [, d]] = [1, 2, 3, [4, 5]];
+        console.log(a, b, c, d);
+        let [x, y] = [1];
+        console.log(x, y);      // 1 undefined
+
+        //对象的解构赋值变量名需要与属性名相同，或者通过“:”指定变量取的哪个属性的值
+        let {name, sex:gender} = {name: 'Arvin', sex: 'M', age: 1};
+        console.log(name, gender);
+
+        function fn({name, gender}) {
+            console.log(name, gender);
+        }
+        fn({name:'Lily', gender:'M'});
+
+    </script>
+</body>
+
+</html>

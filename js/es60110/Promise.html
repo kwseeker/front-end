@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // Promise遵循Promise/A+规范
+        // 接受一个函数executor作为参数，函数包含两个形参，分别是resolve和reject。
+        // executor函数会被立即执行，
+        // Promise内部会维护自己的状态，默认状态是否等待pending,
+        // 执行resolve()状态会变为成功态(fulfilled)，执行reject()状态会变为失败态(rejected)
+        // 如果executor函数执行中出现异常，状态会转变为reject状态。
+        // then()在最后执行。
+
+        // Promise基本使用
+        let func = function() {
+            new Promise((resolve, reject) => {
+            console.log('执行exector...');
+            let randNum = Math.floor(Math.random() * 10);
+            if (randNum % 2) {
+                //触发成功
+                resolve(randNum);
+            } else {
+                //触发失败
+                reject(randNum);
+            }
+            }).then(ret => {
+                //成功处理
+                console.log('succeed: ' + ret);
+            }, err => {
+                //失败处理
+                console.log('failed: ' + err);
+            });
+            console.log('middle print');
+        }
+        func();
+
+        //Promise实现原理
+        function MyPromise(executor) {
+            this.status = 'pending';
+            this.value = undefined;
+            this.reason = undefined;
+
+            this.resolve = value => {
+                if(this.status === 'pending') {
+                    this.status = 'fulfilled';
+                    this.value = value;
+                }
+            }
+            this.reject = reason => {
+                if(this.status === 'pending') {
+                    this.status = 'rejected';
+                    this.reason = reason;
+                }
+            }
+
+            try {
+                executor(this.resolve, this.reject);      //executor由用户自定义传入
+            } catch (error) {
+                this.reject(error);
+            }
+        }
+        // MyPromise.prototype.then = (onFulfilled, onRejected) => {        //这里不能这么写，这么写的话this指向window
+        MyPromise.prototype.then = function(onFulfilled, onRejected) {      //TODO: 原版Promise then() 是最后才执行的, 怎么实现的？
+            if(this.status === 'fulfilled') {
+                onFulfilled(this.value);
+            }
+            if(this.status === 'rejected') {
+                onRejected(this.reason);
+            }
+        }
+
+        new MyPromise((resolve, reject) => {
+            console.log('执行exector...');
+            throw new Error("???");
+            let randNum = Math.floor(Math.random() * 10);
+            if (randNum % 2) {
+                //触发成功
+                resolve(randNum);
+            } else {
+                //触发失败
+                reject(randNum);
+            }
+        }).then(ret => {
+            //成功处理
+            console.log('succeed: ' + ret);
+        }, err => {
+            //失败处理
+            console.log('failed: ' + err);
+        });
+
+    </script>
+</body>
+
+</html>
