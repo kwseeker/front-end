@@ -9,6 +9,7 @@
 
 <body>
     <script>
+        //**********************************************************************
         // Promise遵循Promise/A+规范
         // 接受一个函数executor作为参数，函数包含两个形参，分别是resolve和reject。
         // executor函数会被立即执行，
@@ -20,7 +21,7 @@
         // Promise基本使用
         let func = function() {
             new Promise((resolve, reject) => {
-            console.log('执行exector...');
+            console.log('执行 executor...');
             let randNum = Math.floor(Math.random() * 10);
             if (randNum % 2) {
                 //触发成功
@@ -40,60 +41,43 @@
         }
         func();
 
-        //Promise实现原理
-        function MyPromise(executor) {
-            this.status = 'pending';
-            this.value = undefined;
-            this.reason = undefined;
-
-            this.resolve = value => {
-                if(this.status === 'pending') {
-                    this.status = 'fulfilled';
-                    this.value = value;
+        //**********************************************************************
+        //链式调用
+        // 1 then的成功或失败回调返回值假如是一个普通值，会将这个值传递给下次then的成功回调;
+        // 2 then的成功或失败回调函数出错了，就走到下次then的失败回调函数;
+        // 3 then的成功或失败回调函数中返回的是一个Promise,这个Promise的状态决定下一次then是走成功还是失败回调函数。
+        // 之所以可以链式调用是因为then每次都会返回一个新的Promise对象（注意是新的Promise对象）。
+        new Promise((resolve, reject) => {
+            reject('err occurred by ...');
+        }).then(value => {
+            console.log('succeed: ', value);
+        }, reason => {
+            console.log('failed: ', reason);
+            //undefined
+        }).then(value => {
+            console.log('success: ', value);
+            throw new Error('test threw ...');
+        }, reason => {
+            console.log('failed: ', reason);
+        }).then(value => {
+            console.log('success: ', value);
+        }, reason => {
+            console.log('failed: ', reason);
+            return new Promise((resolve, reject) => {
+                if(Math.random() > 0.5) {
+                    resolve('yes');
+                } else {
+                    reject('no');
                 }
-            }
-            this.reject = reason => {
-                if(this.status === 'pending') {
-                    this.status = 'rejected';
-                    this.reason = reason;
-                }
-            }
-
-            try {
-                executor(this.resolve, this.reject);      //executor由用户自定义传入
-            } catch (error) {
-                this.reject(error);
-            }
-        }
-        // MyPromise.prototype.then = (onFulfilled, onRejected) => {        //这里不能这么写，这么写的话this指向window
-        MyPromise.prototype.then = function(onFulfilled, onRejected) {      //TODO: 原版Promise then() 是最后才执行的, 怎么实现的？
-            if(this.status === 'fulfilled') {
-                onFulfilled(this.value);
-            }
-            if(this.status === 'rejected') {
-                onRejected(this.reason);
-            }
-        }
-
-        new MyPromise((resolve, reject) => {
-            console.log('执行exector...');
-            throw new Error("???");
-            let randNum = Math.floor(Math.random() * 10);
-            if (randNum % 2) {
-                //触发成功
-                resolve(randNum);
-            } else {
-                //触发失败
-                reject(randNum);
-            }
-        }).then(ret => {
-            //成功处理
-            console.log('succeed: ' + ret);
-        }, err => {
-            //失败处理
-            console.log('failed: ' + err);
+            });
+        }).then(value => {
+            console.log('success: ', value);
+        }, reason => {
+            console.log('failed: ', reason);
         });
 
+        //链式调用的原理：then方法会返回一个新的Promise()实例
+        
     </script>
 </body>
 

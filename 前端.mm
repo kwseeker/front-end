@@ -63,7 +63,7 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="18" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
 <node TEXT="&#x6559;&#x7a0b;" POSITION="right" ID="ID_1709163217" CREATED="1599967001354" MODIFIED="1599967008258">
 <edge COLOR="#ff0000"/>
 <node TEXT="MDN&#x6587;&#x6863;" ID="ID_458601979" CREATED="1598178532588" MODIFIED="1599967047459" LINK="https://developer.mozilla.org/zh-CN/docs/Web"/>
@@ -4173,7 +4173,7 @@
 <node TEXT="&#x6570;&#x7ec4;" ID="ID_60161713" CREATED="1610284193058" MODIFIED="1610284197428"/>
 <node TEXT="&#x5b57;&#x7b26;&#x4e32;" ID="ID_1731875933" CREATED="1610284197568" MODIFIED="1610284201950"/>
 </node>
-<node TEXT="Promise" ID="ID_115459143" CREATED="1610988506057" MODIFIED="1611168451212"><richcontent TYPE="NOTE">
+<node TEXT="Promise" ID="ID_115459143" CREATED="1610988506057" MODIFIED="1611394029403"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -4213,10 +4213,17 @@
     <p>
       &#22914;&#26524;executor&#20989;&#25968;&#25191;&#34892;&#20013;&#20986;&#29616;&#24322;&#24120;&#65292;&#29366;&#24577;&#20250;&#36716;&#21464;&#20026;reject&#29366;&#24577;&#12290;
     </p>
+    <p>
+      
+    </p>
+    <p>
+      Pormise&#38142;&#24335;&#35843;&#29992;&#65306;
+    </p>
   </body>
 </html>
 
 </richcontent>
+<node TEXT="Promises/A+&#x89c4;&#x8303;" ID="ID_1896203326" CREATED="1611395299269" MODIFIED="1611395312912" LINK="https://promisesaplus.com/"/>
 <node TEXT="&#x5bf9;&#x6bd4; async+await" ID="ID_1249156548" CREATED="1610988512598" MODIFIED="1610988973059"/>
 </node>
 <node TEXT="&#x5bf9;&#x8c61;" ID="ID_1969433936" CREATED="1607845411846" MODIFIED="1607845416896">
@@ -5477,13 +5484,99 @@
 </node>
 <node TEXT="JQuery" POSITION="right" ID="ID_1843616484" CREATED="1601110373262" MODIFIED="1601110379667" STYLE="bubble">
 <edge COLOR="#00ff00"/>
-<node TEXT="" ID="ID_1256626879" CREATED="1608986669654" MODIFIED="1608986669654"/>
+</node>
+<node TEXT="Vue" POSITION="right" ID="ID_488848733" CREATED="1599966467309" MODIFIED="1611461921459" LINK="https://cn.vuejs.org/v2/guide/" STYLE="bubble">
+<edge COLOR="#7c007c"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21482;&#20851;&#27880;&#35270;&#22270;&#23618;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#31616;&#21270;&#23545;&#21407;&#29983;DOM&#30340;&#25805;&#20316;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#35270;&#22270;&#23618;&#38754;&#30340;&#21464;&#21270;&#26159;&#21709;&#24212;&#24335;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x8d44;&#x6599;" ID="ID_631241317" CREATED="1611413729340" MODIFIED="1611413740276" STYLE="bubble">
+<node TEXT="&#x5b98;&#x65b9;&#x7f51;&#x7ad9;" ID="ID_1852427079" CREATED="1611413741741" MODIFIED="1611413864609" LINK="https://cn.vuejs.org/index.html"/>
+</node>
+<node TEXT="&#x6280;&#x672f;&#x5bf9;&#x6bd4;" ID="ID_1878994009" CREATED="1611414779663" MODIFIED="1611414816626" STYLE="bubble">
+<node TEXT="&#x4e0e;JQuery&#x5bf9;&#x6bd4;" ID="ID_1525921294" CREATED="1611418095179" MODIFIED="1611418112975"/>
+</node>
+<node TEXT="&#x8c03;&#x8bd5;" ID="ID_1485904804" CREATED="1611461714307" MODIFIED="1611461719646" STYLE="bubble"/>
+<node TEXT="&#x57fa;&#x7840;" ID="ID_660847022" CREATED="1611413113755" MODIFIED="1611413119587" STYLE="bubble">
+<node TEXT="&#x57fa;&#x672c;&#x4f7f;&#x7528;" ID="ID_623472360" CREATED="1611415039100" MODIFIED="1611415043186" STYLE="bubble">
+<node TEXT="&#x6d4f;&#x89c8;&#x5668;&#x5b89;&#x88c5;Vue Devtools" ID="ID_220696856" CREATED="1611416672593" MODIFIED="1611417477679"/>
+<node TEXT="&#x5f15;&#x5165;Vue&#x7684;&#x4e09;&#x79cd;&#x65b9;&#x5f0f;" ID="ID_1086170011" CREATED="1611417295505" MODIFIED="1611418134222"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1) CDN&#21253;&#24341;&#20837;
+    </p>
+    <p>
+      2) npm&#23433;&#35013;
+    </p>
+    <p>
+      3) CLI&#26500;&#24314;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6a21;&#x677f;&#x8bed;&#x6cd5;" ID="ID_1293748108" CREATED="1611413293289" MODIFIED="1611413328415" STYLE="bubble"/>
+<node TEXT="&#x6307;&#x4ee4;" ID="ID_909444944" CREATED="1611413304914" MODIFIED="1611413328867" STYLE="bubble"/>
+<node TEXT="&#x751f;&#x547d;&#x5468;&#x671f;" ID="ID_1131792438" CREATED="1611413311121" MODIFIED="1611413329183" STYLE="bubble"/>
+<node TEXT="&#x4e8b;&#x4ef6;&#x7ed1;&#x5b9a;" ID="ID_783306150" CREATED="1611413317331" MODIFIED="1611413329638" STYLE="bubble"/>
+<node TEXT="..." ID="ID_479694399" CREATED="1611413331046" MODIFIED="1611413332778"/>
+</node>
+<node TEXT="&#x751f;&#x6001;" ID="ID_890487604" CREATED="1611413121410" MODIFIED="1611413250154" STYLE="bubble"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20272;&#35745;&#23601;&#20687;Hadoop&#19968;&#26679;&#65292;&#20063;&#26377;&#33258;&#24049;&#30340;&#19968;&#22871;&#29983;&#24577;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x8def;&#x7531;" ID="ID_1641296461" CREATED="1611413335269" MODIFIED="1611413342225" STYLE="bubble"/>
+<node TEXT="vuex" ID="ID_1587144219" CREATED="1611413342382" MODIFIED="1611413348287" STYLE="bubble"/>
+<node TEXT="&#x5de5;&#x7a0b;&#x5316;" ID="ID_1743613945" CREATED="1611413365175" MODIFIED="1611413378791" STYLE="bubble"/>
+<node TEXT="..." ID="ID_1000736667" CREATED="1611413348745" MODIFIED="1611413352390"/>
+</node>
+<node TEXT="&#x5168;&#x5bb6;&#x6876;" ID="ID_1149103894" CREATED="1611413390136" MODIFIED="1611413405052" STYLE="bubble"/>
+<node TEXT="&#x8fdb;&#x9636;" ID="ID_397012123" CREATED="1611413436784" MODIFIED="1611413442706" STYLE="bubble">
+<node TEXT="&#x6e90;&#x7801;&#x5b9e;&#x73b0;" ID="ID_1443683504" CREATED="1611413456818" MODIFIED="1611413607789" STYLE="bubble"/>
+</node>
 </node>
 <node TEXT="React" POSITION="right" ID="ID_1050019187" CREATED="1599966460569" MODIFIED="1599966467104" STYLE="bubble">
 <edge COLOR="#007c00"/>
-</node>
-<node TEXT="Vue" POSITION="right" ID="ID_488848733" CREATED="1599966467309" MODIFIED="1599966474600" STYLE="bubble">
-<edge COLOR="#7c007c"/>
 </node>
 <node TEXT="&#x89c4;&#x8303;" POSITION="right" ID="ID_1799369577" CREATED="1599967672615" MODIFIED="1599967676798" STYLE="bubble">
 <edge COLOR="#0000ff"/>
@@ -5880,6 +5973,31 @@
 </node>
 <node TEXT="&#x6d4b;&#x8bd5;" POSITION="right" ID="ID_990480695" CREATED="1599966485181" MODIFIED="1599966492728" STYLE="bubble">
 <edge COLOR="#007c7c"/>
+</node>
+<node TEXT="&#x804c;&#x4e1a;&#x5e02;&#x573a;" POSITION="right" ID="ID_49625601" CREATED="1611412896533" MODIFIED="1611412921681" STYLE="bubble">
+<edge COLOR="#007c00"/>
+<node TEXT="&#x6982;&#x5ff5;&#x626b;&#x76f2;" ID="ID_1072674901" CREATED="1611414205315" MODIFIED="1611414216062">
+<node TEXT="&#x5355;&#x9875;&#x9762;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;SPA" ID="ID_1567237020" CREATED="1611414218527" MODIFIED="1611414240377"/>
+<node TEXT="MVVM&#x601d;&#x60f3;" ID="ID_1660762810" CREATED="1611414718659" MODIFIED="1611414739139"/>
+</node>
+<node TEXT="&#x73b0;&#x72b6;" ID="ID_479259436" CREATED="1611412923041" MODIFIED="1611413059922"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26041;&#21521;&#65306;&#21069;&#31471;&#23601;&#19994;&#26041;&#21521;&#22823;&#33268;&#20998;&#20026; vue / react / nodejs / &#23567;&#31243;&#24207;&#12290;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
 </node>
 </node>
 </map>
