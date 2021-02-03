@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <!-- 反转字符串的2种方式 -->
+    <p v-once>Original message: "{{message}}"</p>
+    <!-- 1 js表达式 -->
+    <p>Reversed message by js expression: "{{message.split('').reverse().join('')}}"</p>
+    <p>Reversed message by $methods: "{{reversedMessage1()}}"</p>       <!-- 代码可复用方便拓展 -->
+    <p>Reversed message by $methods: "{{reversedMessage1()}}"</p>
+    <!-- 2 计算属性 -->
+    <p>Reversed message by $computed: "{{reversedMessage2}}"</p>        <!-- 代码可复用方便拓展，还有缓存 -->
+    <p>Reversed message by $computed: "{{reversedMessage2}}"</p>
+
+    <!-- 监听器 -->
+    <p>new message by $watch: "{{message}}"</p>
+</div>
+<script>
+    const vm = new Vue({
+        el: '#app',
+        data: {
+            message: 'Hello',
+            info: {
+                from: 'Shenzhen',
+                type: 'Email',
+                size: 20
+            }
+        },
+        methods: {
+            reversedMessage1() {
+                console.log('reversedMessage1() 执行了...');
+                return this.message.split('').reverse().join('')
+            }
+        },
+        computed: {
+            // 计算属性的 getter
+            reversedMessage2() {
+                console.log('reversedMessage2() 执行了...');
+                return this.message.split('').reverse().join('')
+            }
+        },
+        watch: {
+            message(newVal, oldVal) {   //方法名需要和data中监听的数据名一致
+                console.log('message值改变了：oldVal=' + oldVal + '', newVal = '' + newVal);
+            },
+            info: {
+                handler(newVal, oldVal) {       //回调函数
+                    console.log('info值改变了：oldVal=' + oldVal + '', newVal = '' + newVal);
+                    console.dir(this.info);
+                },
+                deep: true,          //深度监听
+                // immediate: true      //不管数据有没有改变立即执行一次handler
+            }
+        },
+        mounted() {
+            //computed中的方法是在created后mounted前执行的
+            setTimeout(() => {
+                this.message = 'Vue';
+                this.info.from = 'Beijing';
+                this.info.type = 'SMS';
+                this.info.size = 10;
+            }, 1000);
+        }
+    });
+</script>
+</body>
+</html>

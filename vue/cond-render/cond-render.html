@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 使用template标签进行分组条件渲染 -->
+        <!-- 可实现想要对多个标签同时进行条件渲染又不想要引入额外标签 -->
+        <template v-if="Math.random() > 0.5">
+            <h1>Title1</h1>
+            <p>Paragraph 1</p>
+        </template>
+        <h1 v-else>Title2</h1>
+
+        <!-- 通过key标识多个元素是完全独立的，不要渲染时复用他们 -->
+        <template v-if="toggle">
+            <label>Username</label>
+            <input placeholder="Enter your username">
+            <input placeholder="Enter your username" key="username-input">
+        </template>
+        <template v-else>
+            <label>Email</label>
+            <input placeholder="Enter your email address">
+            <input placeholder="Enter your email address" key="email-input">
+        </template>
+        <button @click="toggleInput()">Toggle login type</button>
+
+        <!-- 通过key标识多个元素是完全独立的，不要渲染时复用他们 -->
+
+    </div>
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                toggle: true
+            },
+            methods: {
+                toggleInput() {
+                    this.toggle = !this.toggle;
+                }
+            }
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 分支指令 v-if v-else-if v-else -->
+        <div v-if="'En'===lang">
+            China
+        </div>
+        <div v-else-if="'Zh'===lang">
+            中国
+        </div>
+        <div v-else>
+            中国
+        </div>
+
+        <!-- 事件绑定指令 v-on -->
+        <button v-on:click="btnClicked">Go!</button>
+    </div>
+    <script>
+        const vm = new Vue({
+            el: "#app",
+            data: {
+                lang: 'En'
+            },
+            created() {
+                setTimeout(()=>{
+                    // this.$data.lang = 'Zh';
+                    this.lang = 'Zh';
+                }, 1000);
+            },
+            methods: {
+                btnClicked() {
+                    console.log("Let's go !");
+                }
+            }
+        });
+    </script>
+</body>
+</html>

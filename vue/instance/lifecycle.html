@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <div id="app">{{msg}}</div>
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                msg: 'hello vue'
+            },
+
+            beforeCreate() {
+                console.log('实例创建前..., 初始化事件和生命周期');
+                console.log('可用于设置加载效果');
+            },
+            created() {
+                console.log('实例创建后...，初始化元素和数据注入和响应式支持');
+                console.log('可以获取、修改数据');
+                this.msg = 'hello world';
+                console.log(document.querySelector('#app'));        //无法读取渲染完成的dom
+            },
+            beforeMount() {
+                console.log('实例挂载前...，生成渲染完成的虚拟dom节点');
+                console.log(this.$el);          //$el 等同于 document.querySelector('#app')
+            },
+            mounted() {
+                console.log('实例挂载后...，生成渲染完成的真实dom节点');
+                console.log(this.$el);
+            },
+            beforeUpdate() {
+                console.log('数据更新前...，只有created后的阶段更新数据可以触发此方法调用');
+            },
+            updated() {
+                console.log('数据更新后...');
+            },
+            beforeDestroy() {
+                console.log('实例销毁前...， 常用于做一些数据清理工作防止内存泄漏');
+            },
+            destroyed() {
+                console.log('实例销毁后...');
+            }
+        });
+    </script>
+</body>
+</html>

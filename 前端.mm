@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#x524d;&#x7aef;" FOLDED="false" ID="ID_1272274355" CREATED="1598168296865" MODIFIED="1598168308233" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.331">
+<hook NAME="MapStyle">
     <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -4221,7 +4221,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="Promises/A+&#x89c4;&#x8303;" ID="ID_1896203326" CREATED="1611395299269" MODIFIED="1611395312912" LINK="https://promisesaplus.com/"/>
 <node TEXT="&#x5bf9;&#x6bd4; async+await" ID="ID_1249156548" CREATED="1610988512598" MODIFIED="1610988973059"/>
@@ -5511,7 +5510,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x8d44;&#x6599;" ID="ID_631241317" CREATED="1611413729340" MODIFIED="1611413740276" STYLE="bubble">
 <node TEXT="&#x5b98;&#x65b9;&#x7f51;&#x7ad9;" ID="ID_1852427079" CREATED="1611413741741" MODIFIED="1611413864609" LINK="https://cn.vuejs.org/index.html"/>
@@ -5541,14 +5539,407 @@
     </p>
   </body>
 </html>
+</richcontent>
+</node>
+<node TEXT="Vue&#x5b9e;&#x4f8b;" ID="ID_1709588673" CREATED="1611859627394" MODIFIED="1611980434251" STYLE="bubble">
+<node TEXT="&#x751f;&#x547d;&#x5468;&#x671f;(&#x94a9;&#x5b50;&#x51fd;&#x6570;)" ID="ID_332743484" CREATED="1611859636091" MODIFIED="1611860137446" LINK="https://cn.vuejs.org/v2/guide/instance.html#%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%9B%BE%E7%A4%BA"><richcontent TYPE="DETAILS">
 
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#22238;&#35843;&#20989;&#25968;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x91cd;&#x8981;&#x7684;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;" ID="ID_797692099" CREATED="1611979863538" MODIFIED="1611979917640">
+<node TEXT="$el" ID="ID_143245178" CREATED="1611979873831" MODIFIED="1611979881160"/>
+<node TEXT="$data" ID="ID_879010669" CREATED="1611979875226" MODIFIED="1611979883886"/>
+<node TEXT="$methods" ID="ID_230263145" CREATED="1611979885152" MODIFIED="1611979946629"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#20110;&#23450;&#20041;&#33258;&#23450;&#20041;&#26041;&#27861;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="$computed" ID="ID_1553053223" CREATED="1611979892096" MODIFIED="1611980574295"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#20110;&#23384;&#25918;&#35745;&#31639;&#23646;&#24615;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="$watch" ID="ID_387215100" CREATED="1611982542146" MODIFIED="1611982545756"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x6a21;&#x677f;&#x8bed;&#x6cd5;" ID="ID_1293748108" CREATED="1611413293289" MODIFIED="1611971611132" LINK="https://cn.vuejs.org/v2/guide/syntax.html" STYLE="bubble">
+<node TEXT="&#x63d2;&#x503c;" ID="ID_867454777" CREATED="1611980372361" MODIFIED="1611980429935" STYLE="bubble">
+<node TEXT="&#x6587;&#x672c;&#x63d2;&#x503c; {{ }}" ID="ID_1617672119" CREATED="1611972821794" MODIFIED="1611974872210"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#8220;Mustache&#8221;&#35821;&#27861; (&#21452;&#22823;&#25324;&#21495;)</font></span> 
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_981143801" CREATED="1611972828035" MODIFIED="1611976593784"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#000000">HTML&#25554;&#20540; v-html</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#35814;&#30475;api&#25991;&#26723;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x52a8;&#x6001;&#x7ed1;&#x5b9a;&#x5c5e;&#x6027; v-bind" ID="ID_112205247" CREATED="1611976176942" MODIFIED="1611976675808"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Mustache &#35821;&#27861;&#19981;&#33021;&#20316;&#29992;&#22312; HTML attribute &#19978;&#65292;&#36935;&#21040;&#36825;&#31181;&#24773;&#20917;&#24212;&#35813;&#20351;&#29992; v-bind &#25351;&#20196;.
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="JS&#x8868;&#x8fbe;&#x5f0f;&#x63d2;&#x503c;" ID="ID_862959746" CREATED="1611977126557" MODIFIED="1611977157636"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36825;&#20123;&#34920;&#36798;&#24335;&#20250;&#22312;&#25152;&#23646; Vue &#23454;&#20363;&#30340;&#25968;&#25454;&#20316;&#29992;&#22495;&#19979;&#20316;&#20026; JavaScript &#34987;&#35299;&#26512;&#12290;&#26377;&#20010;&#38480;&#21046;&#23601;&#26159;&#65292;&#27599;&#20010;&#32465;&#23450;&#37117;&#21482;&#33021;&#21253;&#21547;&#21333;&#20010;&#34920;&#36798;&#24335;.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#27169;&#26495;&#34920;&#36798;&#24335;&#37117;&#34987;&#25918;&#22312;&#27801;&#30418;&#20013;&#65292;&#21482;&#33021;&#35775;&#38382;&#20840;&#23616;&#21464;&#37327;&#30340;&#19968;&#20010;&#30333;&#21517;&#21333;&#65292;&#22914; Math &#21644; Date &#12290;&#20320;&#19981;&#24212;&#35813;&#22312;&#27169;&#26495;&#34920;&#36798;&#24335;&#20013;&#35797;&#22270;&#35775;&#38382;&#29992;&#25143;&#23450;&#20041;&#30340;&#20840;&#23616;&#21464;&#37327;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="{{message.split(&apos;&apos;).reverse().join(&apos;&apos;)}}" ID="ID_911172418" CREATED="1611981788105" MODIFIED="1611981816702"/>
+<node TEXT="reversedMessage()" ID="ID_1450107020" CREATED="1611981823916" MODIFIED="1611981831317"/>
+</node>
+</node>
+<node TEXT="&#x6307;&#x4ee4;" ID="ID_909444944" CREATED="1611413304914" MODIFIED="1611973138649" LINK="https://cn.vuejs.org/v2/api/#%E6%8C%87%E4%BB%A4" STYLE="bubble">
+<node TEXT="&#x5e38;&#x89c1;&#x6307;&#x4ee4;" ID="ID_212432583" CREATED="1611980316927" MODIFIED="1611980331393">
+<node TEXT="v-once" ID="ID_742869994" CREATED="1611975098007" MODIFIED="1611975111684"/>
+<node TEXT="v-html" ID="ID_1470864087" CREATED="1611975101541" MODIFIED="1611975104787"/>
+<node TEXT="v-bind" ID="ID_198455166" CREATED="1611975105033" MODIFIED="1612068691530"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">:</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="v-if v-else-if v-else" ID="ID_1910438054" CREATED="1611978980681" MODIFIED="1611978991309"/>
+<node TEXT="v-on" ID="ID_1109131490" CREATED="1611978992206" MODIFIED="1611980509193"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">@</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="v-show" ID="ID_1676673975" CREATED="1612071715987" MODIFIED="1612071862722"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#19981;&#25903;&#25345;template&#26631;&#31614;.
+    </p>
+    <p>
+      &#26080;&#35770;&#34920;&#36798;&#24335;&#26159;&#21542;&#20026;true, dom&#37117;&#20250;&#34987;&#28210;&#26579;&#65292;&#36890;&#36807;&#25913;&#21464;css&#26679;&#24335;&#65288;css display&#23646;&#24615;&#65289;&#36798;&#21040;&#20803;&#32032;&#30340;&#26174;&#31034;&#21644;&#38544;&#34255;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="v-show vs v-if" ID="ID_132309159" CREATED="1612071892907" MODIFIED="1612072090336"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><b>v-if &#26377;&#26356;&#39640;&#30340;&#20999;&#25442;&#24320;&#38144;&#65292;&#32780; v-show &#26377;&#26356;&#39640;&#30340;&#21021;&#22987;&#28210;&#26579;&#24320;&#38144;&#12290;&#22240;&#27492;&#65292;&#22914;&#26524;&#38656;&#35201;&#38750;&#24120;&#39057;&#32321;&#22320;&#20999;&#25442;&#65292;&#21017;&#20351;&#29992; v-show &#36739;&#22909;&#65307;&#22914;&#26524;&#22312;&#36816;&#34892;&#26102;&#26465;&#20214;&#24456;&#23569;&#25913;&#21464;&#65292;&#21017;&#20351;&#29992; v-if &#36739;&#22909;&#12290;</b> </font></span>
+    </p>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#19981;&#21516;&#30340;&#26159;&#24102;&#26377;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">v-show</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#30340;&#20803;&#32032;&#22987;&#32456;&#20250;&#34987;&#28210;&#26579;&#24182;&#20445;&#30041;&#22312; DOM &#20013;&#12290;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">v-show</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#21482;&#26159;&#31616;&#21333;&#22320;&#20999;&#25442;&#20803;&#32032;&#30340; CSS property</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">display</font></code><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#12290;</font></span> 
+    </p>
+    <p>
+      <code http-equiv="content-type" content="text/html; charset=utf-8" style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">v-if</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#26159;&#8220;&#30495;&#27491;&#8221;&#30340;&#26465;&#20214;&#28210;&#26579;&#65292;&#22240;&#20026;&#23427;&#20250;&#30830;&#20445;&#22312;&#20999;&#25442;&#36807;&#31243;&#20013;&#26465;&#20214;&#22359;&#20869;&#30340;&#20107;&#20214;&#30417;&#21548;&#22120;&#21644;&#23376;&#32452;&#20214;&#36866;&#24403;&#22320;&#34987;&#38144;&#27585;&#21644;&#37325;&#24314;&#12290;</span></font> 
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#21069;&#32773;&#21021;&#22987;&#36890;&#36807;css&#28210;&#26579;, </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#21518;&#32773;&#29992;&#21040;&#26102;&#36890;&#36807;&#20803;&#32032;&#38144;&#27585;&#21644;&#37325;&#24314;&#28210;&#26579;</font>
+    </p>
+  </body>
+</html>
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x6a21;&#x677f;&#x8bed;&#x6cd5;" ID="ID_1293748108" CREATED="1611413293289" MODIFIED="1611413328415" STYLE="bubble"/>
-<node TEXT="&#x6307;&#x4ee4;" ID="ID_909444944" CREATED="1611413304914" MODIFIED="1611413328867" STYLE="bubble"/>
-<node TEXT="&#x751f;&#x547d;&#x5468;&#x671f;" ID="ID_1131792438" CREATED="1611413311121" MODIFIED="1611413329183" STYLE="bubble"/>
-<node TEXT="&#x4e8b;&#x4ef6;&#x7ed1;&#x5b9a;" ID="ID_783306150" CREATED="1611413317331" MODIFIED="1611413329638" STYLE="bubble"/>
+<node TEXT="v-for" ID="ID_1977157266" CREATED="1612072109971" MODIFIED="1612099685029"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24403; Vue &#27491;&#22312;&#26356;&#26032;&#20351;&#29992; v-for &#28210;&#26579;&#30340;&#20803;&#32032;&#21015;&#34920;&#26102;&#65292;&#23427;&#40664;&#35748;&#20351;&#29992;&#8220;&#23601;&#22320;&#26356;&#26032;&#8221;&#30340;&#31574;&#30053;&#12290;&#22914;&#26524;&#25968;&#25454;&#39033;&#30340;&#39034;&#24207;&#34987;&#25913;&#21464;&#65292;Vue &#23558;&#19981;&#20250;&#31227;&#21160; DOM &#20803;&#32032;&#26469;&#21305;&#37197;&#25968;&#25454;&#39033;&#30340;&#39034;&#24207;&#65292;&#32780;&#26159;&#23601;&#22320;&#26356;&#26032;&#27599;&#20010;&#20803;&#32032;&#65292;&#24182;&#19988;&#30830;&#20445;&#23427;&#20204;&#22312;&#27599;&#20010;&#32034;&#24341;&#20301;&#32622;&#27491;&#30830;&#28210;&#26579;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8" class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px"><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&lt;</font></span><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px"><span class="hljs-name">div</span><span http-equiv="content-type" content="text/html; charset=utf-8" class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px">&#160;</span><span class="hljs-attr">v-for</span><span http-equiv="content-type" content="text/html; charset=utf-8" class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px">=</span></font><span class="hljs-string" style="color: rgb(66, 185, 131)"><font color="rgb(66, 185, 131)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&quot;item in items&quot;</font></span><span http-equiv="content-type" content="text/html; charset=utf-8" class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px"><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&#160; </font></span><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px"><span class="hljs-attr">v-bind:key</span><span http-equiv="content-type" content="text/html; charset=utf-8" class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px">=</span></font><span class="hljs-string" style="color: rgb(66, 185, 131)"><font color="rgb(66, 185, 131)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&quot;item.id&quot;</font></span><span http-equiv="content-type" content="text/html; charset=utf-8" class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px"><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&gt;</font></span><span style="color: rgb(82, 82, 82); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(248, 248, 248); display: inline !important; float: none"><font color="rgb(82, 82, 82)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&#160; </font></span>
+    </p>
+    <p>
+      <span style="color: rgb(82, 82, 82); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(248, 248, 248); display: inline !important; float: none"><font color="rgb(82, 82, 82)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&#160;&#160;&#160; </font></span><span class="hljs-comment" style="color: rgb(112, 112, 112); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px"><font color="rgb(112, 112, 112)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&lt;!-- &#20869;&#23481; --&gt; </font></span>
+    </p>
+    <p>
+      <span class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px"><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&lt;/</font></span><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px"><span class="hljs-name">div</span><span class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px">&gt;</span></font> 
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5199;&#x6cd5;" ID="ID_1778228453" CREATED="1612315462058" MODIFIED="1612315465210">
+<node TEXT="&lt;elementAlias&gt; in &lt;arrayName&gt;&#xa;(&lt;elementAlias&gt;, &lt;idx&gt;) in &lt;arrayName&gt;" ID="ID_1033569936" CREATED="1612313957048" MODIFIED="1612314458949"/>
+<node TEXT="&lt;elementAlias&gt; of &lt;arrayName&gt;&#xa;(&lt;elementAlias&gt;, &lt;idx&gt;) of &lt;arrayName&gt;" ID="ID_522719626" CREATED="1612314015333" MODIFIED="1612314464147"/>
+<node TEXT="&lt;propertyAlias&gt; in &lt;objectName&gt;&#xa;(&lt;propertyAlias&gt;, &lt;propertyName&gt;) in &lt;objectName&gt;&#xa;(&lt;propertyAlias&gt;, &lt;propertyName&gt;, &lt;idx&gt;) in &lt;objectName&gt;" ID="ID_1380833815" CREATED="1612314228647" MODIFIED="1612314432235"/>
+<node TEXT="&lt;propertyAlias&gt; of &lt;objectName&gt;&#xa;(&lt;propertyAlias&gt;, &lt;propertyName&gt;) of &lt;objectName&gt; (&lt;propertyAlias&gt;, &lt;propertyName&gt;, &lt;idx&gt;) of &lt;objectName&gt;" ID="ID_1627015096" CREATED="1612314468903" MODIFIED="1612314495210"/>
+</node>
+<node TEXT="v-for key &#x7ef4;&#x62a4;&#x72b6;&#x6001;" ID="ID_295249064" CREATED="1612315062630" MODIFIED="1612315079435" LINK="https://cn.vuejs.org/v2/guide/list.html#%E7%BB%B4%E6%8A%A4%E7%8A%B6%E6%80%81"/>
+<node TEXT="&#x6570;&#x7ec4;&#x66f4;&#x65b0;&#x68c0;&#x6d4b;" ID="ID_253436452" CREATED="1612315482413" MODIFIED="1612315729125"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;&#25968;&#32452;&#32034;&#24341;&#30452;&#25509;&#20462;&#25913;&#20803;&#32032;&#20540; &#19981;&#33021;&#34987;&#26816;&#27979;&#21040;&#65292;&#22240;&#20026;Object.defineProperty() &#19981;&#33021;&#26816;&#27979;&#25968;&#32452;&#30340;&#21464;&#21270;&#65292;&#21482;&#33021;&#26816;&#27979;&#21040;&#23545;&#35937;&#30340;&#21464;&#21270;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x53d1;&#x73b0;vue 2.6.12&#x597d;&#x50cf;&#x5df2;&#x7ecf;&#x652f;&#x6301;&#x6570;&#x7ec4;&#x548c;&#x5bf9;&#x8c61;&#x6210;&#x5458;&#x53d8;&#x5316;&#x7684;&#x76d1;&#x6d4b;&#x4e86;" ID="ID_1338478286" CREATED="1612316410053" MODIFIED="1612316505278">
+<icon BUILTIN="help"/>
+</node>
+</node>
+</node>
+</node>
+<node TEXT="&#x6307;&#x4ee4;&#x4fee;&#x9970;&#x7b26;" ID="ID_1748127253" CREATED="1611980338803" MODIFIED="1611980416595"/>
+<node TEXT="&#x6307;&#x4ee4;&#x7f29;&#x5199;" ID="ID_898913245" CREATED="1611980416824" MODIFIED="1611980423919"/>
+</node>
+</node>
+<node TEXT="&#x6e32;&#x67d3;&#x51fd;&#x6570;&amp;JSX" ID="ID_663864565" CREATED="1611972989990" MODIFIED="1611980389830" STYLE="bubble"/>
+<node TEXT="&#x8ba1;&#x7b97;&#x5c5e;&#x6027;&amp;&#x76d1;&#x542c;&#x5668;" ID="ID_1224617457" CREATED="1611980617919" MODIFIED="1611980642616" LINK="https://cn.vuejs.org/v2/guide/computed.html" STYLE="bubble">
+<node TEXT="&#x8ba1;&#x7b97;&#x5c5e;&#x6027; $computed" ID="ID_1584012211" CREATED="1611980656570" MODIFIED="1611985448408"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#27169;&#26495;JS&#34920;&#36798;&#24335;&#21482;&#26159;&#22788;&#29702;&#31616;&#21333;&#30340;&#36923;&#36753;&#65292;&#38754;&#23545;&#22797;&#26434;&#30340;&#36923;&#36753;&#24212;&#35813;&#20351;&#29992;&#35745;&#31639;&#23646;&#24615;&#32780;&#19981;&#26159;&#27169;&#26495;JS&#34920;&#36798;&#24335;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20248;&#28857;&#65306;
+    </p>
+    <p>
+      &#35745;&#31639;&#23646;&#24615;&#20855;&#26377;&#32531;&#23384;&#25928;&#26524;&#65292;&#38500;&#38750;&#25968;&#25454;&#26377;&#26356;&#26032;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#26377;&#32531;&#23384;&#25928;&#26524; </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#35745;&#31639;&#23646;&#24615;&#26412;&#36523;&#26159;&#20540;&#19981;&#26159;&#26041;&#27861;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x540c;&#x6837;&#x662f;&#x5b9a;&#x4e49;&#x65b9;&#x6cd5;&#xa;&#x4e3a;&#x4f55;&#x9009;&#x62e9;&#x5728;$computed&#x4e2d;&#x5b9a;&#x4e49;&#x8ba1;&#x7b97;&#x5c5e;&#x6027;&#x800c;&#x4e0d;&#x662f;&#x5728;$method&#x4e2d;&#x5b9a;&#x4e49;&#x65b9;&#x6cd5;?" ID="ID_1248245855" CREATED="1611981424521" MODIFIED="1611981585952"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#22240;&#20026;$computed&#32467;&#26524;&#26377;&#32531;&#23384;&#65292;$method&#32467;&#26524;&#27809;&#26377;&#32531;&#23384;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x76d1;&#x542c;&#x5668; $watch" ID="ID_455509303" CREATED="1611980662262" MODIFIED="1611985010721" LINK="https://cn.vuejs.org/v2/api/#watch"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#30417;&#21548;$data&#20013;&#30340;&#25968;&#25454;&#30340;&#21464;&#21270;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#34429;&#28982;&#35745;&#31639;&#23646;&#24615;&#22312;&#22823;&#22810;&#25968;&#24773;&#20917;&#19979;&#26356;&#21512;&#36866;&#65292;&#20294;&#26377;&#26102;&#20063;&#38656;&#35201;&#19968;&#20010;&#33258;&#23450;&#20041;&#30340;&#20390;&#21548;&#22120;&#12290;&#36825;&#23601;&#26159;&#20026;&#20160;&#20040; Vue &#36890;&#36807; watch &#36873;&#39033;&#25552;&#20379;&#20102;&#19968;&#20010;&#26356;&#36890;&#29992;&#30340;&#26041;&#27861;&#65292;&#26469;&#21709;&#24212;&#25968;&#25454;&#30340;&#21464;&#21270;&#12290;&#24403;&#38656;&#35201;&#22312;&#25968;&#25454;&#21464;&#21270;&#26102;&#25191;&#34892;&#24322;&#27493;&#25110;&#24320;&#38144;&#36739;&#22823;&#30340;&#25805;&#20316;&#26102;&#65292;&#36825;&#20010;&#26041;&#24335;&#26159;&#26368;&#26377;&#29992;&#30340;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20027;&#35201;&#22788;&#29702;&#24322;&#27493;&#25110;&#24320;&#38144;&#36739;&#22823;&#30340;&#25805;&#20316;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6d45;&#x68c0;&#x6d4b;(&#x9ed8;&#x8ba4;&#xff0c;&#x68c0;&#x6d4b;&#x5bf9;&#x8c61;&#x5f15;&#x7528;&#x662f;&#x5426;&#x53d8;&#x5316;)" ID="ID_159980188" CREATED="1611983137176" MODIFIED="1611985028037"/>
+<node TEXT="&#x6df1;&#x5ea6;&#x68c0;&#x6d4b;(&#x68c0;&#x6d4b;&#x5f15;&#x7528;&#x548c;&#x5185;&#x90e8;&#x6210;&#x5458;&#x7684;&#x5f15;&#x7528;&#x662f;&#x5426;&#x53d8;&#x5316;)" ID="ID_34952431" CREATED="1611983143094" MODIFIED="1611983205952"/>
+</node>
+</node>
+<node TEXT="&#x6761;&#x4ef6;&#x6e32;&#x67d3;" ID="ID_958606808" CREATED="1612068546591" MODIFIED="1612068558640" STYLE="bubble">
+<node TEXT="template&#x5206;&#x7ec4;&#x6e32;&#x67d3;" ID="ID_188248293" CREATED="1612068559583" MODIFIED="1612068695209"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22240;&#20026; v-if &#26159;&#19968;&#20010;&#25351;&#20196;&#65292;&#25152;&#20197;&#24517;&#39035;&#23558;&#23427;&#28155;&#21152;&#21040;&#19968;&#20010;&#20803;&#32032;&#19978;&#12290;&#20294;&#26159;&#22914;&#26524;&#24819;&#20999;&#25442;&#22810;&#20010;&#20803;&#32032;&#21602;&#65311;&#27492;&#26102;&#21487;&#20197;&#25226;&#19968;&#20010; &lt;template&gt; &#20803;&#32032;&#24403;&#20570;&#19981;&#21487;&#35265;&#30340;&#21253;&#35065;&#20803;&#32032;&#65292;&#24182;&#22312;&#19978;&#38754;&#20351;&#29992; v-if&#12290;&#26368;&#32456;&#30340;&#28210;&#26579;&#32467;&#26524;&#23558;&#19981;&#21253;&#21547; &lt;template&gt; &#20803;&#32032;&#12290;
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x901a;&#x8fc7;key&#x5c5e;&#x6027;&#x907f;&#x514d;&#x590d;&#x7528;&#x5143;&#x7d20;" ID="ID_1567861619" CREATED="1612069742824" MODIFIED="1612071570015"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;key&#26631;&#35782;&#22810;&#20010;&#20803;&#32032;&#26159;&#23436;&#20840;&#29420;&#31435;&#30340;&#65292;&#19981;&#35201;&#28210;&#26579;&#26102;&#22797;&#29992;&#20182;&#20204;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node TEXT="..." ID="ID_479694399" CREATED="1611413331046" MODIFIED="1611413332778"/>
 </node>
 <node TEXT="&#x751f;&#x6001;" ID="ID_890487604" CREATED="1611413121410" MODIFIED="1611413250154" STYLE="bubble"><richcontent TYPE="NOTE">
@@ -5563,7 +5954,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x8def;&#x7531;" ID="ID_1641296461" CREATED="1611413335269" MODIFIED="1611413342225" STYLE="bubble"/>
 <node TEXT="vuex" ID="ID_1587144219" CREATED="1611413342382" MODIFIED="1611413348287" STYLE="bubble"/>
@@ -5572,7 +5962,25 @@
 </node>
 <node TEXT="&#x5168;&#x5bb6;&#x6876;" ID="ID_1149103894" CREATED="1611413390136" MODIFIED="1611413405052" STYLE="bubble"/>
 <node TEXT="&#x8fdb;&#x9636;" ID="ID_397012123" CREATED="1611413436784" MODIFIED="1611413442706" STYLE="bubble">
-<node TEXT="&#x6e90;&#x7801;&#x5b9e;&#x73b0;" ID="ID_1443683504" CREATED="1611413456818" MODIFIED="1611413607789" STYLE="bubble"/>
+<node TEXT="&#x6e90;&#x7801;&#x5b9e;&#x73b0;" ID="ID_1443683504" CREATED="1611413456818" MODIFIED="1611413607789" STYLE="bubble">
+<node TEXT="Vue&#x54cd;&#x5e94;&#x5f0f;&#x539f;&#x7406;" ID="ID_152227709" CREATED="1611985538223" MODIFIED="1611985567907"/>
+</node>
+</node>
+<node TEXT="&#x6ce8;&#x610f;&#x4e8b;&#x9879;" ID="ID_1823179789" CREATED="1611977817192" MODIFIED="1611977826088" STYLE="bubble">
+<node TEXT="&#x89c4;&#x8303;" ID="ID_1056645326" CREATED="1611977827058" MODIFIED="1611977855661"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1 &#22312; DOM &#20013;&#20351;&#29992;&#27169;&#26495;&#26102; (&#30452;&#25509;&#22312;&#19968;&#20010; HTML &#25991;&#20214;&#37324;&#25776;&#20889;&#27169;&#26495;)&#65292;&#36824;&#38656;&#35201;&#36991;&#20813;&#20351;&#29992;&#22823;&#20889;&#23383;&#31526;&#26469;&#21629;&#21517;&#38190;&#21517;&#65292;&#22240;&#20026;&#27983;&#35272;&#22120;&#20250;&#25226; attribute &#21517;&#20840;&#37096;&#24378;&#21046;&#36716;&#20026;&#23567;&#20889;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 </node>
 </node>
 <node TEXT="React" POSITION="right" ID="ID_1050019187" CREATED="1599966460569" MODIFIED="1599966467104" STYLE="bubble">
@@ -5977,7 +6385,26 @@
 <node TEXT="&#x804c;&#x4e1a;&#x5e02;&#x573a;" POSITION="right" ID="ID_49625601" CREATED="1611412896533" MODIFIED="1611412921681" STYLE="bubble">
 <edge COLOR="#007c00"/>
 <node TEXT="&#x6982;&#x5ff5;&#x626b;&#x76f2;" ID="ID_1072674901" CREATED="1611414205315" MODIFIED="1611414216062">
-<node TEXT="&#x5355;&#x9875;&#x9762;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;SPA" ID="ID_1567237020" CREATED="1611414218527" MODIFIED="1611414240377"/>
+<node TEXT="&#x5355;&#x9875;&#x9762;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;SPA" ID="ID_1567237020" CREATED="1611414218527" MODIFIED="1611972974937"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#24213;&#23618;&#30340;&#23454;&#29616;&#19978;&#65292;Vue &#23558;&#27169;&#26495;&#32534;&#35793;&#25104;&#34394;&#25311; DOM &#28210;&#26579;&#20989;&#25968;&#12290;&#32467;&#21512;&#21709;&#24212;&#31995;&#32479;&#65292;Vue &#33021;&#22815;&#26234;&#33021;&#22320;&#35745;&#31639;&#20986;&#26368;&#23569;&#38656;&#35201;&#37325;&#26032;&#28210;&#26579;&#22810;&#23569;&#32452;&#20214;&#65292;&#24182;&#25226; DOM &#25805;&#20316;&#27425;&#25968;&#20943;&#21040;&#26368;&#23569;&#12290; 
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#26524;&#20320;&#29087;&#24713;&#34394;&#25311; DOM &#24182;&#19988;&#20559;&#29233; JavaScript &#30340;&#21407;&#22987;&#21147;&#37327;&#65292;&#20320;&#20063;&#21487;&#20197;&#19981;&#29992;&#27169;&#26495;&#65292;&#30452;&#25509;&#20889;&#28210;&#26579; (render) &#20989;&#25968;&#65292;&#20351;&#29992;&#21487;&#36873;&#30340; JSX &#35821;&#27861;&#12290; 
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="MVVM&#x601d;&#x60f3;" ID="ID_1660762810" CREATED="1611414718659" MODIFIED="1611414739139"/>
 </node>
 <node TEXT="&#x73b0;&#x72b6;" ID="ID_479259436" CREATED="1611412923041" MODIFIED="1611413059922"><richcontent TYPE="NOTE">
@@ -5995,7 +6422,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 </node>

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <!-- 文本插值 -->
+    <p>{{msg}}</p>
+    <p>一天有 {{24 * 3600}} 秒！</p>         <!-- 模板中可以放计算表达式 -->
+    <p>{{msg.toUpperCase()}}</p>            <!-- 模板中可以放单个js表达式，在Vue 实例的数据作用域下作为 JavaScript 被解析 -->
+    <p>{{msg.length > 0 ? msg : ''}}</p>
+    <p v-once>我只会变一次：{{msg}}</p>        <!-- v-once: 数据只允许更改一次 -->
+    <!-- Html插值 -->
+    <div v-html="str"></div>                <!-- v-html: 在标签中加载html -->
+    <!-- 动态绑定属性的值 -->
+    <a v-bind:href="url">百度</a>             <!-- v-html: 将data.url的值动态绑定给href属性 -->
+    <a :href="url">百度</a>                   <!-- v-html: 将data.url的值绑定给href属性 -->
+    <a v-bind:href="'url'">百度</a>
+    <a v-bind:[attrname]="hrefStr">Bing</a>
+    <div v-bind:id="'list-' + id"></div>
+
+</div>
+<script>
+    const vm = new Vue({
+        el: '#app',
+        data: {
+            msg: 'Vue.js',
+            str: '<h1>主标题</h1>',
+            url: 'https://www.baidu.com',
+            attrname: 'href',
+            hrefStr: 'https://cn.bing.com',
+            id: 1
+        },
+        created() {
+            setTimeout(() => {
+                this.msg = 'hello world';
+                this.url = 'https://www.qq.com';
+            }, 2000);
+        }
+    });
+</script>
+</body>
+</html>

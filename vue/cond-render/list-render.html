@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <!-- v-for 可以用于数组遍历或对象成员遍历 -->
+    <!-- v-for 用于数组遍历可以有1或2个参数，分别是元素和元素索引，参数名任意（非保留字段即可） -->
+    <!-- v-for 用于数组遍历可以有1或2或3个参数，分别是属性值和属性名和属性索引，参数名任意（非保留字段即可） -->
+
+    <!-- v-for遍历数组 -->
+    <ul>
+        <!--<li v-for="(fruit, index) in fruits" v-if="fruit.id >= 0">-->
+        <li v-for="(fruit, idx) in fruits" v-if="fruit.id >= 0">
+        <!--<li v-for="(fruit, index) in fruits" v-if="fruit.id >= 0" :key="fruit.id">-->   <!--  -->
+        <!--    <input type="checkbox"> {{index}}-{{fruit.name}}-->
+            <input type="checkbox"> {{idx}}-{{fruit.name}}
+        </li>
+    </ul>
+
+    <!-- v-for遍历对象属性 -->
+    <ul>
+        <li v-for="pValue of student">{{pValue}}</li>
+        <li v-for="(pValue, pName, pIdx) in student">{{pIdx}}-{{pName}}:{{pValue}}</li>
+    </ul>
+
+    <!-- v-for 数组监听检测 -->
+    <ul>
+        <li v-for="(num,idx) in nums" :key="idx">{{num}}</li>                <!-- 2.6.12 v-for 已经支持监听数组和对象成员的变化了么？ -->
+        <li v-for="property in person">{{property}}</li>
+    </ul>
+</div>
+<script>
+    const vm = new Vue({
+        el: '#app',
+        data: {
+            fruits: [
+                {id: 1, name: 'apple', price: 5},
+                {id: 2, name: 'banana', price: 3},
+                {id: 3, name: 'watermelon', price: 2}
+            ],
+            student: {
+                name: "Arvin",
+                age: 18,
+                gender: "Male"
+            },
+            nums : [10,20,30],
+            person: {
+                name: "Cindy",
+                age: 18
+            }
+        },
+        created() {
+            setTimeout(() => {
+                this.fruits.unshift({id: 0, name: 'pear', price: 4});   //在数组头部插入元素
+            }, 3000);
+        }
+    });
+
+    setTimeout(() => {
+        // vm.nums[0] = 100;            //TODO 这个好像也可以被监测到？ 只是3s后才渲染出来
+        // vm.nums[3] = 40;          //可以被监测到, TODO 貌似这两种改值方式，这个函数总是在Vue实例内的setTimeout执行完后才执行（3s后才渲染出来）, setTimeout 不应该是异步的么？
+
+        vm.$set(vm.nums, 0, 100);       //这种1s后即渲染出来
+        // vm.nums.splice(0, 1, 100);
+
+        // vm.person.name = "Nancy";    //可以被监测到
+        // vm.person.gender = 'Female';    //可以被监测到
+        // vm.$set(vm.person, 'gender', 'Female');
+    }, 1000);
+</script>
+</body>
+</html>

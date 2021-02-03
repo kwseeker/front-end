@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<!--view刷新是响应式的-->
+<div id="app">{{student.age}}</div>
+<script>
+    const student = {
+        name: 'ArvinLee',
+        gender: 'M',
+        age: 1
+    };
+    Object.freeze(student);
+
+    const vm = new Vue({
+        //1 vue实例挂载dom元素并绑定数据
+        el: '#app',         //el是element的缩写，#app是css选择器语法，表示将id为app的dom元素挂载到Vue实例，内部实现是document.querySelector()实现的
+        data: {             //data的值会被存储到$data同时直接存储到vue实例下面（vue本身的属性都是以$开头的）,同时会拓展一些方法、属性
+            student
+        },
+        //2 vue自身的方法
+        created() {         //created方法在vue实例创建后被自动执行
+            setTimeout(() => {
+                this.student.age++;
+            }, 1000);
+        },
+        //3 vue实例同样可以自定义属性和方法，不过都会被放到$options属性中
+        myProperty: '这是自定义的属性',
+        myFunction() {
+            console.log('这是自定义的方法')
+        }
+    });
+
+    console.log(vm);
+    //调用自定义属性或方法
+    console.log(vm.$options.myProperty);
+    vm.$options.myFunction();
+    console.log(vm.$data);
+    console.log(vm.$data.student);
+    console.log(vm.student);
+
+    //监听vm data属性的变化, $watch()方法, 使用Object.freeze()阻止修改现有的property，也意味着响应系统无法再追踪变化。
+    vm.$watch('student.name', function(newVal, oldVal) {
+        console.log('student data changed: ', newVal, oldVal);
+    });
+</script>
+</body>
+</html>
