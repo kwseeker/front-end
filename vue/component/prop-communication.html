@@ -1,0 +1,43 @@
+<!-- Vue组件之间通过prop传递数据 -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <!-- 驼峰式会自动转成连接符形式 -->
+        <my-comp :title="title" :list="cities"></my-comp>
+    </div>
+    <!-- 定义一个Vue组件 -->
+    <script type="text/x-template" id="myTemp">
+        <div>
+            <h2>{{title}}</h2>
+            <ul>
+                <li v-for="city in list">{{city}}</li>
+            </ul>
+        </div>
+    </script>
+    <script>
+        Vue.component('myComp',{            //定义一个标签名为myComp的全局组件
+            props: ['title','list'],        //props属性用于自定义组件属性并向子组件传递数据
+            template: '#myTemp'
+        });
+
+        const vm = new Vue({
+            el: '#app',
+            data() {
+                return {
+                    title: '直辖市',
+                    cities:['beijing','shanghai','tianjin','chongqing']
+                }
+            }
+        });
+    </script>
+</body>
+</html>

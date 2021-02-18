@@ -2,7 +2,7 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="&#x524d;&#x7aef;" FOLDED="false" ID="ID_1272274355" CREATED="1598168296865" MODIFIED="1598168308233" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle">
+<hook NAME="MapStyle" zoom="1.21">
     <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
@@ -5792,7 +5792,9 @@
 <node TEXT="&lt;propertyAlias&gt; of &lt;objectName&gt;&#xa;(&lt;propertyAlias&gt;, &lt;propertyName&gt;) of &lt;objectName&gt; (&lt;propertyAlias&gt;, &lt;propertyName&gt;, &lt;idx&gt;) of &lt;objectName&gt;" ID="ID_1627015096" CREATED="1612314468903" MODIFIED="1612314495210"/>
 </node>
 <node TEXT="v-for key &#x7ef4;&#x62a4;&#x72b6;&#x6001;" ID="ID_295249064" CREATED="1612315062630" MODIFIED="1612315079435" LINK="https://cn.vuejs.org/v2/guide/list.html#%E7%BB%B4%E6%8A%A4%E7%8A%B6%E6%80%81"/>
-<node TEXT="&#x6570;&#x7ec4;&#x66f4;&#x65b0;&#x68c0;&#x6d4b;" ID="ID_253436452" CREATED="1612315482413" MODIFIED="1612315729125"><richcontent TYPE="NOTE">
+<node TEXT="&#x6570;&#x7ec4;&#x66f4;&#x65b0;&#x68c0;&#x6d4b;" ID="ID_253436452" CREATED="1612315482413" MODIFIED="1613449107385">
+<icon BUILTIN="yes"/>
+<richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -5804,12 +5806,174 @@
     </p>
   </body>
 </html>
-
 </richcontent>
-<node TEXT="&#x53d1;&#x73b0;vue 2.6.12&#x597d;&#x50cf;&#x5df2;&#x7ecf;&#x652f;&#x6301;&#x6570;&#x7ec4;&#x548c;&#x5bf9;&#x8c61;&#x6210;&#x5458;&#x53d8;&#x5316;&#x7684;&#x76d1;&#x6d4b;&#x4e86;" ID="ID_1338478286" CREATED="1612316410053" MODIFIED="1612316505278">
-<icon BUILTIN="help"/>
+<node TEXT="&#x76f4;&#x63a5;&#x4fee;&#x6539;&#x4e0d;&#x80fd;&#x88ab;&#x68c0;&#x6d4b;&#x5230;&#x66f4;&#x65b0;" ID="ID_47458231" CREATED="1612610688415" MODIFIED="1612610705475"/>
+<node TEXT="&#x53ef;&#x4ee5;&#x901a;&#x8fc7;vue set()&#x65b9;&#x6cd5;&#x66f4;&#x65b0;&#xa;&#x6216;&#x901a;&#x8fc7;vue&#x91cd;&#x65b0;&#x5c01;&#x88c5;&#x7684;&#x6570;&#x7ec4;&#x65b9;&#x6cd5;&#x66f4;&#x65b0;" ID="ID_1449816914" CREATED="1612610706748" MODIFIED="1612610750452">
+<node TEXT="Vue.set()" ID="ID_1093583691" CREATED="1612610780251" MODIFIED="1612610785239"/>
+<node TEXT="vm.$set()" ID="ID_445855987" CREATED="1612610763226" MODIFIED="1612610779274"/>
+<node TEXT="&#x91cd;&#x65b0;&#x5c01;&#x88c5;&#x7684;&#x6570;&#x7ec4;&#x65b9;&#x6cd5;" ID="ID_518675896" CREATED="1612606084972" MODIFIED="1612606095222">
+<node ID="ID_860894544" CREATED="1612606146917" MODIFIED="1612606146917"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">push()</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_19177913" CREATED="1612606146918" MODIFIED="1612606146918"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">pop()</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_772689862" CREATED="1612606146927" MODIFIED="1612606146927"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">shift()</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_685639876" CREATED="1612606146930" MODIFIED="1612606146930"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">unshift()</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_809690225" CREATED="1612606146931" MODIFIED="1612606146931"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">splice()</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1533302307" CREATED="1612606146933" MODIFIED="1612606146933"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">sort()</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1300075224" CREATED="1612606146935" MODIFIED="1612611054117"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">reverse()</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
 </node>
 </node>
+</node>
+</node>
+<node TEXT="&#x5bf9;&#x8c61;&#x66f4;&#x65b0;&#x68c0;&#x6d4b;" ID="ID_1950963437" CREATED="1612610795589" MODIFIED="1612610806081">
+<node TEXT="&#x9884;&#x5148;&#x5b9a;&#x4e49;&#x7684;&#x6210;&#x5458;&#x5c5e;&#x6027;&#x662f;&#x53ef;&#x4ee5;&#x68c0;&#x6d4b;&#x66f4;&#x65b0;&#x7684;" ID="ID_1386815102" CREATED="1612610816507" MODIFIED="1612610868654"/>
+<node TEXT="&#x540e;&#x6dfb;&#x52a0;&#x7684;&#x6210;&#x5458;&#x5c5e;&#x6027;&#x662f;&#x65e0;&#x6cd5;&#x68c0;&#x6d4b;&#x66f4;&#x65b0;&#x7684;" ID="ID_176848547" CREATED="1612610851296" MODIFIED="1612610892416"/>
+<node TEXT="! &#x68c0;&#x6d4b;&#x5230;&#x6570;&#x636e;&#x66f4;&#x65b0;&#x540e;&#x66f4;&#x65b0;&#x89c6;&#x56fe;&#x662f;&#x5f02;&#x6b65;&#x7684;" ID="ID_422638435" CREATED="1612610893977" MODIFIED="1612610979931"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // vm.foo = 'bar';
+    </p>
+    <p>
+      // vm.obj.b = 2;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//&#20026;&#20160;&#20040;&#36825;&#19968;&#21477;&#21333;&#29420;&#20889;&#30340;&#26102;&#20505;&#65292;&#19981;&#20250;&#34987;&#26816;&#27979;&#21040;&#26356;&#26032;&#65292;&#22914;&#26524;&#21644;&#19978;&#21477;&#19968;&#36215;&#20889;&#23601;&#33021;&#26816;&#27979;&#21040;&#26356;&#26032;&#65311;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; //&#22240;&#20026;&#19978;&#19968;&#21477;&#26159;&#21487;&#20197;&#26816;&#27979;&#26356;&#26032;&#30340;&#65292;&#32780;&#19988;&#22240;&#20026;&#19978;&#19968;&#21477;&#26816;&#27979;&#21040;&#26356;&#26032;&#21518;&#26356;&#26032;&#35270;&#22270;&#26159;&#24322;&#27493;&#30340;&#65292;&#36825;&#26102;vm.obj.b=2&#20808;&#25191;&#34892;&#65292;&#28982;&#21518;&#20877;&#26356;&#26032;&#35270;&#22270;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7ed3;&#x5408;&#x8ba1;&#x7b97;&#x5c5e;&#x6027;&#x4f7f;&#x7528;" ID="ID_1748214320" CREATED="1612611680693" MODIFIED="1612611777500"/>
+<node TEXT="&#x7ed3;&#x5408;&#x65b9;&#x6cd5;&#x5c5e;&#x6027;&#x4f7f;&#x7528;" ID="ID_316344859" CREATED="1612611777796" MODIFIED="1612611787070"/>
+<node TEXT="&#x4f7f;&#x7528;&#x503c;&#x8303;&#x56f4;" ID="ID_1122147221" CREATED="1612611768293" MODIFIED="1612611857383"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8" class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px"><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&lt;</font></span><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px"><span class="hljs-name">span</span><span http-equiv="content-type" content="text/html; charset=utf-8" class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px">&#160;</span><span class="hljs-attr">v-for</span><span http-equiv="content-type" content="text/html; charset=utf-8" class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px">=</span></font><span class="hljs-string" style="color: rgb(66, 185, 131)"><font color="rgb(66, 185, 131)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&quot;n in 10&quot;</font></span><span http-equiv="content-type" content="text/html; charset=utf-8" class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px"><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&gt;</font></span><span style="color: rgb(82, 82, 82); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px; background-color: rgb(248, 248, 248); display: inline !important; float: none"><font color="rgb(82, 82, 82)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">{{ n }} </font></span><span class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px"><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&lt;/</font></span><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px"><span class="hljs-name">span</span><span class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px">&gt;</span></font> 
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25171;&#21360;1 2 3 4 5 6 7 8 9 10
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="v-for &#x4f18;&#x5148;&#x7ea7;&#x5927;&#x4e8e; v-if" ID="ID_1229171783" CREATED="1612611010536" MODIFIED="1612611029023"/>
 </node>
 </node>
 <node TEXT="&#x6307;&#x4ee4;&#x4fee;&#x9970;&#x7b26;" ID="ID_1748127253" CREATED="1611980338803" MODIFIED="1611980416595"/>
@@ -5870,6 +6034,7 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="&#x8ba1;&#x7b97;&#x5c5e;&#x6027;&#x662f;&#x600e;&#x4e48;&#x76d1;&#x542c;&#x6570;&#x636e;&#x53d8;&#x5316;&#x7684;&#xff1f;&#x4f9d;&#x8d56;&#x6570;&#x636e;&#x6539;&#x53d8;&#x4e3a;&#x4f55;&#x53ef;&#x4ee5;&#x89e6;&#x53d1;&#x91cd;&#x65b0;&#x8ba1;&#x7b97;&#xff1f;" ID="ID_635578159" CREATED="1613550844325" MODIFIED="1613550881042"/>
 </node>
 <node TEXT="&#x76d1;&#x542c;&#x5668; $watch" ID="ID_455509303" CREATED="1611980662262" MODIFIED="1611985010721" LINK="https://cn.vuejs.org/v2/api/#watch"><richcontent TYPE="NOTE">
 
@@ -5939,6 +6104,722 @@
 </html>
 </richcontent>
 </node>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;" ID="ID_1807688462" CREATED="1612612586316" MODIFIED="1612612601319" STYLE="bubble">
+<node TEXT="v-on &#x6307;&#x4ee4;&#x76d1;&#x542c;DOM&#x4e8b;&#x4ef6;" ID="ID_969506527" CREATED="1612612673621" MODIFIED="1612612888705"/>
+<node TEXT="&#x7ed1;&#x5b9a;&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x65b9;&#x6cd5;" ID="ID_466364810" CREATED="1612612889090" MODIFIED="1612612890116"/>
+<node TEXT="&#x5185;&#x8054;&#x8c03;&#x7528;" ID="ID_1979267760" CREATED="1612612722850" MODIFIED="1612612912341"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;div id=&quot;example-3&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;button v-on:click=&quot;say('hi')&quot;&gt;Say hi&lt;/button&gt;
+    </p>
+    <p>
+      &#160;&#160;&lt;button v-on:click=&quot;say('what')&quot;&gt;Say what&lt;/button&gt;
+    </p>
+    <p>
+      &lt;/div&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      new Vue({
+    </p>
+    <p>
+      &#160;&#160;el: '#example-3',
+    </p>
+    <p>
+      &#160;&#160;methods: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;say: function (message) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;alert(message)
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      })
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x4e8b;&#x4ef6;&#x4f20;&#x9012; $event" ID="ID_1887305407" CREATED="1612612985921" MODIFIED="1612613014809"/>
+</node>
+<node TEXT="&#x4e8b;&#x4ef6;&#x4fee;&#x9970;&#x7b26;" ID="ID_38018817" CREATED="1612613102082" MODIFIED="1612614496966"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20462;&#39280;&#31526;&#21487;&#20197;&#20018;&#32852; </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#31867;&#20284;&#38142;&#24335;&#35843;&#29992;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT=".stop (&#x963b;&#x6b62;&#x5192;&#x6ce1;)" ID="ID_483455208" CREATED="1612614341713" MODIFIED="1612614413991"/>
+<node TEXT=".prevent (&#x963b;&#x6b62;&#x9ed8;&#x8ba4;&#x884c;&#x4e3a;)" ID="ID_872992637" CREATED="1612614344706" MODIFIED="1612614535520"/>
+<node TEXT=".capture (&#x4e8b;&#x4ef6;&#x6355;&#x83b7;&#x6a21;&#x5f0f;)" ID="ID_1237975422" CREATED="1612614348351" MODIFIED="1612614673877"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#24212;&#20882;&#27873;&#27169;&#24335;&#65292;&#21453;&#36807;&#26469;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#21363;&#30001;&#22806;&#21521;&#20869;&#35302;&#21457;&#20107;&#20214;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT=".self (&#x53ea;&#x6709;&#x81ea;&#x5df1;&#x4e3a;&#x4e8b;&#x4ef6;&#x6e90;&#x624d;&#x6267;&#x884c;)" ID="ID_1763975233" CREATED="1612614351904" MODIFIED="1612614735609"/>
+<node TEXT=".once (&#x4e8b;&#x4ef6;&#x53ea;&#x89e6;&#x53d1;&#x4e00;&#x6b21;)" ID="ID_1420867550" CREATED="1612614354599" MODIFIED="1612614806786"/>
+<node TEXT=".passive" ID="ID_1612845982" CREATED="1612614357711" MODIFIED="1612614890153"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">Vue &#36824;&#23545;&#24212;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span></font><a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener#Parameters" target="_blank" rel="noopener" style="text-decoration: none; color: rgb(66, 185, 131); font-weight: 600; font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255)"><font color="rgb(214, 50, 0)" face="Roboto Mono, Monaco, courier, monospace" size="0.85em"><b><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap">addEventListener</code></b></font><b><font color="rgb(66, 185, 131)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span>&#20013;&#30340;<span>&#160;</span></font><font color="rgb(214, 50, 0)" face="Roboto Mono, Monaco, courier, monospace" size="0.85em"><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap">passive</code></font><font color="rgb(66, 185, 131)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span>&#36873;&#39033;</font></b></a><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#25552;&#20379;&#20102;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.passive</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#20462;&#39280;&#31526;&#12290;</span></font> <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#36825;&#20010;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.passive</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#20462;&#39280;&#31526;&#23588;&#20854;&#33021;&#22815;&#25552;&#21319;&#31227;&#21160;&#31471;&#30340;&#24615;&#33021;&#12290;</span></font> 
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;!-- &#28378;&#21160;&#20107;&#20214;&#30340;&#40664;&#35748;&#34892;&#20026; (&#21363;&#28378;&#21160;&#34892;&#20026;) &#23558;&#20250;&#31435;&#21363;&#35302;&#21457; --&gt;
+    </p>
+    <p>
+      &lt;!-- &#32780;&#19981;&#20250;&#31561;&#24453; `onScroll` &#23436;&#25104;&#160;&#160;--&gt;
+    </p>
+    <p>
+      &lt;!-- &#36825;&#20854;&#20013;&#21253;&#21547; `event.preventDefault()` &#30340;&#24773;&#20917; --&gt;
+    </p>
+    <p>
+      &lt;div v-on:scroll.passive=&quot;onScroll&quot;&gt;...&lt;/div&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6309;&#x952e;&#x4fee;&#x9970;&#x7b26;" ID="ID_390246225" CREATED="1612614897448" MODIFIED="1612615128107"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#23601;&#26159;&#25353;&#38190;&#21035;&#21517;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5e38;&#x7528;" ID="ID_656128982" CREATED="1612615146729" MODIFIED="1612615194318">
+<node ID="ID_881246865" CREATED="1612615218976" MODIFIED="1612615218976"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.enter</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_245732786" CREATED="1612615218976" MODIFIED="1612615218976"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.tab</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_308038812" CREATED="1612615218978" MODIFIED="1612615218978"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.delete</font></code><span>&#160;</span>(&#25429;&#33719;&#8220;&#21024;&#38500;&#8221;&#21644;&#8220;&#36864;&#26684;&#8221;&#38190;)
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_427933565" CREATED="1612615218978" MODIFIED="1612615218978"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.esc</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1882060359" CREATED="1612615218979" MODIFIED="1612615218979"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.space</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1795177516" CREATED="1612615218980" MODIFIED="1612615218980"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.up</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_647373197" CREATED="1612615218981" MODIFIED="1612615218981"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.down</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1823144708" CREATED="1612615218982" MODIFIED="1612615218982"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.left</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_309412388" CREATED="1612615218983" MODIFIED="1612615218983"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.right</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6309;&#x952e;&#x7801;" ID="ID_987944455" CREATED="1612615130078" MODIFIED="1612615292423"/>
+<node TEXT="&#x53ef;&#x4ee5;&#x4f7f;&#x7528;&#x6309;&#x952e;&#x7801;&#x81ea;&#x5b9a;&#x4e49;&#x6848;&#x4ef6;&#x4fee;&#x9970;&#x7b26;" ID="ID_572050468" CREATED="1612615243015" MODIFIED="1612615361700"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      // &#22914;&#19979;&#23450;&#20041;&#25353;&#38190;&#30721;112&#30340;&#25353;&#38190;&#20462;&#39280;&#31526;&#20026;f1&#65292;&#21518;&#38754;&#21487;&#20197;&#20351;&#29992; `v-on:keyup.f1`
+    </p>
+    <p>
+      Vue.config.keyCodes.f1 = 112
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7cfb;&#x7edf;&#x4fee;&#x9970;&#x952e;" ID="ID_139166091" CREATED="1612615409506" MODIFIED="1612615550707"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#21644;&#20854;&#20182;&#25353;&#38190;&#20462;&#39280;&#31526; </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#37197;&#21512;&#20351;&#29992;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &lt;!-- Alt + C --&gt;
+    </p>
+    <p>
+      &lt;input v-on:keyup.alt.67=&quot;clear&quot;&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &lt;!-- Ctrl + Click --&gt;
+    </p>
+    <p>
+      &lt;div v-on:click.ctrl=&quot;doSomething&quot;&gt;Do something&lt;/div&gt;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node ID="ID_571862743" CREATED="1612615494647" MODIFIED="1612615494647"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.ctrl</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_201470579" CREATED="1612615494647" MODIFIED="1612615494647"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.alt</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_339987690" CREATED="1612615494650" MODIFIED="1612615494650"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.shift</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_1901348524" CREATED="1612615494651" MODIFIED="1612615494651"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.meta</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT=".exact &#x4fee;&#x9970;&#x7b26;" ID="ID_336332431" CREATED="1612615732787" MODIFIED="1612615757550"/>
+<node TEXT="&#x9f20;&#x6807;&#x6309;&#x94ae;&#x4fee;&#x9970;&#x7b26;" ID="ID_260302233" CREATED="1612628207695" MODIFIED="1612628233397">
+<node ID="ID_873803393" CREATED="1612628241751" MODIFIED="1612628241751"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.left</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_917740232" CREATED="1612628241751" MODIFIED="1612628241751"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.right</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+<node ID="ID_729513798" CREATED="1612628241753" MODIFIED="1612628241753"><richcontent TYPE="NODE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ul http-equiv="content-type" content="text/html; charset=utf-8" style="line-height: 1.6em; margin-top: 0; margin-right: 0px; margin-bottom: 0; margin-left: 0px; padding-bottom: 0; padding-left: 0; color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        <code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">.middle</font></code>
+      </li>
+    </ul>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&#x8868;&#x5355;&#x8f93;&#x5165;&#x7ed1;&#x5b9a;" ID="ID_1810486521" CREATED="1612612602594" MODIFIED="1612612614307" STYLE="bubble">
+<node TEXT="v-model &#x6307;&#x4ee4;&#x53cc;&#x5411;&#x6570;&#x636e;&#x7ed1;&#x5b9a;" ID="ID_1628870402" CREATED="1612629511092" MODIFIED="1612631509726"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#21487;&#29992;&#22312; &lt;input&gt;&#12289;&lt;textarea&gt; &#21450; &lt;select&gt;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <code http-equiv="content-type" content="text/html; charset=utf-8" style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(239, 239, 239); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">v-model</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none">&#20250;&#24573;&#30053;&#25152;&#26377;&#34920;&#21333;&#20803;&#32032;&#30340;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(239, 239, 239); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">value</font></code><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#12289;</font></span><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(239, 239, 239); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">checked</font></code><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#12289;</font></span><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(239, 239, 239); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">selected</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none">attribute &#30340;&#21021;&#22987;&#20540;&#32780;&#24635;&#26159;&#23558; Vue &#23454;&#20363;&#30340;&#25968;&#25454;&#20316;&#20026;&#25968;&#25454;&#26469;&#28304;&#12290;&#20320;&#24212;&#35813;&#36890;&#36807; JavaScript &#22312;&#32452;&#20214;&#30340;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(239, 239, 239); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">data</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none">&#36873;&#39033;&#20013;&#22768;&#26126;&#21021;&#22987;&#20540;&#12290;</span></font> 
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5404;&#x7c7b;&#x578b;&#x8868;&#x5355;&#x4f7f;&#x7528;" ID="ID_1712996845" CREATED="1612633539812" MODIFIED="1612633550963">
+<node TEXT="&#x6587;&#x672c;" ID="ID_1205588393" CREATED="1612633406309" MODIFIED="1612633409970"/>
+<node TEXT="&#x591a;&#x884c;&#x6587;&#x672c;" ID="ID_1299342570" CREATED="1612633410156" MODIFIED="1612633416825"/>
+<node TEXT="&#x590d;&#x9009;&#x6846;" ID="ID_1968477439" CREATED="1612633417154" MODIFIED="1612633426475"/>
+<node TEXT="&#x5355;&#x9009;&#x6309;&#x94ae;" ID="ID_1210281199" CREATED="1612633427448" MODIFIED="1612633434797"/>
+<node TEXT="&#x9009;&#x62e9;&#x6846;" ID="ID_1712603338" CREATED="1612633434982" MODIFIED="1612633443534"/>
+</node>
+<node TEXT="&#x503c;&#x7ed1;&#x5b9a;" ID="ID_1724672201" CREATED="1612633524372" MODIFIED="1612633536753"/>
+</node>
+<node TEXT="&#x7ec4;&#x4ef6;&#x57fa;&#x7840;" ID="ID_468815450" CREATED="1612612618176" MODIFIED="1613578819346" LINK="https://cn.vuejs.org/v2/guide/components.html" STYLE="bubble"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#32452;&#20214;&#23601;&#26159;&#19968;&#20123;&#23616;&#37096;&#35270;&#22270;&#30340;&#23553;&#35013;&#12290;
+    </p>
+    <p>
+      &#36890;&#24120;&#19968;&#20010;&#24212;&#29992;&#20250;&#20197;&#19968;&#26869;&#23884;&#22871;&#30340;&#32452;&#20214;&#26641;&#30340;&#24418;&#24335;&#26469;&#32452;&#32455;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#32452;&#20214;&#26159;&#21487;&#22797;&#29992;&#30340; Vue &#23454;&#20363;&#65292;&#25152;&#20197;&#23427;&#20204;&#19982;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">new Vue</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#25509;&#25910;&#30456;&#21516;&#30340;&#36873;&#39033;&#65292;&#20363;&#22914;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">data</font></code><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#12289;</font></span><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">computed</font></code><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#12289;</font></span><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">watch</font></code><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#12289;</font></span><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">methods</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#20197;&#21450;&#29983;&#21629;&#21608;&#26399;&#38057;&#23376;&#31561;&#12290;&#20165;&#26377;&#30340;&#20363;&#22806;&#26159;&#20687;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">el</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#36825;&#26679;&#26681;&#23454;&#20363;&#29305;&#26377;&#30340;&#36873;&#39033;&#12290;</span></font> 
+    </p>
+    <p>
+      
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#23601;&#20687;&#33258;&#23450;&#20041;&#20102;&#26032;&#30340;&#26631;&#31614;&#21644;&#23646;&#24615;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="&#x5206;&#x7c7b;" ID="ID_1285461898" CREATED="1613561638238" MODIFIED="1613561640739">
+<node TEXT="&#x5168;&#x5c40;&#x7ec4;&#x4ef6;" ID="ID_1886881430" CREATED="1613561641897" MODIFIED="1613567855568"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;Vue&#38745;&#24577;&#26041;&#27861;component()&#23450;&#20041;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20840;&#23616;&#27880;&#20876;&#30340;&#32452;&#20214;&#21487;&#20197;&#29992;&#22312;&#20854;&#34987;&#27880;&#20876;&#20043;&#21518;&#30340;&#20219;&#20309; (&#36890;&#36807; new Vue) &#26032;&#21019;&#24314;&#30340; Vue &#26681;&#23454;&#20363;&#65292;&#20063;&#21253;&#25324;&#20854;&#32452;&#20214;&#26641;&#20013;&#30340;&#25152;&#26377;&#23376;&#32452;&#20214;&#30340;&#27169;&#26495;&#20013;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Vue.component('my-counter', {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;template: `
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;h1&gt;0&lt;/h1&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;`
+    </p>
+    <p>
+      });
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5c40;&#x90e8;&#x7ec4;&#x4ef6;" ID="ID_580100320" CREATED="1613561655118" MODIFIED="1613561660596"/>
+</node>
+<node TEXT="&#x7ec4;&#x4ef6;&#x5b9a;&#x4e49;" ID="ID_205018945" CREATED="1613568195865" MODIFIED="1613577021486" LINK="https://cn.vuejs.org/v2/guide/components.html#%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6">
+<node TEXT="&#x5b57;&#x7b26;&#x4e32;(&#x4f8b;&#x5982;&#xff1a;template: &apos;...&apos;)" ID="ID_1211952732" CREATED="1613568799067" MODIFIED="1613577092177"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      Vue.component('my-counter', {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;template: `
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;div class=&quot;box&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;button @click=&quot;increase&quot;&gt;+&lt;/button&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;b&gt;{{num}}&lt;/b&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;button @click=&quot;decrease&quot;&gt;-&lt;/button&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&lt;/div&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;`,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;data() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;num: 0
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;methods: {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;increase() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.num++;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;decrease() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;this.num--;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x5355;&#x6587;&#x4ef6;&#x7ec4;&#x4ef6;(.vue)" ID="ID_406574088" CREATED="1613568678799" MODIFIED="1613568710492"/>
+<node TEXT="&lt;script type=&quot;text/x-template&quot;&gt;" ID="ID_158559043" CREATED="1613568712938" MODIFIED="1613568736293"/>
+</node>
+<node TEXT="&#x7ea6;&#x675f;" ID="ID_442836169" CREATED="1613565598647" MODIFIED="1613565613439">
+<node TEXT="&#x7ec4;&#x4ef6;&#x53ea;&#x80fd;&#x6709;&#x4e00;&#x4e2a;&#x6839;&#x5143;&#x7d20;" ID="ID_1993228101" CREATED="1613565614273" MODIFIED="1613565626650"/>
+<node TEXT="data &#x5fc5;&#x987b;&#x662f;&#x4e00;&#x4e2a;&#x51fd;&#x6570;" ID="ID_405622744" CREATED="1613567538938" MODIFIED="1613567753576"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20026;&#20102;&#35753;&#21508;&#20010;&#32452;&#20214;&#30340;&#25968;&#25454;&#20114;&#19981;&#24433;&#21709;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      data: function () {
+    </p>
+    <p>
+      &#160;&#160;return {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;count: 0
+    </p>
+    <p>
+      &#160;&#160;}
+    </p>
+    <p>
+      }
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20026;&#20102;&#35753;&#21508;&#20010;&#32452;&#20214;&#30340;&#25968;&#25454;&#20114;&#19981;&#24433;&#21709;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x7279;&#x70b9;" ID="ID_568008533" CREATED="1613567392657" MODIFIED="1613567397389">
+<node TEXT="&#x7ec4;&#x4ef6;&#x5b9e;&#x4f8b;&#x7684;&#x6570;&#x636e;&#x662f;&#x72ec;&#x7acb;&#x7684;" ID="ID_861341207" CREATED="1613567398225" MODIFIED="1613567425838"/>
+</node>
+<node TEXT="&#x901a;&#x8fc7;Prop&#x5411;&#x5b50;&#x7ec4;&#x4ef6;&#x4f20;&#x9012;&#x6570;&#x636e;" ID="ID_596368722" CREATED="1613567886622" MODIFIED="1613567964734"/>
 </node>
 <node TEXT="..." ID="ID_479694399" CREATED="1611413331046" MODIFIED="1611413332778"/>
 </node>

@@ -29,12 +29,6 @@
         <li v-for="pValue of student">{{pValue}}</li>
         <li v-for="(pValue, pName, pIdx) in student">{{pIdx}}-{{pName}}:{{pValue}}</li>
     </ul>
-
-    <!-- v-for 数组监听检测 -->
-    <ul>
-        <li v-for="(num,idx) in nums" :key="idx">{{num}}</li>                <!-- 2.6.12 v-for 已经支持监听数组和对象成员的变化了么？ -->
-        <li v-for="property in person">{{property}}</li>
-    </ul>
 </div>
 <script>
     const vm = new Vue({
@@ -62,18 +56,6 @@
             }, 3000);
         }
     });
-
-    setTimeout(() => {
-        // vm.nums[0] = 100;            //TODO 这个好像也可以被监测到？ 只是3s后才渲染出来
-        // vm.nums[3] = 40;          //可以被监测到, TODO 貌似这两种改值方式，这个函数总是在Vue实例内的setTimeout执行完后才执行（3s后才渲染出来）, setTimeout 不应该是异步的么？
-
-        vm.$set(vm.nums, 0, 100);       //这种1s后即渲染出来
-        // vm.nums.splice(0, 1, 100);
-
-        // vm.person.name = "Nancy";    //可以被监测到
-        // vm.person.gender = 'Female';    //可以被监测到
-        // vm.$set(vm.person, 'gender', 'Female');
-    }, 1000);
 </script>
 </body>
 </html>

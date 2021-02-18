@@ -1,0 +1,213 @@
+{
+  "code": 1,
+  "data": [
+    {
+      "_id": "2s8w89d0w24203423l2s8e20",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    }, {
+      "_id": "2s8w89d0w24203423l2s8e2a",
+      "companyName": "美团",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15.5K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    }, {
+      "_id": "2s8w89d0w24203423l2s8e2b",
+      "companyName": "百度",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "16K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    }, {
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "腾讯",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "16.5K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    }, {
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "腾讯",
+      "city": "深圳",
+      "positionName": "Web全栈工程师",
+      "salary": "28K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    }, {
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "17.5K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "18K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "18.5K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    },{
+      "_id": "2s8w89d0w24203423l2s8e2s",
+      "companyName": "小米",
+      "city": "北京",
+      "positionName": "Web前端工程师",
+      "salary": "15K",
+      "companyLogo": "",
+      "createTime": "2021-02-01",
+      "__v": 0
+    }
+  ]
+}

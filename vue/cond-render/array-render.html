@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <!-- v-for 数组监听检测 -->
+            <li v-for="(num,idx) in nums" :key="idx">{{idx}}-{{num}}</li>
+        </ul>
+        <p>{{foo}}</p>
+        <span>{{obj.b}}</span>
+    </div>
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                nums : [10, 20, 30],
+                foo: '',
+                obj: {
+                    a: 1
+                }
+            },
+            created() {
+                // setTimeout(() => {
+                //     this.foo = "foo";
+                // }, 3000);
+            }
+        });
+
+        // 通过数组索引直接修改元素不能被监测到
+        // vm.nums[0] = 100;
+
+        setTimeout(() => {
+            // 通过数组索引直接修改元素不能被监测到
+            // vm.nums[0] = 100;
+
+            // 解决方法1：通过 vm.$set() 或 Vue.set()
+            // vm.$set(vm.nums, 0, 100);
+            // Vue.set(vm.nums, 0, 100);
+
+            //解决方法2：通过Vue封装的数组方法 push/shift/unshift/pop/sort/reverse/splice
+            // vm.nums.splice(0, 1, 100);
+
+            // 后面动态添加的属性不具有响应式
+            // vm.foo = 'bar';
+            // vm.obj.b = 2;                //为什么这一句单独写的时候，不会被检测到更新，如果和上句一起写就能检测到更新？
+                                            //因为上一句是可以检测更新的，而且因为上一句检测到更新后更新视图是异步的，这时vm.obj.b=2先执行，然后再更新视图
+            vm.$set(vm.obj, 'b', 2);
+        }, 1000);
+
+    </script>
+</body>
+</html>

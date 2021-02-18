@@ -1,0 +1,144 @@
+<!-- Vue使用案例：表格（升序降序排序，分页，增删改, 搜索[基于公司名称、薪资范围、职位过滤]） -->
+<!-- 搜索实现思路：
+        input通过v-model读取查询字段，然后遍历dataList比较获取匹配项，然后分页展示
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../vue.js"></script>
+    <style>
+        .salary {
+            cursor: pointer;
+        }
+        .asc::before {
+            content: '⬆️';
+        }
+        .desc::before {
+            content: '⬇️';
+        }
+        /* 分页导航栏，占宽度一半，居中 */
+        .page-nav {
+            width: 50%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <input type="text" v-model="keyword"><button @click="searchHandle">搜索</button>
+    <!-- 表格 -->
+    <table class="table table-bordered">
+        <tbody>
+        <tr>
+            <th>公司名称</th>
+            <th>城市</th>
+            <th>职位名称</th>
+            <th>
+                <span>薪资</span>
+                <!-- 薪资排序，通过css伪类实现，绑定vue data 的 sort -->
+                <span :class="sort" class="salary" @click="sortSwitch"></span>
+            </th>
+            <th>时间</th>
+            <th>操作</th>
+        </tr>
+        <tr v-for="item in pageDataList">
+            <td>{{item.companyName}}</td>
+            <td>{{item.city}}</td>
+            <td>{{item.positionName}}</td>
+            <td>{{item.salary}}</td>
+            <td>{{item.createTime}}</td>
+            <td>
+                <button class="btn btn-success">编辑</button>
+                <button class="btn btn-danger" @click="delHandle(item._id)">删除</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+    <!-- Bootstrap分页 -->
+    <nav aria-label="Page navigation" class="page-nav">
+        <ul class="pagination">
+            <li v-for="page in pages" @click="goPage(page)"><a href="#">{{page}}</a></li>
+        </ul>
+    </nav>
+</div>
+<script>
+    const vm = new Vue({
+        el: '#app',
+        data: {
+            dataList: [],
+            sort: 'asc',
+            pageSize: 10,
+            currentPage: 1,
+            keyword: '',
+            keywordText: ''
+        },
+        created() {
+            fetch("./data.json")    //js原生Api
+                .then(res => res.json())
+                .then(res => {
+                    // console.log(res);
+                    this.dataList = res.data;
+                })
+        },
+        computed : {    //计算属性，默认有缓存，不会造成额外资源消耗
+            //数组排序，sort值修改后，自动检测刷新
+            dataSortedList() {
+                //重写sort方法, sort会改变原数组
+                this.dataList.sort((a, b) => {
+                    let s1 = a['salary'].replace('K', '');
+                    let s2 = b['salary'].replace('K', '');
+                    if(this.sort === 'asc') {
+                        return s1 - s2;
+                    } else {
+                        return s2 - s1;
+                    }
+                });
+                return this.dataList;
+            },
+            //分页数
+            pages() {
+                return Math.ceil(this.dataList.length / this.pageSize);
+            },
+            pageDataList() {
+                //根据公司名称过滤逻辑，其他过滤条件实现类似
+                let res = this.dataSortedList.filter(item => {  //filter将条件匹配的数据过滤出来到新的变量
+                    let reg = RegExp(this.keywordText, "i");    //区分大小写
+                    return reg.test(item.companyName);          //判断companyName中是否有匹配pattern的字段
+                });
+                //获取分页数据
+                let startIndex = this.pageSize * (this.currentPage - 1);
+                let endIndex = startIndex + this.pageSize;
+                return res.slice(startIndex, endIndex);
+            }
+        },
+        methods: {
+            //删除职位
+            // delHandle : function (id) {
+            delHandle(id) {
+                let index = this.dataList.findIndex(item => item._id === id);
+                //删除指定索引的元素
+                this.dataList.splice(index, 1);
+            },
+            //薪资排序切换
+            sortSwitch: function () {
+                this.sort = this.sort === 'asc' ? 'desc' : 'asc';
+            },
+            //跳转到分页
+            goPage(pageIndex) {
+                this.currentPage = pageIndex;
+            },
+            //搜索
+            searchHandle() {
+                this.keywordText = this.keyword;
+            }
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+<!-- Vue 组件 -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+    <div id="app">
+        <my-counter></my-counter>
+        <my-counter></my-counter>               <!-- 每个组件的数据互不影响 -->
+    </div>
+    <!-- 2 <script type="text/x-template"> 方式定义组件模板 -->
+    <script type="text/x-template" id="counterTemplate">
+        <div class="box">
+            <button @click="increase">+</button>
+            <b>{{num}}</b>
+            <button @click="decrease">-</button>
+        </div>
+    </script>
+    <script>
+        Vue.component('my-counter', {
+            // 1 字符串形式定义组件模板
+            // template: `
+            //     <div class="box">
+            //         <button @click="increase">+</button>
+            //         <b>{{num}}</b>
+            //         <button @click="decrease">-</button>
+            //     </div>
+            // `,
+            // 2 <script type="text/x-template"> 方式定义组件模板
+            template: '#counterTemplate',
+            data() {
+                return {
+                    num: 0
+                }
+            },
+            methods: {
+                increase() {
+                    this.num++;     //TODO 为何这里可以通过this直接访问？
+                },
+                decrease() {
+                    this.num--;
+                }
+            }
+        });
+        const vm = new Vue({
+            el: '#app'
+        });
+    </script>
+</body>
+</html>
