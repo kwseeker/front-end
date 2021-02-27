@@ -1,0 +1,56 @@
+<!-- 作用域插槽
+    1 解决如何在父作用访问插槽子组件的数据
+    2 插槽prop解构
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <alert-box></alert-box>
+
+    <!--<alert-box v-slot:default="obj">My default name is {{obj.uname}}</alert-box>-->
+    <!-- 默认插槽的简写 -->
+    <alert-box v-slot="obj">My default name is {{obj.uname}}</alert-box>
+    <!-- 插槽prop结构解构, 可以直接传一个解构表达式，如下面将slot的数据中的uname值解构出来 -->
+    <alert-box v-slot="{uname}">My default name is {{uname}}</alert-box>
+    <alert-box v-slot="{uname: n}">My default name is {{n}}</alert-box>
+
+    <!-- 如果组件中有多个命名插槽，使用下面完整的写法 -->
+    <alert-box>
+        <template v-slot:default="obj">
+            My default name is {{obj.uname}}
+        </template>
+    </alert-box>
+</div>
+
+<script>
+    <!-- 提取插槽子组件的数据展示到父作用域 -->
+    //插槽子组件
+    Vue.component('alert-box', {
+        //将slot的属性值都绑定到上面obj对象中
+        template: `
+            <div>
+                <slot :uname="uname">{{uname}}</slot>
+            </div>
+        `,
+        data() {
+            return {
+                uname: 'Arvin Lee'
+            }
+        }
+    });
+
+    const vm = new Vue({
+        el: '#app'
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!-- 动态组件（组件切换）
+    1 keep-alive 保存组件状态防止重新渲染
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <button v-for="tab in tabs.keys()" @click="handleChange(tab)">{{tabs.get(tab)}}</button>
+    <keep-alive>
+        <component :is="getCurrentTab"></component>
+    </keep-alive>
+</div>
+
+<script>
+    Vue.component('tab-economics', {
+        template: `
+            <div>
+                <p>财经1</p>
+                <p>财经2</p>
+                <p>财经3</p>
+            </div>
+        `
+    });
+    Vue.component('tab-sports', {
+        template: `
+            <div>
+                <p>体育1</p>
+                <p>体育2</p>
+                <p>体育3</p>
+            </div>
+        `
+    });
+    Vue.component('tab-entertainment', {
+        template: `
+            <div>
+                <p>娱乐1</p>
+                <p>娱乐2</p>
+                <p>娱乐3</p>
+            </div>
+        `
+    });
+
+    const vm = new Vue({
+        el: '#app',
+        data: {
+            tabs: new Map([
+                ['economics', '财经'],
+                ['sports', '体育'],
+                ['entertainment', '娱乐']
+            ]),
+            currentTab: 'economics'
+        },
+        computed: {
+            getCurrentTab() {
+                return 'tab-' + this.currentTab;
+            }
+        },
+        methods: {
+            handleChange(tab) {
+                this.currentTab = tab;
+            }
+        }
+    });
+</script>
+</body>
+</html>

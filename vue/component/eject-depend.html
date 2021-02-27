@@ -1,0 +1,60 @@
+<!-- $xxx 访问元素或组件
+    1 $root $parent
+    2 ref为组件赋予ID引用
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <my-comp></my-comp>
+</div>
+<!-- 根组件div#app 套 my-comp组件， my-comp 再套 my-comp2组件 -->
+<script type="text/x-template" id="myTemp">
+    <div>
+        <h2>{{$root.title}}</h2>
+        <!-- ref为组件赋予一个ID引用 -->
+        <my-comp2 ref="refComp2"></my-comp2>
+    </div>
+</script>
+<script>
+    Vue.component('myComp', {            //定义一个标签名为myComp的全局组件
+        template: '#myTemp',
+        mounted() {
+            console.log(this.$root.cities);
+            console.log(this.$root === this.$parent);
+            console.log(this.$refs.refComp2);
+            console.log(this.$refs.refComp2.title);
+        }
+    });
+    Vue.component('myComp2', {
+        template: `
+            <h2></h2>
+        `,
+        data() {
+            return {
+                title: 'comp2 title'
+            }
+        }
+    });
+
+    const vm = new Vue({
+        el: '#app',
+        data() {
+            return {
+                title: '直辖市',
+                cities:['beijing','shanghai','tianjin','chongqing'],
+                age: 100
+            }
+        }
+    });
+</script>
+</body>
+</html>

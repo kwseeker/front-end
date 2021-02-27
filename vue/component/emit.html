@@ -1,0 +1,65 @@
+<!--
+    子组件数据传递给父组件(通过事件实现，发布订阅的思想)
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<!-- 视作父组件 -->
+<div id="app">
+    <p>{{num}}</p>
+    <!-- 绑定事件处理方法 -->
+    <!-- 自定义事件无法获取事件对象-->
+    <subcomp @num-changed="numChangedHandle"></subcomp>
+</div>
+
+<script>
+    const vm = new Vue({
+        el: '#app',
+        data: {
+            num: 0
+        },
+        methods: {
+            numChangedHandle(v) {
+                this.num = v;
+            }
+        },
+        components: {
+            // 点击按钮之后，a的值要变化，然后传给父组件的num
+            subcomp: {
+                template: `
+                    <div>
+                        <button @click="increase">+</button>
+                        <button @click="decrease">-</button>
+                    </div>
+                `,
+                data() {
+                    return {
+                        a: 0
+                    }
+                },
+                methods: {
+                    increase() {
+                        this.a++;
+                        //发布事件(事件名称，事件值)
+                        this.$emit('num-changed', this.a);
+                    },
+                    decrease() {
+                        this.a--;
+                        //发布事件
+                        this.$emit('num-changed', this.a);
+                    }
+                }
+            }
+        }
+    });
+</script>
+</body>
+</html>

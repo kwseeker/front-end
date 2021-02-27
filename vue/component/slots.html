@@ -1,0 +1,91 @@
+<!-- 插槽
+    1 传递内容
+    2 默认内容（后备内容）
+    3 具名插槽
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <!-- 插槽数据传递 -->
+    <slot-alert-box><span>此处内容会传给组件slot标签位置</span></slot-alert-box>
+    <slot-alert-box></slot-alert-box>
+    <hr />
+    <!-- 具名插槽 -->
+    <base-layout>
+        <!-- 旧语法(2.6.0之前)写法 -->
+        <!-- 写法1 -->
+        <!--<template slot="header">-->
+        <!--    <h1>Here might be a page title</h1>-->
+        <!--</template>-->
+        <!--<template slot="main">-->
+        <!--    <p>A paragraph for the main content.</p>-->
+        <!--    <p>And another one.</p>-->
+        <!--</template>-->
+        <!--<template slot="footer">-->
+        <!--    <p>Here's some contact info</p>-->
+        <!--</template>-->
+        <!-- 写法2 -->
+        <!--<h1 slot="header">Here might be a page title</h1>-->
+        <!--<p slot="main">A paragraph for the main content.</p>-->
+        <!--&lt;!&ndash; 数据会追加进去 &ndash;&gt;-->
+        <!--<p slot="main">And another one.</p>-->
+        <!--<p slot="footer">Here's some contact info</p>-->
+
+        <!-- 新语法写法（反而不如老语法第二种方法写的简单） -->
+        <!--<template v-slot:header>-->
+        <template #header>
+            <h1>Here might be a page title</h1>
+        </template>
+        <template v-slot:main>
+            <p>A paragraph for the main content.</p>
+            <p>And another one.</p>
+        </template>
+        <template v-slot:footer>
+            <p>Here's some contact info</p>
+        </template>
+    </base-layout>
+</div>
+
+<script type="text/template" id="temp">
+    <div>
+        <header>
+            <slot name="header"></slot>
+        </header>
+        <main>
+            <slot name="main"></slot>
+        </main>
+        <footer>
+            <slot name="footer"></slot>
+        </footer>
+    </div>
+</script>
+<script>
+    Vue.component('slot-alert-box', {
+        template: `
+            <div>
+                <strong>Error:</strong>
+                <slot>Default error msg !</slot>
+            </div>
+        `
+    });
+
+    // 具名插槽组件
+    Vue.component('base-layout', {
+        template: '#temp'
+    });
+
+    const vm = new Vue({
+        el: '#app'
+    });
+</script>
+</body>
+</html>

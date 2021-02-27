@@ -1,4 +1,15 @@
-<!-- Vue组件之间通过prop传递数据 -->
+<!-- Vue组件之间通过prop传递数据
+    1 通过prop属性从父组件往子组件传递数据
+    2 Prop属性值检查(类型校验，必填校验，设置默认值，自定义校验)
+        String
+        Number
+        Boolean
+        Array
+        Object
+        Date
+        Function
+        Symbol
+ -->
 <!doctype html>
 <html lang="en">
 <head>
@@ -12,7 +23,7 @@
 <body>
     <div id="app">
         <!-- 驼峰式会自动转成连接符形式 -->
-        <my-comp :title="title" :list="cities"></my-comp>
+        <my-comp :title="title" :list="cities" :age="age"></my-comp>
     </div>
     <!-- 定义一个Vue组件 -->
     <script type="text/x-template" id="myTemp">
@@ -21,11 +32,29 @@
             <ul>
                 <li v-for="city in list">{{city}}</li>
             </ul>
+            <p>{{age}}</p>
         </div>
     </script>
     <script>
         Vue.component('myComp',{            //定义一个标签名为myComp的全局组件
-            props: ['title','list'],        //props属性用于自定义组件属性并向子组件传递数据
+            // props: ['title','list'],        //props属性用于自定义组件属性并向子组件传递数据
+
+            // props属性值校验
+            props: {
+                title: String,
+                list: {                         //如果有多个校验，使用对象定义
+                    type: Array,
+                    required: true
+                },
+                age: {
+                    type: Number,
+                    validator(value) {
+                        console.log(value);
+                        return value >= 0 && value <= 150;
+                    }
+                }
+            },
+
             template: '#myTemp'
         });
 
@@ -34,7 +63,8 @@
             data() {
                 return {
                     title: '直辖市',
-                    cities:['beijing','shanghai','tianjin','chongqing']
+                    cities:['beijing','shanghai','tianjin','chongqing'],
+                    age: 100
                 }
             }
         });

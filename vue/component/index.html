@@ -10,47 +10,84 @@
     <script src="../vue.js"></script>
 </head>
 <body>
-    <div id="app">
-        <my-counter></my-counter>
-        <my-counter></my-counter>               <!-- 每个组件的数据互不影响 -->
+<div id="app">
+    <my-counter></my-counter>
+    <my-counter></my-counter>               <!-- 每个组件的数据互不影响 -->
+
+    <!-- 依赖my-counter的组件 -->
+    <my-comp></my-comp>
+
+    <!-- 局部注册的组件 -->
+    <greet></greet>
+</div>
+
+<!-- 2 <script type="text/x-template"> 方式定义组件模板 -->
+<script type="text/x-template" id="counterTemplate">
+    <!-- 模板中只能有一个根元素 -->
+    <div class="box">
+        <button @click="increase">+</button>
+        <b>{{num}}</b>
+        <button @click="decrease">-</button>
     </div>
-    <!-- 2 <script type="text/x-template"> 方式定义组件模板 -->
-    <script type="text/x-template" id="counterTemplate">
-        <div class="box">
-            <button @click="increase">+</button>
-            <b>{{num}}</b>
-            <button @click="decrease">-</button>
-        </div>
-    </script>
-    <script>
-        Vue.component('my-counter', {
-            // 1 字符串形式定义组件模板
-            // template: `
-            //     <div class="box">
-            //         <button @click="increase">+</button>
-            //         <b>{{num}}</b>
-            //         <button @click="decrease">-</button>
-            //     </div>
-            // `,
-            // 2 <script type="text/x-template"> 方式定义组件模板
-            template: '#counterTemplate',
-            data() {
-                return {
-                    num: 0
-                }
-            },
-            methods: {
-                increase() {
-                    this.num++;     //TODO 为何这里可以通过this直接访问？
-                },
-                decrease() {
-                    this.num--;
-                }
+</script>
+<script type="text/x-template" id="myCompTemplate">
+    <div>
+        <b>依赖counterTemplate的组件</b>
+        <my-counter></my-counter>
+    </div>
+</script>
+
+<script>
+    // Vue.component('my-counter', {    //可以使用 kebab-case 命名
+    Vue.component('MyCounter', {       //也可以使用 PascalCase 命名
+        // 1 字符串形式定义组件模板
+        // template: `
+        //     <div class="box">
+        //         <button @click="increase">+</button>
+        //         <b>{{num}}</b>
+        //         <button @click="decrease">-</button>
+        //     </div>
+        // `,
+        // 2 <script type="text/x-template"> 方式定义组件模板
+        template: '#counterTemplate',
+        data() {
+            return {
+                num: 0
             }
-        });
-        const vm = new Vue({
-            el: '#app'
-        });
-    </script>
+        },
+        methods: {
+            increase() {
+                this.num++;     //TODO 为何这里可以通过this直接访问？
+            },
+            decrease() {
+                this.num--;
+            }
+        }
+    });
+
+    //注册新的组件依赖my-counter
+    Vue.component("my-comp", {
+        // template: '#myCompTemplate'
+        // 注意字符串模板中使用 PascalCase 并不会报错
+        template: `
+        <div>
+            <b>依赖counterTemplate的组件</b>
+            <MyCounter></MyCounter>
+        </div>
+        `
+    });
+
+    const vm = new Vue({
+        el: '#app',
+        // 局部注册组件(通过Vue实例的components属性注册)
+        components: {
+            'greet': {
+                template: `
+                    <h2>Hi!</h2>
+                `
+            }
+        }
+    });
+</script>
 </body>
 </html>

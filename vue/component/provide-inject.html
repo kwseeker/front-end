@@ -1,0 +1,51 @@
+<!-- 依赖注入 provide-inject
+    1
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <my-comp></my-comp>
+</div>
+
+<script>
+    Vue.component('myComp', {
+        inject: ['title'],
+        template: `
+            <div>
+                <h2>{{title}}</h2>
+                <my-comp2></my-comp2>
+            </div>
+        `
+    });
+    Vue.component('myComp2', {
+        inject: ['title'],
+        template: `
+            <h2>{{title}}</h2>
+        `
+    });
+
+    const vm = new Vue({
+        el: '#app',
+        data() {
+            return {
+                title: '直辖市'
+            }
+        },
+        provide: function () {
+            return {
+                title: this.title
+            }
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,81 @@
+<!--
+    通过事件总线实现兄弟组件之间的数据通信, 事件总线也是Vue实例
+    原理：
+    组件在mounted()阶段，绑定监听bus上的事件（监听哪个事件，注册事件处理方法），
+    A组件若想将数据发给B组件就是往bus上发送B组件监听的事件和数据。
+ -->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <comp1></comp1>
+    <comp2></comp2>
+</div>
+<script>
+    // 1 事件总线
+    const bus = new Vue();
+
+    // 两个全局组件做兄弟组件
+    Vue.component('comp1', {
+        mounted() {
+            // 2 注册监听事件和事件处理方法
+            bus.$on('comp2-event', v => {
+                this.num1 += v;
+            });
+        },
+        data() {
+            return {
+                num1: 0
+            }
+        },
+        template:`
+            <div class="box">
+                <p>comp1: {{num1}}</p>
+                <button @click="modifyHandle">修改comp2</button>
+            </div>
+        `,
+        methods: {
+            modifyHandle() {
+                bus.$emit('comp1-event', 1);
+            }
+        }
+    });
+    Vue.component('comp2', {
+        mounted() {
+            // 2 注册监听事件和事件处理方法
+            bus.$on('comp1-event', v => {
+                this.num2 += v;
+            });
+        },
+        data() {
+            return {
+                num2: 0
+            }
+        },
+        template:`
+            <div class="box">
+                <p>comp2: {{num2}}</p>
+                <button @click="modifyHandle">修改comp1</button>
+            </div>
+        `,
+        methods: {
+            modifyHandle() {
+                bus.$emit('comp2-event', 2);
+            }
+        }
+    })
+
+    const vm = new Vue({
+        el: '#app'
+    });
+</script>
+</body>
+</html>

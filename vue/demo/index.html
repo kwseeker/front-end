@@ -16,22 +16,53 @@
         .salary {
             cursor: pointer;
         }
+
         .asc::before {
             content: '⬆️';
         }
+
         .desc::before {
             content: '⬇️';
         }
+
         /* 分页导航栏，占宽度一半，居中 */
         .page-nav {
             width: 50%;
             margin: auto;
         }
+
+        .mask {
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            position: absolute;
+            left: 0;
+            top: 0;
+            /* opacity 透明度会继承父元素的透明度 */
+            /*background-color: #666;*/
+            /*opacity: .7;*/
+            background: rgba(102, 102, 102, .7);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .dialog {
+            width: 400px;
+            height: 360px;
+            opacity: 1;
+            background-color: #fff;
+        }
+
+        .dialog .comp-name {
+            margin: 20px;
+        }
     </style>
 </head>
 <body>
 <div id="app">
-    <input type="text" v-model="keyword"><button @click="searchHandle">搜索</button>
+    <input type="text" v-model="keyword">
+    <button @click="searchHandle">搜索</button>
     <!-- 表格 -->
     <table class="table table-bordered">
         <tbody>
@@ -50,11 +81,12 @@
         <tr v-for="item in pageDataList">
             <td>{{item.companyName}}</td>
             <td>{{item.city}}</td>
+            <!-- 职位名称 -->
             <td>{{item.positionName}}</td>
             <td>{{item.salary}}</td>
             <td>{{item.createTime}}</td>
             <td>
-                <button class="btn btn-success">编辑</button>
+                <button class="btn btn-success" @click="editHandle(item)">编辑</button>
                 <button class="btn btn-danger" @click="delHandle(item._id)">删除</button>
             </td>
         </tr>
@@ -66,8 +98,38 @@
             <li v-for="page in pages" @click="goPage(page)"><a href="#">{{page}}</a></li>
         </ul>
     </nav>
+    <!-- 职位信息编辑对话框 -->
+    <common-dialog v-if="isShowEdit" :position="positionItem"></common-dialog>
 </div>
+<script type="text/x-template" id="dialogTemp">
+    <div class="mask">
+        <div class="dialog">
+            <!-- TODO: 子传父关闭对话框 -->
+            <header>
+                职位编辑
+                <button>✖️</button>
+            </header>
+            公司名：<input type="text" class="comp-name" v-model="position.companyName"><br/>
+            城市：<input type="text" class="comp-name" v-model="position.city"><br/>
+            职位名称：<input type="text" class="comp-name" v-model="position.positionName"><br/>
+            工资：<input type="text" class="comp-name" v-model="position.salary"><br/>
+            <button @click="submitHandle">确定</button>
+        </div>
+    </div>
+</script>
 <script>
+    Vue.component('common-dialog', {
+        props: ['position'],
+        template: '#dialogTemp',
+        methods: {
+            submitHandle() {
+                let index = vm.dataList.findIndex(item => {
+                    return item._id === this.position._id;
+                });
+                vm.dataList.splice(index, 1, this.position);    //从数组索引index开始替换一个元素
+            }
+        }
+    });
     const vm = new Vue({
         el: '#app',
         data: {
@@ -76,7 +138,9 @@
             pageSize: 10,
             currentPage: 1,
             keyword: '',
-            keywordText: ''
+            keywordText: '',
+            isShowEdit: false,
+            positionItem: {}
         },
         created() {
             fetch("./data.json")    //js原生Api
@@ -86,14 +150,14 @@
                     this.dataList = res.data;
                 })
         },
-        computed : {    //计算属性，默认有缓存，不会造成额外资源消耗
+        computed: {    //计算属性，默认有缓存，不会造成额外资源消耗
             //数组排序，sort值修改后，自动检测刷新
             dataSortedList() {
                 //重写sort方法, sort会改变原数组
                 this.dataList.sort((a, b) => {
                     let s1 = a['salary'].replace('K', '');
                     let s2 = b['salary'].replace('K', '');
-                    if(this.sort === 'asc') {
+                    if (this.sort === 'asc') {
                         return s1 - s2;
                     } else {
                         return s2 - s1;
@@ -118,6 +182,11 @@
             }
         },
         methods: {
+            editHandle(item) {
+                this.isShowEdit = true;
+                this.positionItem = Object.assign({}, item);    //将item中所有属性拷贝到空对象{}中。
+                console.log(this.positionItem);
+            },
             //删除职位
             // delHandle : function (id) {
             delHandle(id) {
