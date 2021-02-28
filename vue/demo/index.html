@@ -99,37 +99,33 @@
         </ul>
     </nav>
     <!-- 职位信息编辑对话框 -->
-    <common-dialog v-if="isShowEdit" :position="positionItem"></common-dialog>
+    <common-dialog v-if="isShowEdit" title="职位编辑" @close="isShowEdit=false;">
+        公司名：<input type="text" class="comp-name" v-model="positionItem.companyName"><br/>
+        城市：<input type="text" class="comp-name" v-model="positionItem.city"><br/>
+        职位名称：<input type="text" class="comp-name" v-model="positionItem.positionName"><br/>
+        工资：<input type="text" class="comp-name" v-model="positionItem.salary"><br/>
+        <button @click="submitHandle">确定</button>
+    </common-dialog>
 </div>
+<!-- 自定义组件 -->
 <script type="text/x-template" id="dialogTemp">
     <div class="mask">
         <div class="dialog">
-            <!-- TODO: 子传父关闭对话框 -->
+            <!-- 子传父关闭对话框（事件）, 多种实现方式：事件，总线，$root/$parent, 依赖注入 -->
             <header>
-                职位编辑
-                <button>✖️</button>
+                {{title}}
+                <button @click="$emit('close')">✖️</button>
             </header>
-            公司名：<input type="text" class="comp-name" v-model="position.companyName"><br/>
-            城市：<input type="text" class="comp-name" v-model="position.city"><br/>
-            职位名称：<input type="text" class="comp-name" v-model="position.positionName"><br/>
-            工资：<input type="text" class="comp-name" v-model="position.salary"><br/>
-            <button @click="submitHandle">确定</button>
+            <slot></slot>
         </div>
     </div>
 </script>
 <script>
     Vue.component('common-dialog', {
-        props: ['position'],
-        template: '#dialogTemp',
-        methods: {
-            submitHandle() {
-                let index = vm.dataList.findIndex(item => {
-                    return item._id === this.position._id;
-                });
-                vm.dataList.splice(index, 1, this.position);    //从数组索引index开始替换一个元素
-            }
-        }
+        props: ['title'],
+        template: '#dialogTemp'
     });
+
     const vm = new Vue({
         el: '#app',
         data: {
@@ -151,7 +147,7 @@
                 })
         },
         computed: {    //计算属性，默认有缓存，不会造成额外资源消耗
-            //数组排序，sort值修改后，自动检测刷新
+            //数组排序，sort值修改后，自动检测刷新, TODO: 自动检测刷新是怎么实现的？是全部计算属性和标签都会自动刷新么？不是全部的话？怎么判断哪些会刷新哪些不会刷新？
             dataSortedList() {
                 //重写sort方法, sort会改变原数组
                 this.dataList.sort((a, b) => {
@@ -165,16 +161,20 @@
                 });
                 return this.dataList;
             },
-            //分页数
-            pages() {
-                return Math.ceil(this.dataList.length / this.pageSize);
-            },
-            pageDataList() {
+            getMatchedAll() {
                 //根据公司名称过滤逻辑，其他过滤条件实现类似
-                let res = this.dataSortedList.filter(item => {  //filter将条件匹配的数据过滤出来到新的变量
+                return this.dataSortedList.filter(item => {     //filter将条件匹配的数据过滤出来到新的变量
                     let reg = RegExp(this.keywordText, "i");    //区分大小写
                     return reg.test(item.companyName);          //判断companyName中是否有匹配pattern的字段
                 });
+            },
+            //分页数
+            pages() {
+                let res = this.getMatchedAll;
+                return Math.ceil(res.length / this.pageSize);
+            },
+            pageDataList() {
+                let res = this.getMatchedAll;
                 //获取分页数据
                 let startIndex = this.pageSize * (this.currentPage - 1);
                 let endIndex = startIndex + this.pageSize;
@@ -182,6 +182,13 @@
             }
         },
         methods: {
+            submitHandle() {
+                let index = this.dataList.findIndex(item => {
+                    return item._id === this.positionItem._id;
+                });
+                this.dataList.splice(index, 1, this.positionItem);    //从数组索引index开始替换一个元素
+                this.isShowEdit = false;
+            },
             editHandle(item) {
                 this.isShowEdit = true;
                 this.positionItem = Object.assign({}, item);    //将item中所有属性拷贝到空对象{}中。
