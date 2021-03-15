@@ -1,0 +1,39 @@
+<!-- location
+    1 页面跳转
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p></p>
+    <button>立即跳转</button>
+    <script>
+        console.log(location);
+
+        // 1 页面跳转
+        let num = 10;
+        document.querySelector('p').innerHTML='本页面还剩' + num + '秒';
+        setInterval(() => {
+            if(num === 0) {
+                location.href = "https://www.baidu.com";
+            } else {
+                document.querySelector('p').innerHTML='本页面还剩' + num + '秒';
+                num--;
+            }
+        }, 1000);
+
+        // 2 常用方法
+        document.querySelector('button').addEventListener('click', () => {
+            location.reload(true);
+            location.assign('http://www.163.com');
+            // location.replace('http://www.163.com');
+        });
+    </script>
+</body>
+</html>

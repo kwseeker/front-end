@@ -1,0 +1,85 @@
+<!-- DOM offset client scroll 获取位置
+    1 可以获取在盒子内的坐标
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .fa {
+            margin: 100px;
+            border: 2px dashed blue;
+            padding: 3px;
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            position: relative;
+        }
+
+        .son {
+            margin: 3px;
+            border: 2px dashed blue;
+            padding: 5px;
+            width: 150px;
+            height: 150px;
+            background-color: green;
+            position: absolute;
+            left: 20px;
+            top: 10px;
+        }
+
+        .grandson {
+            margin: 3px;
+            border: 2px dashed blue;
+            padding: 5px;
+            width: 100px;
+            height: 100px;
+            background-color: palegreen;
+            position: absolute;
+            left: 20px;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="fa">
+        <div class="son">
+            <div class="grandson"></div>
+        </div>
+    </div>
+    <img src="imgs/JS_DOM_size_offset.jpg" alt="">
+    <script>
+        let fa = document.querySelector('.fa');
+        let son = document.querySelector('.son');
+        let grandson = document.querySelector('.grandson');
+
+        // 1 offset
+        console.log(fa.offsetParent);       //最近带有定位的祖先元素 body
+        console.log(fa.offsetLeft);         //108 = body:margin:8 + fa:margin:100 元素外边界（border外围到父定位元素的内容区边界）
+        console.log(fa.offsetTop);          //100 = fa:margin:100 因为margin塌陷上方8px没有显示出来
+        console.log(fa.offsetHeight);       //300 = border + padding + height
+        console.log(fa.offsetWidth);        //300 = border + padding + width
+
+        console.log(son.offsetParent);
+        console.log(son.offsetLeft);        //20
+        console.log(son.offsetTop);         //10
+        console.log(son.offsetHeight);      //150
+        console.log(son.offsetWidth);       //150
+
+        console.log(grandson.offsetParent);
+        console.log(grandson.offsetLeft);        //20
+        console.log(grandson.offsetTop);         //10
+        console.log(grandson.offsetHeight);      //150
+        console.log(grandson.offsetWidth);       //150
+
+        // 2 client
+
+        // 3 scroll
+
+    </script>
+</body>
+</html>

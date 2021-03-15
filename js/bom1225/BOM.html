@@ -1,11 +1,47 @@
+<!-- 浏览器对象模型：提供了与浏览器进行交互的对象
+    widow
+-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+        // window 常见事件
+        // onload: html css js 全部加载完成之后立即执行
+        window.onload = function () {
+            console.log("窗口完全加载后执行（确保能找到加载的元素）...");
+            let op = window.document.getElementsByTagName('p')[0];
+            window.alert(op);
+        }
+    </script>
 </head>
 <body>
+    <p>some text!</p>
+    <script>
+        console.log("执行...");
 
+        // let op = window.document.getElementsByTagName('p')[0];
+        // window.alert(op);
+
+        // var a = 100;
+        // console.log(a === window.a);     //true
+        let a = 100;                        //let 和 var 的一个重要区别
+        console.log(a === window.a);        //false
+        function fn() {
+            window.console.log("hello");
+        }
+        console.log(window);
+        console.log(fn === window.fn);
+
+        // window 常见事件
+        document.addEventListener('DOMContentLoaded', function () {
+            console.log("仅仅当DOM文档完全加载完成就立即执行");
+        });
+        window.onresize = function () {
+            console.log("窗口大小改变了 " + window.innerWidth +':'+ window.innerHeight);
+        };
+    </script>
 </body>
 </html>

@@ -1,0 +1,39 @@
+<!-- window 的两个定时函数
+    setTimeout()
+    setInterval()
+    应用：
+    1 实现倒计时器（日期对象+定时器）
+        定时每隔一秒重新刷新显示。
+        可参考“京东秒杀”页面做一个倒计时器。
+    2 限时验证码
+    3 动画滑动
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log(typeof window.setTimeout);
+        console.log(typeof window.setInterval);
+
+        // 这两个定时函数有最小间隔事件，即使时间写0（按照最小间隔时间）
+        let timer1 = window.setTimeout(function () {
+            console.log('延迟1秒执行...');
+        }, 1000);
+
+        let timer2 = window.setInterval(function () {
+            console.log('每隔1秒执行...');
+        }, 1000);
+
+        setTimeout(function () {
+            clearInterval(timer2);
+        }, 5000);
+    </script>
+</body>
+</html>

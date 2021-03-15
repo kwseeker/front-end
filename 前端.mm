@@ -1460,8 +1460,7 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x9ed8;&#x8ba4;&#xff1a;position: static" ID="ID_166885835" CREATED="1601783718890" MODIFIED="1601783734938"/>
-<node TEXT="&#x76f8;&#x5bf9;&#x5b9a;&#x4f4d; position: relative" ID="ID_1105576265" CREATED="1601780571939" MODIFIED="1601784079640"><richcontent TYPE="NOTE">
+<node TEXT="&#x9ed8;&#x8ba4;&#xff1a;position: static" ID="ID_166885835" CREATED="1601783718890" MODIFIED="1615720530323"><richcontent TYPE="NOTE">
 
 <html>
   <head>
@@ -1469,7 +1468,37 @@
   </head>
   <body>
     <p>
-      &#30456;&#23545;&#20110;&#21407;&#26469;&#30340;&#20301;&#32622;&#12290;
+      &#20174;&#24038;&#24448;&#21491;&#20174;&#19978;&#21040;&#19979;&#19968;&#27425;&#25490;&#21015;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#26631;&#20934;&#27969;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x76f8;&#x5bf9;&#x5b9a;&#x4f4d; position: relative" ID="ID_1105576265" CREATED="1601780571939" MODIFIED="1615720511824"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20803;&#32032;&#20174;&#24038;&#24448;&#21491;&#20174;&#19978;&#21040;&#19979;&#20381;&#27425;&#25490;&#21015;&#21518;&#26377;&#19968;&#20010;&#40664;&#35748;&#30340;&#20301;&#32622;&#12290;
+    </p>
+    <p>
+      &#30456;&#23545;&#23450;&#20301;&#23601;&#26159;&#30456;&#23545;&#20110;&#21407;&#26469;&#30340;&#40664;&#35748;&#20301;&#32622;&#20570;&#24494;&#35843;&#12290;
     </p>
   </body>
 </html>
@@ -3497,8 +3526,46 @@
 </richcontent>
 <node TEXT="&#x5220;&#x9664;&#x5c5e;&#x6027; delete obj.attr;" ID="ID_614210323" CREATED="1607834566009" MODIFIED="1607834591861"/>
 </node>
-<node TEXT="2) &#x5bf9;&#x5c5e;&#x6027;&#x5faa;&#x73af;&#x904d;&#x5386;" ID="ID_861625068" CREATED="1603609022673" MODIFIED="1607835176632"/>
-<node TEXT="3) &#x5224;&#x65ad;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x62e5;&#x6709;&#x5c5e;&#x6027;" ID="ID_1010916831" CREATED="1603609039236" MODIFIED="1607845008900"/>
+<node TEXT="2) &#x5bf9;&#x5c5e;&#x6027;&#x5faa;&#x73af;&#x904d;&#x5386;" ID="ID_861625068" CREATED="1603609022673" MODIFIED="1615608669485"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;for(attr in me) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;console.log(attr);
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="3) &#x5224;&#x65ad;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x62e5;&#x6709;&#x5c5e;&#x6027;" ID="ID_1010916831" CREATED="1603609039236" MODIFIED="1615608635979"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &quot;age&quot; in me
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Reflect.has(me, &quot;age&quot;)
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="&#x7279;&#x6027;" ID="ID_1436106667" CREATED="1603608518051" MODIFIED="1603608520519">
 <node TEXT="js&#x5bf9;&#x8c61;&#x652f;&#x6301;&#x52a8;&#x6001;&#x62d3;&#x5c55;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;" ID="ID_1422512920" CREATED="1601811072554" MODIFIED="1603608783718"><richcontent TYPE="NOTE">
 
@@ -3568,7 +3635,24 @@
 </node>
 </node>
 <node TEXT="&#x6807;&#x51c6;&#x5185;&#x7f6e;&#x5bf9;&#x8c61;" ID="ID_217860911" CREATED="1601823828567" MODIFIED="1607845379145" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects">
-<node TEXT="Object" ID="ID_1002710364" CREATED="1607835088917" MODIFIED="1607835100514" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object"/>
+<node TEXT="Object" ID="ID_1002710364" CREATED="1607835088917" MODIFIED="1607835100514" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object">
+<node TEXT="defineProperty()" ID="ID_964342078" CREATED="1615388366399" MODIFIED="1615473197467">
+<icon BUILTIN="password"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#22312;&#23545;&#35937;&#19978;&#23450;&#20041;&#26032;&#23646;&#24615;&#25110;&#20462;&#25913;&#29616;&#26377;&#23646;&#24615;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
 <node TEXT="Array" ID="ID_1101740722" CREATED="1601990023475" MODIFIED="1601990064442" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array"/>
 <node TEXT="String" ID="ID_1176913937" CREATED="1601969917283" MODIFIED="1601989834414" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String"><richcontent TYPE="NOTE">
 
@@ -4365,7 +4449,22 @@
 </html>
 </richcontent>
 <node TEXT="Document&#x5bf9;&#x8c61;&#x96c6;&#x5408;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_1152346006" CREATED="1610254003547" MODIFIED="1610254096627"/>
-<node TEXT="Element&#x5bf9;&#x8c61;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_534657234" CREATED="1610254017340" MODIFIED="1610254120155"/>
+<node TEXT="Element&#x5bf9;&#x8c61;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_534657234" CREATED="1610254017340" MODIFIED="1615698807478" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement">
+<icon BUILTIN="wizard"/>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">HTMLElement</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
 <node TEXT="Attribute(HTML&#x5c5e;&#x6027;)&#x5bf9;&#x8c61;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_1380617509" CREATED="1610254017340" MODIFIED="1610254182415"/>
 <node TEXT="Event&#x5bf9;&#x8c61;/&#x53e5;&#x67c4;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_1297857771" CREATED="1610254205273" MODIFIED="1610254218982"/>
 </node>
@@ -4802,6 +4901,336 @@
 <node TEXT="&lt;element&gt;.removeAttribute()" ID="ID_1974847034" CREATED="1609663967915" MODIFIED="1609663984582"/>
 </node>
 <node TEXT="&#x5185;&#x5bb9;&#x64cd;&#x4f5c;" ID="ID_1357973261" CREATED="1607847449274" MODIFIED="1607847458265"/>
+<node TEXT="&#x83b7;&#x53d6;&#x4f4d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_885494041" CREATED="1615697622127" MODIFIED="1615818483112" LINK="js/dom1212/imgs/JS_DOM_size_offset.jpg"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">HTMLElement.offsetXxx </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#26159;&#20803;&#32032;&#30340;&#23646;&#24615;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="offset" ID="ID_1879536939" CREATED="1615724490003" MODIFIED="1615724493329">
+<node TEXT="offsetParent" ID="ID_211438078" CREATED="1615699118962" MODIFIED="1615719045698"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#26368;&#36817;&#24102;&#26377;&#23450;&#20301;&#30340;&#31062;&#20808;&#20803;&#32032;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="offsetHeight" ID="ID_748355122" CREATED="1615698883880" MODIFIED="1615724490024"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(51, 51, 51)" face="arial, x-locale-body, sans-serif"><i>&#23427;&#36820;&#22238;&#35813;&#20803;&#32032;&#30340;&#20687;&#32032;&#39640;&#24230;&#65292;&#39640;&#24230;&#21253;&#21547;&#35813;&#20803;&#32032;&#30340;&#22402;&#30452;&#20869;&#36793;&#36317;&#21644;&#36793;&#26694;&#65292;&#19988;&#26159;&#19968;&#20010;&#25972;&#25968;&#12290; </i></font>
+    </p>
+    <p>
+      <font color="rgb(51, 51, 51)" face="arial, x-locale-body, sans-serif"><i>border*2 + padding*2 + height </i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="offsetWidth" ID="ID_1521929338" CREATED="1615699129226" MODIFIED="1615724509271"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="rgb(51, 51, 51)" face="arial, x-locale-body, sans-serif"><i>border*2 + padding*2 + width</i></font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="offsetLeft" ID="ID_1738867447" CREATED="1615699112724" MODIFIED="1615723701594">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20803;&#32032;border&#24038;&#22806;&#22260;&#21040;&#29238;&#23450;&#20301;&#20803;&#32032;&#30340;&#20869;&#23481;&#21306;&#24038;&#36793;&#30028;&#30340;&#20687;&#32032;&#20540;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p style="margin-top: 0">
+      <font color="#0000c0">&#21518;&#38754;&#26159;&#23454;&#39564;&#24471;&#20986;&#30340;&#32467;&#35770;, </font>
+    </p>
+    <p style="margin-top: 0">
+      <font color="#0000c0">&#26597;&#21040;&#30340;&#25551;&#36848;&#37117;&#35828;&#30340;&#19981;&#28165;&#19981;&#26970;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5143;&#x7d20;border&#x5de6;&#x5916;&#x56f4;&#x5230;&#x7236;&#x5b9a;&#x4f4d;&#x5143;&#x7d20;&#x7684;&#x5185;&#x5bb9;&#x533a;&#x5de6;&#x8fb9;&#x754c;&#x7684;&#x50cf;&#x7d20;&#x503c;" ID="ID_567593988" CREATED="1615723603346" MODIFIED="1615723614609"/>
+<node TEXT="! &#x5982;&#x679c;&#x7236;&#x5b9a;&#x4f4d;&#x5143;&#x7d20;&#x662f;body&#x5219;&#x8fd4;&#x56de;&#x5b50;&#x5143;&#x7d20;&#x5916;&#x8fb9;&#x754c;&#x5230;body&#x6700;&#x5916;&#x56f4;&#x7684;&#x50cf;&#x7d20;&#x503c;" ID="ID_1700495883" CREATED="1615722917410" MODIFIED="1615723031987"/>
+</node>
+<node TEXT="offsetTop" ID="ID_316910794" CREATED="1615699125380" MODIFIED="1615722679747">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20803;&#32032;border&#19978;&#22806;&#22260;&#21040;&#29238;&#23450;&#20301;&#20803;&#32032;&#30340;&#20869;&#23481;&#21306;&#19978;&#36793;&#30028;&#30340;&#20687;&#32032;&#20540;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="client" ID="ID_1570213462" CREATED="1615724494625" MODIFIED="1615724498621">
+<node TEXT="clientWidth" ID="ID_1114806404" CREATED="1615817635821" MODIFIED="1615817712670"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">padding&#24038;&#21491; + width</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="clientHeight" ID="ID_38505482" CREATED="1615817644286" MODIFIED="1615817723713"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">padding&#19978;&#19979; + height</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="clientLeft" ID="ID_1148039252" CREATED="1615817650630" MODIFIED="1615817763025"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">border&#24038;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="clientTop" ID="ID_565951680" CREATED="1615817658001" MODIFIED="1615817773671"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">border&#19978;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="scroll" ID="ID_1554710966" CREATED="1615724499108" MODIFIED="1615724502227">
+<node TEXT="scrollWidth" ID="ID_1982138833" CREATED="1615817806083" MODIFIED="1615818147229"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20803;&#32032;&#23637;&#24320;&#21518;&#23454;&#38469;&#23485;&#24230;, &#19981;&#21253;&#21547;&#36793;&#26694;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="scrollHeight" ID="ID_1384287644" CREATED="1615817814823" MODIFIED="1615818158393"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20803;&#32032;&#23637;&#24320;&#21518;&#23454;&#38469;&#39640;&#24230;, &#19981;&#21253;&#21547;&#36793;&#26694;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="scrollLeft" ID="ID_1780814367" CREATED="1615817819177" MODIFIED="1615819017830"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20803;&#32032;&#24038;border&#22823;&#23567;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="scrollTop" ID="ID_1018351640" CREATED="1615817822637" MODIFIED="1615819030385"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      DTD:&#160;&#160;document.documentElement.scrollTop
+    </p>
+    <p>
+      &#26410;&#22768;&#26126;DTD: document.body.scrollTop
+    </p>
+    <p>
+      window.pageXOffset / window.pageYOffSet
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      DTD:
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#25991;&#26723;&#31867;&#22411;&#23450;&#20041;&#65288;DTD&#65289;&#21487;&#23450;&#20041;&#21512;&#27861;&#30340;XML&#25991;&#26723;&#26500;&#24314;&#27169;&#22359;&#12290;&#23427;&#20351;&#29992;&#19968;&#31995;&#21015;&#21512;&#27861;&#30340;&#20803;&#32032;&#26469;&#23450;&#20041;&#25991;&#26723;&#30340;&#32467;&#26500;&#12290;
+    </p>
+    <p>
+      DTD &#21487;&#34987;&#25104;&#34892;&#22320;&#22768;&#26126;&#20110; XML &#25991;&#26723;&#20013;&#65292;&#20063;&#21487;&#20316;&#20026;&#19968;&#20010;&#22806;&#37096;&#24341;&#29992;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    &#36890;&#36807; DTD&#65292;&#24744;&#30340;&#27599;&#19968;&#20010; XML &#25991;&#20214;&#22343;&#21487;&#25658;&#24102;&#19968;&#20010;&#26377;&#20851;&#20854;&#33258;&#36523;&#26684;&#24335;&#30340;&#25551;&#36848;&#12290; &#36890;&#36807; DTD&#65292;&#29420;&#31435;&#30340;&#22242;&#20307;&#21487;&#19968;&#33268;&#22320;&#20351;&#29992;&#26576;&#20010;&#26631;&#20934;&#30340; DTD &#26469;&#20132;&#25442;&#25968;&#25454;&#12290; &#32780;&#24744;&#30340;&#24212;&#29992;&#31243;&#24207;&#20063;&#21487;&#20351;&#29992;&#26576;&#20010;&#26631;&#20934;&#30340; DTD &#26469;&#39564;&#35777;&#20174;&#22806;&#37096;&#25509;&#25910;&#21040;&#30340;&#25968;&#25454;&#12290; &#24744;&#36824;&#21487;&#20197;&#20351;&#29992; DTD &#26469;&#39564;&#35777;&#24744;&#33258;&#36523;&#30340;&#25968;&#25454;&#12290;  
+  </body>
+</html>
+
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20803;&#32032;&#21491;border&#22823;&#23567;</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5e94;&#x7528;&#x6848;&#x4f8b;" ID="ID_1322334010" CREATED="1615818308233" MODIFIED="1615818312537">
+<node TEXT="&#x653e;&#x5927;&#x955c;" ID="ID_709455225" CREATED="1615818668179" MODIFIED="1615828770267"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#24605;&#36335;&#65306;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;1 &#20808;&#25226;&#25152;&#26377;&#32452;&#20214;&#38745;&#24577;&#26679;&#24335;&#20570;&#20986;&#26469;&#65288;4&#20010;&#26694;&#65306;&#20004;&#20010;&#22270;&#29255;&#26694;&#65292;&#20004;&#20010;&#31383;&#21475;&#26694;&#65292;&#23567;&#22270;&#21644;&#25918;&#22823;&#23637;&#31034;&#26694;&#26159;&#22266;&#23450;&#30340;&#65292;&#25918;&#22823;&#21306;&#22495;&#36873;&#25321;&#26694;&#21644;&#22823;&#22270;&#26159;&#21487;&#20197;&#31227;&#21160;&#30340;&#65289;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#36974;&#32617;&#23618;&#25353;&#29031;&#23567;&#22270;&#32477;&#23545;&#23450;&#20301;&#65292;&#22823;&#22270;&#25353;&#29031;&#25918;&#22823;&#21306;&#22495;&#32477;&#23545;&#23450;&#20301;&#65292;&#23567;&#22270;&#21644;&#25918;&#22823;&#21306;&#22495;&#30456;&#23545;&#23450;&#20301;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;2 &#20570;&#25918;&#22823;&#21306;&#22495;&#36873;&#25321;&#26694;&#65288;&#36974;&#32617;&#23618;&#65289;&#30340;&#21160;&#24577;&#25928;&#26524;&#65288;&#36974;&#32617;&#23618;&#38543;&#40736;&#26631;&#31227;&#21160;&#65292;&#40736;&#26631;&#20013;&#24515;&#24635;&#26159;&#20301;&#20110;&#36974;&#32617;&#23618;&#20013;&#24515;&#65292;&#36974;&#32617;&#23618;&#24635;&#26159;&#20301;&#20110;&#23567;&#22270;&#20869;&#37096;&#65289;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;3 &#22823;&#22270;&#38543;&#30528;&#36974;&#32617;&#23618;&#25353;&#22823;&#23567;&#22270;&#27604;&#20363;&#21453;&#26041;&#21521;&#31227;&#21160;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x6a21;&#x6001;&#x6846;" ID="ID_316891347" CREATED="1615818592691" MODIFIED="1615819151878"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#31616;&#21333;&#35828;&#27169;&#24577;&#26694;&#23601;&#26159;&#22312;&#21407;&#26377;&#30340;&#30028;&#38754;&#19978;&#26032;&#22686;&#19968;&#20010;&#31383;&#21475;&#65292;
+    </p>
+    <p>
+      &#20197;&#20445;&#35777;&#22312;&#19981;&#21047;&#26032;&#32593;&#39029;&#30340;&#21069;&#25552;&#19979;&#21644;&#21518;&#21488;&#23436;&#25104;&#20132;&#20114;&#12290;
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+<node TEXT="&#x6dd8;&#x5b9d;&#x4fa7;&#x8fb9;&#x680f;" ID="ID_812334346" CREATED="1615818724008" MODIFIED="1615818731920"/>
+<node TEXT="&#x9875;&#x9762;&#x4e0b;&#x62c9;&#x4e00;&#x5b9a;&#x9ad8;&#x5ea6;&#x540e;&#x5c55;&#x793a;&#x5bfc;&#x822a;&#x680f;" ID="ID_1075187767" CREATED="1615818313905" MODIFIED="1615818346363"/>
+</node>
+</node>
 <node TEXT="document.write()" ID="ID_1795668447" CREATED="1609680377823" MODIFIED="1609680460297"><richcontent TYPE="NOTE">
 
 <html>
@@ -5473,6 +5902,549 @@
   </body>
 </html>
 </richcontent>
+<node TEXT="window" FOLDED="true" ID="ID_1036684497" CREATED="1615609985566" MODIFIED="1615610534638" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/Window"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#36890;&#36807;&#27492;&#23545;&#35937;&#21487;&#20197;&#19982;&#27983;&#35272;&#22120;&#31383;&#21475;&#36827;&#34892;&#20132;&#20114;&#12290;<br/>
+    </p>
+    <p>
+      &#21487;&#20197;&#23454;&#29616;&#31383;&#21475;&#28378;&#21160;&#65292;&#25918;&#22823;&#32553;&#23567;&#31561;&#31561;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5e38;&#x7528;&#x6210;&#x5458;&#x5bf9;&#x8c61;" ID="ID_647268554" CREATED="1615610614438" MODIFIED="1615610629124">
+<node TEXT="document" ID="ID_237954074" CREATED="1615610019644" MODIFIED="1615610316126"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      document&#23545;&#35937;&#26159;window&#23545;&#35937;&#19979;&#30340;&#19968;&#20010;&#23646;&#24615;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="location" ID="ID_1736951087" CREATED="1615610385940" MODIFIED="1615692211692"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21487;&#20197;&#35774;&#32622;&#25110;&#33719;&#21462;&#31383;&#21475;&#30340;url, host, port, pathname, search&#25628;&#32034;&#21442;&#25968; &#31561;&#20449;&#24687;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#22914;&#65306;bing&#39318;&#39029;&#65306;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      ancestorOrigins: DOMStringList {length: 0}
+    </p>
+    <p>
+      assign: &#402; assign()
+    </p>
+    <p>
+      hash: &quot;&quot;
+    </p>
+    <p>
+      host: &quot;cn.bing.com&quot;
+    </p>
+    <p>
+      hostname: &quot;cn.bing.com&quot;
+    </p>
+    <p>
+      href: &quot;https://cn.bing.com/&quot;
+    </p>
+    <p>
+      origin: &quot;https://cn.bing.com&quot;
+    </p>
+    <p>
+      pathname: &quot;/&quot;
+    </p>
+    <p>
+      port: &quot;&quot;
+    </p>
+    <p>
+      protocol: &quot;https:&quot;
+    </p>
+    <p>
+      reload: &#402; reload()
+    </p>
+    <p>
+      replace: &#402; ()
+    </p>
+    <p>
+      search: &quot;&quot;
+    </p>
+    <p>
+      toString: &#402; toString()
+    </p>
+    <p>
+      valueOf: &#402; valueOf()
+    </p>
+    <p>
+      Symbol(Symbol.toPrimitive): undefined
+    </p>
+    <p>
+      __proto__: Location
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x53ef;&#x4ee5;&#x5b9e;&#x73b0;&#x9875;&#x9762;&#x8df3;&#x8f6c;&#x3001;&#x5237;&#x65b0;&#x3001;&#x83b7;&#x53d6;&#x67e5;&#x8be2;&#x53c2;&#x6570;" ID="ID_284473201" CREATED="1615692408739" MODIFIED="1615696226351"/>
+<node TEXT="reload()" ID="ID_1976107478" CREATED="1615694556477" MODIFIED="1615695000896"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#21047;&#26032;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="" ID="ID_444338715" CREATED="1615695455368" MODIFIED="1615695455368">
+<hook NAME="FirstGroupNode"/>
+</node>
+<node TEXT="assign()" ID="ID_726104541" CREATED="1615694539986" MODIFIED="1615695487895"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39029;&#38754;&#36339;&#36716;&#65292;&#31867;&#20284;&#30452;&#25509;&#25805;&#20316;location.href&#23646;&#24615;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#39029;&#38754;&#36339;&#36716;, &#20250;&#26032;&#22686;&#21382;&#21490;&#35760;&#24405;&#65292;&#21487;&#20197;&#22238;&#36864;&#21040;&#20043;&#21069;&#39029;&#38754;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="replace()" ID="ID_1675548060" CREATED="1615694551337" MODIFIED="1615695665056"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26367;&#25442;&#39029;&#38754;, &#19981;&#20250;&#26032;&#22686;&#21382;&#21490;&#35760;&#24405;&#65292;&#26080;&#27861;&#22238;&#36864;&#21040;&#20043;&#21069;&#39029;&#38754;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="" ID="ID_278650364" CREATED="1615695455364" MODIFIED="1615695455368">
+<hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
+<node TEXT="&#x53c2;&#x8003;history&#x5c5e;&#x6027;" ID="ID_1096569002" CREATED="1615695455368" MODIFIED="1615695478329"/>
+</node>
+</node>
+<node TEXT="navigator" ID="ID_755411077" CREATED="1615610390473" MODIFIED="1615696188917" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#29992;&#25143;&#20195;&#29702;(User-Agent)&#30340;&#29366;&#24577;&#21644;&#26631;&#35782;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x53ef;&#x4ee5;&#x7528;&#x4e8e;&#x67e5;&#x8be2;&#x3001;&#x4fee;&#x6539;&#x6d4f;&#x89c8;&#x5668;&#x7ec8;&#x7aef;&#x4fe1;&#x606f;" ID="ID_1456283299" CREATED="1615695945567" MODIFIED="1615696551485"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <b>&#20351;&#29992;&#27491;&#21017;&#34920;&#36798;&#24335;&#31616;&#20889;&#29256;&#65306;</b>
+    </p>
+    <p>
+      &lt;script type=&quot;text/javascript&quot;&gt;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;function browserRedirect() {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var sUserAgent = navigator.userAgent.toLowerCase();
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;if (/ipad|iphone|midp|rv:1.2.3.4|ucweb|android|windows ce|windows mobile/.test(sUserAgent)) {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//&#36339;&#36716;&#31227;&#21160;&#31471;&#39029;&#38754;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; window.location.href=&quot;http://f.jcngame.com/fanfan20171208/mobile/index.html&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;} else {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//&#36339;&#36716;pc&#31471;&#39029;&#38754;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; window.location.href=&quot;http://f.jcngame.com/fanfan20171208//fanmai/index.html&quot;;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;browserRedirect();
+    </p>
+    <p>
+      &lt;/script&gt;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      var browser={&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;versions:function(){&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;var u = navigator.userAgent, app = navigator.appVersion;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;return {//&#31227;&#21160;&#32456;&#31471;&#27983;&#35272;&#22120;&#29256;&#26412;&#20449;&#24687;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;trident: u.indexOf('Trident') &gt; -1, //IE&#20869;&#26680;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;presto: u.indexOf('Presto') &gt; -1, //opera&#20869;&#26680;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;webKit: u.indexOf('AppleWebKit') &gt; -1, //&#33529;&#26524;&#12289;&#35895;&#27468;&#20869;&#26680;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;gecko: u.indexOf('Gecko') &gt; -1 &amp;&amp; u.indexOf('KHTML') == -1, //&#28779;&#29392;&#20869;&#26680;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;mobile: !!u.match(/AppleWebKit.*Mobile.*/)||!!u.match(/AppleWebKit/), //&#26159;&#21542;&#20026;&#31227;&#21160;&#32456;&#31471;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/), //ios&#32456;&#31471;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;android: u.indexOf('Android') &gt; -1 || u.indexOf('Linux') &gt; -1, //android&#32456;&#31471;&#25110;&#32773;uc&#27983;&#35272;&#22120;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iPhone: u.indexOf('iPhone') &gt; -1 || u.indexOf('Mac') &gt; -1, //&#26159;&#21542;&#20026;iPhone&#25110;&#32773;QQHD&#27983;&#35272;&#22120;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;iPad: u.indexOf('iPad') &gt; -1, //&#26159;&#21542;iPad&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;webApp: u.indexOf('Safari') == -1 //&#26159;&#21542;web&#24212;&#35813;&#31243;&#24207;&#65292;&#27809;&#26377;&#22836;&#37096;&#19982;&#24213;&#37096;&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}(),&#160;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;language:(navigator.browserLanguage || navigator.language).toLowerCase()&#160;
+    </p>
+    <p>
+      }&#160;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="screen" ID="ID_1916293385" CREATED="1615610394691" MODIFIED="1615610398682"/>
+<node TEXT="history" ID="ID_1038149099" CREATED="1615610399355" MODIFIED="1615696631297" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/History"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#25805;&#20316;&#27983;&#35272;&#22120;&#21382;&#21490;&#35760;&#24405;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="back()" ID="ID_377455687" CREATED="1615696599695" MODIFIED="1615696795039"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">go(-1)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="forward()" ID="ID_1787083594" CREATED="1615696653081" MODIFIED="1615696802722"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">go(1)</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="go()" ID="ID_1894212450" CREATED="1615696658567" MODIFIED="1615696660427"/>
+<node TEXT="pushState()" ID="ID_885597831" CREATED="1615696669031" MODIFIED="1615696834922"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(33, 33, 33); font-family: arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.0444444px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(33, 33, 33)" face="arial, x-locale-body, sans-serif" size="16px">&#25353;&#25351;&#23450;&#30340;&#21517;&#31216;&#21644;URL&#65288;&#22914;&#26524;&#25552;&#20379;&#35813;&#21442;&#25968;&#65289;&#23558;&#25968;&#25454;push&#36827;&#20250;&#35805;&#21382;&#21490;&#26632;</font></span> 
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="replaceState()" ID="ID_85469758" CREATED="1615696678796" MODIFIED="1615696843504"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(33, 33, 33); font-family: arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.0444444px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(33, 33, 33)" face="arial, x-locale-body, sans-serif" size="16px">&#25353;&#25351;&#23450;&#30340;&#25968;&#25454;&#65292;&#21517;&#31216;&#21644;URL(&#22914;&#26524;&#25552;&#20379;&#35813;&#21442;&#25968;)&#65292;&#26356;&#26032;&#21382;&#21490;&#26632;&#19978;&#26368;&#26032;&#30340;&#20837;&#21475;&#12290;</font></span> 
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="..." ID="ID_1209148922" CREATED="1615613965703" MODIFIED="1615613966899"/>
+</node>
+<node TEXT="&#x5e38;&#x7528;&#x65b9;&#x6cd5;" ID="ID_219498679" CREATED="1615610635251" MODIFIED="1615613152467"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#20043;&#21069;&#29992;&#30340;&#24456;&#22810;&#30475;&#26159;&#35843;&#29992;&#30340;&#20989;&#25968;&#65292;&#20854;&#23454;&#26159;&#35843;&#29992;&#30340;window&#30340;&#26041;&#27861;&#12290;
+    </p>
+    <p>
+      &#22914; alert(), setTimeout()&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="alert()" ID="ID_875857704" CREATED="1615610642178" MODIFIED="1615610646560"/>
+<node TEXT="..." ID="ID_394980157" CREATED="1615613960550" MODIFIED="1615613962565"/>
+</node>
+<node TEXT="&#x5e38;&#x89c1;&#x4e8b;&#x4ef6;" ID="ID_1373955510" CREATED="1615611565084" MODIFIED="1615611569138">
+<node TEXT="window.onload = function () {}" ID="ID_1420906788" CREATED="1615611570552" MODIFIED="1615612624899"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#31383;&#21475;&#23436;&#20840;&#21152;&#36733;&#23436;&#27605;(html,css,js,&#22270;&#29255;&#31561;)&#21518;&#35302;&#21457;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      html css js &#20840;&#37096;&#21152;&#36733;&#23436;&#25104;&#20043;&#21518;&#31435;&#21363;&#25191;&#34892;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="DOMContentLoaded" ID="ID_1092813555" CREATED="1615611584962" MODIFIED="1615612574556"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#20165;&#24403;DOM&#25991;&#26723;&#23436;&#20840;&#21152;&#36733;&#23436;&#25104;&#23601;&#31435;&#21363;&#25191;&#34892;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="document.addEventListener(&apos;DOMContentLoaded&apos;, function () {});" ID="ID_705236469" CREATED="1615612420809" MODIFIED="1615612493211"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#19981;&#25903;&#25345;&quot;onDOMContentLoaded&quot;&#20256;&#32479;&#32465;&#23450;&#26041;&#24335;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="window.onresize = function () {}" ID="ID_285345195" CREATED="1615612663616" MODIFIED="1615612717533"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#31383;&#21475;&#22823;&#23567;&#25913;&#21464;&#21518;&#35302;&#21457;&#25191;&#34892;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="..." ID="ID_1984600533" CREATED="1615613954433" MODIFIED="1615613956832"/>
+</node>
+<node TEXT="&#x4e24;&#x4e2a;&#x5b9a;&#x65f6;&#x5668;&#x65b9;&#x6cd5;" ID="ID_1988112966" CREATED="1615613100785" MODIFIED="1615614990929"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#23450;&#26102;&#22120;&#24212;&#35813;&#22312;window&#26576;&#20010;&#23481;&#22120;&#37324;&#38754;&#23384;&#30528;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5e38;&#x7528;&#x65b9;&#x6cd5;" ID="ID_196216057" CREATED="1615614976381" MODIFIED="1615614996617"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#24863;&#35273;&quot;set&quot;&#25913;&#20026;&quot;add&quot;&#26356;&#21512;&#36866; </font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="setTimeout()" ID="ID_1616566171" CREATED="1615613114322" MODIFIED="1615613120097"/>
+<node TEXT="setInterval()" ID="ID_1896096206" CREATED="1615613120837" MODIFIED="1615613126067"/>
+<node TEXT="clearTimeout()" ID="ID_665525949" CREATED="1615614203964" MODIFIED="1615614207207"/>
+<node TEXT="clearInterval()" ID="ID_439639570" CREATED="1615614207532" MODIFIED="1615614213249"/>
+</node>
+<node TEXT="&#x5b58;&#x5728;&#x7684;&#x95ee;&#x9898;" ID="ID_1221102975" CREATED="1615615499013" MODIFIED="1615615515824">
+<node TEXT="JS&#x5b9a;&#x65f6;&#x5668;&#x5e76;&#x4e0d;&#x7cbe;&#x786e;" ID="ID_530001144" CREATED="1615615506355" MODIFIED="1615615744464"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21407;&#22240;&#65306;
+    </p>
+    <p>
+      Eventloop &#24490;&#29615;&#26426;&#21046;&#20013;&#65292;&#24322;&#27493;&#20107;&#20214; setInterval &#21040;&#26102;&#21518;&#20250;&#25226;&#22238;&#35843;&#20989;&#25968;&#25918;&#20837;&#28040;&#24687;&#38431;&#21015;&#20013;&#65292;&#20027;&#32447;&#31243;&#30340;&#20219;&#21153;&#25191;&#34892;&#23436;&#27605;&#21518;&#20381;&#27425;&#25191;&#34892;&#28040;&#24687;&#38431;&#21015;&#30340;&#20219;&#21153;&#65292;&#30001;&#20110;&#28040;&#24687;&#38431;&#21015;&#20013;&#23384;&#22312;&#22823;&#37327;&#20219;&#21153;&#65292;&#20854;&#20182;&#20219;&#21153;&#25191;&#34892;&#26102;&#38388;&#23601;&#20250;&#36896;&#25104;&#23450;&#26102;&#22120;&#22238;&#35843;&#20989;&#25968;&#30340;&#24310;&#36831;&#65292;&#22914;&#26524;&#19981;&#22788;&#29702;&#21017;&#20250;&#19968;&#30452;&#21472;&#21152;&#24310;&#36831;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#22914;&#26524;&#20219;&#21153;&#27809;&#26377;&#21450;&#26102;&#22788;&#29702;&#20250;&#21472;&#21152;&#24310;&#26102;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x5e94;&#x7528;&#x6848;&#x4f8b;" ID="ID_802778221" CREATED="1615615003936" MODIFIED="1615615018930">
+<node TEXT="&#x5012;&#x8ba1;&#x65f6;&#x5668;" ID="ID_939804203" CREATED="1615615019927" MODIFIED="1615615053589"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23454;&#29616;&#20498;&#35745;&#26102;&#22120;&#65288;&#26085;&#26399;&#23545;&#35937;+&#23450;&#26102;&#22120;&#65289;&#23450;&#26102;&#27599;&#38548;&#19968;&#31186;&#37325;&#26032;&#21047;&#26032;&#26174;&#31034;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+</node>
+<node TEXT="&lt;script&gt;&#x6807;&#x7b7e;&#x4e0b;&#x5b9a;&#x4e49;&#x7684;&#x53d8;&#x91cf;&#x548c;&#x65b9;&#x6cd5;&#xa;&#x9ed8;&#x8ba4;&#x4f1a;&#x53d8;&#x4e3a;window&#x7684;&#x6210;&#x5458;&#x53d8;&#x91cf;&#x548c;&#x65b9;&#x6cd5;" ID="ID_642331796" CREATED="1615610820670" MODIFIED="1615610893392"/>
+</node>
 </node>
 </node>
 <node TEXT="Node.js" POSITION="right" ID="ID_185491718" CREATED="1599964170596" MODIFIED="1599964192650" STYLE="bubble">
@@ -5517,7 +6489,6 @@
 <node TEXT="&#x6280;&#x672f;&#x5bf9;&#x6bd4;" ID="ID_1878994009" CREATED="1611414779663" MODIFIED="1611414816626" STYLE="bubble">
 <node TEXT="&#x4e0e;JQuery&#x5bf9;&#x6bd4;" ID="ID_1525921294" CREATED="1611418095179" MODIFIED="1611418112975"/>
 </node>
-<node TEXT="&#x8c03;&#x8bd5;" ID="ID_1485904804" CREATED="1611461714307" MODIFIED="1611461719646" STYLE="bubble"/>
 <node TEXT="&#x57fa;&#x7840;" ID="ID_660847022" CREATED="1611413113755" MODIFIED="1611413119587" STYLE="bubble">
 <node TEXT="&#x57fa;&#x672c;&#x4f7f;&#x7528;" ID="ID_623472360" CREATED="1611415039100" MODIFIED="1611415043186" STYLE="bubble">
 <node TEXT="&#x6d4f;&#x89c8;&#x5668;&#x5b89;&#x88c5;Vue Devtools" ID="ID_220696856" CREATED="1611416672593" MODIFIED="1611417477679"/>
@@ -5675,7 +6646,7 @@
 <node TEXT="&#x5e38;&#x89c1;&#x6307;&#x4ee4;" ID="ID_212432583" CREATED="1611980316927" MODIFIED="1611980331393">
 <node TEXT="v-once" ID="ID_742869994" CREATED="1611975098007" MODIFIED="1611975111684"/>
 <node TEXT="v-html" ID="ID_1470864087" CREATED="1611975101541" MODIFIED="1611975104787"/>
-<node TEXT="v-bind" ID="ID_198455166" CREATED="1611975105033" MODIFIED="1612068691530"><richcontent TYPE="DETAILS">
+<node TEXT="v-bind &#x5355;&#x5411;&#x7ed1;&#x5b9a;" ID="ID_198455166" CREATED="1611975105033" MODIFIED="1614709546714"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
@@ -5689,6 +6660,7 @@
 </html>
 </richcontent>
 </node>
+<node TEXT="v-model &#x53cc;&#x5411;&#x7ed1;&#x5b9a;" ID="ID_449395176" CREATED="1614709484528" MODIFIED="1614709553269"/>
 <node TEXT="v-if v-else-if v-else" ID="ID_1910438054" CREATED="1611978980681" MODIFIED="1611978991309"/>
 <node TEXT="v-on" ID="ID_1109131490" CREATED="1611978992206" MODIFIED="1611980509193"><richcontent TYPE="DETAILS">
 
@@ -6908,7 +7880,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -6922,7 +7893,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="js&#x4e2d;&#x5199;&#x6cd5;&#x5fc5;&#x987b;&#x662f;&#x9a7c;&#x5cf0;&#x5f0f;" ID="ID_557643802" CREATED="1613888027795" MODIFIED="1613888043121"/>
 <node TEXT="prop&#x6821;&#x9a8c;" ID="ID_638285069" CREATED="1614430909881" MODIFIED="1614430953062" LINK="https://cn.vuejs.org/v2/guide/components-props.html#Prop-%E9%AA%8C%E8%AF%81"/>
@@ -6939,7 +7909,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4efb;&#x610f;&#x7ec4;&#x4ef6;&#x6570;&#x636e;&#x4e92;&#x4f20;(&#x901a;&#x8fc7;&#x4e8b;&#x4ef6;&#x603b;&#x7ebf;&#x5b9e;&#x73b0;)" ID="ID_1262477374" CREATED="1613900341213" MODIFIED="1614446756743"><richcontent TYPE="DETAILS">
@@ -6954,7 +7923,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -6968,7 +7936,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x8bbf;&#x95ee;&#x5143;&#x7d20;&amp;&#x7ec4;&#x4ef6;" ID="ID_758039144" CREATED="1614431123591" MODIFIED="1614437901103"><richcontent TYPE="DETAILS">
@@ -6989,7 +7956,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -7003,7 +7969,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="$root" ID="ID_753561479" CREATED="1614431304094" MODIFIED="1614431307602"/>
 <node TEXT="$parent" ID="ID_1947431125" CREATED="1614431366662" MODIFIED="1614431370528"/>
@@ -7025,7 +7990,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="DETAILS">
 
@@ -7039,7 +8003,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="$attr / $listeners" ID="ID_1611196259" CREATED="1614444871236" MODIFIED="1614444882282"/>
@@ -7070,7 +8033,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x7f16;&#x8bd1;&#x4f5c;&#x7528;&#x57df;" ID="ID_1757448370" CREATED="1614406854517" MODIFIED="1614406872186"><richcontent TYPE="NOTE">
 
@@ -7084,7 +8046,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x9ed8;&#x8ba4;&#x5185;&#x5bb9;&#xff08;&#x540e;&#x5907;&#x5185;&#x5bb9;&#xff09;" ID="ID_969409455" CREATED="1614406952341" MODIFIED="1614407027157"><richcontent TYPE="NOTE">
@@ -7111,7 +8072,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x5177;&#x540d;&#x63d2;&#x69fd;" ID="ID_1156161498" CREATED="1614407312039" MODIFIED="1614408745242"><richcontent TYPE="NOTE">
@@ -7126,7 +8086,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 </node>
 <node TEXT="&#x4f5c;&#x7528;&#x57df;&#x63d2;&#x69fd; (&#x63d2;&#x69fd;prop)" ID="ID_1569583947" CREATED="1614409061674" MODIFIED="1614411797978"><richcontent TYPE="DETAILS">
@@ -7141,7 +8100,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <richcontent TYPE="NOTE">
 
@@ -7167,7 +8125,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x652f;&#x6301;&#x5185;&#x5bb9;&#x89e3;&#x6784;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1462294255" CREATED="1614412263298" MODIFIED="1614412325689" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#%E8%A7%A3%E6%9E%84%E5%AF%B9%E8%B1%A1"/>
 </node>
@@ -7185,7 +8142,6 @@
     </p>
   </body>
 </html>
-
 </richcontent>
 <node TEXT="&#x72b6;&#x6001;&#x4fdd;&#x5b58;keep-alive" ID="ID_1664546826" CREATED="1614412685679" MODIFIED="1614429213520"/>
 </node>
@@ -7210,8 +8166,666 @@
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x8def;&#x7531; Router" ID="ID_1641296461" CREATED="1611413335269" MODIFIED="1614488622258" STYLE="bubble"/>
-<node TEXT="vuex" ID="ID_1587144219" CREATED="1611413342382" MODIFIED="1611413348287" STYLE="bubble"/>
+<node TEXT="&#x8def;&#x7531; Router" ID="ID_1641296461" CREATED="1611413335269" MODIFIED="1615020239617" LINK="https://router.vuejs.org/zh/" STYLE="bubble"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#26681;&#25454;&#19981;&#21516;&#30340;&#20107;&#20214;&#26174;&#31034;&#19981;&#21516;&#30340;&#20869;&#23481;&#12290;
+    </p>
+    <p>
+      &#21487;&#20197;&#29992;&#20110;&#24320;&#21457;&#21333;&#39029;&#38754;&#24212;&#29992;&#65288;&#21482;&#26377;&#19968;&#20010;html&#25991;&#20214;&#65292;&#20869;&#23481;&#30340;&#19981;&#21516;&#26159;&#36890;&#36807;ajax&#36827;&#34892;&#23616;&#37096;&#21047;&#26032;&#30340;&#65289;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">Vue.$router</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&lt;router-link&gt;&#x5b9a;&#x4e49;&#x5bfc;&#x822a;&#xff0c; &lt;router-view&gt;&#x5b9a;&#x4e49;&#x5bfc;&#x822a;&#x9875;&#x5185;&#x5bb9;" ID="ID_1005963653" CREATED="1615005866070" MODIFIED="1615022541729"/>
+<node TEXT="&#x8def;&#x7531;&#x6a21;&#x5f0f;mode" ID="ID_1088710913" CREATED="1614507242323" MODIFIED="1615020000176" LINK="https://router.vuejs.org/zh/guide/essentials/history-mode.html#html5-history-%E6%A8%A1%E5%BC%8F"/>
+<node TEXT="&#x52a8;&#x6001;&#x8def;&#x7531;" ID="ID_1744718847" CREATED="1614708014710" MODIFIED="1614708024819">
+<node TEXT="&#x8def;&#x7531;&#x5bf9;&#x8c61; this.$route" ID="ID_153585941" CREATED="1615017631439" MODIFIED="1615020393415" LINK="https://router.vuejs.org/zh/api/#%E8%B7%AF%E7%94%B1%E5%AF%B9%E8%B1%A1"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      var route = {
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;name: location.name || (record &amp;&amp; record.name),
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;meta: (record &amp;&amp; record.meta) || {},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;path: location.path || '/',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;hash: location.hash || '',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;query: query,
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;params: location.params || {},
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;fullPath: getFullPath(location, stringifyQuery),
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;matched: record ? formatMatch(record) : []
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">Vue.$route &#24403;&#21069;&#36335;&#30001;&#20449;&#24687;, &#25171;&#24320;&#30340;&#32593;&#39029;&#36335;&#30001;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x52a8;&#x6001;&#x8def;&#x7531;&#x53c2;&#x6570;" ID="ID_190280491" CREATED="1614708128373" MODIFIED="1615021804396"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">Vue.$route.params</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x4ee5;:&#x5f00;&#x5934;&#xff0c;&#x8def;&#x7531;&#x53c2;&#x6570;&#x503c;&#x4f1a;&#x88ab;&#x8bbe;&#x7f6e;&#x5230;$route.params&#x4e2d;" ID="ID_1057321934" CREATED="1615017433405" MODIFIED="1615017596980"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <table http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0; margin-bottom: 0; margin-right: 0px; margin-left: 0px; display: block; color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <tr>
+        <th style="padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0">
+          &#27169;&#24335;
+        </th>
+        <th style="padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0">
+          &#21305;&#37197;&#36335;&#24452;
+        </th>
+        <th style="padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0">
+          $route.params
+        </th>
+      </tr>
+      <tr>
+        <td style="padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0">
+          /user/:username
+        </td>
+        <td style="padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0">
+          /user/evan
+        </td>
+        <td style="padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0">
+          <code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">{ username: 'evan' }</font></code>
+        </td>
+      </tr>
+      <tr style="background-color: rgb(246, 248, 250)">
+        <td style="padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0">
+          /user/:username/post/:post_id
+        </td>
+        <td style="padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0">
+          /user/evan/post/123
+        </td>
+        <td style="padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0">
+          <code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">{ username: 'evan', post_id: '123' }</font></code>
+        </td>
+      </tr>
+    </table>
+     
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x6355;&#x83b7;&#x6240;&#x6709;&#x8def;&#x7531;" ID="ID_1253348717" CREATED="1614708142899" MODIFIED="1615021817650"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">Vue.$router.options.routes.path</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5982; path: &apos;*&apos;" ID="ID_429522124" CREATED="1615018002217" MODIFIED="1615021826116"/>
+</node>
+<node TEXT="&#x9ad8;&#x7ea7;&#x5339;&#x914d;&#x6a21;&#x5f0f;" ID="ID_1934080561" CREATED="1614708156327" MODIFIED="1614708167179">
+<node TEXT="Path-to-RegExp" ID="ID_1144657600" CREATED="1615018835020" MODIFIED="1615018848600" LINK="https://github.com/pillarjs/path-to-regexp/tree/v1.7.0"/>
+</node>
+<node TEXT="&#x5339;&#x914d;&#x4f18;&#x5148;&#x7ea7;" ID="ID_251082111" CREATED="1614708168751" MODIFIED="1615018886546"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(44, 62, 80)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="16px">&#21305;&#37197;&#30340;&#20248;&#20808;&#32423;&#23601;&#25353;&#29031;&#36335;&#30001;&#30340;&#23450;&#20041;&#39034;&#24207;&#65306;&#35841;&#20808;&#23450;&#20041;&#30340;&#65292;&#35841;&#30340;&#20248;&#20808;&#32423;&#23601;&#26368;&#39640;&#12290;</font></span> 
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x54cd;&#x5e94;&#x8def;&#x7531;&#x53c2;&#x6570;&#x53d8;&#x5316;" ID="ID_1945317712" CREATED="1615019266151" MODIFIED="1615019446517">
+<icon BUILTIN="help"/>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;&#20110; /user/:uid
+    </p>
+    <p>
+      &#20174; /user/foo &#23548;&#33322;&#21040; /user/bar&#65292;&#21407;&#26469;&#30340;&#32452;&#20214;&#23454;&#20363;&#20250;&#34987;&#22797;&#29992;&#12290;&#22240;&#20026;&#20004;&#20010;&#36335;&#30001;&#37117;&#28210;&#26579;&#21516;&#20010;&#32452;&#20214;&#65292;&#27604;&#36215;&#38144;&#27585;&#20877;&#21019;&#24314;&#65292;&#22797;&#29992;&#21017;&#26174;&#24471;&#26356;&#21152;&#39640;&#25928;&#12290;&#19981;&#36807;&#65292;&#36825;&#20063;&#24847;&#21619;&#30528;&#32452;&#20214;&#30340;&#29983;&#21629;&#21608;&#26399;&#38057;&#23376;&#19981;&#20250;&#20877;&#34987;&#35843;&#29992;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20160;&#20040;&#24773;&#20917;&#19979;&#38656;&#35201;&#29983;&#21629;&#21608;&#26399;&#38057;&#23376;&#20877;&#25191;&#34892;&#19968;&#27425;&#65311;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="watch $route &#x53d8;&#x5316;" ID="ID_795257116" CREATED="1615019288033" MODIFIED="1615019309506"/>
+<node TEXT="&#x5bfc;&#x822a;&#x5b88;&#x536b;" ID="ID_110706320" CREATED="1615007250177" MODIFIED="1615007255002"/>
+</node>
+</node>
+<node TEXT="&#x5d4c;&#x5957;&#x8def;&#x7531;" ID="ID_543747286" CREATED="1614708028494" MODIFIED="1615022177116"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">Vue.$router.options.routes.children</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x7f16;&#x7a0b;&#x5f0f;&#x5bfc;&#x822a;" ID="ID_1516736645" CREATED="1615006443685" MODIFIED="1615022931343"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#21069;&#38754;&#23548;&#33322;&#39029;&#36339;&#36716;&#37117;&#26159;&#36890;&#36807;&#22312;&#20462;&#25913;&#22320;&#22336;&#26639;&#36335;&#30001;&#22320;&#22336;&#36339;&#36716;&#65292;&#20294;&#26159;&#20063;&#21487;&#20197;&#36890;&#36807;js&#30456;&#20851;&#25509;&#21475;&#23454;&#29616;&#20195;&#30721;&#36339;&#36716;&#12290;&#23601;&#26159;&#32534;&#31243;&#24335;&#23548;&#33322;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000c0">Vue.$router.push()</font>
+    </p>
+    <p>
+      &#20854;&#23454;&#28857;&#20987;&#23548;&#33322;&#36873;&#39033;&#36339;&#36716;&#20869;&#37096;&#23454;&#29616;&#23601;&#26159;&#36890;&#36807;&#35843;&#29992;&#36825;&#20010;&#26041;&#27861;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">Vue.$router.push()</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="push&#x4f20;&#x53c2;" ID="ID_1427463002" CREATED="1615023470441" MODIFIED="1615023480497">
+<node TEXT="// &#x5b57;&#x7b26;&#x4e32;&#xa;router.push(&apos;home&apos;)&#xa;// &#x5bf9;&#x8c61;&#xa;router.push({ path: &apos;home&apos; })&#xa;// &#x547d;&#x540d;&#x7684;&#x8def;&#x7531; -&gt; /user/123&#xa;router.push({ name: &apos;user&apos;, params: { userId: &apos;123&apos; }})&#xa;router.push({ name: &apos;user/${userId}&apos;})&#xa;// &#x5e26;&#x67e5;&#x8be2;&#x53c2;&#x6570; -&gt; /register?plan=private&#xa;router.push({ path: &apos;register&apos;, query: { plan: &apos;private&apos; }})" ID="ID_857371715" CREATED="1615023543713" MODIFIED="1615023695473"/>
+</node>
+</node>
+<node TEXT="&#x547d;&#x540d;&#x8def;&#x7531;" ID="ID_22815159" CREATED="1615024521484" MODIFIED="1615024554115"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">Vue.$router.options.routes.name</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x7ed9;&#x8def;&#x7531;&#x8d77;&#x4e2a;&#x540d;&#x5b57;&#xff0c;:to &#x548c; push() &#x4e2d;&#x5c31;&#x53ef;&#x4ee5;&#x901a;&#x8fc7;&#x8fd9;&#x4e2a;&#x540d;&#x5b57;&#xa;&#x5339;&#x914d;&#x8def;&#x7531;&#x89c4;&#x5219;" ID="ID_1177330110" CREATED="1615024532484" MODIFIED="1615024607273"/>
+</node>
+<node TEXT="&#x547d;&#x540d;&#x89c6;&#x56fe;" ID="ID_1625709695" CREATED="1615006466807" MODIFIED="1615024546803"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">Vue.$router.options.routes.components </font>
+    </p>
+    <p>
+      <font color="#0000c0">&#27880;&#24847;&#36825;&#37324;&#21464;&#25104;&#20102;components &#21464;&#25104;&#20102;&#22797;&#25968;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">Vue.$router.options.routes.components </font>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      <font color="#0000c0">&#22312;&#36825;&#37324;&#38754;&#23450;&#20041;&#21305;&#37197;&#21040;&#36825;&#20010;&#36335;&#30001;&#26102;&#22810;&#20010;&#35270;&#22270;&#27599;&#20010;&#35270;&#22270;&#21508;&#20010;&#24212;&#35813;&#24590;&#20040;&#28210;&#26579;&#12290;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x6b64;&#x5904;&#x547d;&#x540d;&#x662f;&#x4e3a;&#x4e86;&#x533a;&#x5206;&#xff0c;&#x5f53;&#x6709;&#x591a;&#x4e2a;&#x89c6;&#x56fe;&#x540c;&#x7ea7;&#x540c;&#x65f6;&#x5c55;&#x793a;&#x65f6;&#xa;&#x9700;&#x8981;&#x533a;&#x5206;&#x5e94;&#x8be5;&#x5237;&#x65b0;&#x54ea;&#x4e2a;&#x89c6;&#x56fe;&#xff0c;&#x5c31;&#x662f;&#x901a;&#x8fc7;&#x547d;&#x540d;&#x6307;&#x5b9a;" ID="ID_1427121764" CREATED="1615024064861" MODIFIED="1615024620761"/>
+</node>
+<node TEXT="&#x91cd;&#x5b9a;&#x5411;&#x4e0e;&#x522b;&#x540d;" ID="ID_327253769" CREATED="1615024433859" MODIFIED="1615024701927"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">Vue.$router.options.routes.redirect </font>
+    </p>
+    <p>
+      <font color="#0000c0">Vue.$router.options.routes.alias</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x8def;&#x7531;&#x7ec4;&#x4ef6;&#x4f20;&#x53c2;(&#x4e3a;&#x4e86;&#x964d;&#x4f4e;&#x8026;&#x5408;)" ID="ID_1327289617" CREATED="1615006486518" MODIFIED="1615027450911" LINK="https://router.vuejs.org/zh/guide/essentials/passing-props.html"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      const User = {
+    </p>
+    <p>
+      &#160;&#160;template: '&lt;div&gt;User {{ $route.params.id }}&lt;/div&gt;'
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      const router = new VueRouter({
+    </p>
+    <p>
+      &#160;&#160;routes: [
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;{ path: '/user/:id', component: User }
+    </p>
+    <p>
+      &#160;&#160;]
+    </p>
+    <p>
+      })
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#19978;&#38754;&#20889;&#27861;&#32452;&#20214;&#20381;&#36182;$route, &#32780;$route&#24182;&#19981;&#36890;&#29992;&#65292;&#32780;props&#26356;&#36890;&#29992;&#12290;&#25152;&#20197;&#19981;&#30452;&#25509;&#20351;&#29992;$route&#32780;&#26159;&#38388;&#25509;&#36890;&#36807;prop&#20256;&#36882;&#25968;&#25454;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      const User = {
+    </p>
+    <p>
+      &#160;&#160;props: ['id'],
+    </p>
+    <p>
+      &#160;&#160;template: '&lt;div&gt;User {{ id }}&lt;/div&gt;'
+    </p>
+    <p>
+      }
+    </p>
+    <p>
+      const router = new VueRouter({
+    </p>
+    <p>
+      &#160;&#160;routes: [
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;{ path: '/user/:id', component: User, props: true },
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;// &#23545;&#20110;&#21253;&#21547;&#21629;&#21517;&#35270;&#22270;&#30340;&#36335;&#30001;&#65292;&#20320;&#24517;&#39035;&#20998;&#21035;&#20026;&#27599;&#20010;&#21629;&#21517;&#35270;&#22270;&#28155;&#21152; `props` &#36873;&#39033;&#65306;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;{
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;path: '/user/:id',
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;components: { default: User, sidebar: Sidebar },
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;&#160;props: { default: true, sidebar: false }
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;}
+    </p>
+    <p>
+      &#160;&#160;]
+    </p>
+    <p>
+      })
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="props&#x89e3;&#x5076;" ID="ID_429921871" CREATED="1615025394146" MODIFIED="1615025398774">
+<node TEXT="&#x5e03;&#x5c14;&#x6a21;&#x5f0f;" ID="ID_360481313" CREATED="1615025469401" MODIFIED="1615025486947"/>
+<node TEXT="&#x5bf9;&#x8c61;&#x6a21;&#x5f0f;" ID="ID_1226756122" CREATED="1615025478434" MODIFIED="1615025484647"/>
+<node TEXT="&#x51fd;&#x6570;&#x6a21;&#x5f0f;" ID="ID_88668045" CREATED="1615025487193" MODIFIED="1615025491055"/>
+</node>
+</node>
+<node TEXT="&#x5bfc;&#x822a;&#x5b88;&#x536b;" ID="ID_1310042943" CREATED="1615027453158" MODIFIED="1615027461339">
+<node TEXT="&#x4f5c;&#x7528;: &#x5728;&#x5bfc;&#x822a;&#x8fc7;&#x7a0b;&#x4e2d;&#x690d;&#x5165;&#x4e00;&#x4e9b;&#x5176;&#x4ed6;&#x7684;&#x903b;&#x8f91;, &#x5c31;&#x50cf;&#x540e;&#x7aef;&#x7684;&#x8fc7;&#x6ee4;&#x5668;&#x4e00;&#x6837;" ID="ID_439996797" CREATED="1615027463480" MODIFIED="1615027576285"/>
+<node TEXT="&#x5bfc;&#x822a;&#x89e3;&#x6790;&#x6d41;&#x7a0b;(&#x4ece;&#x4e00;&#x4e2a;&#x8def;&#x7531;&#x4f4d;&#x7f6e;&#x5230;&#x53e6;&#x4e00;&#x4e2a;&#x8def;&#x7531;&#x4f4d;&#x7f6e;)" ID="ID_148998818" CREATED="1615027609323" MODIFIED="1615027798949"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <ol http-equiv="content-type" content="text/html; charset=utf-8" style="padding-left: 0; line-height: 1.7; color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)">
+      <li>
+        &#23548;&#33322;&#34987;&#35302;&#21457;&#12290;
+      </li>
+      <li>
+        &#22312;&#22833;&#27963;&#30340;&#32452;&#20214;(&#20043;&#21069;&#30340;&#36335;&#30001;&#32452;&#20214;)&#37324;&#35843;&#29992;<span>&#160;</span><code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">beforeRouteLeave</font></code><span>&#160;</span>&#23432;&#21355;&#12290;
+      </li>
+      <li>
+        &#35843;&#29992;&#20840;&#23616;&#30340;<span>&#160;</span><code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">beforeEach</font></code><span>&#160;</span>&#23432;&#21355;&#12290;
+      </li>
+      <li>
+        &#22312;&#37325;&#29992;&#30340;&#32452;&#20214;&#37324;&#35843;&#29992;<span>&#160;</span><code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">beforeRouteUpdate</font></code><span>&#160;</span>&#23432;&#21355; (2.2+)&#12290;
+      </li>
+      <li>
+        &#22312;&#36335;&#30001;&#37197;&#32622;&#37324;&#35843;&#29992;<span>&#160;</span><code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">beforeEnter</font></code>&#12290;
+      </li>
+      <li>
+        &#35299;&#26512;&#24322;&#27493;&#36335;&#30001;&#32452;&#20214;&#12290;
+      </li>
+      <li>
+        &#22312;&#34987;&#28608;&#27963;&#30340;&#32452;&#20214;&#37324;&#35843;&#29992;<span>&#160;</span><code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">beforeRouteEnter</font></code>&#12290;
+      </li>
+      <li>
+        &#35843;&#29992;&#20840;&#23616;&#30340;<span>&#160;</span><code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">beforeResolve</font></code><span>&#160;</span>&#23432;&#21355; (2.5+)&#12290;
+      </li>
+      <li>
+        &#23548;&#33322;&#34987;&#30830;&#35748;&#12290;
+      </li>
+      <li>
+        &#35843;&#29992;&#20840;&#23616;&#30340;<span>&#160;</span><code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">afterEach</font></code><span>&#160;</span>&#38057;&#23376;&#12290;
+      </li>
+      <li>
+        &#35302;&#21457; DOM &#26356;&#26032;&#12290;
+      </li>
+      <li>
+        &#35843;&#29992;<span>&#160;</span><code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">beforeRouteEnter</font></code><span>&#160;</span>&#23432;&#21355;&#20013;&#20256;&#32473;<span>&#160;</span><code style="font-family: source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace; color: rgb(71, 101, 130); padding-top: 0; padding-bottom: 0; padding-right: 0; padding-left: 0; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; font-size: 0.85em"><font face="source-code-pro, Menlo, Monaco, Consolas, Courier New, monospace" color="rgb(71, 101, 130)" size="0.85em">next</font></code><span>&#160;</span>&#30340;&#22238;&#35843;&#20989;&#25968;&#65292;&#21019;&#24314;&#22909;&#30340;&#32452;&#20214;&#23454;&#20363;&#20250;&#20316;&#20026;&#22238;&#35843;&#20989;&#25968;&#30340;&#21442;&#25968;&#20256;&#20837;&#12290;
+      </li>
+    </ol>
+     
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#29702;&#35299;&#21508;&#31181;&#23432;&#21355;&#22312;&#20160;&#20040;&#26102;&#20505;&#36215;&#20316;&#29992;, &#25191;&#34892;&#39034;&#24207;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+</node>
+<node TEXT="&#x8def;&#x7531;&#x5143;&#x4fe1;&#x606f;" ID="ID_1928356332" CREATED="1615007271495" MODIFIED="1615007282315"/>
+<node TEXT="&#x8fc7;&#x6e21;&#x52a8;&#x6548;" ID="ID_933088319" CREATED="1615007282778" MODIFIED="1615007299416"/>
+<node TEXT="&#x6570;&#x636e;&#x83b7;&#x53d6;" ID="ID_1721519225" CREATED="1615007300890" MODIFIED="1615007307406"/>
+<node TEXT="&#x6eda;&#x52a8;&#x884c;&#x4e3a;" ID="ID_1885462427" CREATED="1615007308862" MODIFIED="1615007315085"/>
+<node TEXT="&#x8def;&#x7531;&#x61d2;&#x52a0;&#x8f7d;" ID="ID_713427311" CREATED="1615007315965" MODIFIED="1615007323916"/>
+</node>
+<node TEXT="vuex" ID="ID_1587144219" CREATED="1611413342382" MODIFIED="1615028706955" STYLE="bubble"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#29366;&#24577;&#31649;&#29702;&#27169;&#24335;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#23545;Vue&#32452;&#20214;&#38388;&#30340;&#25968;&#25454;&#36827;&#34892;&#31649;&#29702;&#30340;&#26041;&#24335;&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      Vuex&#23558;&#32452;&#20214;&#30340;&#25968;&#25454;&#38598;&#20013;&#25918;&#21040;&#19968;&#20010;&#20301;&#32622;&#36827;&#34892;&#32479;&#19968;&#31649;&#29702;&#12290;
+    </p>
+    <p>
+      &#25903;&#25345;&#21709;&#24212;&#24335;&#12290;
+    </p>
+    <p>
+      Vuex&#20351;&#35843;&#35797;&#26356;&#21152;&#26041;&#20415;&#12290;Vuex&#24050;&#32463;&#38598;&#25104;&#21040;Vue&#23448;&#26041;&#35843;&#35797;&#24037;&#20855; devtool extension &#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x67b6;&#x6784;&#x56fe;" ID="ID_628690516" CREATED="1615029131187" MODIFIED="1615029141047" LINK="https://vuex.vuejs.org/vuex.png"/>
+<node TEXT="&#x4f7f;&#x7528;&#x573a;&#x666f;" ID="ID_63203838" CREATED="1615029203402" MODIFIED="1615029213051"/>
+<node TEXT="state&#x5185;&#x5c5e;&#x6027;&#x4fee;&#x6539;" ID="ID_455704882" CREATED="1615091793021" MODIFIED="1615091808378">
+<node TEXT="this.$store.state.&lt;prop&gt; = xxx;" ID="ID_1230250059" CREATED="1615091809644" MODIFIED="1615091865178"/>
+<node TEXT="this.$store.commit(commitType, payload)" ID="ID_759338370" CREATED="1615091877913" MODIFIED="1615091885227"/>
+<node TEXT="this.$store.dispatch(actionType, payload)" ID="ID_1596466862" CREATED="1615091867149" MODIFIED="1615099804044"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#36825;&#31181;&#26041;&#24335;&#20869;&#37096;&#20063;&#26159;&#36890;&#36807;commit</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x5b98;&#x65b9;&#x8bf4;&#xff1a;&#x201c;&#x4e0d;&#x80fd;&#x76f4;&#x63a5;&#x6539;&#x53d8; store &#x4e2d;&#x7684;&#x72b6;&#x6001;&#x3002;&#x6539;&#x53d8; store &#x4e2d;&#x7684;&#x72b6;&#x6001;&#x7684;&#x552f;&#x4e00;&#x9014;&#x5f84;&#x5c31;&#x662f;&#x663e;&#x5f0f;&#x5730;&#x63d0;&#x4ea4; (commit) mutation&#x3002;&#x201d;" ID="ID_1249326299" CREATED="1615091915012" MODIFIED="1615092565515"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      &#33509;&#23558;vue&#21019;&#24314; store &#30340;&#26102;&#20505;&#20256;&#20837; strict: true, &#24320;&#21551;&#20005;&#26684;&#27169;&#24335;&#65292;&#37027;&#20040;&#20219;&#20309;&#20462;&#25913;state&#30340;&#25805;&#20316;&#65292;
+    </p>
+    <p>
+      &#21482;&#35201;&#19981;&#32463;&#36807;&#160;mutation&#30340;&#20989;&#25968;&#65292;vue&#23601;&#20250;&#160;&#160;throw error :&#160;&#160;&#160;&#160;[vuex] Do not mutate vuex store state outside mutation handlers&#12290;
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20351;&#29992;commit&#25552;&#20132;&#21040;mutation&#20462;&#25913;state&#30340;&#20248;&#28857;&#65306;
+    </p>
+    <p>
+      &#160;&#160;&#160;&#160;&#160;<b>vuex&#33021;&#22815;&#35760;&#24405;&#27599;&#19968;&#27425;state&#30340;&#21464;&#21270;&#35760;&#24405;&#65292;&#20445;&#23384;&#29366;&#24577;&#24555;&#29031;&#65292;&#23454;&#29616;&#26102;&#38388;&#28459;&#28216;&#65295;&#22238;&#28378;&#20043;&#31867;&#30340;&#25805;&#20316;&#12290;</b>
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      &#20854;&#23454;&#23448;&#26041;&#25512;&#33616;&#26368;&#22909;&#35774;&#32622;&#20005;&#26684;&#27169;&#24335;&#65292;&#24182;&#19988;&#27599;&#27425;&#37117;&#35201;commit&#26469;&#20462;&#25913;state&#65292;&#32780;&#19981;&#33021;&#30452;&#25509;&#20462;&#25913;state&#65292;&#20197;<b>&#20415;&#20110;&#35843;&#35797;</b>&#31561;&#12290;
+    </p>
+  </body>
+</html>
+</richcontent>
+<richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#29366;&#24577;&#24555;&#29031;&#65292;&#20415;&#20110;&#35843;&#35797;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="strict&#x6a21;&#x5f0f;&#x4e0b;&#x4e0d;&#x80fd;&#x901a;&#x8fc7;&#xa;this.$store.state.&lt;prop&gt; = xxx;&#xa;&#x8fd9;&#x79cd;&#x65b9;&#x5f0f;&#x4fee;&#x6539;state" ID="ID_1381924863" CREATED="1615092451473" MODIFIED="1615092473860"/>
+</node>
+</node>
+</node>
+<node TEXT="&#x5de5;&#x5177;" ID="ID_1352734175" CREATED="1615099991285" MODIFIED="1615099994734" STYLE="bubble">
+<node TEXT="Vue Cli" ID="ID_570245994" CREATED="1615099895598" MODIFIED="1615100039357" STYLE="bubble"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">&#33050;&#25163;&#26550;</font>
+    </p>
+  </body>
+</html>
+</richcontent>
+<node TEXT="&#x5b89;&#x88c5;" ID="ID_1299781193" CREATED="1615100104321" MODIFIED="1615388278450"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      1 &#19979;&#36733;node&#26368;&#26032;&#31283;&#23450;&#29256;&#26412;&#24182;&#23433;&#35013;
+    </p>
+    <p>
+      2 &#20351;&#29992;node&#30340;npm&#21253;&#31649;&#29702;&#24037;&#20855;&#20840;&#23616;&#23433;&#35013;Vue cli&#12290;
+    </p>
+    <p>
+      &#160;&#160;&#160;sudo npm install -g @vue/cli
+    </p>
+    <p>
+      &#160;&#160;&#160;&#22269;&#20869;&#27604;&#36739;&#24930;&#65292;&#20351;&#29992;cnpm (node[v14.16.0]&#26032;&#29256;&#26412;&#20013;&#21364;&#37197;&#20102;&#19968;&#20010;&#32769;&#29256;&#26412;&#30340;npm, &#20351;&#29992;&#36825;&#20010;&#32769;&#29256;&#26412;&#30340;npm&#23433;&#35013;cnpm&#40784;&#24930;&#26080;&#27604;&#65292;&#21453;&#32780;&#20351;&#29992;node[v12.14.1]&#20013;&#30340;npm&#24456;&#24555;&#23601;&#25226;cnpm&#35013;&#19978;&#20102;)&#12290;
+    </p>
+    <p>
+      &#160;&#160;&#160;sudo npm install -g cnpm --registry=https://registry.npm.taobao.org
+    </p>
+    <p>
+      &#160;&#160;&#160;sudo cnpm install -g @vue/cli
+    </p>
+    <p>
+      &#160;&#160;&#160;vue --version
+    </p>
+  </body>
+</html>
+</richcontent>
+</node>
+<node TEXT="&#x6574;&#x5408;&#x5de5;&#x5177;" ID="ID_1556905590" CREATED="1615101951514" MODIFIED="1615101967129">
+<node TEXT="webpack" ID="ID_235729896" CREATED="1615101968325" MODIFIED="1615101971528">
+<node TEXT="Vue Loader" ID="ID_1721373976" CREATED="1615101974013" MODIFIED="1615101981594"/>
+</node>
+</node>
+</node>
+<node TEXT="Devtools" ID="ID_1375628199" CREATED="1615100019232" MODIFIED="1615100029768" STYLE="bubble"/>
+</node>
 <node TEXT="&#x5de5;&#x7a0b;&#x5316;" ID="ID_1743613945" CREATED="1611413365175" MODIFIED="1611413378791" STYLE="bubble"/>
 <node TEXT="..." ID="ID_1000736667" CREATED="1611413348745" MODIFIED="1611413352390"/>
 </node>

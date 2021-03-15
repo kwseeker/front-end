@@ -1,0 +1,121 @@
+<!-- 通过元素位置属性（offset client scroll）实现放大镜功能
+    思路：
+    1 先把所有组件静态样式做出来（4个框：两个图片框，两个窗口框，小图和放大展示框是固定的，放大区域选择框和大图是可以移动的）
+      遮罩层按照小图绝对定位，大图按照放大区域绝对定位，小图和放大区域相对定位
+    2 做放大区域选择框（遮罩层）的动态效果（遮罩层随鼠标移动，鼠标中心总是位于遮罩层中心，遮罩层总是位于小图内部）
+    3 大图随着遮罩层按大小图比例反方向移动
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /* 1 罗列上面说的4个框 */
+        .wrap {
+            width: 200px;
+            height: 300px;
+            border: 1px solid #ccc;
+            position: relative;
+        }
+        /* 小图框 */
+        .wrap>.small>img {
+            width: 100%;
+            vertical-align: middle;
+            border: 0;
+        }
+        /* 遮罩层
+            相对于.small绝对定位
+         */
+        .wrap>.small .mask {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 125px;
+            height: 125px;
+            background-color: #fede4f;
+            opacity: .5;                /* 透明度 */
+            border: 1px solid #ccc;
+            cursor: move;               /* 十字箭头 */
+            display: none;
+        }
+        /* 展示框 */
+        .wrap .big {
+            position: absolute;
+            left: 210px;
+            top: 0;
+            width: 300px;
+            height: 300px;
+            background-color: pink;
+            z-index: 999;
+            border: 1px solid #ccc;
+            overflow: hidden;           /*溢出部分隐藏*/
+            display: none;
+        }
+        /* 大图 */
+        .wrap .big img {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrap">
+        <div class="small">
+            <img src="../imgs/zoom-small.jpg" alt="">               <!-- 小图 -->
+            <div class="mask">                                      <!-- 放大选择框 -->
+            </div>
+        <div class="big">                                           <!-- 大图展示区域 -->
+            <img src="../imgs/zoom-big.jpg" alt="">                 <!-- 大图 -->
+        </div>
+    </div>
+
+    <script>
+        onload = function () {
+            let small = document.querySelector('.small');
+            let mask = document.querySelector('.mask');
+            let big = document.querySelector('.big');
+            let bigImg = document.querySelector('.wrap .big img');
+            // 鼠标位于small上方是，显示遮罩层和展示框
+            small.addEventListener('mouseover', () => {
+                mask.style.display = 'block';
+                big.style.display = 'block';
+            });
+            small.addEventListener('mouseleave', () => {
+                mask.style.display = 'none';
+                big.style.display = 'none';
+            });
+            small.addEventListener('mousemove', function(e) {
+                // 鼠标要位于遮罩层中央（关注遮罩层左上角）
+                let minX = this.offsetLeft;
+                let maxX = this.offsetLeft + this.offsetWidth - mask.offsetWidth;
+                let minY = this.offsetTop;
+                let maxY = this.offsetTop + this.offsetHeight - mask.offsetHeight;
+                //根据鼠标位置决定遮罩层位置
+                let x = e.pageX - mask.offsetWidth / 2;
+                let y = e.pageY - mask.offsetHeight / 2;
+                if (x < minX) {
+                    x = minX;
+                } else if (x > maxX) {
+                    x = maxX;
+                }
+                if (y < minY) {
+                    y = minY;
+                } else if (y > maxY) {
+                    y = maxY;
+                }
+                // console.log(x + ":" + y);
+                mask.style.left = x + 'px';
+                mask.style.top = y + 'px';
+                //大图反方向等比例移动
+                bigImg.style.left = -x*300/125 + 'px';
+                bigImg.style.top = -y*300/125 + 'px';
+            });
+        }
+    </script>
+</body>
+</html>
