@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+    <script src="../vue-router.js"></script>
+    <style>
+        .on {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <!--<router-link to="/position">职位</router-link>-->
+    <!--<router-link to="/search">搜索</router-link>-->
+    <!--<router-link to="/my">我的</router-link>-->
+    <ul>
+        <!-- router-link更多配置 https://router.vuejs.org/zh/api/#router-link -->
+        <!-- tag: 渲染成的标签类型 默认是<a> -->
+        <!-- active-class: 设置链接激活时使用的 CSS 类名 -->
+        <router-link to="/position" tag="li" active-class="on">职位</router-link>
+        <router-link to="/search" tag="li" active-class="on">搜索</router-link>
+        <router-link to="/my" tag="li" active-class="on">我的</router-link>
+        <!-- 视图展示位置，就是在这个标签位置暂时路由组件模板 -->
+    </ul>
+    <router-view></router-view>
+</div>
+<script>
+    // 路由组件
+    const Position = {
+        template: `
+               <h2>Position</h2>
+           `
+    };
+
+    const Search = {
+        template: `
+               <h2>Search</h2>
+           `
+    };
+
+    const My = {
+        template: `
+               <h2>My</h2>
+           `
+    };
+
+    // 路由实例对象（定义路由规则）
+    const router = new VueRouter({
+        // 最直观的区别就是在url中 hash 带了一个很丑的 # 而history是没有#的
+        // mode: 'hash',       //默认模式
+        // mode: 'history',
+        routes: [
+            {
+                path: '/position',
+                component: Position
+            },
+            {
+                path: '/search',
+                component: Search
+            },
+            {
+                path: '/my',
+                component: My
+            },
+            // 默认跳转
+            {
+                path: '/',
+                redirect: '/position'
+            }
+        ]
+    });
+
+    const vm = new Vue({
+        el: '#app',
+        router
+    });
+</script>
+</body>
+</html>

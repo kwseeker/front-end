@@ -1,0 +1,30 @@
+<!-- 路由守卫
+    1 流程
+        导航被触发。
+        在失活的组件里调用 beforeRouteLeave 守卫。
+        调用全局的 beforeEach 守卫。
+        在重用的组件里调用 beforeRouteUpdate 守卫 (2.2+)。
+        在路由配置里调用 beforeEnter。
+        解析异步路由组件。
+        在被激活的组件里调用 beforeRouteEnter。
+        调用全局的 beforeResolve 守卫 (2.5+)。
+        导航被确认。
+        调用全局的 afterEach 钩子。
+        触发 DOM 更新。
+        调用 beforeRouteEnter 守卫中传给 next 的回调函数，创建好的组件实例会作为回调函数的参数传入。
+
+
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!-- 动态路由
+    1 $route.params 与 /:<param>
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+    <script src="../vue-router.js"></script>
+    <style>
+        .on {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <ul>
+            <router-link to="/position/1001/comp/12356" tag="li" active-class="on">web前端工程师</router-link>
+            <router-link to="/position/1002/comp/32458" tag="li" active-class="on">Node工程师</router-link>
+            <router-link to="/search" tag="li" active-class="on">搜索</router-link>
+            <router-link to="/my" tag="li" active-class="on">我的</router-link>
+        </ul>
+        <router-view></router-view>
+    </div>
+
+    <script>
+        const Position = {
+            template: `
+                <h2>position {{$route.params.cid}} {{$route.params.pid}}</h2>
+            `
+        };
+        const Search = {
+            template: `
+                <h2>Search</h2>
+            `
+        };
+        const My = {
+            template: `
+                <h2>My</h2>
+            `
+        };
+
+        const router = new VueRouter({
+            mode: 'hash',
+            routes: [
+                //路由规则貌似并没有定义一个类（只是基于Object拓展，path component 都是约定的）
+                {
+                    // 动态路由，实例路由url中的值会填充到$route.params.<:paramName>
+                    path: '/position/:pid/comp/:cid',
+                    component: Position
+                }, {
+                    path: '/search',
+                    component: Search
+                }, {
+                    path: '/my',
+                    component: My
+                }, {                                    //根路由
+                    path: '/',
+                    component: Position
+                }, {                                    //捕获所有路由
+                    path: '*',
+                    component: {
+                        template: `
+                            <h1>404 Not Found</h1>
+                        `
+                    }
+                }
+            ]
+        });
+
+        const vm = new Vue({
+            el: '#app',
+            router,
+            mounted() {
+                console.log(typeof this.$router.options.routes[0]);
+            }
+        });
+    </script>
+</body>
+</html>

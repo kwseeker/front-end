@@ -1,0 +1,83 @@
+<!-- Vuex
+
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+    <script src="../vuex.js"></script>
+</head>
+<body>
+    <div id="app">
+        <counter-btn type="decrement"></counter-btn>
+        <span>{{$store.state.count}}</span>
+        <counter-btn type="increment"></counter-btn>
+    </div>
+
+    <script>
+        Vue.component('counter-btn', {
+            props: ['type'],
+            template: `
+                <button @click="handleClick">{{getBtnText}}</button>
+            `,
+            computed: {
+                getBtnText() {
+                    return (this.type === 'increment') ? '+' : '-';
+                }
+            },
+            methods: {
+                handleClick() {
+                    if (this.type === 'increment') {
+                        // 1 直接通过$store.state修改数据 (官方不推荐这种方式，如果加strict模式这种方式会报错)
+                        // this.$store.state.count++;
+                        // 2 通过mutations方法同步操作
+                        // this.$store.commit('increment', 2);
+                        // 3 通过actions方法异步操作
+                        this.$store.dispatch('add', 4);
+                    } else if (this.type === 'decrement') {
+                        // this.$store.state.count--;
+                        this.$store.commit('decrement', 2);
+                    }
+                }
+            }
+        });
+
+        const store = new Vuex.Store({
+            // 相当于组件的data, state提供唯一的公共数据源，所有共享的数据都要统一放到state中进行存储
+            state: {
+                count: 0
+            },
+            // mutations专门用于同步改变state中的状态，不能直接操作state
+            mutations: {
+                increment(state, payload) {
+                    state.count += payload;
+                },
+                decrement(state, payload) {
+                    state.count -= payload;
+                }
+            },
+            // actions处理异步任务
+            actions: {
+                add({
+                        commit                  // commit: commit
+                    }, step) {
+                    setTimeout(() => {
+                        commit('increment', step);
+                    }, 2000)
+                }
+            },
+            strict: true
+        });
+
+        const vm = new Vue({
+            el: '#app',
+            store       // 相当于 store: store  (用在对象某个 property 的 key 和被传入的变量同名时,可以这么简写)
+        });
+    </script>
+</body>
+</html>

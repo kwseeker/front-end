@@ -1,0 +1,94 @@
+<!-- 嵌套路由（在路由节点中再定义路由）
+    1 通过路由规则的children属性注册嵌套的路由规则，对应的在父路由规则的component.template 中定义嵌套路由view页面
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+    <script src="../vue-router.js"></script>
+    <style>
+        .on {
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <router-link to="/position" tag="li" active-class="on">职位</router-link>
+        <router-link to="/search" tag="li" active-class="on">搜索</router-link>
+    </ul>
+    <router-view></router-view>
+</div>
+
+<script>
+    const Position = {
+                                                                // 嵌套路由的view
+        template: `
+            <div>
+                <h2>position</h2>
+                <router-link to="/position/fe" active-class="on">前端开发岗位</router-link>
+                <router-link to="/position/be" active-class="on">后端开发岗位</router-link>
+                <router-view></router-view>
+            </div>
+        `
+    };
+    const Search = {
+        template: `
+                <h2>Search</h2>
+            `
+    };
+
+    const router = new VueRouter({
+        mode: 'hash',
+        routes: [
+            {
+                path: '/position',
+                redirect: '/position/fe',
+                component: Position,
+                children: [                                 // 父路由规则中嵌套定义子路由规则
+                    {
+                        path: '/position/fe',
+                        component: {
+                            template: `
+                                <div>今年前端岗位异常火爆</div>
+                            `
+                        }
+                    }, {
+                        path: 'be',     //相当于 '/position/be',
+                        component: {
+                            template: `
+                                <div>今年的后端岗位与去年持平</div>
+                            `
+                        }
+                    }
+                ]
+            }, {
+                path: '/search',
+                component: Search
+            }, {
+                path: '/',
+                component: Position
+            }, {
+                path: '*',
+                component: {
+                    template: `
+                        <h1>404 Not Found</h1>
+                    `
+                }
+            }
+        ]
+    });
+
+    const vm = new Vue({
+        el: '#app',
+        router
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+<!-- 路由组件传参
+    1 通过 props 解耦
+        布尔模式
+        对象模式
+        函数模式
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+    <script src="../vue-router.js"></script>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <router-link to="/home" tag="li">首页</router-link>
+        <router-link to="/position/24" tag="li">职位</router-link>
+        <router-link to="/search?keyword=fe" tag="li">搜索</router-link>  <!--  -->
+    </ul>
+    <router-view name="header"></router-view>
+    <router-view name="default"></router-view>
+    <router-view name="footer"></router-view>
+</div>
+<script>
+    const Search = {
+        props: ['keyword'],
+        template: `
+          <h2>Search {{ keyword }}</h2>
+        `
+    };
+
+    const Position = {
+        props: ['id', 'uname', 'pwd'],
+        template: `
+          <h2>Position {{ $route.params.id }} {{ id }} {{ uname + ":" + pwd }}</h2>
+        `
+    };
+
+    const router = new VueRouter({
+        routes: [
+            {
+                path: '/',
+                redirect: '/home'
+            },
+            {
+                path: '/home',
+                components: {
+                    default: {
+                        template: `<div>main content</div>`
+                    },
+                    header: {
+                        template: `<div>header content</div>`
+                    },
+                    footer: {
+                        template: `<div>footer content</div>`
+                    }
+                }
+            },
+            {
+                path: '/search',
+                alias: '/s',
+                component: Search,
+                props: route => ({
+                    keyword: route.query.keyword
+                })
+            },
+            {
+                path: '/position/:id',
+                component: Position,
+                //props: true                               // 1 布尔模式，将$route.params的值直接作为组件属性，组件模板中可以直接{{id}}这样获取值
+                // props: {                                 // 2 对象模式，将对象的内容作为组件属性，只能传递静态数据
+                //     uname: 'zs',
+                //     pwd: 123456,
+                // }
+                props: route => ({                          // 3 函数模式，将$route实例作为入参传给函数
+                    uname: 'zs',
+                    pwd: 123456,
+                    id: route.params.id,
+                    keyword: route.query.keyword
+                })
+            }
+        ]
+    });
+
+    const vm = new Vue({
+        el: '#app',
+        router
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!-- 命名路由与命名视图
+    1
+-->
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../vue.js"></script>
+    <script src="../vue-router.js"></script>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <router-link to="/home" tag="li">首页</router-link>
+        <router-link to="/search" tag="li">搜索</router-link>
+    </ul>
+    <router-view name="header"></router-view>
+    <router-view name="default"></router-view>
+    <router-view name="footer"></router-view>
+</div>
+
+<script>
+    const Search = {
+        template: `
+            <h2>Search</h2>
+        `
+    };
+
+    const router = new VueRouter({
+        // mode: 'hash',
+        routes: [
+            {
+                path: '/',
+                redirect: '/home'
+            }, {
+                path: '/home',
+                components: {
+                    header: {
+                        template: `<div>header content</div>`
+                    },
+                    default: {
+                        template: `<div>main content</div>`
+                    },
+                    footer: {
+                        template: `<div>footer content</div>`
+                    }
+                }
+            }, {
+                path: '/search',
+                alias: '/s',
+                component: Search
+            }
+        ]
+    });
+
+    const vm = new Vue({
+        el: '#app',
+        router
+    });
+</script>
+</body>
+</html>
