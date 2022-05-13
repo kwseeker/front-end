@@ -1,15 +1,16 @@
-<map version="freeplane 1.7.0">
-<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="&#x524d;&#x7aef;" FOLDED="false" ID="ID_1272274355" CREATED="1598168296865" MODIFIED="1598168308233" STYLE="oval">
+<map version="freeplane 1.9.13">
+<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<node TEXT="前端" FOLDED="false" ID="ID_1272274355" CREATED="1598168296865" MODIFIED="1598168308233" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle" zoom="1.21">
-    <properties fit_to_viewport="false" show_note_icons="true" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_note_icons="true" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork">
+<stylenode LOCALIZED_TEXT="default" ID="ID_88804285" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
+<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_88804285" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
@@ -21,6 +22,7 @@
 <edge STYLE="hide_edge"/>
 <cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
 </stylenode>
+<stylenode LOCALIZED_TEXT="defaultstyle.selection" BACKGROUND_COLOR="#4e85f8" BORDER_COLOR_LIKE_EDGE="false" BORDER_COLOR="#4e85f8"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right" STYLE="bubble">
 <stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
@@ -37,7 +39,7 @@
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -64,15 +66,15 @@
 </map_styles>
 </hook>
 <hook NAME="AutomaticEdgeColor" COUNTER="19" RULE="ON_BRANCH_CREATION"/>
-<node TEXT="&#x6559;&#x7a0b;" POSITION="right" ID="ID_1709163217" CREATED="1599967001354" MODIFIED="1599967008258">
+<node TEXT="教程" POSITION="right" ID="ID_1709163217" CREATED="1599967001354" MODIFIED="1599967008258">
 <edge COLOR="#ff0000"/>
-<node TEXT="MDN&#x6587;&#x6863;" ID="ID_458601979" CREATED="1598178532588" MODIFIED="1599967047459" LINK="https://developer.mozilla.org/zh-CN/docs/Web"/>
-<node TEXT="MDN&#x6559;&#x7a0b;" ID="ID_873430389" CREATED="1599967009750" MODIFIED="1599967025530" LINK="https://developer.mozilla.org/zh-CN/docs/Web/Tutorials"/>
+<node TEXT="MDN文档" ID="ID_458601979" CREATED="1598178532588" MODIFIED="1599967047459" LINK="https://developer.mozilla.org/zh-CN/docs/Web"/>
+<node TEXT="MDN教程" ID="ID_873430389" CREATED="1599967009750" MODIFIED="1599967025530" LINK="https://developer.mozilla.org/zh-CN/docs/Web/Tutorials"/>
 </node>
 <node TEXT="VSCode" FOLDED="true" POSITION="right" ID="ID_1329008435" CREATED="1598170399873" MODIFIED="1598170432687" STYLE="bubble">
 <edge COLOR="#ff00ff"/>
-<node TEXT="&#x9ad8;&#x6548;&#x7f16;&#x7801;" ID="ID_739300616" CREATED="1598170435112" MODIFIED="1598170442759" STYLE="bubble">
-<node TEXT="&#x63d2;&#x4ef6;" ID="ID_787504312" CREATED="1598170489403" MODIFIED="1598170494325">
+<node TEXT="高效编码" FOLDED="true" ID="ID_739300616" CREATED="1598170435112" MODIFIED="1598170442759" STYLE="bubble">
+<node TEXT="插件" FOLDED="true" ID="ID_787504312" CREATED="1598170489403" MODIFIED="1598170494325">
 <node TEXT="HTML snippets" ID="ID_871544391" CREATED="1598171899984" MODIFIED="1598171900728"/>
 <node TEXT="JavaScript (ES6) code snippets" ID="ID_1045015178" CREATED="1598171910414" MODIFIED="1598171910788"/>
 <node TEXT="CSS Peek" ID="ID_372956343" CREATED="1598171915967" MODIFIED="1598171917055"/>
@@ -86,26 +88,25 @@
 <node TEXT="Highlight Matching Tag" ID="ID_1945488098" CREATED="1598170624266" MODIFIED="1598170624594"/>
 <node TEXT="TODO Highlight" ID="ID_1751851190" CREATED="1598170631024" MODIFIED="1598170634778"/>
 </node>
-<node TEXT="&#x4ee3;&#x7801;&#x6a21;&#x677f;" ID="ID_1303524860" CREATED="1598172240901" MODIFIED="1598172268329">
-<node TEXT="&#x63d2;&#x5165;&#x4ee3;&#x7801;&#x4e3b;&#x5e72;&#xff1a;&#x9996;&#x884c;!&#x56de;&#x8f66;" ID="ID_1401924859" CREATED="1598172269977" MODIFIED="1598175485884"/>
-<node TEXT="&#x63d2;&#x5165;&#x591a;&#x4e2a;&#x5217;&#x8868;&#x9879;&#xff1a;ul&gt;li*3" ID="ID_976527791" CREATED="1598175447513" MODIFIED="1598175517864"/>
+<node TEXT="代码模板" FOLDED="true" ID="ID_1303524860" CREATED="1598172240901" MODIFIED="1598172268329">
+<node TEXT="插入代码主干：首行!回车" ID="ID_1401924859" CREATED="1598172269977" MODIFIED="1598175485884"/>
+<node TEXT="插入多个列表项：ul&gt;li*3" ID="ID_976527791" CREATED="1598175447513" MODIFIED="1598175517864"/>
 </node>
-<node TEXT="&#x5feb;&#x6377;&#x952e;" ID="ID_211480986" CREATED="1599973572349" MODIFIED="1599973580064">
-<node TEXT="&#x683c;&#x5f0f;&#x5316;&#x4ee3;&#x7801; Ctrl + Shift + I" ID="ID_183321488" CREATED="1599973581426" MODIFIED="1599973659826"/>
-<node TEXT="&#x4ee3;&#x7801;&#x6298;&#x53e0; Ctrl + Shift + [" ID="ID_1296519851" CREATED="1599973768830" MODIFIED="1599973794782"/>
-<node TEXT="&#x5411;&#x4e0a;&#x5411;&#x590d;&#x5236;&#x4ee3;&#x7801; Ctrl + Shift + Alt + Up/Down" ID="ID_963660362" CREATED="1599973934305" MODIFIED="1599973960064"/>
-<node TEXT="&#x62c6;&#x5206;&#x7f16;&#x8f91;&#x6846; Shift + Alt + \ or 2,3,4" ID="ID_841461489" CREATED="1599976337225" MODIFIED="1599976349403"/>
+<node TEXT="快捷键" FOLDED="true" ID="ID_211480986" CREATED="1599973572349" MODIFIED="1599973580064">
+<node TEXT="格式化代码 Ctrl + Shift + I" ID="ID_183321488" CREATED="1599973581426" MODIFIED="1599973659826"/>
+<node TEXT="代码折叠 Ctrl + Shift + [" ID="ID_1296519851" CREATED="1599973768830" MODIFIED="1599973794782"/>
+<node TEXT="向上向复制代码 Ctrl + Shift + Alt + Up/Down" ID="ID_963660362" CREATED="1599973934305" MODIFIED="1599973960064"/>
+<node TEXT="拆分编辑框 Shift + Alt + \ or 2,3,4" ID="ID_841461489" CREATED="1599976337225" MODIFIED="1599976349403"/>
 </node>
 </node>
 </node>
-<node TEXT="&#x6ce8;&#x610f;" POSITION="right" ID="ID_1802800318" CREATED="1601692022617" MODIFIED="1601692035197" STYLE="bubble">
+<node TEXT="注意" FOLDED="true" POSITION="right" ID="ID_1802800318" CREATED="1601692022617" MODIFIED="1601692035197" STYLE="bubble">
 <edge COLOR="#ff00ff"/>
-<node TEXT="1&#xff09;&#x5143;&#x7d20;&#x662f;&#x4ece;&#x5de6;&#x5411;&#x53f3;&#xff0c;&#x4ece;&#x4e0a;&#x5230;&#x4e0b;&#x4f9d;&#x6b21;&#x6e32;&#x67d3;&#x7684;" ID="ID_973489125" CREATED="1601692037748" MODIFIED="1601692075835"/>
+<node TEXT="1）元素是从左向右，从上到下依次渲染的" ID="ID_973489125" CREATED="1601692037748" MODIFIED="1601692075835"/>
 </node>
-<node TEXT="HTML" FOLDED="true" POSITION="right" ID="ID_1360212548" CREATED="1598168329431" MODIFIED="1598168668539" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML" STYLE="bubble">
+<node TEXT="HTML" POSITION="right" ID="ID_1360212548" CREATED="1598168329431" MODIFIED="1598168668539" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML" STYLE="bubble">
 <edge COLOR="#ff0000"/>
-<node TEXT="DTD" ID="ID_1532021464" CREATED="1598178640023" MODIFIED="1599977902238" LINK="https://www.w3school.com.cn/dtd/index.asp" STYLE="bubble"><richcontent TYPE="NOTE">
-
+<node TEXT="DTD" ID="ID_1532021464" CREATED="1598178640023" MODIFIED="1599977902238" LINK="https://www.w3school.com.cn/dtd/index.asp" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -115,19 +116,17 @@
       DTD&#65288;&#25991;&#26723;&#31867;&#22411;&#23450;&#20041;&#65289;&#30340;&#20316;&#29992;&#26159;&#23450;&#20041; XML &#25991;&#26723;&#30340;&#21512;&#27861;&#26500;&#24314;&#27169;&#22359;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="HTML&#x5143;&#x7d20;" ID="ID_806773805" CREATED="1599977888254" MODIFIED="1599977900953" STYLE="bubble">
-<node TEXT="&#x5143;&#x7d20;&#x3001;&#x6807;&#x8bb0;&#x3001;&#x6807;&#x7b7e;&#x5173;&#x7cfb;" ID="ID_726881435" CREATED="1599977906003" MODIFIED="1599977949087">
-<node TEXT="&#x6807;&#x8bb0;(markup)" ID="ID_1734493180" CREATED="1598168860562" MODIFIED="1598168933002">
-<node TEXT="&#x5355;&#x6807;&#x8bb0;" ID="ID_1976358710" CREATED="1598170137655" MODIFIED="1598170142755"/>
-<node TEXT="&#x53cc;&#x6807;&#x8bb0;" ID="ID_630848636" CREATED="1598170142945" MODIFIED="1598170149842"/>
+<node TEXT="HTML元素" ID="ID_806773805" CREATED="1599977888254" MODIFIED="1599977900953" STYLE="bubble">
+<node TEXT="元素、标记、标签关系" ID="ID_726881435" CREATED="1599977906003" MODIFIED="1599977949087">
+<node TEXT="标记(markup)" ID="ID_1734493180" CREATED="1598168860562" MODIFIED="1598168933002">
+<node TEXT="单标记" ID="ID_1976358710" CREATED="1598170137655" MODIFIED="1598170142755"/>
+<node TEXT="双标记" ID="ID_630848636" CREATED="1598170142945" MODIFIED="1598170149842"/>
 </node>
-<node TEXT="&#x5143;&#x7d20;(element)" ID="ID_540563037" CREATED="1598169090615" MODIFIED="1599976984093" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element"/>
-<node TEXT="&#x6807;&#x7b7e;(tag)" ID="ID_507199592" CREATED="1598168865177" MODIFIED="1598168944727">
-<node TEXT="&#x53cc;&#x6807;&#x7b7e;&#x5206;&#x5f00;&#x59cb;&#x6807;&#x7b7e;&#x548c;&#x7ed3;&#x675f;&#x6807;&#x7b7e;" ID="ID_773657087" CREATED="1598169114201" MODIFIED="1599978441764"><richcontent TYPE="NOTE">
-
+<node TEXT="元素(element)" ID="ID_540563037" CREATED="1598169090615" MODIFIED="1599976984093" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element"/>
+<node TEXT="标签(tag)" ID="ID_507199592" CREATED="1598168865177" MODIFIED="1598168944727">
+<node TEXT="双标签分开始标签和结束标签" ID="ID_773657087" CREATED="1598169114201" MODIFIED="1599978441764"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -137,19 +136,18 @@
       <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.04448px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px">Opening tag</font></span> &amp;&#160; <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.04448px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px">Closing tag</font></span> 
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x6807;&#x7b7e;&#x53ef;&#x4ee5;&#x5e76;&#x5217;&#x3001;&#x5d4c;&#x5957;" ID="ID_642405412" CREATED="1598170189776" MODIFIED="1598170209016"/>
+<node TEXT="标签可以并列、嵌套" ID="ID_642405412" CREATED="1598170189776" MODIFIED="1598170209016"/>
 </node>
 </node>
-<node TEXT="&#x5143;&#x7d20;&#x7ec4;&#x6210;" ID="ID_278858914" CREATED="1599978200378" MODIFIED="1599978206531">
-<node TEXT="&#x6807;&#x7b7e;" ID="ID_511742957" CREATED="1599978207463" MODIFIED="1599978347358"/>
-<node TEXT="&#x5c5e;&#x6027;" ID="ID_66319600" CREATED="1599978347915" MODIFIED="1599978352286"/>
-<node TEXT="&#x5185;&#x5bb9;" ID="ID_1905125832" CREATED="1599978352590" MODIFIED="1599978358862"/>
+<node TEXT="元素组成" FOLDED="true" ID="ID_278858914" CREATED="1599978200378" MODIFIED="1599978206531">
+<node TEXT="标签" ID="ID_511742957" CREATED="1599978207463" MODIFIED="1599978347358"/>
+<node TEXT="属性" ID="ID_66319600" CREATED="1599978347915" MODIFIED="1599978352286"/>
+<node TEXT="内容" ID="ID_1905125832" CREATED="1599978352590" MODIFIED="1599978358862"/>
 </node>
-<node TEXT="&#x5143;&#x7d20;&#x5206;&#x7c7b;" ID="ID_913463763" CREATED="1599977975991" MODIFIED="1599978383260">
-<node TEXT="&#x4e3b;&#x6839;&#x5143;&#x7d20;" FOLDED="true" ID="ID_1117031280" CREATED="1599977980902" MODIFIED="1599977989537">
+<node TEXT="元素分类" FOLDED="true" ID="ID_913463763" CREATED="1599977975991" MODIFIED="1599978383260">
+<node TEXT="主根元素" FOLDED="true" ID="ID_1117031280" CREATED="1599977980902" MODIFIED="1599977989537">
 <node ID="ID_623618938" CREATED="1599977992272" MODIFIED="1599978005447"><richcontent TYPE="NODE">
 
 <html>
@@ -165,17 +163,17 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x6587;&#x6863;&#x5143;&#x6570;&#x636e;" FOLDED="true" ID="ID_1218313896" CREATED="1599978017654" MODIFIED="1599978025457">
+<node TEXT="文档元数据" FOLDED="true" ID="ID_1218313896" CREATED="1599978017654" MODIFIED="1599978025457">
 <node TEXT="&lt;head&gt;" ID="ID_1768780392" CREATED="1599978029395" MODIFIED="1599978034511"/>
 <node TEXT="&lt;meta&gt;" ID="ID_1823878466" CREATED="1599978034909" MODIFIED="1599978045626"/>
 <node TEXT="&lt;style&gt;" ID="ID_1018401305" CREATED="1599978046023" MODIFIED="1599978052734"/>
 <node TEXT="&lt;title&gt;" ID="ID_1546000252" CREATED="1599978054379" MODIFIED="1599978059713"/>
 <node TEXT="&lt;link&gt;" ID="ID_221434706" CREATED="1599978060889" MODIFIED="1599978064828"/>
 </node>
-<node TEXT="&#x5206;&#x533a;&#x6839;&#x5143;&#x7d20;" FOLDED="true" ID="ID_1251581994" CREATED="1599978637691" MODIFIED="1599978643759">
+<node TEXT="分区根元素" FOLDED="true" ID="ID_1251581994" CREATED="1599978637691" MODIFIED="1599978643759">
 <node TEXT="&lt;body&gt;" ID="ID_195007285" CREATED="1599978674577" MODIFIED="1599978678261"/>
 </node>
-<node TEXT="&#x5185;&#x5bb9;&#x5206;&#x533a;" FOLDED="true" ID="ID_525096926" CREATED="1599978645628" MODIFIED="1599978651834">
+<node TEXT="内容分区" FOLDED="true" ID="ID_525096926" CREATED="1599978645628" MODIFIED="1599978651834">
 <node TEXT="&lt;address&gt;" ID="ID_1129092992" CREATED="1599978679939" MODIFIED="1599978688158"/>
 <node TEXT="&lt;article&gt;" ID="ID_1765183515" CREATED="1599978688532" MODIFIED="1599978694021"/>
 <node TEXT="&lt;header&gt;" ID="ID_716747939" CREATED="1599978698163" MODIFIED="1599978704314"/>
@@ -183,7 +181,7 @@
 <node TEXT="&lt;h1&gt;-&lt;h6&gt;" ID="ID_1507039160" CREATED="1599978715540" MODIFIED="1599978741122"/>
 <node TEXT="&lt;nav&gt;" ID="ID_307413356" CREATED="1599978741564" MODIFIED="1599978760828"/>
 </node>
-<node TEXT="&#x6587;&#x672c;&#x5185;&#x5bb9;" FOLDED="true" ID="ID_990180900" CREATED="1599978652624" MODIFIED="1599978661670">
+<node TEXT="文本内容" FOLDED="true" ID="ID_990180900" CREATED="1599978652624" MODIFIED="1599978661670">
 <node TEXT="&lt;div&gt;" ID="ID_457249051" CREATED="1599978777142" MODIFIED="1599978781106"/>
 <node TEXT="&lt;hr&gt;" ID="ID_1342967309" CREATED="1599978784255" MODIFIED="1599978807830"/>
 <node TEXT="&lt;li&gt;" ID="ID_1177900836" CREATED="1599978808040" MODIFIED="1599978811941"/>
@@ -192,7 +190,7 @@
 <node TEXT="&lt;pre&gt;" ID="ID_1555937056" CREATED="1599978826197" MODIFIED="1599978829388"/>
 <node TEXT="&lt;ul&gt;" ID="ID_19407441" CREATED="1599978830061" MODIFIED="1599978832921"/>
 </node>
-<node TEXT="&#x5185;&#x8054;&#x6587;&#x672c;&#x8bed;&#x4e49;" FOLDED="true" ID="ID_1867640262" CREATED="1599978838351" MODIFIED="1599978853660">
+<node TEXT="内联文本语义" FOLDED="true" ID="ID_1867640262" CREATED="1599978838351" MODIFIED="1599978853660">
 <node TEXT="&lt;a&gt;" ID="ID_1857995092" CREATED="1599978856340" MODIFIED="1599978859099"/>
 <node TEXT="&lt;abbr&gt;" ID="ID_149028807" CREATED="1599978862248" MODIFIED="1599978869037"/>
 <node TEXT="&lt;b&gt;" ID="ID_1159792985" CREATED="1599978879240" MODIFIED="1599978882532"/>
@@ -210,26 +208,26 @@
 <node TEXT="&lt;u&gt;" ID="ID_397639518" CREATED="1599978981603" MODIFIED="1599978989568"/>
 <node TEXT="&lt;var&gt;" ID="ID_1162144599" CREATED="1599978989895" MODIFIED="1599978994779"/>
 </node>
-<node TEXT="&#x56fe;&#x7247;&#x548c;&#x591a;&#x5a92;&#x4f53;" FOLDED="true" ID="ID_1667132565" CREATED="1599978999971" MODIFIED="1599979007140">
+<node TEXT="图片和多媒体" FOLDED="true" ID="ID_1667132565" CREATED="1599978999971" MODIFIED="1599979007140">
 <node TEXT="&lt;area&gt;" ID="ID_25070363" CREATED="1599979377386" MODIFIED="1599979383711"/>
 <node TEXT="&lt;audio&gt;" ID="ID_1786936729" CREATED="1599979384105" MODIFIED="1599979389894"/>
 <node TEXT="&lt;img&gt;" ID="ID_1146502233" CREATED="1599979390151" MODIFIED="1599979393738"/>
 <node TEXT="&lt;video&gt;" ID="ID_510060437" CREATED="1599979400843" MODIFIED="1599979404699"/>
 </node>
-<node TEXT="&#x5185;&#x5d4c;&#x5185;&#x5bb9;" FOLDED="true" ID="ID_188488865" CREATED="1599979410684" MODIFIED="1599979415717">
+<node TEXT="内嵌内容" FOLDED="true" ID="ID_188488865" CREATED="1599979410684" MODIFIED="1599979415717">
 <node TEXT="&lt;iframe&gt;" ID="ID_584861969" CREATED="1599979417179" MODIFIED="1599979426942"/>
 <node TEXT="&lt;picture&gt;" ID="ID_1009937633" CREATED="1599979431225" MODIFIED="1599979435423"/>
 <node TEXT="&lt;source&gt;" ID="ID_1326173772" CREATED="1599979436049" MODIFIED="1599979440864"/>
 </node>
-<node TEXT="&#x811a;&#x672c;" FOLDED="true" ID="ID_1988693184" CREATED="1599979442958" MODIFIED="1599979448539">
+<node TEXT="脚本" FOLDED="true" ID="ID_1988693184" CREATED="1599979442958" MODIFIED="1599979448539">
 <node TEXT="&lt;canvas&gt;" ID="ID_758229833" CREATED="1599979449630" MODIFIED="1599979459648"/>
 <node TEXT="&lt;script&gt;" ID="ID_651554444" CREATED="1599979460923" MODIFIED="1599979464882"/>
 </node>
-<node TEXT="&#x7f16;&#x8f91;&#x6807;&#x8bc6;" FOLDED="true" ID="ID_453225932" CREATED="1599979473346" MODIFIED="1599979492323">
+<node TEXT="编辑标识" FOLDED="true" ID="ID_453225932" CREATED="1599979473346" MODIFIED="1599979492323">
 <node TEXT="&lt;del&gt;" ID="ID_76677817" CREATED="1599979493738" MODIFIED="1599979498427"/>
 <node TEXT="&lt;ins&gt;" ID="ID_890040613" CREATED="1599979498637" MODIFIED="1599979501853"/>
 </node>
-<node TEXT="&#x8868;&#x683c;&#x5185;&#x5bb9;" ID="ID_1871096061" CREATED="1599979513738" MODIFIED="1599979519203">
+<node TEXT="表格内容" FOLDED="true" ID="ID_1871096061" CREATED="1599979513738" MODIFIED="1599979519203">
 <node TEXT="&lt;caption&gt;" ID="ID_1154919000" CREATED="1599979527294" MODIFIED="1599979534396"/>
 <node TEXT="&lt;col&gt;" ID="ID_891958593" CREATED="1599979534582" MODIFIED="1599979538191"/>
 <node TEXT="`&lt;table&gt;`" ID="ID_1251168441" CREATED="1599979538493" MODIFIED="1599979562616"/>
@@ -239,10 +237,9 @@
 <node TEXT="&lt;thead&gt;" ID="ID_782526148" CREATED="1599979589389" MODIFIED="1599979593688"/>
 <node TEXT="&lt;tr&gt;" ID="ID_848842530" CREATED="1599979595441" MODIFIED="1599979601392"/>
 </node>
-<node TEXT="&#x8868;&#x5355;" ID="ID_1283961514" CREATED="1599979611566" MODIFIED="1599979616253">
+<node TEXT="表单" FOLDED="true" ID="ID_1283961514" CREATED="1599979611566" MODIFIED="1599979616253">
 <node TEXT="&lt;button&gt;" ID="ID_1276371721" CREATED="1599979619118" MODIFIED="1599979625612"/>
-<node TEXT="&lt;form&gt;" ID="ID_1467601357" CREATED="1599979625915" MODIFIED="1603638051200"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;form&gt;" ID="ID_1467601357" CREATED="1599979625915" MODIFIED="1603638051200"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -255,24 +252,22 @@
       action: &#22788;&#29702;&#34920;&#21333;&#25552;&#20132;&#30340; URL&#12290;&#36825;&#20010;&#20540;&#21487;&#34987; &lt;button&gt;&#12289;&lt;input type=&quot;submit&quot;&gt; &#25110; &lt;input type=&quot;image&quot;&gt; &#20803;&#32032;&#19978;&#30340; formaction &#23646;&#24615;&#35206;&#30422;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;input&gt;" ID="ID_745826925" CREATED="1599979632399" MODIFIED="1599979636049"/>
 <node TEXT="&lt;label&gt;" ID="ID_1714898371" CREATED="1599979636560" MODIFIED="1599979640604"/>
 <node TEXT="&lt;progress&gt;" ID="ID_127488969" CREATED="1599979652657" MODIFIED="1599979656862"/>
 <node TEXT="&lt;textarea&gt;" ID="ID_944186585" CREATED="1599979657328" MODIFIED="1599979663452"/>
 </node>
-<node TEXT="&#x4ea4;&#x4e92;&#x5143;&#x7d20;" ID="ID_725612787" CREATED="1599979670665" MODIFIED="1599979675923"/>
-<node TEXT="web&#x7ec4;&#x4ef6;" FOLDED="true" ID="ID_1451260031" CREATED="1599979680105" MODIFIED="1599979689900">
+<node TEXT="交互元素" ID="ID_725612787" CREATED="1599979670665" MODIFIED="1599979675923"/>
+<node TEXT="web组件" FOLDED="true" ID="ID_1451260031" CREATED="1599979680105" MODIFIED="1599979689900">
 <node TEXT="&lt;content&gt;" ID="ID_803439361" CREATED="1599979694692" MODIFIED="1599979699537"/>
 <node TEXT="&lt;element&gt;" ID="ID_199494598" CREATED="1599979699816" MODIFIED="1599979704293"/>
 <node TEXT="&lt;slot&gt;" ID="ID_1974884468" CREATED="1599979704688" MODIFIED="1599979708100"/>
 </node>
-<node TEXT="&#x8fc7;&#x65f6;&#x548c;&#x5f03;&#x7528;&#x5143;&#x7d20;" ID="ID_292109769" CREATED="1599979718110" MODIFIED="1599979726895"/>
+<node TEXT="过时和弃用元素" ID="ID_292109769" CREATED="1599979718110" MODIFIED="1599979726895"/>
 </node>
-<node TEXT="&#x6807;&#x7b7e;&#x5c5e;&#x6027;(attribute)" ID="ID_445232774" CREATED="1598169099796" MODIFIED="1599978392906"><richcontent TYPE="DETAILS">
-
+<node TEXT="标签属性(attribute)" FOLDED="true" ID="ID_445232774" CREATED="1598169099796" MODIFIED="1599978392906"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -282,17 +277,15 @@
       <font color="#0000c0">&#38582;&#23646;&#20110;&#26631;&#31614;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x6bcf;&#x4e2a;&#x6807;&#x7b7e;&#x90fd;&#x6709;&#x81ea;&#x5df1;&#x7684;&#x5c5e;&#x6027;" ID="ID_1649857613" CREATED="1598174663095" MODIFIED="1598178770006"/>
+</html></richcontent>
+<node TEXT="每个标签都有自己的属性" ID="ID_1649857613" CREATED="1598174663095" MODIFIED="1598178770006"/>
 </node>
-<node TEXT="&#x5e38;&#x7528;&#x6807;&#x7b7e;" ID="ID_186121426" CREATED="1598172634738" MODIFIED="1598172641296">
+<node TEXT="常用标签" FOLDED="true" ID="ID_186121426" CREATED="1598172634738" MODIFIED="1598172641296">
 <node TEXT="&lt;h1&gt;-&lt;h6&gt;" ID="ID_847737747" CREATED="1598172642798" MODIFIED="1598172670748"/>
 <node TEXT="&lt;p&gt;" ID="ID_541419384" CREATED="1598172664612" MODIFIED="1598172674815"/>
 <node TEXT="&lt;img&gt;" ID="ID_438536871" CREATED="1598173704128" MODIFIED="1598174968789" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/img"/>
-<node TEXT="&#x683c;&#x5f0f;&#x5316;&#x6807;&#x7b7e;" ID="ID_109831041" CREATED="1598172675005" MODIFIED="1598172773028">
-<node TEXT="&lt;em&gt; &lt;i&gt;" ID="ID_888025835" CREATED="1598172774234" MODIFIED="1598173347372"><richcontent TYPE="NOTE">
-
+<node TEXT="格式化标签" FOLDED="true" ID="ID_109831041" CREATED="1598172675005" MODIFIED="1598172773028">
+<node TEXT="&lt;em&gt; &lt;i&gt;" ID="ID_888025835" CREATED="1598172774234" MODIFIED="1598173347372"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -302,14 +295,12 @@
       &#35753;&#25991;&#26412;&#20542;&#26012;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;br /&gt;" ID="ID_1905408149" CREATED="1598173119079" MODIFIED="1598173128474"/>
 <node TEXT="&lt;strong&gt; &lt;b&gt;" ID="ID_450111387" CREATED="1598172874986" MODIFIED="1598173357382"/>
 </node>
-<node TEXT="&lt;hr&gt;" ID="ID_1094778473" CREATED="1599976936923" MODIFIED="1599976954790"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;hr&gt;" ID="ID_1094778473" CREATED="1599976936923" MODIFIED="1599976954790"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -319,11 +310,9 @@
       <strong http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; letter-spacing: -0.04448px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(51, 51, 51)" face="consolas, Liberation Mono, courier, monospace" size="16px"><code style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 2px; padding-left: 2px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-weight: normal; font-family: consolas, Liberation Mono, courier, monospace">&lt;hr&gt;</code></font><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px">&#160;&#20803;&#32032;</font></strong><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px"><span style="color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.04448px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none">&#34920;&#31034;&#27573;&#33853;&#32423;&#20803;&#32032;&#20043;&#38388;&#30340;&#20027;&#39064;&#36716;&#25442;&#65288;&#20363;&#22914;&#65292;&#19968;&#20010;&#25925;&#20107;&#20013;&#30340;&#22330;&#26223;&#30340;&#25913;&#21464;&#65292;&#25110;&#19968;&#20010;&#31456;&#33410;&#30340;&#20027;&#39064;&#30340;&#25913;&#21464;&#65289;&#12290;&#22312;HTML&#30340;&#26089;&#26399;&#29256;&#26412;&#20013;&#65292;&#23427;&#26159;&#19968;&#20010;&#27700;&#24179;&#32447;&#12290;&#29616;&#22312;&#23427;&#20173;&#33021;&#22312;&#21487;&#35270;&#21270;&#27983;&#35272;&#22120;&#20013;&#34920;&#29616;&#20026;&#27700;&#24179;&#32447;&#65292;&#20294;&#30446;&#21069;&#34987;&#23450;&#20041;&#20026;&#35821;&#20041;&#19978;&#30340;&#65292;&#32780;&#19981;&#26159;&#34920;&#29616;&#23618;&#38754;&#19978;&#12290;</span></font> 
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&lt;pre&gt;" ID="ID_383770954" CREATED="1599977114684" MODIFIED="1599977121497"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;pre&gt;" ID="ID_383770954" CREATED="1599977114684" MODIFIED="1599977121497"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -333,11 +322,9 @@
       <strong http-equiv="content-type" content="text/html; charset=utf-8" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; letter-spacing: -0.04448px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px"><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px">HTML &lt;pre&gt;</font></strong><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px"><span>&#160;</span><span style="color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.04448px; text-align: left; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; display: inline !important; float: none">&#20803;&#32032;&#34920;&#31034;&#39044;&#23450;&#20041;&#26684;&#24335;&#25991;&#26412;&#12290;&#22312;&#35813;&#20803;&#32032;&#20013;&#30340;&#25991;&#26412;&#36890;&#24120;&#25353;&#29031;&#21407;&#25991;&#20214;&#20013;&#30340;&#32534;&#25490;&#65292;&#20197;&#31561;&#23485;&#23383;&#20307;&#30340;&#24418;&#24335;&#23637;&#29616;&#20986;&#26469;&#65292;&#25991;&#26412;&#20013;&#30340;&#31354;&#30333;&#31526;&#65288;&#27604;&#22914;&#31354;&#26684;&#21644;&#25442;&#34892;&#31526;&#65289;&#37117;&#20250;&#26174;&#31034;&#20986;&#26469;&#12290;(&#32039;&#36319;&#22312; &lt;pre&gt; &#24320;&#22987;&#26631;&#31614;&#21518;&#30340;&#25442;&#34892;&#31526;&#20063;&#20250;&#34987;&#30465;&#30053;)</span></font> 
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5217;&#x8868;" ID="ID_158227779" CREATED="1598174830824" MODIFIED="1598180492093"><richcontent TYPE="NOTE">
-
+<node TEXT="列表" FOLDED="true" ID="ID_158227779" CREATED="1598174830824" MODIFIED="1598180492093"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -347,10 +334,8 @@
       &lt;li&gt;&#26631;&#31614;&#20869;&#37096;&#21487;&#20197;&#26159;&#20219;&#20309;&#20869;&#23481;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&lt;ul&gt; &lt;li&gt;" ID="ID_1133649152" CREATED="1598174841688" MODIFIED="1598175058975"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="&lt;ul&gt; &lt;li&gt;" ID="ID_1133649152" CREATED="1598174841688" MODIFIED="1598175058975"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -360,12 +345,10 @@
       &#26080;&#24207;&#21015;&#34920;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;ol&gt; &lt;li&gt;" ID="ID_1906408540" CREATED="1598175061360" MODIFIED="1598175078341"/>
-<node TEXT="&lt;dl&gt; &lt;dt&gt; &lt;dd&gt;" ID="ID_1996290763" CREATED="1598179511856" MODIFIED="1598179886347"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;dl&gt; &lt;dt&gt; &lt;dd&gt;" ID="ID_1996290763" CREATED="1598179511856" MODIFIED="1598179886347"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -396,13 +379,11 @@
       &lt;/dl&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x8d85;&#x94fe;&#x63a5;" ID="ID_1936327139" CREATED="1598180596197" MODIFIED="1598180605749">
-<node TEXT="&lt;a&gt;" ID="ID_1527182634" CREATED="1598180608014" MODIFIED="1598181263228" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><richcontent TYPE="NOTE">
-
+<node TEXT="超链接" FOLDED="true" ID="ID_1936327139" CREATED="1598180596197" MODIFIED="1598180605749">
+<node TEXT="&lt;a&gt;" ID="ID_1527182634" CREATED="1598180608014" MODIFIED="1598181263228" LINK="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -424,28 +405,26 @@
       <strong http-equiv="content-type" content="text/html; charset=utf-8" id="attr-href" style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; letter-spacing: -0.04448px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"><font color="rgb(51, 51, 51)" face="consolas, Liberation Mono, courier, monospace" size="16px"><code style="margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-bottom: 0px; padding-right: 2px; padding-left: 2px; border-top-style: none; border-top-width: 0px; border-right-style: none; border-right-width: 0px; border-bottom-style: none; border-bottom-width: 0px; border-left-style: none; border-left-width: 0px; font-style: inherit; font-weight: normal; font-family: consolas, Liberation Mono, courier, monospace">target: &#38142;&#25509;&#22312;&#21738;&#37324;&#25171;&#24320;&#12290;</code></font></strong>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x8868;&#x683c;" ID="ID_881555303" CREATED="1599148124937" MODIFIED="1599148130148"/>
+<node TEXT="表格" ID="ID_881555303" CREATED="1599148124937" MODIFIED="1599148130148"/>
 </node>
 </node>
 </node>
 <node TEXT="HTML5" FOLDED="true" POSITION="right" ID="ID_1354320549" CREATED="1603609770845" MODIFIED="1603628325746" LINK="https://developer.mozilla.org/zh-CN/docs/Web/Guide/HTML/HTML5" STYLE="bubble">
 <edge COLOR="#7c0000"/>
-<node TEXT="&#x53d8;&#x5316;" ID="ID_262333970" CREATED="1603627034531" MODIFIED="1603627055149" STYLE="bubble">
-<node TEXT="&#x65b0;&#x589e;&#x529f;&#x80fd;" ID="ID_679933584" CREATED="1603627216471" MODIFIED="1603627222037">
-<node TEXT="&#x8bed;&#x4e49;&#x5316;&#x6807;&#x7b7e;" ID="ID_599942240" CREATED="1603627059053" MODIFIED="1603627065612"/>
-<node TEXT="&#x8868;&#x5355;&#x5143;&#x7d20;&#x548c;&#x5c5e;&#x6027;" ID="ID_1597166506" CREATED="1603627123811" MODIFIED="1603627134497"/>
-<node TEXT="&#x591a;&#x5a92;&#x4f53;" ID="ID_1166506403" CREATED="1603627134747" MODIFIED="1603627143614"/>
-<node TEXT="&#x672c;&#x5730;&#x5b58;&#x50a8;" ID="ID_33768979" CREATED="1603627143887" MODIFIED="1603627149134"/>
-<node TEXT="2D&#x3001;3D" ID="ID_1512168179" CREATED="1603627149293" MODIFIED="1603627155664"/>
-<node TEXT="&#x52a8;&#x753b;&#x3001;&#x8fc7;&#x6e21;" ID="ID_168469488" CREATED="1603627155879" MODIFIED="1603627165289"/>
+<node TEXT="变化" FOLDED="true" ID="ID_262333970" CREATED="1603627034531" MODIFIED="1603627055149" STYLE="bubble">
+<node TEXT="新增功能" FOLDED="true" ID="ID_679933584" CREATED="1603627216471" MODIFIED="1603627222037">
+<node TEXT="语义化标签" ID="ID_599942240" CREATED="1603627059053" MODIFIED="1603627065612"/>
+<node TEXT="表单元素和属性" ID="ID_1597166506" CREATED="1603627123811" MODIFIED="1603627134497"/>
+<node TEXT="多媒体" ID="ID_1166506403" CREATED="1603627134747" MODIFIED="1603627143614"/>
+<node TEXT="本地存储" ID="ID_33768979" CREATED="1603627143887" MODIFIED="1603627149134"/>
+<node TEXT="2D、3D" ID="ID_1512168179" CREATED="1603627149293" MODIFIED="1603627155664"/>
+<node TEXT="动画、过渡" ID="ID_168469488" CREATED="1603627155879" MODIFIED="1603627165289"/>
 <node TEXT="..." ID="ID_708414441" CREATED="1603627177049" MODIFIED="1603627178894"/>
 </node>
-<node TEXT="&#x517c;&#x5bb9;&#x6027;" ID="ID_891805114" CREATED="1603627233693" MODIFIED="1603627758692"><richcontent TYPE="NOTE">
-
+<node TEXT="兼容性" ID="ID_891805114" CREATED="1603627233693" MODIFIED="1603627758692"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -461,12 +440,10 @@
       &#31227;&#21160;&#31471;&#25903;&#25345;&#33391;&#22909;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x8bed;&#x4e49;&#x5316;&#x6807;&#x7b7e;" ID="ID_1529771175" CREATED="1603627302313" MODIFIED="1603628770474" STYLE="bubble"><richcontent TYPE="NOTE">
-
+<node TEXT="语义化标签" FOLDED="true" ID="ID_1529771175" CREATED="1603627302313" MODIFIED="1603628770474" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -479,10 +456,8 @@
       &#23601;&#20687;&#26159;div&#21152;&#20010;class
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&lt;header&gt;" ID="ID_1051726149" CREATED="1603627328186" MODIFIED="1603627474428"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="&lt;header&gt;" ID="ID_1051726149" CREATED="1603627328186" MODIFIED="1603627474428"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -504,11 +479,9 @@
       &lt;div class=&quot;header&quot;&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&lt;nav&gt;" ID="ID_1444296807" CREATED="1603627491050" MODIFIED="1603627536124"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;nav&gt;" ID="ID_1444296807" CREATED="1603627491050" MODIFIED="1603627536124"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -518,11 +491,9 @@
       &#23548;&#33322;&#21306;&#22495;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&lt;article&gt;" ID="ID_76575117" CREATED="1603627541902" MODIFIED="1603627591464"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;article&gt;" ID="ID_76575117" CREATED="1603627541902" MODIFIED="1603627591464"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -532,11 +503,9 @@
       &#20869;&#23481;&#21306;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="aside" ID="ID_851572639" CREATED="1603627559780" MODIFIED="1603627578251"><richcontent TYPE="NOTE">
-
+<node TEXT="aside" ID="ID_851572639" CREATED="1603627559780" MODIFIED="1603627578251"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -546,12 +515,10 @@
       &#20391;&#36793;&#26639;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;footer&gt;" ID="ID_236721958" CREATED="1603627593826" MODIFIED="1603627601748"/>
-<node TEXT="&lt;section&gt;" ID="ID_384071029" CREATED="1603627685652" MODIFIED="1603627698683"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;section&gt;" ID="ID_384071029" CREATED="1603627685652" MODIFIED="1603627698683"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -561,11 +528,9 @@
       &#20027;&#39064;&#26631;&#31614;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="main" ID="ID_1771829446" CREATED="1603627764933" MODIFIED="1603627791254"><richcontent TYPE="NOTE">
-
+<node TEXT="main" ID="ID_1771829446" CREATED="1603627764933" MODIFIED="1603627791254"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -575,11 +540,10 @@
       &#20027;&#20307;&#21306;&#22495;&#65292; IE&#19981;&#25903;&#25345;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x5217;&#x8868;&#x6807;&#x7b7e;" ID="ID_840004413" CREATED="1603628113655" MODIFIED="1603628122172" STYLE="bubble">
+<node TEXT="列表标签" FOLDED="true" ID="ID_840004413" CREATED="1603628113655" MODIFIED="1603628122172" STYLE="bubble">
 <node TEXT="&lt;datalist&gt;" ID="ID_1761754230" CREATED="1603628124406" MODIFIED="1603628180311"/>
 <node TEXT="&lt;details&gt; &lt;summary&gt;" ID="ID_1797875830" CREATED="1603628128713" MODIFIED="1603628193526"/>
 <node TEXT="&lt;ruby&gt;" ID="ID_346979847" CREATED="1603628193805" MODIFIED="1603628198791"/>
@@ -587,8 +551,8 @@
 <node TEXT="&lt;mark&gt;" ID="ID_1771374901" CREATED="1603628204063" MODIFIED="1603628207896"/>
 <node TEXT="&lt;figure&gt; &lt;figcaption&gt;" ID="ID_1619244845" CREATED="1603628208309" MODIFIED="1603628226279"/>
 </node>
-<node TEXT="&#x8868;&#x5355;(form)&#x5143;&#x7d20;" ID="ID_972127747" CREATED="1603635723912" MODIFIED="1603637917863" STYLE="bubble">
-<node TEXT="&lt;input&gt;" ID="ID_796929446" CREATED="1603635732684" MODIFIED="1603638315958" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input">
+<node TEXT="表单(form)元素" FOLDED="true" ID="ID_972127747" CREATED="1603635723912" MODIFIED="1603637917863" STYLE="bubble">
+<node TEXT="&lt;input&gt;" FOLDED="true" ID="ID_796929446" CREATED="1603635732684" MODIFIED="1603638315958" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/input">
 <node TEXT="email" ID="ID_1346802393" CREATED="1603635780427" MODIFIED="1603635782943"/>
 <node TEXT="url" ID="ID_1564034129" CREATED="1603635783180" MODIFIED="1603635784839"/>
 <node TEXT="number" ID="ID_1556889277" CREATED="1603637817048" MODIFIED="1603637822988"/>
@@ -604,19 +568,18 @@
 <node TEXT="datetime-local" ID="ID_916318710" CREATED="1603637859753" MODIFIED="1603637867125"/>
 </node>
 </node>
-<node TEXT="&#x591a;&#x5a92;&#x4f53;" ID="ID_255503413" CREATED="1603639029186" MODIFIED="1603639044082" STYLE="bubble">
-<node TEXT="&#x97f3;&#x9891;" ID="ID_908137658" CREATED="1603639045167" MODIFIED="1603639049043">
+<node TEXT="多媒体" FOLDED="true" ID="ID_255503413" CREATED="1603639029186" MODIFIED="1603639044082" STYLE="bubble">
+<node TEXT="音频" FOLDED="true" ID="ID_908137658" CREATED="1603639045167" MODIFIED="1603639049043">
 <node TEXT="&lt;audio&gt;" ID="ID_895136818" CREATED="1603639056586" MODIFIED="1603642983965" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/audio"/>
 </node>
-<node TEXT="&#x89c6;&#x9891;" ID="ID_730746439" CREATED="1603639049368" MODIFIED="1603639054208">
+<node TEXT="视频" FOLDED="true" ID="ID_730746439" CREATED="1603639049368" MODIFIED="1603639054208">
 <node TEXT="&lt;video&gt;" ID="ID_64744398" CREATED="1603639068875" MODIFIED="1603642961119" LINK="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/video"/>
 </node>
 </node>
 </node>
 <node TEXT="CSS" FOLDED="true" POSITION="right" ID="ID_569575831" CREATED="1598168338574" MODIFIED="1600786887960" STYLE="bubble">
 <edge COLOR="#0000ff"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -626,23 +589,21 @@
       <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.04448px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px">Cascading Style Sheets</font></span> 
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x624b;&#x518c;" ID="ID_991268965" CREATED="1600788432784" MODIFIED="1600788438199" STYLE="bubble">
-<node TEXT="css&#x5c5e;&#x6027;&#x7d22;&#x5f15;" ID="ID_1084954206" CREATED="1600907143228" MODIFIED="1600907166259" LINK="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference"/>
+</html></richcontent>
+<node TEXT="手册" FOLDED="true" ID="ID_991268965" CREATED="1600788432784" MODIFIED="1600788438199" STYLE="bubble">
+<node TEXT="css属性索引" ID="ID_1084954206" CREATED="1600907143228" MODIFIED="1600907166259" LINK="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference"/>
 </node>
-<node TEXT="&#x57fa;&#x672c;&#x8bed;&#x6cd5;" ID="ID_441164023" CREATED="1600787136214" MODIFIED="1600787192908" STYLE="bubble">
-<node TEXT="&#x4e66;&#x5199;&#x4f4d;&#x7f6e;" ID="ID_862089163" CREATED="1600787194748" MODIFIED="1600787200660">
-<node TEXT="&#x884c;&#x5185;&#x5f0f;  (&#x901a;&#x8fc7;&#x6807;&#x7b7e;style&#x5c5e;&#x6027;&#x5f15;&#x5165;)" ID="ID_1291254067" CREATED="1600787204089" MODIFIED="1600787785183"/>
-<node TEXT="&#x5185;&#x5d4c;&#x5f0f; (&#x901a;&#x8fc7;style&#x6807;&#x7b7e;&#x5f15;&#x5165;)" ID="ID_631827758" CREATED="1600787215972" MODIFIED="1600787767672"/>
-<node TEXT="&#x5916;&#x94fe;&#x5f0f;" ID="ID_1319159773" CREATED="1600787225275" MODIFIED="1600787235964"/>
-<node TEXT="&#x8986;&#x76d6;&#xff1a;&#x884c;&#x5185;&#x5f0f; &gt; &#x5185;&#x5d4c;&#x5f0f; &gt; &#x5916;&#x94fe;&#x5f0f;" ID="ID_380406133" CREATED="1600788144674" MODIFIED="1600788233189">
+<node TEXT="基本语法" FOLDED="true" ID="ID_441164023" CREATED="1600787136214" MODIFIED="1600787192908" STYLE="bubble">
+<node TEXT="书写位置" FOLDED="true" ID="ID_862089163" CREATED="1600787194748" MODIFIED="1600787200660">
+<node TEXT="行内式  (通过标签style属性引入)" ID="ID_1291254067" CREATED="1600787204089" MODIFIED="1600787785183"/>
+<node TEXT="内嵌式 (通过style标签引入)" ID="ID_631827758" CREATED="1600787215972" MODIFIED="1600787767672"/>
+<node TEXT="外链式" ID="ID_1319159773" CREATED="1600787225275" MODIFIED="1600787235964"/>
+<node TEXT="覆盖：行内式 &gt; 内嵌式 &gt; 外链式" ID="ID_380406133" CREATED="1600788144674" MODIFIED="1600788233189">
 <icon BUILTIN="yes"/>
 </node>
 </node>
-<node TEXT="&#x6ce8;&#x91ca; /* ... */" ID="ID_583080046" CREATED="1600788466806" MODIFIED="1600788489380"/>
-<node TEXT="&#x89c4;&#x5219;&#x96c6;&#xff08;&#x8bed;&#x6cd5;&#x683c;&#x5f0f;&#xff09;" ID="ID_657175613" CREATED="1600788517971" MODIFIED="1600788667032"><richcontent TYPE="NOTE">
-
+<node TEXT="注释 /* ... */" ID="ID_583080046" CREATED="1600788466806" MODIFIED="1600788489380"/>
+<node TEXT="规则集（语法格式）" ID="ID_657175613" CREATED="1600788517971" MODIFIED="1600788667032"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -664,12 +625,10 @@
       &quot;&#23646;&#24615;: &#20540;&quot;&#21448;&#31216;&#20026;&#22768;&#26126;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="css&#x9009;&#x62e9;&#x5668;" ID="ID_883212037" CREATED="1600788781518" MODIFIED="1609664900061" LINK="https://www.w3school.com.cn/cssref/css_selectors.asp">
-<node TEXT="&#x5206;&#x7c7b;" ID="ID_530955574" CREATED="1601865532833" MODIFIED="1609664940287"><richcontent TYPE="DETAILS">
-
+<node TEXT="css选择器" FOLDED="true" ID="ID_883212037" CREATED="1600788781518" MODIFIED="1609664900061" LINK="https://www.w3school.com.cn/cssref/css_selectors.asp">
+<node TEXT="分类" FOLDED="true" ID="ID_530955574" CREATED="1601865532833" MODIFIED="1609664940287"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -679,10 +638,8 @@
       <font color="#0000c0">css1~3&#26377;40&#22810;&#31181;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x6807;&#x7b7e;&#x9009;&#x62e9;&#x5668;" ID="ID_744843169" CREATED="1600788810838" MODIFIED="1601865951378"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="标签选择器" ID="ID_744843169" CREATED="1600788810838" MODIFIED="1601865951378"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -698,11 +655,9 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="ID&#x9009;&#x62e9;&#x5668;" ID="ID_1595071488" CREATED="1600788826246" MODIFIED="1600822804574"><richcontent TYPE="NOTE">
-
+<node TEXT="ID选择器" ID="ID_1595071488" CREATED="1600788826246" MODIFIED="1600822804574"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -718,11 +673,9 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="class&#x9009;&#x62e9;&#x5668;" ID="ID_1472857695" CREATED="1600788831827" MODIFIED="1600905164341"><richcontent TYPE="NOTE">
-
+<node TEXT="class选择器" ID="ID_1472857695" CREATED="1600788831827" MODIFIED="1600905164341"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -738,11 +691,9 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x901a;&#x914d;&#x7b26;&#x9009;&#x62e9;&#x5668;" ID="ID_1759164702" CREATED="1600788838282" MODIFIED="1600905179282"><richcontent TYPE="NOTE">
-
+<node TEXT="通配符选择器" ID="ID_1759164702" CREATED="1600788838282" MODIFIED="1600905179282"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -758,11 +709,9 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x540e;&#x4ee3;&#x9009;&#x62e9;&#x5668;" ID="ID_1614782493" CREATED="1600788846738" MODIFIED="1600905204296"><richcontent TYPE="NOTE">
-
+<node TEXT="后代选择器" ID="ID_1614782493" CREATED="1600788846738" MODIFIED="1600905204296"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -778,18 +727,16 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5b50;&#x4ee3;&#x9009;&#x62e9;&#x5668;" ID="ID_1476887575" CREATED="1600788864692" MODIFIED="1600788877325"/>
-<node TEXT="&#x5e76;&#x96c6;&#x9009;&#x62e9;&#x5668;" ID="ID_1947613314" CREATED="1600788877813" MODIFIED="1600788889723"/>
-<node TEXT="&#x4ea4;&#x96c6;&#x9009;&#x62e9;&#x5668;" ID="ID_1151163911" CREATED="1600788890072" MODIFIED="1600788906497"/>
-<node TEXT="&#x4f2a;&#x7c7b;&#x9009;&#x62e9;&#x5668;" ID="ID_802759179" CREATED="1601865485474" MODIFIED="1601865500522"/>
+<node TEXT="子代选择器" ID="ID_1476887575" CREATED="1600788864692" MODIFIED="1600788877325"/>
+<node TEXT="并集选择器" ID="ID_1947613314" CREATED="1600788877813" MODIFIED="1600788889723"/>
+<node TEXT="交集选择器" ID="ID_1151163911" CREATED="1600788890072" MODIFIED="1600788906497"/>
+<node TEXT="伪类选择器" ID="ID_802759179" CREATED="1601865485474" MODIFIED="1601865500522"/>
 </node>
-<node TEXT="&#x9009;&#x62e9;&#x5668;&#x6743;&#x91cd;&#xa;&#xff08;&#x4f18;&#x5148;&#x7ea7;&#xff09;" ID="ID_354815802" CREATED="1601865547217" MODIFIED="1601866920671">
-<node TEXT="&#x53ef;&#x4ee5;&#x901a;&#x8fc7; !important &#x63d0;&#x5347;&#x4f18;&#x5148;&#x7ea7;" ID="ID_17173893" CREATED="1601865583790" MODIFIED="1601865603432"/>
-<node TEXT="!important(&#x6743;&#x91cd;&#x65e0;&#x7a77;&#x5927;) &gt;&#x884c;&#x5185;&#x6837;&#x5f0f;(&#x6743;&#x91cd;1000) &gt;  ID&#x9009;&#x62e9;&#x5668;(&#x6743;&#x91cd;100) &gt; class&#x9009;&#x62e9;&#x5668;(&#x6743;&#x91cd;10) &gt; &#x6807;&#x7b7e;&#x9009;&#x62e9;&#x5668;(&#x6743;&#x91cd;1)" ID="ID_56153902" CREATED="1601865640996" MODIFIED="1601866503568"><richcontent TYPE="NOTE">
-
+<node TEXT="选择器权重&#xa;（优先级）" FOLDED="true" ID="ID_354815802" CREATED="1601865547217" MODIFIED="1601866920671">
+<node TEXT="可以通过 !important 提升优先级" ID="ID_17173893" CREATED="1601865583790" MODIFIED="1601865603432"/>
+<node TEXT="!important(权重无穷大) &gt;行内样式(权重1000) &gt;  ID选择器(权重100) &gt; class选择器(权重10) &gt; 标签选择器(权重1)" ID="ID_56153902" CREATED="1601865640996" MODIFIED="1601866503568"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -799,16 +746,14 @@
       &#25511;&#21046;&#31890;&#24230;&#36234;&#32454;&#26435;&#37325;&#36234;&#22823;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x6743;&#x91cd;&#x8ba1;&#x7b97;" ID="ID_321362746" CREATED="1601866078973" MODIFIED="1601866088600"/>
+<node TEXT="权重计算" ID="ID_321362746" CREATED="1601866078973" MODIFIED="1601866088600"/>
 </node>
 </node>
-<node TEXT="css&#x5e38;&#x7528;&#x5c5e;&#x6027;" ID="ID_837593155" CREATED="1600788919217" MODIFIED="1600789144109" LINK="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference">
-<node TEXT="&#x57fa;&#x672c;&#x5c5e;&#x6027;" ID="ID_1094587833" CREATED="1600908178119" MODIFIED="1600908183936">
-<node TEXT="color" ID="ID_1586299913" CREATED="1600788948564" MODIFIED="1600870542443" LINK="https://developer.mozilla.org/zh-CN/docs/Web/CSS/color"><richcontent TYPE="NOTE">
-
+<node TEXT="css常用属性" FOLDED="true" ID="ID_837593155" CREATED="1600788919217" MODIFIED="1600789144109" LINK="https://developer.mozilla.org/zh-CN/docs/Web/CSS/Reference">
+<node TEXT="基本属性" FOLDED="true" ID="ID_1094587833" CREATED="1600908178119" MODIFIED="1600908183936">
+<node TEXT="color" ID="ID_1586299913" CREATED="1600788948564" MODIFIED="1600870542443" LINK="https://developer.mozilla.org/zh-CN/docs/Web/CSS/color"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -827,11 +772,9 @@
       color: rgb(255,0,0)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="cursor" ID="ID_1376878014" CREATED="1600788957080" MODIFIED="1600870641485"><richcontent TYPE="NOTE">
-
+<node TEXT="cursor" ID="ID_1376878014" CREATED="1600788957080" MODIFIED="1600870641485"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -862,14 +805,12 @@
       cursor: move;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5b57;&#x4f53;&#x76f8;&#x5173;" ID="ID_193008456" CREATED="1600908787796" MODIFIED="1600908791717">
+<node TEXT="字体相关" FOLDED="true" ID="ID_193008456" CREATED="1600908787796" MODIFIED="1600908791717">
 <node TEXT="font-size" ID="ID_1382605314" CREATED="1600908754693" MODIFIED="1600908768247"/>
 <node TEXT="font-weight" ID="ID_1493792073" CREATED="1600908770902" MODIFIED="1600908779374"/>
-<node TEXT="font-style" ID="ID_1810937613" CREATED="1600908808000" MODIFIED="1600908873060"><richcontent TYPE="NOTE">
-
+<node TEXT="font-style" ID="ID_1810937613" CREATED="1600908808000" MODIFIED="1600908873060"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -879,12 +820,10 @@
       &#23383;&#20307;&#39118;&#26684;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="font-variant" ID="ID_1383188515" CREATED="1600909691607" MODIFIED="1600909692594"/>
-<node TEXT="font-family" ID="ID_1850592262" CREATED="1600908813627" MODIFIED="1600908907153"><richcontent TYPE="NOTE">
-
+<node TEXT="font-family" ID="ID_1850592262" CREATED="1600908813627" MODIFIED="1600908907153"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -894,15 +833,13 @@
       &#23383;&#20307;&#65288;&#22914;&#65306;&#23435;&#20307;/&#24494;&#36719;&#38597;&#40657;&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x6587;&#x672c;&#x76f8;&#x5173;" ID="ID_1195832520" CREATED="1600908796133" MODIFIED="1600908802817">
+<node TEXT="文本相关" FOLDED="true" ID="ID_1195832520" CREATED="1600908796133" MODIFIED="1600908802817">
 <node TEXT="letter-spacing" ID="ID_1978788541" CREATED="1600908825234" MODIFIED="1600908833465"/>
 <node TEXT="word-spacing" ID="ID_19323084" CREATED="1600908834617" MODIFIED="1600908842791"/>
-<node TEXT="text-decoration" ID="ID_981959371" CREATED="1600908843901" MODIFIED="1600908930938"><richcontent TYPE="NOTE">
-
+<node TEXT="text-decoration" ID="ID_981959371" CREATED="1600908843901" MODIFIED="1600908930938"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -915,19 +852,17 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#21462;&#20540; 1 underline &#19979;&#21010;&#32447; 2 none &#21462;&#28040; 3 line-through &#20013;&#21010;&#32447; 4 overline &#19978;&#21010;&#32447;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="text-align" ID="ID_276664407" CREATED="1600908957801" MODIFIED="1600908959082"/>
 <node TEXT="vertical-align" ID="ID_1187745060" CREATED="1600908960911" MODIFIED="1600908971169"/>
 <node TEXT="text-indent" ID="ID_1883433609" CREATED="1600908977643" MODIFIED="1600908978224"/>
 <node TEXT="line-height" ID="ID_332464870" CREATED="1600908983200" MODIFIED="1600908983694"/>
 </node>
-<node TEXT="&#x80cc;&#x666f;&#x76f8;&#x5173;" ID="ID_495817265" CREATED="1600908994487" MODIFIED="1600909013817">
+<node TEXT="背景相关" FOLDED="true" ID="ID_495817265" CREATED="1600908994487" MODIFIED="1600909013817">
 <node TEXT="background-color" ID="ID_95230967" CREATED="1600909014775" MODIFIED="1600909026020"/>
 <node TEXT="background-image" ID="ID_1753134257" CREATED="1600909027541" MODIFIED="1600909033702"/>
-<node TEXT="background-repeat" ID="ID_813982870" CREATED="1600909033984" MODIFIED="1601102873333"><richcontent TYPE="NOTE">
-
+<node TEXT="background-repeat" ID="ID_813982870" CREATED="1600909033984" MODIFIED="1601102873333"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -946,12 +881,10 @@
       repeat-y
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="background-position" ID="ID_1542813766" CREATED="1600909041312" MODIFIED="1600909049591"/>
-<node TEXT="background-attachment" ID="ID_1520839591" CREATED="1600909049800" MODIFIED="1601110430686"><richcontent TYPE="NOTE">
-
+<node TEXT="background-attachment" ID="ID_1520839591" CREATED="1600909049800" MODIFIED="1601110430686"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -961,13 +894,11 @@
       &#32972;&#26223;&#22270;&#22266;&#23450;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x7b80;&#x5199;&#x5c5e;&#x6027;" ID="ID_1261292731" CREATED="1600907587301" MODIFIED="1600908385024"><richcontent TYPE="NOTE">
-
+<node TEXT="简写属性" FOLDED="true" ID="ID_1261292731" CREATED="1600907587301" MODIFIED="1600908385024"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -977,10 +908,8 @@
       &#31616;&#20889;&#23646;&#24615;&#20869;&#21487;&#20197;&#21253;&#21547;&#22810;&#20010;&#22522;&#26412;&#23646;&#24615;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -990,19 +919,17 @@
       <font color="#0000c0">&#22797;&#21512;&#23646;&#24615;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="list-style" ID="ID_783791291" CREATED="1600905745473" MODIFIED="1600905750346"/>
 <node TEXT="backgroud" ID="ID_1048658910" CREATED="1600908707792" MODIFIED="1600908713481"/>
 <node TEXT="font" ID="ID_856450844" CREATED="1600908746092" MODIFIED="1600908763408"/>
 <node TEXT="boarder" ID="ID_743762362" CREATED="1601093301265" MODIFIED="1601093303989"/>
 </node>
 </node>
-<node TEXT="&#x5176;&#x4ed6;" ID="ID_118996373" CREATED="1601094614985" MODIFIED="1601094621174">
-<node TEXT="&#x5e38;&#x7528;&#x5355;&#x4f4d;(em rem ex ch vw vh vmin vmax)" ID="ID_184468954" CREATED="1601094139716" MODIFIED="1601094190204" LINK="https://www.w3.org/TR/css3-values/#relative-lengths"/>
-<node TEXT="&#x9876;&#x7ebf; &#x4e2d;&#x7ebf; &#x5e95;&#x7ebf; &#x548c; &#x57fa;&#x7ebf;" ID="ID_527441190" CREATED="1601094623830" MODIFIED="1601094701425"/>
-<node TEXT="height line-height font-size &#x884c;&#x95f4;&#x8ddd;" ID="ID_761581641" CREATED="1601097781789" MODIFIED="1601103418315"><richcontent TYPE="NOTE">
-
+<node TEXT="其他" FOLDED="true" ID="ID_118996373" CREATED="1601094614985" MODIFIED="1601094621174">
+<node TEXT="常用单位(em rem ex ch vw vh vmin vmax)" ID="ID_184468954" CREATED="1601094139716" MODIFIED="1601094190204" LINK="https://www.w3.org/TR/css3-values/#relative-lengths"/>
+<node TEXT="顶线 中线 底线 和 基线" ID="ID_527441190" CREATED="1601094623830" MODIFIED="1601094701425"/>
+<node TEXT="height line-height font-size 行间距" FOLDED="true" ID="ID_761581641" CREATED="1601097781789" MODIFIED="1601103418315"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1012,11 +939,9 @@
       <font color="rgb(77, 77, 77)" face="-apple-system, SF UI Text, Arial, PingFang SC, Hiragino Sans GB, Microsoft YaHei, WenQuanYi Micro Hei, sans-serif" size="18px">&#24403;font-size&#31561;&#20110;line-height&#26102;&#65292;&#34892;&#36317; = line-height - font-size = 0&#65307;&#32780;&#24403;font-size&#22823;&#20110;line-height&#26102;&#65292;&#21017;&#20250;&#20986;&#29616;&#34892;&#36317;&#20026;&#36127;&#20540;&#65292;&#21017;&#20004;&#34892;&#37325;&#21472;</font> 
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x6587;&#x5b57;&#x9ed8;&#x8ba4;&#x662f;&#x6309;&#x7167;line-height&#x4e2d;&#x7ebf;&#x5bf9;&#x9f50;&#x663e;&#x793a;&#x7684;" ID="ID_39664489" CREATED="1601098226239" MODIFIED="1601098260292"/>
-<node TEXT="&#x4e3a;&#x4f55;margin&#x603b;&#x548c;&#x5b57;&#x4f53;&#x5927;&#x5c0f;&#x4e00;&#x6837;" ID="ID_1119923813" CREATED="1601098612032" MODIFIED="1601099963744"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="文字默认是按照line-height中线对齐显示的" ID="ID_39664489" CREATED="1601098226239" MODIFIED="1601098260292"/>
+<node TEXT="为何margin总和字体大小一样" ID="ID_1119923813" CREATED="1601098612032" MODIFIED="1601099963744"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1056,12 +981,10 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="CSS&#x7cbe;&#x7075;&#x56fe;" ID="ID_1369136012" CREATED="1601103419111" MODIFIED="1601103460963"><richcontent TYPE="NOTE">
-
+<node TEXT="CSS精灵图" ID="ID_1369136012" CREATED="1601103419111" MODIFIED="1601103460963"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1075,14 +998,12 @@
     </p>
      
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x5e03;&#x5c40;" ID="ID_1040272974" CREATED="1601112698177" MODIFIED="1601112705542" STYLE="bubble">
-<node TEXT="&#x6807;&#x51c6;&#x6d41;&amp;&#x975e;&#x6807;&#x51c6;&#x6d41;" ID="ID_972419536" CREATED="1601646827303" MODIFIED="1601691601315" STYLE="bubble"><richcontent TYPE="NOTE">
-
+<node TEXT="布局" FOLDED="true" ID="ID_1040272974" CREATED="1601112698177" MODIFIED="1601112705542" STYLE="bubble">
+<node TEXT="标准流&amp;非标准流" ID="ID_972419536" CREATED="1601646827303" MODIFIED="1601691601315" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1104,19 +1025,17 @@
       &#38750;&#26631;&#20934;&#27969;&#65306;&#22312;&#19990;&#32426;&#32593;&#39029;&#24067;&#23616;&#20013;&#65292;&#21487;&#33021;&#38656;&#35201;&#20351;&#29992;&#38750;&#26631;&#20934;&#27969;&#26041;&#24335;&#24067;&#23616;&#65288;&#35753;&#26576;&#20010;&#20803;&#32032;&#33073;&#31163;&#26412;&#36523;&#30340;&#20301;&#32622;&#65289;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x76d2;&#x5b50;&#x6a21;&#x578b;" ID="ID_1249708777" CREATED="1601112711172" MODIFIED="1601112718309" STYLE="bubble">
-<node TEXT="&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_820928153" CREATED="1601867975054" MODIFIED="1601871216493" STYLE="fork">
-<node TEXT="&#x5757;&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_233014549" CREATED="1601868029417" MODIFIED="1601868036334"/>
-<node TEXT="&#x884c;&#x5185;&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_1520794631" CREATED="1601868037081" MODIFIED="1601868044745"/>
-<node TEXT="&#x884c;&#x5185;&#x5757;&#x663e;&#x793a;&#x6a21;&#x5f0f;" ID="ID_1522184008" CREATED="1601868044969" MODIFIED="1601868057901"/>
+<node TEXT="盒子模型" FOLDED="true" ID="ID_1249708777" CREATED="1601112711172" MODIFIED="1601112718309" STYLE="bubble">
+<node TEXT="显示模式" FOLDED="true" ID="ID_820928153" CREATED="1601867975054" MODIFIED="1601871216493" STYLE="fork">
+<node TEXT="块显示模式" ID="ID_233014549" CREATED="1601868029417" MODIFIED="1601868036334"/>
+<node TEXT="行内显示模式" ID="ID_1520794631" CREATED="1601868037081" MODIFIED="1601868044745"/>
+<node TEXT="行内块显示模式" ID="ID_1522184008" CREATED="1601868044969" MODIFIED="1601868057901"/>
 </node>
-<node TEXT="&#x76f8;&#x5173;&#x5c5e;&#x6027;" ID="ID_934171176" CREATED="1602067533850" MODIFIED="1602067546439">
+<node TEXT="相关属性" FOLDED="true" ID="ID_934171176" CREATED="1602067533850" MODIFIED="1602067546439">
 <node TEXT="display" ID="ID_193378357" CREATED="1602067547463" MODIFIED="1602067552359"/>
-<node TEXT="display:none &#x548c; visibility: hidden &#x533a;&#x522b;" ID="ID_1779934994" CREATED="1602067552789" MODIFIED="1602067708224"><richcontent TYPE="NOTE">
-
+<node TEXT="display:none 和 visibility: hidden 区别" ID="ID_1779934994" CREATED="1602067552789" MODIFIED="1602067708224"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1129,13 +1048,11 @@
       visibility: hidden&#160;&#160;&#160;&#160;&#21482;&#26159;&#19981;&#26174;&#31034;&#20803;&#32032;&#65292;&#35813;&#21344;&#29992;&#30340;&#20301;&#32622;&#36824;&#26159;&#20250;&#21344;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x884c;&#x5185;&#x5143;&#x7d20;&#x5e38;&#x89c1;&#x95ee;&#x9898;" ID="ID_1074052882" CREATED="1601871173827" MODIFIED="1601871184220">
-<node TEXT="img&#x7f16;&#x6392;&#x95f4;&#x9699;&#x95ee;&#x9898;" ID="ID_1793906068" CREATED="1601871220177" MODIFIED="1601874124357"><richcontent TYPE="NOTE">
-
+<node TEXT="行内元素常见问题" FOLDED="true" ID="ID_1074052882" CREATED="1601871173827" MODIFIED="1601871184220">
+<node TEXT="img编排间隙问题" FOLDED="true" ID="ID_1793906068" CREATED="1601871220177" MODIFIED="1601874124357"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1234,22 +1151,20 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x89e3;&#x51b3;&#x5e95;&#x90e8;&#x95f4;&#x9699;" ID="ID_562602975" CREATED="1601874153872" MODIFIED="1601874162260">
-<node TEXT="&#x4e0d;&#x4f7f;&#x7528;baseline&#x5bf9;&#x9f50;" ID="ID_492066728" CREATED="1601874163594" MODIFIED="1601874177238"/>
-<node TEXT="&#x5c06;&#x7236;&#x5143;&#x7d20;&#x548c;&#x56fe;&#x7247;&#x9ad8;&#x5ea6;&#x8bbe;&#x7f6e;&#x4e00;&#x81f4;" ID="ID_173284067" CREATED="1601874201784" MODIFIED="1601874226314"/>
+</html></richcontent>
+<node TEXT="解决底部间隙" FOLDED="true" ID="ID_562602975" CREATED="1601874153872" MODIFIED="1601874162260">
+<node TEXT="不使用baseline对齐" ID="ID_492066728" CREATED="1601874163594" MODIFIED="1601874177238"/>
+<node TEXT="将父元素和图片高度设置一致" ID="ID_173284067" CREATED="1601874201784" MODIFIED="1601874226314"/>
 </node>
-<node TEXT="&#x89e3;&#x51b3;&#x5e95;&#x90e8;&#x548c;&#x6c34;&#x5e73;&#x95f4;&#x9699;" ID="ID_1338181539" CREATED="1601874233164" MODIFIED="1601874247885">
-<node TEXT="&#x8bbe;&#x7f6e;&#x5757;&#x663e;&#x793a;&#x6a21;&#x5f0f;&#x6d6e;&#x52a8;" ID="ID_239406072" CREATED="1601874249111" MODIFIED="1601874263447"/>
-<node TEXT="&#x8bbe;&#x7f6e;&#x5b57;&#x4f53;&#x5927;&#x5c0f;&#x4e3a;0&#xff0c;&#x95f4;&#x63a5;&#x5c06;baseline&#x548c;bottom&#x95f4;&#x8ddd;&#x6539;&#x4e3a;0" ID="ID_165524415" CREATED="1601874263893" MODIFIED="1601874321104"/>
-</node>
+<node TEXT="解决底部和水平间隙" FOLDED="true" ID="ID_1338181539" CREATED="1601874233164" MODIFIED="1601874247885">
+<node TEXT="设置块显示模式浮动" ID="ID_239406072" CREATED="1601874249111" MODIFIED="1601874263447"/>
+<node TEXT="设置字体大小为0，间接将baseline和bottom间距改为0" ID="ID_165524415" CREATED="1601874263893" MODIFIED="1601874321104"/>
 </node>
 </node>
 </node>
-<node TEXT="&#x6d6e;&#x52a8;" ID="ID_1665536697" CREATED="1601112659463" MODIFIED="1601112664062" STYLE="bubble">
-<node TEXT="float" ID="ID_1023497344" CREATED="1601644743113" MODIFIED="1601786056511"><richcontent TYPE="NOTE">
-
+</node>
+<node TEXT="浮动" FOLDED="true" ID="ID_1665536697" CREATED="1601112659463" MODIFIED="1601112664062" STYLE="bubble">
+<node TEXT="float" FOLDED="true" ID="ID_1023497344" CREATED="1601644743113" MODIFIED="1601786056511"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1259,10 +1174,8 @@
       &#20043;&#21069;&#20027;&#35201;&#29992;&#20110;&#25991;&#23383;&#29615;&#32469;&#22270;&#29255;&#65292;&#29616;&#22312;&#22810;&#29992;&#20110;&#24067;&#23616;&#65292;&#21487;&#20197;&#35753;&#20803;&#32032;&#65288;&#24517;&#39035;&#37117;&#26159;&#28014;&#21160;&#30340;&#20803;&#32032;&#65289;&#24182;&#25490;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1272,12 +1185,10 @@
       <font color="#0000c0">&#33073;&#26631;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x7279;&#x70b9;" ID="ID_964361037" CREATED="1601719561544" MODIFIED="1601724620510">
+</html></richcontent>
+<node TEXT="特点" ID="ID_964361037" CREATED="1601719561544" MODIFIED="1601724620510">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1296,15 +1207,13 @@
       4&#65289;&#28014;&#21160;&#20803;&#32032;&#20250;&#25353;&#29031;&#25351;&#23450;&#30340;&#26041;&#21521;&#31227;&#21160;&#65292;&#36935;&#21040;<b>&#29238;&#20146;&#30340;&#36793;&#30028;</b>&#25110;<b>&#19978;&#19968;&#20010;&#28014;&#21160;&#20803;&#32032;</b>&#25110;<b>&#19978;&#19968;&#20010;&#19981;&#28014;&#21160;&#20804;&#24351;&#20803;&#32032;</b>&#23601;&#20250;&#20572;&#19979;&#26469;<b>&#12290;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="true"/>
 </node>
-<node TEXT="&#x6d6e;&#x52a8;&#x5b50;&#x5143;&#x7d20;&#x53ef;&#x4ee5;&#x6491;&#x5f00;&#x6d6e;&#x52a8;&#x7236;&#x5143;&#x7d20;" ID="ID_1300596714" CREATED="1601734172484" MODIFIED="1601734197698"/>
-<node TEXT="&#x4e3a;&#x4f55;&#x6d6e;&#x52a8;&#x7684;div&#x4e0d;&#x4f1a;&#x8986;&#x76d6;&#x6807;&#x51c6;&#x6d41;p&#xff0c;&#x4f46;&#x662f;&#x4f1a;&#x8986;&#x76d6;&#x6807;&#x51c6;&#x6d41;div" ID="ID_1420595648" CREATED="1601721141404" MODIFIED="1601723434370">
+<node TEXT="浮动子元素可以撑开浮动父元素" ID="ID_1300596714" CREATED="1601734172484" MODIFIED="1601734197698"/>
+<node TEXT="为何浮动的div不会覆盖标准流p，但是会覆盖标准流div" ID="ID_1420595648" CREATED="1601721141404" MODIFIED="1601723434370">
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1314,13 +1223,11 @@
       &#23545;p&#29305;&#27530;&#22788;&#29702;&#20102;&#20040;&#65311;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5982;&#x4f55;&#x8ba9;&#x4e0d;&#x540c;&#x7684;&#x76d2;&#x5b50;&#x4e2d;&#x7684;&#x5143;&#x7d20;&#x5728;&#x4e0d;&#x540c;&#x7684;&#x7a7a;&#x95f4;&#x6d6e;&#x52a8;" ID="ID_585559738" CREATED="1601723410788" MODIFIED="1601734927822">
+<node TEXT="如何让不同的盒子中的元素在不同的空间浮动" ID="ID_585559738" CREATED="1601723410788" MODIFIED="1601734927822">
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1333,13 +1240,11 @@
       &#28155;&#21152;&#20102;&#39069;&#22806;&#30340;&#32467;&#26500;&#65292;&#19981;&#31526;&#21512;&#35821;&#20041;&#35805;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x8bbe;&#x7f6e;&#x5728;&#x6307;&#x5b9a;&#x533a;&#x57df;&#x6d6e;&#x52a8;&#x800c;&#x4e0d;&#x4f1a;&#x584c;&#x7f29;&#x5230;&#x4e4b;&#x524d;&#x7684;&#x6d6e;&#x52a8;&#x5143;&#x7d20;&#x540e;&#x9762;&#xa;(&#x6e05;&#x9664;&#x6d6e;&#x52a8;&#x9ad8;&#x5ea6;&#x584c;&#x7f29;&#x7684;&#x5f71;&#x54cd;)" ID="ID_1127597359" CREATED="1601733692316" MODIFIED="1601735597626">
-<node TEXT="1&#xff09;&#x8bbe;&#x7f6e;&#x7236;&#x5143;&#x7d20;&#x7684;&#x9ad8;&#x5ea6;&#xff08;&#x4e0d;&#x63a8;&#x8350;&#xff09;" ID="ID_927168938" CREATED="1601734250519" MODIFIED="1601734333984"><richcontent TYPE="NOTE">
-
+<node TEXT="设置在指定区域浮动而不会塌缩到之前的浮动元素后面&#xa;(清除浮动高度塌缩的影响)" FOLDED="true" ID="ID_1127597359" CREATED="1601733692316" MODIFIED="1601735597626">
+<node TEXT="1）设置父元素的高度（不推荐）" ID="ID_927168938" CREATED="1601734250519" MODIFIED="1601734333984"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1349,11 +1254,9 @@
       &#38500;&#38750;&#23376;&#20803;&#32032;&#30340;&#39640;&#24230;&#30830;&#23450;&#19988;&#19981;&#20250;&#21464;&#21270;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="2&#xff09;&#x8bbe;&#x7f6e;&#x7236;&#x5143;&#x7d20;&#x6d6e;&#x52a8;&#xff08;&#x4e0d;&#x63a8;&#x8350;&#xff09;" ID="ID_979407140" CREATED="1601734272463" MODIFIED="1601734436831"><richcontent TYPE="NOTE">
-
+<node TEXT="2）设置父元素浮动（不推荐）" ID="ID_979407140" CREATED="1601734272463" MODIFIED="1601734436831"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1363,11 +1266,9 @@
       &#38500;&#38750;&#29238;&#20803;&#32032;&#20063;&#38656;&#35201;&#28014;&#21160;&#65292;&#21542;&#21017;&#29238;&#20803;&#32032;&#30340;&#28014;&#21160;&#21516;&#26679;&#20250;&#24102;&#26469;&#38382;&#39064;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="3&#xff09;&#x7ed9;&#x7236;&#x5143;&#x7d20;&#x8bbe;&#x7f6e;overflow:hidden&#x89e6;&#x53d1;BFC" ID="ID_1124465739" CREATED="1601734437139" MODIFIED="1601734620003"><richcontent TYPE="NOTE">
-
+<node TEXT="3）给父元素设置overflow:hidden触发BFC" ID="ID_1124465739" CREATED="1601734437139" MODIFIED="1601734620003"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1380,14 +1281,12 @@
       &#20294;&#26159;&#36229;&#20986;&#30340;&#33539;&#22260;&#20250;&#34987;&#38544;&#34255;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="4&#xff09;&#x6dfb;&#x52a0;&#x4e00;&#x4e2a;&#x5144;&#x5f1f;&#x5757;&#x5143;&#x7d20;&#x8bbe;&#x7f6e;clear:both" ID="ID_1399481390" CREATED="1601734730842" MODIFIED="1601735218273"/>
-<node TEXT="5&#xff09;css&#x5c3e;&#x5143;&#x7d20;&#x8f6c;&#x5757;&#x5143;&#x7d20;&#x8bbe;&#x7f6e;clear:both" ID="ID_841081834" CREATED="1601735019466" MODIFIED="1601735623995">
+<node TEXT="4）添加一个兄弟块元素设置clear:both" ID="ID_1399481390" CREATED="1601734730842" MODIFIED="1601735218273"/>
+<node TEXT="5）css尾元素转块元素设置clear:both" ID="ID_841081834" CREATED="1601735019466" MODIFIED="1601735623995">
 <icon BUILTIN="button_ok"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1409,12 +1308,10 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="BFC" ID="ID_228859220" CREATED="1601735897920" MODIFIED="1601868017303"><richcontent TYPE="NOTE">
-
+<node TEXT="BFC" ID="ID_228859220" CREATED="1601735897920" MODIFIED="1601868017303"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1443,12 +1340,10 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x5b9a;&#x4f4d;" ID="ID_57460600" CREATED="1601112664590" MODIFIED="1601783590885" STYLE="bubble"><richcontent TYPE="NOTE">
-
+<node TEXT="定位" FOLDED="true" ID="ID_57460600" CREATED="1601112664590" MODIFIED="1601783590885" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1458,10 +1353,8 @@
       &#23450;&#20301;&#20063;&#21487;&#20197;&#20351;&#20803;&#32032;&#33073;&#31163;&#26631;&#20934;&#27969;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x9ed8;&#x8ba4;&#xff1a;position: static" ID="ID_166885835" CREATED="1601783718890" MODIFIED="1615720530323"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="默认：position: static" ID="ID_166885835" CREATED="1601783718890" MODIFIED="1615720530323"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1471,10 +1364,8 @@
       &#20174;&#24038;&#24448;&#21491;&#20174;&#19978;&#21040;&#19979;&#19968;&#27425;&#25490;&#21015;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1484,11 +1375,9 @@
       <font color="#0000c0">&#26631;&#20934;&#27969;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x76f8;&#x5bf9;&#x5b9a;&#x4f4d; position: relative" ID="ID_1105576265" CREATED="1601780571939" MODIFIED="1615720511824"><richcontent TYPE="NOTE">
-
+<node TEXT="相对定位 position: relative" FOLDED="true" ID="ID_1105576265" CREATED="1601780571939" MODIFIED="1615720511824"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1501,10 +1390,8 @@
       &#30456;&#23545;&#23450;&#20301;&#23601;&#26159;&#30456;&#23545;&#20110;&#21407;&#26469;&#30340;&#40664;&#35748;&#20301;&#32622;&#20570;&#24494;&#35843;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1514,15 +1401,13 @@
       <font color="#0000c0">&#20173;&#28982;&#26159;&#26631;&#20934;&#27969;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_56044250" CREATED="1601783992816" MODIFIED="1601783999806">
-<node TEXT="&#x4f4d;&#x7f6e;&#x5fae;&#x8c03;" ID="ID_50228397" CREATED="1601784000657" MODIFIED="1601784013859"/>
-<node TEXT="&#x4e0e;&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d;&#x642d;&#x914d;&#x4f7f;&#x7528;" ID="ID_1706732188" CREATED="1601784014264" MODIFIED="1601784031178"/>
+</html></richcontent>
+<node TEXT="应用场景" FOLDED="true" ID="ID_56044250" CREATED="1601783992816" MODIFIED="1601783999806">
+<node TEXT="位置微调" ID="ID_50228397" CREATED="1601784000657" MODIFIED="1601784013859"/>
+<node TEXT="与绝对定位搭配使用" ID="ID_1706732188" CREATED="1601784014264" MODIFIED="1601784031178"/>
 </node>
 </node>
-<node TEXT="&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d; position: absolute" FOLDED="true" ID="ID_1882101864" CREATED="1601780578568" MODIFIED="1601784844946"><richcontent TYPE="DETAILS">
-
+<node TEXT="绝对定位 position: absolute" FOLDED="true" ID="ID_1882101864" CREATED="1601780578568" MODIFIED="1601784844946"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1532,10 +1417,8 @@
       <font color="#0000c0">&#33073;&#26631;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1548,14 +1431,12 @@
       &#22914;&#26524;&#27809;&#26377;&#23450;&#20301;&#20102;&#30340;&#31062;&#20808;&#20803;&#32032;&#20197;body&#21306;&#22495;&#20026;&#21442;&#32771;&#28857;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <font BOLD="false"/>
-<node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_691033511" CREATED="1601784964716" MODIFIED="1601784971642">
-<node TEXT="&#x5b50;&#x7edd;&#x7236;&#x76f8;" ID="ID_856326813" CREATED="1601784972544" MODIFIED="1601785171359">
+<node TEXT="应用场景" FOLDED="true" ID="ID_691033511" CREATED="1601784964716" MODIFIED="1601784971642">
+<node TEXT="子绝父相" ID="ID_856326813" CREATED="1601784972544" MODIFIED="1601785171359">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1565,19 +1446,17 @@
       &#23454;&#29616;&#23376;&#20803;&#32032;&#22312;&#29238;&#20803;&#32032;&#33539;&#22260;&#20869;&#36827;&#34892;&#20301;&#32622;&#35843;&#25972;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x7279;&#x70b9;" ID="ID_677317165" CREATED="1601785162305" MODIFIED="1601785165921">
-<node TEXT="&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d;&#x7684;&#x5143;&#x7d20;&#x65e0;&#x6cd5;&#x518d;&#x8bbe;&#x7f6e;&#x6d6e;&#x52a8;" ID="ID_609788507" CREATED="1601785174839" MODIFIED="1601785199732"/>
+<node TEXT="特点" FOLDED="true" ID="ID_677317165" CREATED="1601785162305" MODIFIED="1601785165921">
+<node TEXT="绝对定位的元素无法再设置浮动" ID="ID_609788507" CREATED="1601785174839" MODIFIED="1601785199732"/>
 </node>
-<node TEXT="&#x6280;&#x5de7;" ID="ID_511758118" CREATED="1601785215226" MODIFIED="1601785224034">
-<node TEXT="&#x8ba9;&#x7edd;&#x5bf9;&#x5b9a;&#x4f4d;&#x7684;&#x5143;&#x7d20;&#x6c34;&#x5e73;&#x5c45;&#x4e2d;" ID="ID_287118419" CREATED="1601785225008" MODIFIED="1601785251928"/>
+<node TEXT="技巧" FOLDED="true" ID="ID_511758118" CREATED="1601785215226" MODIFIED="1601785224034">
+<node TEXT="让绝对定位的元素水平居中" ID="ID_287118419" CREATED="1601785225008" MODIFIED="1601785251928"/>
 </node>
 </node>
-<node TEXT="&#x56fa;&#x5b9a;&#x5b9a;&#x4f4d; position: fixed" ID="ID_1861369445" CREATED="1601780586706" MODIFIED="1601785851734"><richcontent TYPE="NOTE">
-
+<node TEXT="固定定位 position: fixed" FOLDED="true" ID="ID_1861369445" CREATED="1601780586706" MODIFIED="1601785851734"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1596,10 +1475,8 @@
       &#19968;&#33324;&#37117;&#26159;&#35774;&#32622;&#20197;&#35270;&#21475;&#20316;&#20026;&#21442;&#32771;&#28857;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -1609,11 +1486,9 @@
       <font color="#0000c0">&#33073;&#26631;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5e94;&#x7528;&#x573a;&#x666f;" ID="ID_1177157213" CREATED="1601781789133" MODIFIED="1601781796349">
-<node TEXT="&#x767b;&#x5f55;&#x5f39;&#x7a97;" ID="ID_1104301468" CREATED="1601781800154" MODIFIED="1601782603462"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="应用场景" FOLDED="true" ID="ID_1177157213" CREATED="1601781789133" MODIFIED="1601781796349">
+<node TEXT="登录弹窗" ID="ID_1104301468" CREATED="1601781800154" MODIFIED="1601782603462"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1623,16 +1498,14 @@
       &#24120;&#24120;&#32467;&#21512; z-index &#20351;&#29992;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x4fa7;&#x8fb9;&#x680f;&#x8d85;&#x94fe;" ID="ID_769779247" CREATED="1601785880524" MODIFIED="1601785899141"/>
-<node TEXT="&#x7a97;&#x53e3;&#x88c5;&#x9970;" ID="ID_1258490391" CREATED="1601782287421" MODIFIED="1601782298416"/>
+<node TEXT="侧边栏超链" ID="ID_769779247" CREATED="1601785880524" MODIFIED="1601785899141"/>
+<node TEXT="窗口装饰" ID="ID_1258490391" CREATED="1601782287421" MODIFIED="1601782298416"/>
 </node>
 </node>
-<node TEXT="&#x76f8;&#x5173;&#x5c5e;&#x6027;" ID="ID_518951082" CREATED="1601786071936" MODIFIED="1601786081524">
-<node TEXT="z-index" ID="ID_584547745" CREATED="1601786082605" MODIFIED="1601786179414"><richcontent TYPE="NOTE">
-
+<node TEXT="相关属性" FOLDED="true" ID="ID_518951082" CREATED="1601786071936" MODIFIED="1601786081524">
+<node TEXT="z-index" ID="ID_584547745" CREATED="1601786082605" MODIFIED="1601786179414"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1645,11 +1518,9 @@
       &#21482;&#23545;&#23450;&#20301;&#20803;&#32032;&#26377;&#25928;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x4e03;&#x9636;&#x5c42;&#x53e0;&#x6c34;&#x5e73;" ID="ID_937545473" CREATED="1601787068760" MODIFIED="1601787086162"><richcontent TYPE="NOTE">
-
+<node TEXT="七阶层叠水平" ID="ID_937545473" CREATED="1601787068760" MODIFIED="1601787086162"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1660,21 +1531,19 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x5c5e;&#x6027;&#x7ee7;&#x627f;&#xa;&#x4e0e;&#x4f18;&#x5148;&#x7ea7;" ID="ID_472041085" CREATED="1602705365275" MODIFIED="1602705390291" STYLE="bubble">
-<node TEXT="&#x53ef;&#x7ee7;&#x627f;&#x7684;&#x5c5e;&#x6027;" ID="ID_1851518435" CREATED="1602705412525" MODIFIED="1602705423637"/>
-<node TEXT="&#x6807;&#x7b7e;&#x9ed8;&#x8ba4;&#x5c5e;&#x6027;" ID="ID_1169501458" CREATED="1602705426634" MODIFIED="1602705437041"/>
+<node TEXT="属性继承&#xa;与优先级" FOLDED="true" ID="ID_472041085" CREATED="1602705365275" MODIFIED="1602705390291" STYLE="bubble">
+<node TEXT="可继承的属性" ID="ID_1851518435" CREATED="1602705412525" MODIFIED="1602705423637"/>
+<node TEXT="标签默认属性" ID="ID_1169501458" CREATED="1602705426634" MODIFIED="1602705437041"/>
 </node>
 </node>
-<node TEXT="&#x5e38;&#x7528;&#x9875;&#x9762;&#x8bbe;&#x8ba1;" ID="ID_1329354200" CREATED="1602704620889" MODIFIED="1602704634031" STYLE="bubble">
-<node TEXT="&#x5143;&#x7d20;&#x5c45;&#x4e2d;" ID="ID_644411251" CREATED="1602704635647" MODIFIED="1602704700376" STYLE="bubble">
-<node TEXT="&#x5143;&#x7d20;&#x6c34;&#x5e73;&#x5c45;&#x4e2d;" ID="ID_931731197" CREATED="1602984008871" MODIFIED="1602984180156">
-<node TEXT="&#x884c;&#x5185;&#x5143;&#x7d20;/&#x884c;&#x5185;&#x5757;&#x5143;&#x7d20; &#x8bbe;&#x7f6e;&#x7236;&#x4eb2;&#x5143;&#x7d20; text-align:  center" ID="ID_735046589" CREATED="1602984034085" MODIFIED="1602984166362"><richcontent TYPE="NOTE">
-
+<node TEXT="常用页面设计" FOLDED="true" ID="ID_1329354200" CREATED="1602704620889" MODIFIED="1602704634031" STYLE="bubble">
+<node TEXT="元素居中" FOLDED="true" ID="ID_644411251" CREATED="1602704635647" MODIFIED="1602704700376" STYLE="bubble">
+<node TEXT="元素水平居中" FOLDED="true" ID="ID_931731197" CREATED="1602984008871" MODIFIED="1602984180156">
+<node TEXT="行内元素/行内块元素 设置父亲元素 text-align:  center" ID="ID_735046589" CREATED="1602984034085" MODIFIED="1602984166362"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1684,20 +1553,18 @@
       &#24403;&#25104;&#25991;&#26412;&#22788;&#29702;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5757;&#x7ea7;&#x5143;&#x7d20; margin-left: auto; margin-right: auto;&#xa;(&#x5bf9;&#x4e8e;&#x8131;&#x6807;&#x5143;&#x7d20;&#xff0c;&#x5982;&#x6d6e;&#x52a8;&#x5b9a;&#x4f4d;&#x548c;&#x56fa;&#x5b9a;&#x5143;&#x7d20;&#xff0c;&#x6b64;&#x6cd5;&#x65e0;&#x6548;)" ID="ID_1539653549" CREATED="1602984396040" MODIFIED="1602984585604"/>
+<node TEXT="块级元素 margin-left: auto; margin-right: auto;&#xa;(对于脱标元素，如浮动定位和固定元素，此法无效)" ID="ID_1539653549" CREATED="1602984396040" MODIFIED="1602984585604"/>
 </node>
-<node TEXT="&#x5143;&#x7d20;&#x5782;&#x76f4;&#x5c45;&#x4e2d;" ID="ID_200300797" CREATED="1602984220219" MODIFIED="1602984232163">
-<node TEXT="&#x884c;&#x5185;&#x5143;&#x7d20;/&#x884c;&#x5185;&#x5757;&#x5143;&#x7d20; &#x8bbe;&#x7f6e;&#x7236;&#x4eb2;&#x5143;&#x7d20; height = line-height" ID="ID_340641414" CREATED="1602984232847" MODIFIED="1602984313033"/>
+<node TEXT="元素垂直居中" FOLDED="true" ID="ID_200300797" CREATED="1602984220219" MODIFIED="1602984232163">
+<node TEXT="行内元素/行内块元素 设置父亲元素 height = line-height" ID="ID_340641414" CREATED="1602984232847" MODIFIED="1602984313033"/>
 </node>
-<node TEXT="&#x5757;&#x5143;&#x7d20;&#x5728;&#x7236;&#x4eb2;&#x5143;&#x7d20;&#xa;&#x6c34;&#x5e73;&#x5782;&#x76f4;&#x5c45;&#x4e2d;" ID="ID_1351560236" CREATED="1602984664152" MODIFIED="1602984711318">
-<node TEXT="&#x5b50;&#x7edd;&#x7236;&#x76f8;&#xa;left: 50%; margin-left: -&#x81ea;&#x5df1;&#x5bbd;&#x5ea6;/2;&#xa;top: 50%; margin-top: -&#x81ea;&#x5df1;&#x9ad8;&#x5ea6;/2;" ID="ID_977773994" CREATED="1602984890430" MODIFIED="1602985057089"/>
+<node TEXT="块元素在父亲元素&#xa;水平垂直居中" FOLDED="true" ID="ID_1351560236" CREATED="1602984664152" MODIFIED="1602984711318">
+<node TEXT="子绝父相&#xa;left: 50%; margin-left: -自己宽度/2;&#xa;top: 50%; margin-top: -自己高度/2;" ID="ID_977773994" CREATED="1602984890430" MODIFIED="1602985057089"/>
 </node>
-<node TEXT="&#x56fa;&#x5b9a;&#x5b9a;&#x4f4d;&#x5143;&#x7d20;&#xa;&#x6c34;&#x5e73;&#x5782;&#x76f4;&#x5c45;&#x4e2d;" ID="ID_1950247879" CREATED="1602991027015" MODIFIED="1602991096491">
-<node TEXT="&#x5185;&#x5bb9;&#x56fa;&#x5b9a;&#x4e0d;&#x53d8;(&#x5bbd;&#x9ad8;&#x56fa;&#x5b9a;)" ID="ID_280639675" CREATED="1602991102160" MODIFIED="1602991474659"><richcontent TYPE="NOTE">
-
+<node TEXT="固定定位元素&#xa;水平垂直居中" FOLDED="true" ID="ID_1950247879" CREATED="1602991027015" MODIFIED="1602991096491">
+<node TEXT="内容固定不变(宽高固定)" ID="ID_280639675" CREATED="1602991102160" MODIFIED="1602991474659"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1731,12 +1598,11 @@
       background-color: red;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5185;&#x5bb9;&#x53d8;&#x5316;(&#x5bbd;&#x9ad8;&#x56fa;&#x5b9a;)" ID="ID_1525277660" CREATED="1602991462011" MODIFIED="1602991488250"/>
+<node TEXT="内容变化(宽高固定)" ID="ID_1525277660" CREATED="1602991462011" MODIFIED="1602991488250"/>
 </node>
-<node TEXT="&#x793a;&#x4f8b;" ID="ID_482315148" CREATED="1602990876341" MODIFIED="1602990912674"/>
+<node TEXT="示例" ID="ID_482315148" CREATED="1602990876341" MODIFIED="1602990912674"/>
 </node>
 </node>
 </node>
@@ -1746,23 +1612,21 @@
 <node TEXT="SVG" POSITION="right" ID="ID_113460366" CREATED="1599966568838" MODIFIED="1599966573648" STYLE="bubble">
 <edge COLOR="#7c7c00"/>
 </node>
-<node TEXT="JS" POSITION="right" ID="ID_927417358" CREATED="1598168341836" MODIFIED="1599963085246" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" STYLE="bubble">
+<node TEXT="JS" FOLDED="true" POSITION="right" ID="ID_927417358" CREATED="1598168341836" MODIFIED="1652352820911" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference" STYLE="bubble">
 <edge COLOR="#00ff00"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
   </head>
   <body>
     <p>
-      &#23454;&#29616;&#20132;&#20114;&#12289;&#21160;&#30011;&#12289;
+      实现交互、动画、
     </p>
   </body>
 </html>
 </richcontent>
-<node TEXT="&#x4e3a;&#x4ec0;&#x4e48;&#x9700;&#x8981;JS" ID="ID_1823509815" CREATED="1599963144471" MODIFIED="1599963181111" STYLE="bubble"><richcontent TYPE="NOTE">
-
+<node TEXT="为什么需要JS" FOLDED="true" ID="ID_1823509815" CREATED="1599963144471" MODIFIED="1599963181111" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1772,10 +1636,8 @@
       <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.04448px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px">&#20026;&#32593;&#31449;&#28155;&#21152;&#20132;&#20114;&#21151;&#33021;&#65288;&#20363;&#22914;&#65306;&#28216;&#25103;&#12289;&#21160;&#24577;&#26679;&#24335;&#12289;&#21160;&#30011;&#20197;&#21450;&#22312;&#25353;&#19979;&#25353;&#38062;&#25110;&#25910;&#21040;&#34920;&#21333;&#25968;&#25454;&#26102;&#20570;&#20986;&#30340;&#21709;&#24212;&#31561;&#65289;</font></span> 
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="JS&#x3001;ES&#x3001;NodeJS &#x5173;&#x7cfb;" ID="ID_105799576" CREATED="1599963441331" MODIFIED="1599964282281"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="JS、ES、NodeJS 关系" ID="ID_105799576" CREATED="1599963441331" MODIFIED="1599964282281"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1800,19 +1662,17 @@
       nodejs&#26159;&#29992;node&#25191;&#34892;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="ES&#x7248;&#x672c;" ID="ID_1991391260" CREATED="1599963328831" MODIFIED="1599963336934"/>
-<node TEXT="&#x5e94;&#x7528;&#x8303;&#x56f4;" ID="ID_1693899204" CREATED="1599963708465" MODIFIED="1599964312480">
-<node TEXT="&#x7f51;&#x9875;&#x4ea4;&#x4e92;&#x3001;&#x7279;&#x6548;" ID="ID_849210164" CREATED="1599963721270" MODIFIED="1599963739023"/>
-<node TEXT="&#x624b;&#x673a;APP" ID="ID_28219625" CREATED="1599963739905" MODIFIED="1599963754876"/>
-<node TEXT="&#x6e38;&#x620f;" ID="ID_18653020" CREATED="1599963755250" MODIFIED="1599963760158"/>
-<node TEXT="&#x670d;&#x52a1;&#x5668;&#x7aef;" ID="ID_1261686765" CREATED="1599963760438" MODIFIED="1599963769552"/>
+<node TEXT="ES版本" ID="ID_1991391260" CREATED="1599963328831" MODIFIED="1599963336934"/>
+<node TEXT="应用范围" FOLDED="true" ID="ID_1693899204" CREATED="1599963708465" MODIFIED="1599964312480">
+<node TEXT="网页交互、特效" ID="ID_849210164" CREATED="1599963721270" MODIFIED="1599963739023"/>
+<node TEXT="手机APP" ID="ID_28219625" CREATED="1599963739905" MODIFIED="1599963754876"/>
+<node TEXT="游戏" ID="ID_18653020" CREATED="1599963755250" MODIFIED="1599963760158"/>
+<node TEXT="服务器端" ID="ID_1261686765" CREATED="1599963760438" MODIFIED="1599963769552"/>
 <node TEXT="..." ID="ID_1466363703" CREATED="1599963769833" MODIFIED="1599963771814"/>
 </node>
-<node TEXT="&#x4ee3;&#x7801;&#x4f4d;&#x7f6e;" ID="ID_1559875752" CREATED="1599964312759" MODIFIED="1599964969970"><richcontent TYPE="NOTE">
-
+<node TEXT="代码位置" FOLDED="true" ID="ID_1559875752" CREATED="1599964312759" MODIFIED="1599964969970"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1828,10 +1688,8 @@
       &#34892;&#20869;&#24335;&#27809;&#26377;&#20154;&#20877;&#20351;&#29992;&#20102;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x884c;&#x5185;&#x5f0f;" ID="ID_92768556" CREATED="1599964326542" MODIFIED="1599964457745"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="行内式" ID="ID_92768556" CREATED="1599964326542" MODIFIED="1599964457745"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1844,11 +1702,9 @@
       &#32570;&#28857;&#65306;js&#20195;&#30721;&#26376;html css &#27809;&#26377;&#20998;&#31163;&#65292;&#19981;&#22909;&#32500;&#25252;&#12290;&#23616;&#38480;&#24615;&#22823;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5185;&#x5d4c;&#x5f0f;" ID="ID_1762350403" CREATED="1599964475433" MODIFIED="1599965118400"><richcontent TYPE="NOTE">
-
+<node TEXT="内嵌式" ID="ID_1762350403" CREATED="1599964475433" MODIFIED="1599965118400"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1861,11 +1717,9 @@
       &#19968;&#33324;&#25918;&#22312;&lt;body&gt;&lt;/body&gt;&#26631;&#31614;&#26368;&#21518;&#38754;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5916;&#x94fe;&#x5f0f;" ID="ID_1542954339" CREATED="1599964592357" MODIFIED="1599965066620"><richcontent TYPE="NOTE">
-
+<node TEXT="外链式" ID="ID_1542954339" CREATED="1599964592357" MODIFIED="1599965066620"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1875,12 +1729,10 @@
       &#22312;&#22806;&#37096;.js&#25991;&#20214;&#20013;&#20889;&#20195;&#30721;&#65292;&#36890;&#36807;&lt;script src=&quot;&quot;&gt;&lt;/script&gt;&#38142;&#20837;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="JS&#x6587;&#x4ef6;&#x547d;&#x540d;&#x89c4;&#x8303;" ID="ID_986970552" CREATED="1607835659253" MODIFIED="1607835883034"><richcontent TYPE="NOTE">
-
+<node TEXT="JS文件命名规范" ID="ID_986970552" CREATED="1607835659253" MODIFIED="1607835883034"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1914,15 +1766,13 @@
       4. &#32463;&#36807;&#21387;&#32553;&#30340;&#28304;&#25991;&#20214;&#21487;&#20197;&#20351;&#29992;&#8220;min&#8221;&#34920;&#31034;&#65292;&#21306;&#21035;&#20110;&#21407;&#22987;&#29256;&#26412;&#12290;&#27604;&#22914;&#32463;&#36807;&#21387;&#32553;&#30340; jQuery &#28304;&#25991;&#20214;&#21487;&#20197;&#21629;&#21517;&#20026;&#8220;jquery.min.js&#8221;&#65292;YUI &#21017;&#20064;&#24815;&#21629;&#21517;&#20026;&quot;yui-min.js&quot;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="ES5" ID="ID_103058380" CREATED="1599963473278" MODIFIED="1599963482971" STYLE="bubble">
-<node TEXT="&#x57fa;&#x7840;" ID="ID_761815791" CREATED="1599965376315" MODIFIED="1599966953159" STYLE="bubble">
-<node TEXT="&#x57fa;&#x672c;&#x8bed;&#x6cd5;" ID="ID_606065023" CREATED="1599966922490" MODIFIED="1599966960215">
-<node TEXT="&#x6ce8;&#x91ca;" ID="ID_1782690721" CREATED="1599965363423" MODIFIED="1599965432390"><richcontent TYPE="NOTE">
-
+<node TEXT="ES5" FOLDED="true" ID="ID_103058380" CREATED="1599963473278" MODIFIED="1599963482971" STYLE="bubble">
+<node TEXT="基础" FOLDED="true" ID="ID_761815791" CREATED="1599965376315" MODIFIED="1599966953159" STYLE="bubble">
+<node TEXT="基本语法" FOLDED="true" ID="ID_606065023" CREATED="1599966922490" MODIFIED="1599966960215">
+<node TEXT="注释" ID="ID_1782690721" CREATED="1599965363423" MODIFIED="1599965432390"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1935,14 +1785,12 @@
       /*&#160;&#27880;&#37322;&#20869;&#23481; */
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x7ed3;&#x675f;&#x7b26;&#x53f7; ;" ID="ID_99732398" CREATED="1599965501694" MODIFIED="1599965515350"/>
-<node TEXT="js&#x5b57;&#x7b26;&#x4e32;&#x5e38;&#x91c7;&#x7528; &#x5355;&#x5f15;&#x53f7; &apos;&apos;" ID="ID_907520632" CREATED="1599965683680" MODIFIED="1599965717821"/>
-<node TEXT="&#x5e38;&#x7528;&#x8bed;&#x53e5;" ID="ID_459248907" CREATED="1599965534720" MODIFIED="1599965539351">
-<node TEXT="alert()" ID="ID_543585508" CREATED="1599965540073" MODIFIED="1599965844240"><richcontent TYPE="NOTE">
-
+<node TEXT="结束符号 ;" ID="ID_99732398" CREATED="1599965501694" MODIFIED="1599965515350"/>
+<node TEXT="js字符串常采用 单引号 &apos;&apos;" ID="ID_907520632" CREATED="1599965683680" MODIFIED="1599965717821"/>
+<node TEXT="常用语句" FOLDED="true" ID="ID_459248907" CREATED="1599965534720" MODIFIED="1599965539351">
+<node TEXT="alert()" ID="ID_543585508" CREATED="1599965540073" MODIFIED="1599965844240"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1952,11 +1800,9 @@
       &#39029;&#38754;&#24377;&#31383;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="document.write()" ID="ID_1587595878" CREATED="1599965558858" MODIFIED="1599965602268"><richcontent TYPE="NOTE">
-
+<node TEXT="document.write()" ID="ID_1587595878" CREATED="1599965558858" MODIFIED="1599965602268"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1966,11 +1812,9 @@
       &#25226;&#20869;&#23481;&#36755;&#20986;&#21040;&#39029;&#38754;&#20013;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="console.log()" ID="ID_427570262" CREATED="1599965721263" MODIFIED="1599965776272"><richcontent TYPE="NOTE">
-
+<node TEXT="console.log()" ID="ID_427570262" CREATED="1599965721263" MODIFIED="1599965776272"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1980,13 +1824,11 @@
       &#25511;&#21046;&#21488;&#26085;&#24535;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x5173;&#x952e;&#x5b57;" ID="ID_657741771" CREATED="1599966891586" MODIFIED="1599966899677">
-<node TEXT="var" ID="ID_1321216080" CREATED="1599966972663" MODIFIED="1599970035953"><richcontent TYPE="NOTE">
-
+<node TEXT="关键字" FOLDED="true" ID="ID_657741771" CREATED="1599966891586" MODIFIED="1599966899677">
+<node TEXT="var" ID="ID_1321216080" CREATED="1599966972663" MODIFIED="1599970035953"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -1999,13 +1841,11 @@
       let b = 1;&#160;&#160;let b = 2;&#160;&#160;&#160;&#160;&#160;&#160;&#160;//&#36825;&#31181;&#20250;&#25253;&#38169;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x53d8;&#x91cf;" ID="ID_371272976" CREATED="1599966770868" MODIFIED="1599967565584"><richcontent TYPE="NOTE">
-
+<node TEXT="变量" FOLDED="true" ID="ID_371272976" CREATED="1599966770868" MODIFIED="1599967565584"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2018,11 +1858,9 @@
       &#19981;&#33021;&#25968;&#23383;&#24320;&#22836;&#65292;&#21306;&#20998;&#22823;&#23567;&#20889;&#65292;&#19981;&#33021;&#26159;&#20851;&#38190;&#23383;&#21644;&#20445;&#30041;&#23383;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x6570;&#x636e;&#x7c7b;&#x578b;" ID="ID_1828963860" CREATED="1599968098891" MODIFIED="1599968103258">
-<node TEXT="&#x57fa;&#x672c;&#x6570;&#x636e;&#x7c7b;&#x578b;" ID="ID_1244212236" CREATED="1599968136691" MODIFIED="1599968498737"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="数据类型" FOLDED="true" ID="ID_1828963860" CREATED="1599968098891" MODIFIED="1599968103258">
+<node TEXT="基本数据类型" FOLDED="true" ID="ID_1244212236" CREATED="1599968136691" MODIFIED="1599968498737"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2032,10 +1870,8 @@
       js&#27809;&#26377;&#31867;&#22411;&#23450;&#20041;&#20851;&#38190;&#23383;&#65292;&#20294;typescript&#26377;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -2045,10 +1881,8 @@
       <font color="#0000c0">&#24369;&#31867;&#22411;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="number &#x6570;&#x503c;&#x7c7b;&#x578b;" ID="ID_1362838052" CREATED="1599968244243" MODIFIED="1599969040039"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="number 数值类型" FOLDED="true" ID="ID_1362838052" CREATED="1599968244243" MODIFIED="1599969040039"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2064,10 +1898,8 @@
       &#31185;&#23398;&#35745;&#25968;&#65306;2.3e3 &#65292; &#26377;&#26368;&#22823;&#20540;&#38480;&#21046;&#65292; &#36229;&#36807;&#20043;&#21518;&#29992; Infinity -Infinity&#34920;&#31034;&#65288;&#26080;&#31351;&#22823;&#65289;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x7cbe;&#x5ea6;&#x95ee;&#x9898; 0.1+0.2 === 0.3 =&gt; false" ID="ID_1529854577" CREATED="1599968854130" MODIFIED="1599968942531"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="精度问题 0.1+0.2 === 0.3 =&gt; false" ID="ID_1529854577" CREATED="1599968854130" MODIFIED="1599968942531"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2077,13 +1909,11 @@
       &#21313;&#36827;&#21046;&#23567;&#25968;&#36716;&#20108;&#36827;&#21046;&#23567;&#25968;&#26102;&#20250;&#26377;&#31934;&#24230;&#30340;&#20002;&#22833;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="NaN === NaN =&gt; false" ID="ID_733503450" CREATED="1599969101673" MODIFIED="1601806601075">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="DETAILS">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -2093,14 +1923,12 @@
       <font color="#0000c0">&#20351;&#29992;isNaN()&#26041;&#27861;&#21028;&#26029;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="string &#x5b57;&#x7b26;&#x4e32;" ID="ID_539799266" CREATED="1599968257173" MODIFIED="1599968604912"/>
-<node TEXT="boolean &#x5e03;&#x5c14;&#x7c7b;&#x578b;" ID="ID_1453614512" CREATED="1599968363302" MODIFIED="1599968609488"/>
-<node TEXT="null" ID="ID_876947381" CREATED="1599968397724" MODIFIED="1601802749527"><richcontent TYPE="NOTE">
-
+<node TEXT="string 字符串" ID="ID_539799266" CREATED="1599968257173" MODIFIED="1599968604912"/>
+<node TEXT="boolean 布尔类型" ID="ID_1453614512" CREATED="1599968363302" MODIFIED="1599968609488"/>
+<node TEXT="null" ID="ID_876947381" CREATED="1599968397724" MODIFIED="1601802749527"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2110,11 +1938,9 @@
       &#31354;&#24341;&#29992;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="undefine" ID="ID_651420055" CREATED="1599968560506" MODIFIED="1601802707478"><richcontent TYPE="NOTE">
-
+<node TEXT="undefine" ID="ID_651420055" CREATED="1599968560506" MODIFIED="1601802707478"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2124,13 +1950,11 @@
       &#26410;&#36171;&#20540;&#31867;&#22411;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="symbol" ID="ID_294478882" CREATED="1601802774139" MODIFIED="1601802781336"/>
 </node>
-<node TEXT="&#x5bf9;&#x8c61;&#xff08;&#x5f15;&#x7528;&#xff09;&#x6570;&#x636e;&#x7c7b;&#x578b;" ID="ID_555261352" CREATED="1599968146533" MODIFIED="1601867115185"><richcontent TYPE="NOTE">
-
+<node TEXT="对象（引用）数据类型" FOLDED="true" ID="ID_555261352" CREATED="1599968146533" MODIFIED="1601867115185"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2140,17 +1964,15 @@
       &#24341;&#29992;&#31867;&#22411;&#21487;&#20197;&#38543;&#26102;&#25299;&#23637;&#23646;&#24615;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x6570;&#x7ec4;" ID="ID_20283980" CREATED="1599968424100" MODIFIED="1599968629824"/>
-<node TEXT="&#x51fd;&#x6570;" ID="ID_124415876" CREATED="1599968630171" MODIFIED="1599968634869"/>
-<node TEXT="&#x65e5;&#x671f;" ID="ID_921623188" CREATED="1599968635728" MODIFIED="1599968642552"/>
-<node TEXT="&#x6570;&#x5b66;" ID="ID_444657808" CREATED="1599968691451" MODIFIED="1599968696689"/>
+</html></richcontent>
+<node TEXT="数组" ID="ID_20283980" CREATED="1599968424100" MODIFIED="1599968629824"/>
+<node TEXT="函数" ID="ID_124415876" CREATED="1599968630171" MODIFIED="1599968634869"/>
+<node TEXT="日期" ID="ID_921623188" CREATED="1599968635728" MODIFIED="1599968642552"/>
+<node TEXT="数学" ID="ID_444657808" CREATED="1599968691451" MODIFIED="1599968696689"/>
 <node TEXT="..." ID="ID_1180887909" CREATED="1599968642762" MODIFIED="1599968651445"/>
 </node>
-<node TEXT="&#x663e;&#x793a;&#x6570;&#x636e;&#x7c7b;&#x578b; typeof" ID="ID_1348272424" CREATED="1599969062291" MODIFIED="1599969075535"/>
-<node TEXT="NaN" ID="ID_1767206375" CREATED="1601803217690" MODIFIED="1601803281281"><richcontent TYPE="NOTE">
-
+<node TEXT="显示数据类型 typeof" ID="ID_1348272424" CREATED="1599969062291" MODIFIED="1599969075535"/>
+<node TEXT="NaN" ID="ID_1767206375" CREATED="1601803217690" MODIFIED="1601803281281"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2163,14 +1985,12 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x6570;&#x636e;&#x7c7b;&#x578b;&#x8f6c;&#x6362;" ID="ID_1701129706" CREATED="1600567586470" MODIFIED="1600567596922">
-<node TEXT="&#x5f3a;&#x5236;&#x7c7b;&#x578b;&#x8f6c;&#x6362;" ID="ID_546756992" CREATED="1600569071518" MODIFIED="1600569351748">
-<node TEXT="Number() &#x5c06;&#x5176;&#x4ed6;&#x7c7b;&#x578b;&#x8f6c;&#x4e3a;&#x6570;&#x503c;&#x7c7b;&#x578b;" ID="ID_1450243586" CREATED="1600567598048" MODIFIED="1600568470960"><richcontent TYPE="NOTE">
-
+<node TEXT="数据类型转换" FOLDED="true" ID="ID_1701129706" CREATED="1600567586470" MODIFIED="1600567596922">
+<node TEXT="强制类型转换" FOLDED="true" ID="ID_546756992" CREATED="1600569071518" MODIFIED="1600569351748">
+<node TEXT="Number() 将其他类型转为数值类型" ID="ID_1450243586" CREATED="1600567598048" MODIFIED="1600568470960"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2198,13 +2018,11 @@
       6) undefined -&gt; NaN;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Number.parseInt() &#x89e3;&#x6790;&#x6574;&#x6570;" ID="ID_1516212808" CREATED="1600568589439" MODIFIED="1601804828230"/>
+<node TEXT="Number.parseInt() 解析整数" ID="ID_1516212808" CREATED="1600568589439" MODIFIED="1601804828230"/>
 <node TEXT="Number.parseFloat()" ID="ID_1435308227" CREATED="1601804834632" MODIFIED="1601804847068"/>
-<node TEXT="String() &#x5176;&#x4ed6;&#x7c7b;&#x578b;&#x8f6c;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1126686849" CREATED="1600568620337" MODIFIED="1600569193385"><richcontent TYPE="NOTE">
-
+<node TEXT="String() 其他类型转字符串" ID="ID_1126686849" CREATED="1600568620337" MODIFIED="1600569193385"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2220,15 +2038,13 @@
       typeof String(null)&#160;&#160;&#160;//
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="String.charCodeAt()" ID="ID_1681849998" CREATED="1600569724824" MODIFIED="1600569738797"/>
-<node TEXT="Boolean() &#x5176;&#x4ed6;&#x7c7b;&#x578b;&#x8f6c;&#x5e03;&#x5c14;&#x7c7b;&#x578b;" ID="ID_494392723" CREATED="1600568964743" MODIFIED="1600568984515"/>
+<node TEXT="Boolean() 其他类型转布尔类型" ID="ID_494392723" CREATED="1600568964743" MODIFIED="1600568984515"/>
 </node>
-<node TEXT="&#x9690;&#x5f0f;&#x7c7b;&#x578b;&#x8f6c;&#x6362;" ID="ID_956008529" CREATED="1600569055669" MODIFIED="1600569369158">
-<node TEXT="&#x6570;&#x503c;&#x8fd0;&#x7b97;" ID="ID_265645501" CREATED="1600569122824" MODIFIED="1600569313376"><richcontent TYPE="NOTE">
-
+<node TEXT="隐式类型转换" FOLDED="true" ID="ID_956008529" CREATED="1600569055669" MODIFIED="1600569369158">
+<node TEXT="数值运算" ID="ID_265645501" CREATED="1600569122824" MODIFIED="1600569313376"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2241,16 +2057,14 @@
       &quot;123&quot; - 1;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="if() {}" ID="ID_1069809258" CREATED="1600569393329" MODIFIED="1600569409679"/>
 </node>
 </node>
-<node TEXT="&#x8fd0;&#x7b97;&#x7b26;" ID="ID_1319825326" CREATED="1600570206795" MODIFIED="1600570380171">
-<node TEXT="&#x6570;&#x503c;&#x8fd0;&#x7b97;&#x7b26;" ID="ID_192346086" CREATED="1600570381973" MODIFIED="1600570403811">
-<node TEXT="+/-/*//" ID="ID_1654755414" CREATED="1600570413004" MODIFIED="1601803385363"><richcontent TYPE="NOTE">
-
+<node TEXT="运算符" FOLDED="true" ID="ID_1319825326" CREATED="1600570206795" MODIFIED="1600570380171">
+<node TEXT="数值运算符" FOLDED="true" ID="ID_192346086" CREATED="1600570381973" MODIFIED="1600570403811">
+<node TEXT="+/-/*//" ID="ID_1654755414" CREATED="1600570413004" MODIFIED="1601803385363"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2260,12 +2074,10 @@
       + &#65306; &#29992;&#22312;&#23383;&#31526;&#20018;&#21442;&#19982;&#30340;&#22320;&#26041;&#34920;&#31034;&#23383;&#31526;&#20018;&#25340;&#25509;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="%" ID="ID_967151255" CREATED="1600570421490" MODIFIED="1600570426494"/>
-<node TEXT="++" ID="ID_1775709199" CREATED="1600570426866" MODIFIED="1600570548477"><richcontent TYPE="NOTE">
-
+<node TEXT="++" ID="ID_1775709199" CREATED="1600570426866" MODIFIED="1600570548477"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2278,14 +2090,12 @@
       b=a++;&#160;&#160;&#160;&#160;//a&#20808;&#23558;&#20540;&#36171;&#20104;b,&#20877;&#21152;1;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x5173;&#x7cfb;&#x8fd0;&#x7b97;&#x7b26;" ID="ID_442306320" CREATED="1600570404090" MODIFIED="1600570638319">
+<node TEXT="关系运算符" FOLDED="true" ID="ID_442306320" CREATED="1600570404090" MODIFIED="1600570638319">
 <node TEXT="== === &gt; &gt;= &lt; &lt;= != !===" ID="ID_135324444" CREATED="1600570650762" MODIFIED="1600570699825"/>
-<node TEXT="==&#x3001;=== &#x533a;&#x522b;" ID="ID_76575097" CREATED="1599969311610" MODIFIED="1600571751689"><richcontent TYPE="NOTE">
-
+<node TEXT="==、=== 区别" FOLDED="true" ID="ID_76575097" CREATED="1599969311610" MODIFIED="1600571751689"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2337,14 +2147,12 @@
       <font color="rgb(51, 51, 51)" face="Helvetica Neue, Helvetica, Arial, Hiragino Sans GB, Hiragino Sans GB W3, Microsoft YaHei UI, Microsoft YaHei, sans-serif">(4)&#30456;&#31561;&#36816;&#31639;&#31526;&#30340;&#32570;&#28857; &#30456;&#31561;&#36816;&#31639;&#31526;&#38544;&#34255;&#30340;&#31867;&#22411;&#36716;&#25442;,&#20250;&#24102;&#26469;&#19968;&#20123;&#36829;&#21453;&#30452;&#35273;&#30340;&#32467;&#26524;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="null == undefined &#x6ce8;&#x610f;&#x8fd9;&#x4e2a;&#x662f;true" ID="ID_454630557" CREATED="1600573378490" MODIFIED="1600573424870"/>
+</html></richcontent>
+<node TEXT="null == undefined 注意这个是true" ID="ID_454630557" CREATED="1600573378490" MODIFIED="1600573424870"/>
 </node>
 </node>
-<node TEXT="&#x903b;&#x8f91;&#x8fd0;&#x7b97;&#x7b26;" ID="ID_479749437" CREATED="1600570734914" MODIFIED="1600572587596">
-<node TEXT="&amp;&amp; || !" ID="ID_401464197" CREATED="1600572242758" MODIFIED="1600572677792"><richcontent TYPE="DETAILS">
-
+<node TEXT="逻辑运算符" FOLDED="true" ID="ID_479749437" CREATED="1600570734914" MODIFIED="1600572587596">
+<node TEXT="&amp;&amp; || !" ID="ID_401464197" CREATED="1600572242758" MODIFIED="1600572677792"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -2354,10 +2162,8 @@
       <font color="#0000c0">&#19981;&#19968;&#23450;&#36820;&#22238;true/false</font>
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2367,11 +2173,9 @@
       console.log(10 &amp;&amp; 5)&#65307;//5
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x53d8;&#x91cf;&#x8f6c;Boolean -&gt; !!" ID="ID_1945351247" CREATED="1600572731947" MODIFIED="1601804694405"><richcontent TYPE="NOTE">
-
+<node TEXT="变量转Boolean -&gt; !!" ID="ID_1945351247" CREATED="1600572731947" MODIFIED="1601804694405"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2381,18 +2185,16 @@
       &#20004;&#27425;&#21462;&#21453;&#23558;&#21464;&#37327;&#21487;&#20197;&#36716;&#25442;&#25104; Boolean&#31867;&#22411;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x903b;&#x8f91;&#x5224;&#x65ad;&#x65f6; 0 &#x7a7a;&#x5b57;&#x7b26;&#x4e32; undefine null NaN  &#x90fd;&#x89c6;&#x4e3a;false&#xff0c;&#x5176;&#x4f59;&#x89c6;&#x4e3a;true" ID="ID_839081844" CREATED="1601804412052" MODIFIED="1601804569051"/>
+<node TEXT="逻辑判断时 0 空字符串 undefine null NaN  都视为false，其余视为true" ID="ID_839081844" CREATED="1601804412052" MODIFIED="1601804569051"/>
 </node>
-<node TEXT="&#x8d4b;&#x503c;&#x8fd0;&#x7b97;&#x7b26;" ID="ID_731974357" CREATED="1600570747643" MODIFIED="1600570764369">
+<node TEXT="赋值运算符" FOLDED="true" ID="ID_731974357" CREATED="1600570747643" MODIFIED="1600570764369">
 <node TEXT="=" ID="ID_614145768" CREATED="1601804526824" MODIFIED="1601804529650"/>
 </node>
-<node TEXT="&#x5176;&#x4ed6;&#x8fd0;&#x7b97;&#x7b26;" ID="ID_670802675" CREATED="1600570766788" MODIFIED="1600570795243">
+<node TEXT="其他运算符" FOLDED="true" ID="ID_670802675" CREATED="1600570766788" MODIFIED="1600570795243">
 <node TEXT="?  typeof" ID="ID_1714223713" CREATED="1600570797539" MODIFIED="1600570822986"/>
-<node TEXT="&#x9017;&#x53f7;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1050745803" CREATED="1600573019972" MODIFIED="1600573072771"><richcontent TYPE="NOTE">
-
+<node TEXT="逗号表达式" ID="ID_1050745803" CREATED="1600573019972" MODIFIED="1600573072771"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -2402,13 +2204,11 @@
       console.log(1,2,3)&#160;&#160;&#160;&#160;//1 2 3
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x8fd0;&#x7b97;&#x7b26;&#x4f18;&#x5148;&#x7ea7;" ID="ID_1929720653" CREATED="1600574138500" MODIFIED="1601807474428"><richcontent TYPE="NOTE">
-
+<node TEXT="运算符优先级" ID="ID_1929720653" CREATED="1600574138500" MODIFIED="1601807474428"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3019,14 +2819,12 @@
       </tr>
     </table>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x4f5c;&#x7528;&#x57df;" ID="ID_377174158" CREATED="1601808684804" MODIFIED="1601808707707">
-<node TEXT="&#x53ea;&#x6709;&#x4e24;&#x79cd;" ID="ID_1578485795" CREATED="1610982697978" MODIFIED="1610982703496">
-<node TEXT="&#x5168;&#x5c40;&#x4f5c;&#x7528;&#x57df;" ID="ID_817694101" CREATED="1601808748619" MODIFIED="1601808755738"/>
-<node TEXT="&#x5c40;&#x90e8;&#x4f5c;&#x7528;&#x57df;" ID="ID_1410021705" CREATED="1601808756082" MODIFIED="1610982691162"><richcontent TYPE="NOTE">
-
+<node TEXT="作用域" FOLDED="true" ID="ID_377174158" CREATED="1601808684804" MODIFIED="1601808707707">
+<node TEXT="只有两种" FOLDED="true" ID="ID_1578485795" CREATED="1610982697978" MODIFIED="1610982703496">
+<node TEXT="全局作用域" ID="ID_817694101" CREATED="1601808748619" MODIFIED="1601808755738"/>
+<node TEXT="局部作用域" ID="ID_1410021705" CREATED="1601808756082" MODIFIED="1610982691162"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3036,12 +2834,10 @@
       &#20989;&#25968;&#20869;&#37096;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x9690;&#x5f0f;&#x5168;&#x5c40;&#x53d8;&#x91cf;" ID="ID_1656614761" CREATED="1601809037382" MODIFIED="1610982753897"><richcontent TYPE="NOTE">
-
+<node TEXT="隐式全局变量" ID="ID_1656614761" CREATED="1601809037382" MODIFIED="1610982753897"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3054,13 +2850,11 @@
       &#22312;&#23616;&#37096;&#20316;&#29992;&#22495;&#20013;&#23450;&#20041;&#65292;&#22312;&#20840;&#23616;&#20316;&#29992;&#22495;&#20013;&#24341;&#29992;&#12290;&#36825;&#31181;&#21464;&#37327;&#20316;&#29992;&#22495;&#20250;&#25918;&#22823;&#21040;&#20840;&#23616;&#20316;&#29992;&#22495;&#65292;&#20294;&#26159;&#19981;&#25512;&#33616;&#36825;&#31181;&#24322;&#31867;&#20889;&#27861;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="js&#x5168;&#x5c40;&#x4f5c;&#x7528;&#x57df;&#x548c;&#x5c40;&#x90e8;&#x4f5c;&#x7528;&#x57df;&#x53ef;&#x4ee5;&#x5b9a;&#x4e49;&#x540c;&#x540d;&#x53d8;&#x91cf;" ID="ID_1336190681" CREATED="1601808844636" MODIFIED="1601808928520">
+<node TEXT="js全局作用域和局部作用域可以定义同名变量" ID="ID_1336190681" CREATED="1601808844636" MODIFIED="1601808928520">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3070,12 +2864,10 @@
       C&#31995;&#35821;&#35328;&#65292;&#37117;&#19981;&#25903;&#25345;&#36825;&#31181;&#23450;&#20041;&#26041;&#24335;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x53d8;&#x91cf;&#x52a0;var&#x548c;&#x4e0d;&#x52a0;var&#x7684;&#x533a;&#x522b;" ID="ID_834207090" CREATED="1602039061814" MODIFIED="1602039176899"><richcontent TYPE="NOTE">
-
+<node TEXT="变量加var和不加var的区别" ID="ID_834207090" CREATED="1602039061814" MODIFIED="1602039176899"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3109,22 +2901,20 @@
       &#27880;&#24847;&#65281;&#23427;&#24182;&#19981;&#26159;&#22768;&#26126;&#20102;&#19968;&#20010;&#20840;&#23616;&#21464;&#37327;&#65292;&#32780;&#26159;&#21019;&#24314;&#20102;&#19968;&#20010;&#20840;&#23616;&#23545;&#35937;&#30340;&#23646;&#24615;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x6570;&#x7ec4;" ID="ID_62800906" CREATED="1601819994518" MODIFIED="1601956474560" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array">
-<node TEXT="&#x6570;&#x7ec4;&#x957f;&#x5ea6;&#xff1a;length&#x5c5e;&#x6027;" ID="ID_910016684" CREATED="1601825300813" MODIFIED="1601825344695"/>
-<node TEXT="js&#x7684;&#x6570;&#x7ec4;&#x662f;&#x5bf9;&#x8c61;" ID="ID_126601592" CREATED="1601825452832" MODIFIED="1601825680155"/>
-<node TEXT="&#x5e38;&#x7528;&#x65b9;&#x6cd5;" ID="ID_464016519" CREATED="1601867288854" MODIFIED="1601867303832">
-<node TEXT="push() &#x5c3e;&#x90e8;&#x6dfb;&#x52a0;&#x5143;&#x7d20;" ID="ID_577119167" CREATED="1601867305394" MODIFIED="1601958756551"/>
-<node TEXT="unshift() &#x5934;&#x90e8;&#x6dfb;&#x52a0;&#x5143;&#x7d20;" ID="ID_1100935433" CREATED="1601958756860" MODIFIED="1601958771307"/>
-<node TEXT="pop() &#x5c3e;&#x90e8;&#x5220;&#x9664;&#x5143;&#x7d20;" ID="ID_1588428645" CREATED="1601958771688" MODIFIED="1601958788591"/>
-<node TEXT="shift() &#x5934;&#x90e8;&#x5220;&#x9664;&#x5143;&#x7d20;" ID="ID_1031059489" CREATED="1601958788878" MODIFIED="1601958801265"/>
-<node TEXT="reverse() &#x53cd;&#x8f6c;&#x6570;&#x7ec4;" ID="ID_1701924594" CREATED="1601958801811" MODIFIED="1601958826408"/>
-<node TEXT="slice() &#x622a;&#x53d6;&#x6570;&#x7ec4;" ID="ID_1670793047" CREATED="1601958836079" MODIFIED="1601958855328"/>
-<node TEXT="splice() &#x5220;&#x9664;&#x6307;&#x5b9a;&#x4f4d;&#x7f6e;&#x5143;&#x7d20;&#xff0c;&#x7ffb;&#x8bd1;&#x4e3a;&quot;&#x7ede;&#x63a5;&quot;" ID="ID_644970561" CREATED="1601958855729" MODIFIED="1601958986665"><richcontent TYPE="NOTE">
-
+<node TEXT="数组" FOLDED="true" ID="ID_62800906" CREATED="1601819994518" MODIFIED="1601956474560" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array">
+<node TEXT="数组长度：length属性" ID="ID_910016684" CREATED="1601825300813" MODIFIED="1601825344695"/>
+<node TEXT="js的数组是对象" ID="ID_126601592" CREATED="1601825452832" MODIFIED="1601825680155"/>
+<node TEXT="常用方法" FOLDED="true" ID="ID_464016519" CREATED="1601867288854" MODIFIED="1601867303832">
+<node TEXT="push() 尾部添加元素" ID="ID_577119167" CREATED="1601867305394" MODIFIED="1601958756551"/>
+<node TEXT="unshift() 头部添加元素" ID="ID_1100935433" CREATED="1601958756860" MODIFIED="1601958771307"/>
+<node TEXT="pop() 尾部删除元素" ID="ID_1588428645" CREATED="1601958771688" MODIFIED="1601958788591"/>
+<node TEXT="shift() 头部删除元素" ID="ID_1031059489" CREATED="1601958788878" MODIFIED="1601958801265"/>
+<node TEXT="reverse() 反转数组" ID="ID_1701924594" CREATED="1601958801811" MODIFIED="1601958826408"/>
+<node TEXT="slice() 截取数组" ID="ID_1670793047" CREATED="1601958836079" MODIFIED="1601958855328"/>
+<node TEXT="splice() 删除指定位置元素，翻译为&quot;绞接&quot;" ID="ID_644970561" CREATED="1601958855729" MODIFIED="1601958986665"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3134,18 +2924,16 @@
       &#32478;&#25509;&#27604;&#36739;&#24418;&#35937;&#65306;&#25226;&#25968;&#32452;&#20013;&#20803;&#32032;&#21024;&#25481;&#65292;&#20877;&#25340;&#25509;&#22312;&#19968;&#36215;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="concat() &#x62fc;&#x63a5;&#x6570;&#x7ec4;" ID="ID_468417327" CREATED="1601959000210" MODIFIED="1601959015517"/>
-<node TEXT="join() &#x5143;&#x7d20;&#x4f7f;&#x7528;&#x6307;&#x5b9a;&#x5b57;&#x7b26;&#x62fc;&#x63a5;&#x6210;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1540840737" CREATED="1601959015955" MODIFIED="1601959058486"/>
-<node TEXT="toString() join&#x4ee5;&apos;-&apos;&#x4e3a;&#x62fc;&#x63a5;&#x7b26;&#x7684;&#x7279;&#x6b8a;&#x60c5;&#x51b5;" ID="ID_1828191656" CREATED="1601959059197" MODIFIED="1601959096852"/>
+<node TEXT="concat() 拼接数组" ID="ID_468417327" CREATED="1601959000210" MODIFIED="1601959015517"/>
+<node TEXT="join() 元素使用指定字符拼接成字符串" ID="ID_1540840737" CREATED="1601959015955" MODIFIED="1601959058486"/>
+<node TEXT="toString() join以&apos;-&apos;为拼接符的特殊情况" ID="ID_1828191656" CREATED="1601959059197" MODIFIED="1601959096852"/>
 <node TEXT="forEach()" ID="ID_1433985171" CREATED="1601959104813" MODIFIED="1601959111847"/>
 <node TEXT="indexOf()" FOLDED="true" ID="ID_1549563151" CREATED="1601959112108" MODIFIED="1601959132988">
-<node TEXT="&#x5143;&#x7d20;&#x53bb;&#x91cd;" ID="ID_1949978946" CREATED="1601959133831" MODIFIED="1601959145969"/>
+<node TEXT="元素去重" ID="ID_1949978946" CREATED="1601959133831" MODIFIED="1601959145969"/>
 </node>
-<node TEXT="map()" ID="ID_1483881877" CREATED="1601965818500" MODIFIED="1601965906126"><richcontent TYPE="NOTE">
-
+<node TEXT="map()" ID="ID_1483881877" CREATED="1601965818500" MODIFIED="1601965906126"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3155,16 +2943,14 @@
       <span charset="utf-8" style="color: rgb(51, 51, 51); font-family: Arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.04448px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(51, 51, 51)" face="Arial, x-locale-body, sans-serif" size="16px">&#21019;&#24314;&#19968;&#20010;&#26032;&#25968;&#32452;&#65292;&#23558;&#21407;&#25968;&#32452;&#20013;&#30340;&#27599;&#20010;&#20803;&#32032;&#25191;&#34892;&#19968;&#27425;&#25552;&#20379;&#30340;&#26041;&#27861;&#24471;&#21040;&#30340;&#32467;&#26524;&#25918;&#21040;&#26032;&#30340;&#25968;&#32452;&#20013;&#12290;</font></span>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="some() &#x662f;&#x5426;&#x6709;&#x5143;&#x7d20;&#x6ee1;&#x8db3;&#x6761;&#x4ef6;" ID="ID_402155977" CREATED="1601966515266" MODIFIED="1601966552663"/>
-<node TEXT="every() &#x662f;&#x5426;&#x6240;&#x6709;&#x5143;&#x7d20;&#x6ee1;&#x8db3;&#x6761;&#x4ef6;" ID="ID_1017582411" CREATED="1601966520996" MODIFIED="1601966568692"/>
-<node TEXT="reduce() &#x7d2f;&#x8ba1;&#x8ba1;&#x7b97;" ID="ID_1249603010" CREATED="1601966751058" MODIFIED="1601966997176"/>
-<node TEXT="reduceRight() &#x4ece;&#x53f3;&#x5411;&#x5de6;&#x7d2f;&#x52a0;" ID="ID_964134535" CREATED="1601967280123" MODIFIED="1601967300014"/>
-<node TEXT="entries() &#x83b7;&#x53d6;&#x7d22;&#x5f15;&#x548c;&#x503c;&#x7684;&#x6570;&#x7ec4;&#x8fed;&#x4ee3;&#x5668;" ID="ID_909531203" CREATED="1601967615754" MODIFIED="1601967708096"/>
-<node TEXT="sort() &#x6392;&#x5e8f;" ID="ID_1736129037" CREATED="1601968342954" MODIFIED="1601968448480"><richcontent TYPE="NOTE">
-
+<node TEXT="some() 是否有元素满足条件" ID="ID_402155977" CREATED="1601966515266" MODIFIED="1601966552663"/>
+<node TEXT="every() 是否所有元素满足条件" ID="ID_1017582411" CREATED="1601966520996" MODIFIED="1601966568692"/>
+<node TEXT="reduce() 累计计算" ID="ID_1249603010" CREATED="1601966751058" MODIFIED="1601966997176"/>
+<node TEXT="reduceRight() 从右向左累加" ID="ID_964134535" CREATED="1601967280123" MODIFIED="1601967300014"/>
+<node TEXT="entries() 获取索引和值的数组迭代器" ID="ID_909531203" CREATED="1601967615754" MODIFIED="1601967708096"/>
+<node TEXT="sort() 排序" ID="ID_1736129037" CREATED="1601968342954" MODIFIED="1601968448480"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3174,19 +2960,17 @@
       arr2.sort((a, b) =&gt; a-b);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x5e38;&#x7528;&#x9759;&#x6001;&#x65b9;&#x6cd5;" ID="ID_765626908" CREATED="1601968252642" MODIFIED="1601968261808">
+<node TEXT="常用静态方法" FOLDED="true" ID="ID_765626908" CREATED="1601968252642" MODIFIED="1601968261808">
 <node TEXT="isArray()" ID="ID_769140811" CREATED="1601968262727" MODIFIED="1601968270654"/>
 </node>
 </node>
-<node TEXT="&#x6d41;&#x7a0b;&#x63a7;&#x5236;" ID="ID_582684548" CREATED="1601806664280" MODIFIED="1601806670635"/>
-<node TEXT="&#x51fd;&#x6570;" ID="ID_466951340" CREATED="1601807420681" MODIFIED="1601807425011">
-<node TEXT="&#x51fd;&#x6570;&#x65e0;&#x8fd4;&#x56de;&#x503c;&#x7684;&#x65f6;&#x5019;console.log(func())&#x8fd4;&#x56de;undefined" ID="ID_160888650" CREATED="1601807818750" MODIFIED="1601958984111"/>
-<node TEXT="&#x51fd;&#x6570;&#x5185;&#x7f6e;&#x5bf9;&#x8c61; arguments" ID="ID_1574895223" CREATED="1601808181615" MODIFIED="1601808248346"><richcontent TYPE="NOTE">
-
+<node TEXT="流程控制" ID="ID_582684548" CREATED="1601806664280" MODIFIED="1601806670635"/>
+<node TEXT="函数" FOLDED="true" ID="ID_466951340" CREATED="1601807420681" MODIFIED="1601807425011">
+<node TEXT="函数无返回值的时候console.log(func())返回undefined" ID="ID_160888650" CREATED="1601807818750" MODIFIED="1601958984111"/>
+<node TEXT="函数内置对象 arguments" FOLDED="true" ID="ID_1574895223" CREATED="1601808181615" MODIFIED="1601808248346"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3196,17 +2980,15 @@
       &#23384;&#20648;&#25152;&#26377;&#20256;&#36882;&#36827;&#26469;&#30340;&#23454;&#21442;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x7ed9;&#x51fd;&#x6570;&#x4f20;&#x9012;&#x7684;&#x5b9e;&#x53c2;&#x6570;&#x91cf;&#x5c0f;&#x4e8e;&#x5f62;&#x53c2;&#x6570;&#x91cf;&#xff0c;&#x9ed8;&#x8ba4;&#x4f1a;&#x8865;&#x4f20;undefined&#xa;&#x4f20;&#x9012;&#x5b9e;&#x53c2;&#x6570;&#x91cf;&#x5927;&#x4e8e;&#x5f62;&#x53c2;&#x6570;&#x91cf;&#xff0c;&#x591a;&#x4f59;&#x7684;&#x53c2;&#x6570;&#x4f1a;&#x88ab;&#x5ffd;&#x7565;&#xa;&#x5373;&#x5176;&#x5b9e;js&#x51fd;&#x6570;&#x53ef;&#x4ee5;&#x4f20;&#x9012;&#x4efb;&#x610f;&#x6570;&#x91cf;&#x5b9e;&#x53c2;" ID="ID_1135452497" CREATED="1601807959612" MODIFIED="1601808406278"/>
+</html></richcontent>
+<node TEXT="给函数传递的实参数量小于形参数量，默认会补传undefined&#xa;传递实参数量大于形参数量，多余的参数会被忽略&#xa;即其实js函数可以传递任意数量实参" ID="ID_1135452497" CREATED="1601807959612" MODIFIED="1601808406278"/>
 </node>
-<node TEXT="&#x51fd;&#x6570;&#x5b9a;&#x4e49;&#x65b9;&#x5f0f;" ID="ID_863877357" CREATED="1602462142787" MODIFIED="1602462151964">
+<node TEXT="函数定义方式" FOLDED="true" ID="ID_863877357" CREATED="1602462142787" MODIFIED="1602462151964">
 <node TEXT="function func(param, ...) {}" ID="ID_1826408161" CREATED="1602462252643" MODIFIED="1602462258310"/>
-<node TEXT="&#x51fd;&#x6570;&#x8868;&#x8fbe;&#x5f0f;&#xff1a;&#xa;var func = function() {}" ID="ID_451043573" CREATED="1602461302246" MODIFIED="1602462394298"/>
-<node TEXT="Function&#x5bf9;&#x8c61;&#xff1a;&#xa;var func = new Function(&apos;a&apos;, &apos;b&apos;, &apos;console.log(a + b);&apos;);" ID="ID_1508341352" CREATED="1602462292682" MODIFIED="1602462401214"/>
+<node TEXT="函数表达式：&#xa;var func = function() {}" ID="ID_451043573" CREATED="1602461302246" MODIFIED="1602462394298"/>
+<node TEXT="Function对象：&#xa;var func = new Function(&apos;a&apos;, &apos;b&apos;, &apos;console.log(a + b);&apos;);" ID="ID_1508341352" CREATED="1602462292682" MODIFIED="1602462401214"/>
 </node>
-<node TEXT="IIFE(&#x7acb;&#x5373;&#x8c03;&#x7528;&#x51fd;&#x6570;&#x8868;&#x8fbe;&#x5f0f;)" ID="ID_775227888" CREATED="1602462469235" MODIFIED="1603595822016"><richcontent TYPE="NOTE">
-
+<node TEXT="IIFE(立即调用函数表达式)" FOLDED="true" ID="ID_775227888" CREATED="1602462469235" MODIFIED="1603595822016"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3249,15 +3031,13 @@
       })(10, 20);
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x4f18;&#x70b9;" ID="ID_535181650" CREATED="1603595515331" MODIFIED="1603595524170">
-<node TEXT="1) &#x51cf;&#x5c11;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#x4f7f;&#x7528;&#xff0c;&#x9632;&#x6b62;&#x5916;&#x90e8;&#x547d;&#x540d;&#x7a7a;&#x95f4;&#x88ab;&#x6c61;&#x67d3;" ID="ID_1020224671" CREATED="1603595526071" MODIFIED="1603595593175"/>
-<node TEXT="2) &#x9690;&#x85cf;&#x5185;&#x90e8;&#x4ee3;&#x7801;&#x66b4;&#x9732;&#x63a5;&#x53e3;&#xff0c;&#x5b9e;&#x73b0;&#x6a21;&#x5757;&#x5316;" ID="ID_1662887145" CREATED="1603595541934" MODIFIED="1603595566179"/>
+</html></richcontent>
+<node TEXT="优点" FOLDED="true" ID="ID_535181650" CREATED="1603595515331" MODIFIED="1603595524170">
+<node TEXT="1) 减少全局变量使用，防止外部命名空间被污染" ID="ID_1020224671" CREATED="1603595526071" MODIFIED="1603595593175"/>
+<node TEXT="2) 隐藏内部代码暴露接口，实现模块化" ID="ID_1662887145" CREATED="1603595541934" MODIFIED="1603595566179"/>
 </node>
 </node>
-<node TEXT="&#x56de;&#x8c03;&#x51fd;&#x6570;" ID="ID_306236997" CREATED="1603595619780" MODIFIED="1608474668643"><richcontent TYPE="NOTE">
-
+<node TEXT="回调函数" ID="ID_306236997" CREATED="1603595619780" MODIFIED="1608474668643"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3279,14 +3059,12 @@
       &#33258;&#23450;&#20041;&#65292;&#33258;&#24049;&#27809;&#26377;&#35843;&#29992;&#65292; &#20989;&#25968;&#26368;&#32456;&#26159;&#20250;&#34987;&#25191;&#34892;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="call/apply/this" ID="ID_1496731796" CREATED="1603596045658" MODIFIED="1603596056054"/>
 </node>
-<node TEXT="&#x4f5c;&#x7528;&#x57df;" ID="ID_1001942858" CREATED="1603594981703" MODIFIED="1603594983471"/>
-<node TEXT="&#x53d8;&#x91cf;&#x58f0;&#x660e;&#x63d0;&#x5347;&#x3001;&#x51fd;&#x6570;&#x63d0;&#x5347;" ID="ID_1495893564" CREATED="1603592405707" MODIFIED="1603603364740"><richcontent TYPE="DETAILS">
-
+<node TEXT="作用域" ID="ID_1001942858" CREATED="1603594981703" MODIFIED="1603594983471"/>
+<node TEXT="变量声明提升、函数提升" FOLDED="true" ID="ID_1495893564" CREATED="1603592405707" MODIFIED="1603603364740"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -3296,15 +3074,13 @@
       <font color="#0000c0">&#23646;&#20110;&#39044;&#32534;&#35793;&#38454;&#27573;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x9884;&#x7f16;&#x8bd1;&#x5904;&#x7406;&#xff1a;&#x5c06;&#x76f8;&#x540c;&#x4f5c;&#x7528;&#x57df;&#x4e0b;&#x88ab;&#x4f9d;&#x8d56;&#x7684;&#x53d8;&#x91cf;&#x58f0;&#x660e;&#x6216;&#x51fd;&#x6570;&#x58f0;&#x660e;&#x548c;&#x51fd;&#x6570;&#x4f53;&#x79fb;&#x52a8;&#x5230;&#x4f9d;&#x8d56;&#x4f4d;&#x7f6e;&#x4e4b;&#x524d;; &#x51fd;&#x6570;&#x58f0;&#x660e;&#x4f18;&#x5148;&#x7ea7;&#x9ad8;&#x4e8e;&#x53d8;&#x91cf;&#x58f0;&#x660e;" ID="ID_1706776183" CREATED="1603593421490" MODIFIED="1603605801377">
+</html></richcontent>
+<node TEXT="预编译处理：将相同作用域下被依赖的变量声明或函数声明和函数体移动到依赖位置之前; 函数声明优先级高于变量声明" FOLDED="true" ID="ID_1706776183" CREATED="1603593421490" MODIFIED="1603605801377">
 <icon BUILTIN="idea"/>
-<node TEXT="&#x51fd;&#x6570;&#x6267;&#x884c;&#x65f6;&#x624d;&#x9884;&#x89e3;&#x6790;" ID="ID_169798315" CREATED="1603593780666" MODIFIED="1603594227406"/>
+<node TEXT="函数执行时才预解析" ID="ID_169798315" CREATED="1603593780666" MODIFIED="1603594227406"/>
 </node>
-<node TEXT="&#x53d8;&#x91cf;&#x63d0;&#x5347;&#x53ea;&#x662f;&#x58f0;&#x660e;&#x63d0;&#x5347;&#xff0c;&#x8d4b;&#x503c;&#x4e0d;&#x63d0;&#x5347;" ID="ID_13654525" CREATED="1603592459375" MODIFIED="1603592522541"/>
-<node TEXT="&#x51fd;&#x6570;&#x63d0;&#x5347;&#x662f;&#x58f0;&#x660e;&#x548c;&#x8d4b;&#x503c;&#xff08;&#x6307;&#x51fd;&#x6570;&#x4f53;&#xff09;&#x5747;&#x63d0;&#x5347;" ID="ID_1874783640" CREATED="1603592523001" MODIFIED="1603592715860"><richcontent TYPE="NOTE">
-
+<node TEXT="变量提升只是声明提升，赋值不提升" ID="ID_13654525" CREATED="1603592459375" MODIFIED="1603592522541"/>
+<node TEXT="函数提升是声明和赋值（指函数体）均提升" ID="ID_1874783640" CREATED="1603592523001" MODIFIED="1603592715860"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3329,14 +3105,12 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x53d8;&#x91cf;&#x4e0e;&#x51fd;&#x6570;&#x540c;&#x540d;&#xff0c;&#x51fd;&#x6570;&#x4f18;&#x5148;&#x63d0;&#x5347;" ID="ID_628721151" CREATED="1603592758031" MODIFIED="1603592784675"/>
-<node TEXT="var&#x58f0;&#x660e;&#x7684;&#x53d8;&#x91cf;&#x624d;&#x4f1a;&#x63d0;&#x5347;&#xff0c;&#x56e0;&#x4e3a;&#x4e0d;&#x5e26;var&#x7684;&#x53d8;&#x91cf;&#x4e0d;&#x4f1a;&#x9884;&#x89e3;&#x6790;" ID="ID_1968183710" CREATED="1603593039802" MODIFIED="1603593181836">
+<node TEXT="变量与函数同名，函数优先提升" ID="ID_628721151" CREATED="1603592758031" MODIFIED="1603592784675"/>
+<node TEXT="var声明的变量才会提升，因为不带var的变量不会预解析" ID="ID_1968183710" CREATED="1603593039802" MODIFIED="1603593181836">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3370,11 +3144,9 @@
       &#36825;&#31181;&#27491;&#24120;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x7efc;&#x5408;&#x793a;&#x4f8b;" ID="ID_42328050" CREATED="1603593304529" MODIFIED="1603608186916"><richcontent TYPE="NOTE">
-
+<node TEXT="综合示例" ID="ID_42328050" CREATED="1603593304529" MODIFIED="1603608186916"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3384,13 +3156,11 @@
       &#21442;&#32771; &#65306;js/ js1025/&#21464;&#37327;&#22768;&#26126;&#25552;&#21319;&#20989;&#25968;&#25552;&#21319;.js
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x5bf9;&#x8c61;" ID="ID_1312241319" CREATED="1601810046483" MODIFIED="1601810055861">
-<node TEXT="&#x9759;&#x6001;&#x7279;&#x5f81;&#xff08;&#x53d8;&#x91cf;&#xff09;+&#x52a8;&#x6001;&#x884c;&#x4e3a;&#xff08;&#x51fd;&#x6570;&#xff09;" ID="ID_1729376750" CREATED="1601810063530" MODIFIED="1601810365909"><richcontent TYPE="NOTE">
-
+<node TEXT="对象" FOLDED="true" ID="ID_1312241319" CREATED="1601810046483" MODIFIED="1601810055861">
+<node TEXT="静态特征（变量）+动态行为（函数）" ID="ID_1729376750" CREATED="1601810063530" MODIFIED="1601810365909"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3400,12 +3170,10 @@
       &#26080;&#24207;&#30340;&#23646;&#24615;&#38598;&#21512;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x8bed;&#x6cd5;" ID="ID_1278553882" CREATED="1601810266073" MODIFIED="1601824360438">
-<node TEXT="&#x5bf9;&#x8c61;&#x5b9a;&#x4e49;" ID="ID_667236223" CREATED="1601810662344" MODIFIED="1601824363154"><richcontent TYPE="NOTE">
-
+<node TEXT="语法" FOLDED="true" ID="ID_1278553882" CREATED="1601810266073" MODIFIED="1601824360438">
+<node TEXT="对象定义" FOLDED="true" ID="ID_667236223" CREATED="1601810662344" MODIFIED="1601824363154"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3457,14 +3225,12 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x65b9;&#x5f0f;1&#xff1a;&#x901a;&#x8fc7;&#x5bf9;&#x8c61;&#x5b57;&#x9762;&#x91cf;&#x521b;&#x5efa;&#xff1a;var object = {}" ID="ID_716039687" CREATED="1603608440292" MODIFIED="1603609290910"/>
-<node TEXT="&#x65b9;&#x5f0f;2&#xff1a;&#x901a;&#x8fc7;&#x7c7b;&#x6784;&#x9020;&#x51fd;&#x6570;&#x521b;&#x5efa;&#xff1a; var object = new Object();" ID="ID_880657079" CREATED="1603608464953" MODIFIED="1603609299046"/>
-<node TEXT="&#x4e0a;&#x9762;&#x4e24;&#x79cd;&#x65b9;&#x5f0f;&#x7684;&#x533a;&#x522b;" ID="ID_392083048" CREATED="1603609485114" MODIFIED="1603609577861">
+</html></richcontent>
+<node TEXT="方式1：通过对象字面量创建：var object = {}" ID="ID_716039687" CREATED="1603608440292" MODIFIED="1603609290910"/>
+<node TEXT="方式2：通过类构造函数创建： var object = new Object();" ID="ID_880657079" CREATED="1603608464953" MODIFIED="1603609299046"/>
+<node TEXT="上面两种方式的区别" ID="ID_392083048" CREATED="1603609485114" MODIFIED="1603609577861">
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3477,12 +3243,10 @@
       &#24403;&#29992;new&#30340;&#26102;&#20505;&#65292;&#20989;&#25968;&#20869;&#37096;&#30340;this&#26159;&#19968;&#20010;&#26032;&#30340;&#23545;&#35937;&#65292;&#22914;&#26524;&#19981;&#29992;new&#65292;&#20063;&#23601;&#26159;&#25226;&#23427;&#24403;&#25104;&#19968;&#20010;&#26222;&#36890;&#30340;&#20989;&#25968;&#25191;&#34892;&#65292;&#23427;&#30340;this&#26159;window&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="1) &#x5c5e;&#x6027;&#xff08;&#x503c;/&#x65b9;&#x6cd5;&#xff09;&#x589e;&#x5220;&#x6539;&#x67e5;" ID="ID_1003676359" CREATED="1601810668059" MODIFIED="1607835226551"><richcontent TYPE="NOTE">
-
+<node TEXT="1) 属性（值/方法）增删改查" FOLDED="true" ID="ID_1003676359" CREATED="1601810668059" MODIFIED="1607835226551"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3522,12 +3286,10 @@
       someone[attr]()&#160;&#160;&#160;&#160;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5220;&#x9664;&#x5c5e;&#x6027; delete obj.attr;" ID="ID_614210323" CREATED="1607834566009" MODIFIED="1607834591861"/>
+</html></richcontent>
+<node TEXT="删除属性 delete obj.attr;" ID="ID_614210323" CREATED="1607834566009" MODIFIED="1607834591861"/>
 </node>
-<node TEXT="2) &#x5bf9;&#x5c5e;&#x6027;&#x5faa;&#x73af;&#x904d;&#x5386;" ID="ID_861625068" CREATED="1603609022673" MODIFIED="1615608669485"><richcontent TYPE="NOTE">
-
+<node TEXT="2) 对属性循环遍历" ID="ID_861625068" CREATED="1603609022673" MODIFIED="1615608669485"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3543,11 +3305,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="3) &#x5224;&#x65ad;&#x5bf9;&#x8c61;&#x662f;&#x5426;&#x62e5;&#x6709;&#x5c5e;&#x6027;" ID="ID_1010916831" CREATED="1603609039236" MODIFIED="1615608635979"><richcontent TYPE="NOTE">
-
+<node TEXT="3) 判断对象是否拥有属性" ID="ID_1010916831" CREATED="1603609039236" MODIFIED="1615608635979"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3563,12 +3323,10 @@
       Reflect.has(me, &quot;age&quot;)
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x7279;&#x6027;" ID="ID_1436106667" CREATED="1603608518051" MODIFIED="1603608520519">
-<node TEXT="js&#x5bf9;&#x8c61;&#x652f;&#x6301;&#x52a8;&#x6001;&#x62d3;&#x5c55;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;" ID="ID_1422512920" CREATED="1601811072554" MODIFIED="1603608783718"><richcontent TYPE="NOTE">
-
+<node TEXT="特性" FOLDED="true" ID="ID_1436106667" CREATED="1603608518051" MODIFIED="1603608520519">
+<node TEXT="js对象支持动态拓展属性和方法" ID="ID_1422512920" CREATED="1601811072554" MODIFIED="1603608783718"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3629,17 +3387,15 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x6807;&#x51c6;&#x5185;&#x7f6e;&#x5bf9;&#x8c61;" ID="ID_217860911" CREATED="1601823828567" MODIFIED="1607845379145" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects">
-<node TEXT="Object" ID="ID_1002710364" CREATED="1607835088917" MODIFIED="1607835100514" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object">
+<node TEXT="标准内置对象" FOLDED="true" ID="ID_217860911" CREATED="1601823828567" MODIFIED="1607845379145" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects">
+<node TEXT="Object" FOLDED="true" ID="ID_1002710364" CREATED="1607835088917" MODIFIED="1607835100514" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object">
 <node TEXT="defineProperty()" ID="ID_964342078" CREATED="1615388366399" MODIFIED="1615473197467">
 <icon BUILTIN="password"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3649,13 +3405,11 @@
       &#22312;&#23545;&#35937;&#19978;&#23450;&#20041;&#26032;&#23646;&#24615;&#25110;&#20462;&#25913;&#29616;&#26377;&#23646;&#24615;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="Array" ID="ID_1101740722" CREATED="1601990023475" MODIFIED="1601990064442" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array"/>
-<node TEXT="String" ID="ID_1176913937" CREATED="1601969917283" MODIFIED="1601989834414" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String"><richcontent TYPE="NOTE">
-
+<node TEXT="String" FOLDED="true" ID="ID_1176913937" CREATED="1601969917283" MODIFIED="1601989834414" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/String"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3819,10 +3573,8 @@
       
     </div>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5b57;&#x7b26;&#x8f6c;ASCII&#x7801; charCodeAt()" ID="ID_218377569" CREATED="1601985311389" MODIFIED="1601985776966"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="字符转ASCII码 charCodeAt()" ID="ID_218377569" CREATED="1601985311389" MODIFIED="1601985776966"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3832,20 +3584,19 @@
       &#26412;&#24847;&#26159;&#33719;&#21462;&#23383;&#31526;&#20018;&#26576;&#20010;&#32034;&#24341;&#20301;&#32622;&#30340;&#23383;&#31526;ASCII&#30721;&#12290;&#19981;&#20256;&#21442;&#25968;&#40664;&#35748;&#33719;&#21462;&#31532;&#19968;&#20010;&#23383;&#31526;&#30340;ASCII&#30721;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="ASCII&#x7801;&#x8f6c;&#x5b57;&#x7b26; String.fromCharCode()" ID="ID_601114347" CREATED="1601985971640" MODIFIED="1601986002090"/>
-<node TEXT="&#x5b57;&#x7b26;&#x7d22;&#x5f15;" ID="ID_1934622171" CREATED="1601985346965" MODIFIED="1601989569911"/>
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x622a;&#x53d6;" ID="ID_1127624613" CREATED="1601989570418" MODIFIED="1601989588861"/>
-<node TEXT="&#x8f6c;&#x6362;&#x5927;&#x5c0f;&#x5199;" ID="ID_1489391366" CREATED="1601989589089" MODIFIED="1601989600134"/>
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x62c6;&#x5206;" ID="ID_1117073024" CREATED="1601989600305" MODIFIED="1601989613645"/>
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x66ff;&#x6362;" ID="ID_6173516" CREATED="1601989622283" MODIFIED="1601989634597"/>
+<node TEXT="ASCII码转字符 String.fromCharCode()" ID="ID_601114347" CREATED="1601985971640" MODIFIED="1601986002090"/>
+<node TEXT="字符索引" ID="ID_1934622171" CREATED="1601985346965" MODIFIED="1601989569911"/>
+<node TEXT="字符串截取" ID="ID_1127624613" CREATED="1601989570418" MODIFIED="1601989588861"/>
+<node TEXT="转换大小写" ID="ID_1489391366" CREATED="1601989589089" MODIFIED="1601989600134"/>
+<node TEXT="字符串拆分" ID="ID_1117073024" CREATED="1601989600305" MODIFIED="1601989613645"/>
+<node TEXT="字符串替换" ID="ID_6173516" CREATED="1601989622283" MODIFIED="1601989634597"/>
 </node>
 <node TEXT="Boolean" ID="ID_794560259" CREATED="1607845528456" MODIFIED="1607845531543"/>
 <node TEXT="Math" ID="ID_840999706" CREATED="1601989659286" MODIFIED="1601989810239" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Math"/>
-<node TEXT="Date" ID="ID_207315330" CREATED="1601989909133" MODIFIED="1601989985193" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date">
-<node TEXT="&#x600e;&#x4e48;&#x5728;&#x67d0;&#x4e2a;&#x65f6;&#x95f4;&#x4e0a;&#x52a0;&#x4e00;&#x6bb5;&#x65f6;&#x95f4;&#x83b7;&#x53d6;&#x7ed3;&#x679c;&#x65f6;&#x95f4;" ID="ID_1904957458" CREATED="1601990906195" MODIFIED="1601990952382">
+<node TEXT="Date" FOLDED="true" ID="ID_207315330" CREATED="1601989909133" MODIFIED="1601989985193" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Date">
+<node TEXT="怎么在某个时间上加一段时间获取结果时间" ID="ID_1904957458" CREATED="1601990906195" MODIFIED="1601990952382">
 <icon BUILTIN="help"/>
 </node>
 </node>
@@ -3854,10 +3605,9 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x9ad8;&#x9636;" ID="ID_1648363227" CREATED="1603594689870" MODIFIED="1603594738476" STYLE="bubble">
-<node TEXT="JS&#x6267;&#x884c;&#x8fc7;&#x7a0b;" ID="ID_681752470" CREATED="1603594703568" MODIFIED="1603594896644" STYLE="bubble">
-<node TEXT="&#x8bcd;&#x6cd5;&#x89e3;&#x6790;" ID="ID_1853979420" CREATED="1603594809152" MODIFIED="1603603053565"><richcontent TYPE="NOTE">
-
+<node TEXT="高阶" FOLDED="true" ID="ID_1648363227" CREATED="1603594689870" MODIFIED="1603594738476" STYLE="bubble">
+<node TEXT="JS执行过程" FOLDED="true" ID="ID_681752470" CREATED="1603594703568" MODIFIED="1603594896644" STYLE="bubble">
+<node TEXT="词法解析" ID="ID_1853979420" CREATED="1603594809152" MODIFIED="1603603053565"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3867,11 +3617,9 @@
       &#23558;&#23383;&#31526;&#27969;&#36716;&#25442;&#20026;&#35760;&#21495;&#27969;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x8bed;&#x6cd5;&#x89e3;&#x6790;" ID="ID_844271776" CREATED="1603594854770" MODIFIED="1603603297850"><richcontent TYPE="NOTE">
-
+<node TEXT="语法解析" ID="ID_844271776" CREATED="1603594854770" MODIFIED="1603603297850"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3881,11 +3629,9 @@
       &#20989;&#25968;&#25191;&#34892;&#21069;&#19968;&#21051;&#65292;&#23558;&#31243;&#24207;&#22823;&#33268;&#31895;&#30053;&#30340;&#25195;&#25551;&#19968;&#36941;&#65292;&#26816;&#26597;&#26159;&#21542;&#23384;&#22312;&#35821;&#27861;&#38169;&#35823;&#65292;&#28982;&#21518;&#29983;&#25104;&#23545;&#24212;&#30340;&#35821;&#27861;&#26641;&#65292;&#22914;&#65306;&#25324;&#21495;&#26159;&#21542;&#27491;&#30830;&#23545;&#24212;&#31561;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x9884;&#x7f16;&#x8bd1;" ID="ID_664890454" CREATED="1603594858020" MODIFIED="1603603307196"><richcontent TYPE="NOTE">
-
+<node TEXT="预编译" FOLDED="true" ID="ID_664890454" CREATED="1603594858020" MODIFIED="1603603307196"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3895,11 +3641,9 @@
       &#24403;JavaScript&#24341;&#25806;&#35299;&#26512;&#33050;&#26412;&#26102;&#65292;&#20182;&#20250;&#22312;&#39044;&#32534;&#35793;&#38454;&#27573;&#23545;&#25152;&#26377;&#22768;&#26126;&#30340;&#21464;&#37327;&#21644;&#20989;&#25968;&#36827;&#34892;&#22788;&#29702;&#65292;&#24182;&#19988;&#26159;&#20808;&#39044;&#22768;&#26126;&#21464;&#37327;&#65292;&#20877;&#39044;&#23450;&#20041;&#20989;&#25968;&#65281;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x8bf4;&#x660e;" ID="ID_1200002789" CREATED="1603603865080" MODIFIED="1603603869025">
-<node TEXT="1) imply global &#x6697;&#x793a;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#xff1b;&#x5373;&#x4efb;&#x4f55;&#x53d8;&#x91cf;&#xff0c;&#x5982;&#x679c;&#x53d8;&#x91cf;&#x672a;&#x7ecf;&#x58f0;&#x660e;&#x5c31;&#x8d4b;&#x503c;&#xff0c;&#x6b64;&#x53d8;&#x91cf;&#x5c31;&#x4e3a;&#x5168;&#x5c40;&#x5bf9;&#x8c61;&#x6240;&#x6709;&#x3002;" ID="ID_1336121867" CREATED="1603603702279" MODIFIED="1603603855876"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="说明" FOLDED="true" ID="ID_1200002789" CREATED="1603603865080" MODIFIED="1603603869025">
+<node TEXT="1) imply global 暗示全局变量；即任何变量，如果变量未经声明就赋值，此变量就为全局对象所有。" ID="ID_1336121867" CREATED="1603603702279" MODIFIED="1603603855876"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -3912,13 +3656,11 @@
       eg&#65306;var a = b = 123; //b&#26410;&#32463;&#22768;&#26126;&#23601;&#36171;&#20540;&#65292;b&#26159;&#20840;&#23616;&#21464;&#37327;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="2) &#x4e00;&#x5207;&#x58f0;&#x660e;&#x7684;&#x5168;&#x5c40;&#x53d8;&#x91cf;&#xff0c;&#x5168;&#x662f;window&#x7684;&#x5c5e;&#x6027;&#x3002;" ID="ID_1926234914" CREATED="1603603830862" MODIFIED="1603603837257"/>
+<node TEXT="2) 一切声明的全局变量，全是window的属性。" ID="ID_1926234914" CREATED="1603603830862" MODIFIED="1603603837257"/>
 </node>
-<node TEXT="&#x6d41;&#x7a0b;" ID="ID_1439135292" CREATED="1603603877628" MODIFIED="1603604534121"><richcontent TYPE="DETAILS">
-
+<node TEXT="流程" FOLDED="true" ID="ID_1439135292" CREATED="1603603877628" MODIFIED="1603604534121"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -3931,16 +3673,14 @@
       <font color="#0000c0">&#21518;&#38754;&#30340;&#35299;&#37322;&#34920;&#36848;&#19981;&#28165;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="1) &#x521b;&#x5efa;AO&#x5bf9;&#x8c61; Activation Object [&#x5e38;&#x8bf4;&#x7684;&#x4f5c;&#x7528;&#x57df;&#xff0c;&#x4e5f;&#x79f0;&#x4e3a;&#x6267;&#x884c;&#x5668;&#x4e0a;&#x4e0b;&#x6587;]" ID="ID_1170228501" CREATED="1603603881373" MODIFIED="1603603956561"/>
-<node TEXT="2) &#x67e5;&#x627e;&#x5f62;&#x53c2;&#x548c;&#x53d8;&#x91cf;&#x58f0;&#x660e;&#xff0c;&#x5c06;&#x53d8;&#x91cf;&#x548c;&#x5f62;&#x53c2;&#x540d;&#x4f5c;&#x4e3a;AO&#x5c5e;&#x6027;&#x540d;&#xff0c;&#x503c;&#x4e3a;undefined" ID="ID_1516210106" CREATED="1603603960066" MODIFIED="1603604701657">
-<node TEXT="&#x53d8;&#x91cf;&#x58f0;&#x660e;&#x63d0;&#x5347;&#x3001;&#x51fd;&#x6570;&#x63d0;&#x5347;" ID="ID_1376710200" CREATED="1603603336981" MODIFIED="1603603356062"/>
+</html></richcontent>
+<node TEXT="1) 创建AO对象 Activation Object [常说的作用域，也称为执行器上下文]" ID="ID_1170228501" CREATED="1603603881373" MODIFIED="1603603956561"/>
+<node TEXT="2) 查找形参和变量声明，将变量和形参名作为AO属性名，值为undefined" FOLDED="true" ID="ID_1516210106" CREATED="1603603960066" MODIFIED="1603604701657">
+<node TEXT="变量声明提升、函数提升" ID="ID_1376710200" CREATED="1603603336981" MODIFIED="1603603356062"/>
 </node>
-<node TEXT="3) &#x5b9e;&#x53c2;&#x503c;&#x8d4b;&#x7ed9;&#x5f62;&#x53c2;" ID="ID_1915732939" CREATED="1603604035184" MODIFIED="1603604715771"/>
-<node TEXT="4) &#x67e5;&#x627e;&#x51fd;&#x6570;&#x58f0;&#x660e;&#xff0c;&#x503c;&#x8d4b;&#x4e88;&#x51fd;&#x6570;&#x4f53;" ID="ID_1549405375" CREATED="1603604048431" MODIFIED="1603604745776"/>
-<node TEXT="&#x5b9e;&#x4f8b;" ID="ID_348313751" CREATED="1603604073653" MODIFIED="1603605346393"><richcontent TYPE="NOTE">
-
+<node TEXT="3) 实参值赋给形参" ID="ID_1915732939" CREATED="1603604035184" MODIFIED="1603604715771"/>
+<node TEXT="4) 查找函数声明，值赋予函数体" ID="ID_1549405375" CREATED="1603604048431" MODIFIED="1603604745776"/>
+<node TEXT="实例" ID="ID_348313751" CREATED="1603604073653" MODIFIED="1603605346393"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4052,13 +3792,11 @@
     </div>
      
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x89e3;&#x91ca;&#x6267;&#x884c;" ID="ID_636137421" CREATED="1603594870976" MODIFIED="1603603520409"><richcontent TYPE="NOTE">
-
+<node TEXT="解释执行" ID="ID_636137421" CREATED="1603594870976" MODIFIED="1603603520409"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4077,14 +3815,12 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="ES6" ID="ID_1487606766" CREATED="1599963478182" MODIFIED="1610980364256" STYLE="bubble"><richcontent TYPE="NOTE">
-
+<node TEXT="ES6" FOLDED="true" ID="ID_1487606766" CREATED="1599963478182" MODIFIED="1610980364256" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4100,11 +3836,9 @@
       ES6&#24191;&#20041;&#19978;&#33539;&#25351;ES6+ES7+ES8+...&#65288;ES7&#12289;ES8 ... &#20462;&#25913;&#36739;&#23569;&#65289;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x57fa;&#x7840;" ID="ID_1152505178" CREATED="1607845401701" MODIFIED="1607845408118" STYLE="bubble">
-<node TEXT="&#x53d8;&#x91cf;&#x5b9a;&#x4e49;let / const" ID="ID_1595822714" CREATED="1610281455394" MODIFIED="1610281943971"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="基础" FOLDED="true" ID="ID_1152505178" CREATED="1607845401701" MODIFIED="1607845408118" STYLE="bubble">
+<node TEXT="变量定义let / const" ID="ID_1595822714" CREATED="1610281455394" MODIFIED="1610281943971"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4138,11 +3872,9 @@
       const &#22522;&#26412;&#31561;&#21516;&#20110;let, &#20294;&#26159;&#29992;&#20110;&#23450;&#20041;&#24120;&#37327;, &#19981;&#33021;&#37325;&#26032;&#36171;&#20540;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x89e3;&#x6784;&#x8d4b;&#x503c;" ID="ID_1870766795" CREATED="1610282295640" MODIFIED="1610282539705"><richcontent TYPE="NOTE">
-
+<node TEXT="解构赋值" ID="ID_1870766795" CREATED="1610282295640" MODIFIED="1610282539705"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4158,11 +3890,9 @@
       let [a, b, c] = [1, 3, 5];
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x7bad;&#x5934;&#x51fd;&#x6570;" ID="ID_1065753088" CREATED="1610284160762" MODIFIED="1610980980156"><richcontent TYPE="NOTE">
-
+<node TEXT="箭头函数" FOLDED="true" ID="ID_1065753088" CREATED="1610284160762" MODIFIED="1610980980156"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4184,11 +3914,9 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x4ee3;&#x7801;&#x7b80;&#x5316;" ID="ID_1609875625" CREATED="1610984040701" MODIFIED="1610984069916"/>
-<node TEXT="this&#x7279;&#x6027;" ID="ID_1090548791" CREATED="1610984070260" MODIFIED="1610984099475"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="代码简化" ID="ID_1609875625" CREATED="1610984040701" MODIFIED="1610984069916"/>
+<node TEXT="this特性" ID="ID_1090548791" CREATED="1610984070260" MODIFIED="1610984099475"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4198,12 +3926,10 @@
       &#25351;&#21521;&#26368;&#36817;&#30340;&#22806;&#37096;&#20316;&#29992;&#22495;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x5269;&#x4f59;&#x8fd0;&#x7b97;&#x7b26;(&#x6269;&#x5c55;&#x8fd0;&#x7b97;&#x7b26;) ,,," ID="ID_1172351158" CREATED="1610984926342" MODIFIED="1610985431159"><richcontent TYPE="NOTE">
-
+<node TEXT="剩余运算符(扩展运算符) ,,," FOLDED="true" ID="ID_1172351158" CREATED="1610984926342" MODIFIED="1610985431159"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4213,10 +3939,8 @@
       &#21482;&#33021;&#20316;&#20026;&#26368;&#21518;&#19968;&#20010;&#21442;&#25968;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x4f7f;&#x7528;&#x6848;&#x4f8b;" ID="ID_1614646401" CREATED="1610985604122" MODIFIED="1610986525533"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="使用案例" ID="ID_1614646401" CREATED="1610985604122" MODIFIED="1610986525533"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4232,12 +3956,10 @@
       3 &#23545;&#35937;&#25335;&#36125;&#65288;&#27973;&#25335;&#36125;&#65289;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x6a21;&#x677f;&#x5b57;&#x7b26;&#x4e32;" ID="ID_1188410731" CREATED="1610284166435" MODIFIED="1610987860118" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings"><richcontent TYPE="DETAILS">
-
+<node TEXT="模板字符串" FOLDED="true" ID="ID_1188410731" CREATED="1610284166435" MODIFIED="1610987860118" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -4247,18 +3969,16 @@
       <font color="#0000c0">&#26377;&#28857;&#20687;shell&#33050;&#26412;&#30340;&#35821;&#27861;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x4fdd;&#x7559;&#x539f;&#x683c;&#x5f0f;&#x62f7;&#x8d1d;" ID="ID_1783535456" CREATED="1610987595710" MODIFIED="1610987606747"/>
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;&#x62fc;&#x63a5;" ID="ID_192672983" CREATED="1610987561026" MODIFIED="1610987580498"/>
-<node TEXT="&#x5e26;&#x6807;&#x7b7e;&#x6a21;&#x677f;&#x5b57;&#x7b26;&#x4e32;" ID="ID_628865979" CREATED="1610988073739" MODIFIED="1610988088890"/>
+</html></richcontent>
+<node TEXT="保留原格式拷贝" ID="ID_1783535456" CREATED="1610987595710" MODIFIED="1610987606747"/>
+<node TEXT="字符串拼接" ID="ID_192672983" CREATED="1610987561026" MODIFIED="1610987580498"/>
+<node TEXT="带标签模板字符串" ID="ID_628865979" CREATED="1610988073739" MODIFIED="1610988088890"/>
 </node>
-<node TEXT="&#x65b0;&#x589e;API" ID="ID_1246640675" CREATED="1610284177692" MODIFIED="1610284188443">
-<node TEXT="&#x6570;&#x7ec4;" ID="ID_60161713" CREATED="1610284193058" MODIFIED="1610284197428"/>
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;" ID="ID_1731875933" CREATED="1610284197568" MODIFIED="1610284201950"/>
+<node TEXT="新增API" FOLDED="true" ID="ID_1246640675" CREATED="1610284177692" MODIFIED="1610284188443">
+<node TEXT="数组" ID="ID_60161713" CREATED="1610284193058" MODIFIED="1610284197428"/>
+<node TEXT="字符串" ID="ID_1731875933" CREATED="1610284197568" MODIFIED="1610284201950"/>
 </node>
-<node TEXT="Promise" ID="ID_115459143" CREATED="1610988506057" MODIFIED="1611394029403"><richcontent TYPE="NOTE">
-
+<node TEXT="Promise" FOLDED="true" ID="ID_115459143" CREATED="1610988506057" MODIFIED="1611394029403"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4304,15 +4024,13 @@
       Pormise&#38142;&#24335;&#35843;&#29992;&#65306;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Promises/A+&#x89c4;&#x8303;" ID="ID_1896203326" CREATED="1611395299269" MODIFIED="1611395312912" LINK="https://promisesaplus.com/"/>
-<node TEXT="&#x5bf9;&#x6bd4; async+await" ID="ID_1249156548" CREATED="1610988512598" MODIFIED="1610988973059"/>
+</html></richcontent>
+<node TEXT="Promises/A+规范" ID="ID_1896203326" CREATED="1611395299269" MODIFIED="1611395312912" LINK="https://promisesaplus.com/"/>
+<node TEXT="对比 async+await" ID="ID_1249156548" CREATED="1610988512598" MODIFIED="1610988973059"/>
 </node>
-<node TEXT="&#x5bf9;&#x8c61;" ID="ID_1969433936" CREATED="1607845411846" MODIFIED="1607845416896">
-<node TEXT="&#x53cd;&#x5c04; Reflect" ID="ID_100340772" CREATED="1607835329972" MODIFIED="1607835382013" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Reflect"/>
-<node TEXT="&#x5bf9;&#x8c61;&#x539f;&#x578b;(prototype)" ID="ID_1917384826" CREATED="1601957407994" MODIFIED="1607845423884"><richcontent TYPE="NOTE">
-
+<node TEXT="对象" FOLDED="true" ID="ID_1969433936" CREATED="1607845411846" MODIFIED="1607845416896">
+<node TEXT="反射 Reflect" ID="ID_100340772" CREATED="1607835329972" MODIFIED="1607835382013" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Reflect"/>
+<node TEXT="对象原型(prototype)" ID="ID_1917384826" CREATED="1601957407994" MODIFIED="1607845423884"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4343,11 +4061,9 @@
       <font color="rgb(0, 0, 0)" face="Consolas, courier new">//&#28155;&#21152;&#26041;&#27861;<br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">Person.</font><font color="black" face="Consolas, courier new" size="15px">prototype</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">name</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">=</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">function</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">() {</font><font color="rgb(0, 0, 0)" face="Consolas, courier new"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">return</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">this</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">firstName</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">+</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">&quot; &quot;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">+</font><font color="rgb(0, 0, 0)" face="Consolas, courier new">&#160;</font><font color="black" face="Consolas, courier new" size="15px">this</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">.</font><font color="black" face="Consolas, courier new" size="15px">lastName</font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">;</font><font color="rgb(0, 0, 0)" face="Consolas, courier new"><br align="start" style="letter-spacing: normal; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255)"/></font><font color="rgb(0, 0, 0)" face="Consolas, courier new" size="15px">};</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x7c7b;&#xff08;ES6&#x5f15;&#x5165;&#xff09;" ID="ID_507264298" CREATED="1601824087392" MODIFIED="1601824563711" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes"><richcontent TYPE="DETAILS">
-
+<node TEXT="类（ES6引入）" FOLDED="true" ID="ID_507264298" CREATED="1601824087392" MODIFIED="1601824563711" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Classes"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -4357,27 +4073,25 @@
       <font color="#0000c0">&#24863;&#35273;&#21644;java&#30340;&#31867;&#24456;&#20687;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="class&#x7c7b;&#x58f0;&#x660e;" ID="ID_608289070" CREATED="1601824651631" MODIFIED="1601824661551"/>
-<node TEXT="&#x6784;&#x9020;&#x65b9;&#x6cd5;" ID="ID_492926577" CREATED="1601824679376" MODIFIED="1601824686654"/>
-<node TEXT="&#x7c7b;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_209078239" CREATED="1601824743592" MODIFIED="1601824751780"/>
-<node TEXT="&#x539f;&#x578b;&#x65b9;&#x6cd5;" ID="ID_1795573141" CREATED="1601824977676" MODIFIED="1601824989366"/>
-<node TEXT="&#x9759;&#x6001;&#x65b9;&#x6cd5;" ID="ID_746107215" CREATED="1601824989838" MODIFIED="1601824997788"/>
-<node TEXT="&#x516c;&#x6709;&#x5b57;&#x6bb5;&#x548c;&#x79c1;&#x6709;&#x5b57;&#x6bb5;" ID="ID_1691103516" CREATED="1601825013932" MODIFIED="1601957568162"/>
-<node TEXT="&#x5b50;&#x7c7b; extend" ID="ID_642936070" CREATED="1601825121196" MODIFIED="1601825134455"/>
-<node TEXT="&#x7236;&#x7c7b; super" ID="ID_16130385" CREATED="1601825134900" MODIFIED="1601825149020"/>
+</html></richcontent>
+<node TEXT="class类声明" ID="ID_608289070" CREATED="1601824651631" MODIFIED="1601824661551"/>
+<node TEXT="构造方法" ID="ID_492926577" CREATED="1601824679376" MODIFIED="1601824686654"/>
+<node TEXT="类表达式" ID="ID_209078239" CREATED="1601824743592" MODIFIED="1601824751780"/>
+<node TEXT="原型方法" ID="ID_1795573141" CREATED="1601824977676" MODIFIED="1601824989366"/>
+<node TEXT="静态方法" ID="ID_746107215" CREATED="1601824989838" MODIFIED="1601824997788"/>
+<node TEXT="公有字段和私有字段" ID="ID_1691103516" CREATED="1601825013932" MODIFIED="1601957568162"/>
+<node TEXT="子类 extend" ID="ID_642936070" CREATED="1601825121196" MODIFIED="1601825134455"/>
+<node TEXT="父类 super" ID="ID_16130385" CREATED="1601825134900" MODIFIED="1601825149020"/>
 <node TEXT="species" ID="ID_1162215916" CREATED="1601825159251" MODIFIED="1601825165793"/>
 <node TEXT="mix-ins" ID="ID_336553180" CREATED="1601825184763" MODIFIED="1601825185744"/>
 </node>
 </node>
 </node>
-<node TEXT="&#x5de5;&#x5177;" ID="ID_99443595" CREATED="1610284055013" MODIFIED="1610284058983" STYLE="bubble">
-<node TEXT="JS&#x517c;&#x5bb9;&#x8bed;&#x6cd5;&#x8f6c;&#x6362;&#x5668;Babel" ID="ID_1733352596" CREATED="1610284060160" MODIFIED="1610284084863"/>
+<node TEXT="工具" FOLDED="true" ID="ID_99443595" CREATED="1610284055013" MODIFIED="1610284058983" STYLE="bubble">
+<node TEXT="JS兼容语法转换器Babel" ID="ID_1733352596" CREATED="1610284060160" MODIFIED="1610284084863"/>
 </node>
 </node>
-<node TEXT="DOM" ID="ID_672122591" CREATED="1599963489833" MODIFIED="1608475386941" LINK="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model" STYLE="bubble"><richcontent TYPE="NOTE">
-
+<node TEXT="DOM" FOLDED="true" ID="ID_672122591" CREATED="1599963489833" MODIFIED="1608475386941" LINK="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4414,11 +4128,9 @@
       DOM3
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x57fa;&#x7840;" ID="ID_744229041" CREATED="1602065466034" MODIFIED="1602065476169">
-<node TEXT="window&#x4e0e;document&#x5bf9;&#x8c61;" ID="ID_274784095" CREATED="1602065476736" MODIFIED="1608475059103"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="基础" FOLDED="true" ID="ID_744229041" CREATED="1602065466034" MODIFIED="1602065476169">
+<node TEXT="window与document对象" FOLDED="true" ID="ID_274784095" CREATED="1602065476736" MODIFIED="1608475059103"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4446,13 +4158,11 @@
       DOM&#19981;&#20165;&#21487;&#20197;&#22788;&#29702;HTML&#25991;&#20214;&#20063;&#21487;&#20197;&#22788;&#29702;XML&#25991;&#20214;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="Document&#x5bf9;&#x8c61;&#x96c6;&#x5408;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_1152346006" CREATED="1610254003547" MODIFIED="1610254096627"/>
-<node TEXT="Element&#x5bf9;&#x8c61;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_534657234" CREATED="1610254017340" MODIFIED="1615698807478" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement">
+</html></richcontent>
+<node TEXT="Document对象集合/属性/方法" ID="ID_1152346006" CREATED="1610254003547" MODIFIED="1610254096627"/>
+<node TEXT="Element对象/属性/方法" ID="ID_534657234" CREATED="1610254017340" MODIFIED="1615698807478" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement">
 <icon BUILTIN="wizard"/>
-<richcontent TYPE="DETAILS">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -4462,16 +4172,14 @@
       <font color="#0000c0">HTMLElement</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Attribute(HTML&#x5c5e;&#x6027;)&#x5bf9;&#x8c61;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_1380617509" CREATED="1610254017340" MODIFIED="1610254182415"/>
-<node TEXT="Event&#x5bf9;&#x8c61;/&#x53e5;&#x67c4;/&#x5c5e;&#x6027;/&#x65b9;&#x6cd5;" ID="ID_1297857771" CREATED="1610254205273" MODIFIED="1610254218982"/>
+<node TEXT="Attribute(HTML属性)对象/属性/方法" ID="ID_1380617509" CREATED="1610254017340" MODIFIED="1610254182415"/>
+<node TEXT="Event对象/句柄/属性/方法" ID="ID_1297857771" CREATED="1610254205273" MODIFIED="1610254218982"/>
 </node>
 </node>
-<node TEXT="DOM&#x6811;" ID="ID_364265294" CREATED="1602037965666" MODIFIED="1602037975015">
-<node TEXT="&#x8282;&#x70b9;" ID="ID_1707661937" CREATED="1602038014230" MODIFIED="1609673176772"><richcontent TYPE="NOTE">
-
+<node TEXT="DOM树" FOLDED="true" ID="ID_364265294" CREATED="1602037965666" MODIFIED="1602037975015">
+<node TEXT="节点" FOLDED="true" ID="ID_1707661937" CREATED="1602038014230" MODIFIED="1609673176772"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4505,10 +4213,8 @@
       3&#20010;&#20803;&#32032;&#33410;&#28857;&#65288;li&#65289;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5143;&#x7d20;&#x8282;&#x70b9;" ID="ID_766157187" CREATED="1602038023851" MODIFIED="1609674031030"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="元素节点" ID="ID_766157187" CREATED="1602038023851" MODIFIED="1609674031030"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4524,11 +4230,9 @@
       nodeType = 1
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5c5e;&#x6027;&#x8282;&#x70b9;" ID="ID_1741083944" CREATED="1602038030691" MODIFIED="1609674035574"><richcontent TYPE="NOTE">
-
+<node TEXT="属性节点" ID="ID_1741083944" CREATED="1602038030691" MODIFIED="1609674035574"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4544,11 +4248,9 @@
       nodeType = 2
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5185;&#x5bb9;&#x8282;&#x70b9;" ID="ID_1563244491" CREATED="1602038040589" MODIFIED="1609674043114"><richcontent TYPE="NOTE">
-
+<node TEXT="内容节点" ID="ID_1563244491" CREATED="1602038040589" MODIFIED="1609674043114"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4564,15 +4266,13 @@
       nodeType = 3
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x8282;&#x70b9;&#x5c42;&#x7ea7;" ID="ID_921531030" CREATED="1609667670151" MODIFIED="1609667678306">
+<node TEXT="节点层级" FOLDED="true" ID="ID_921531030" CREATED="1609667670151" MODIFIED="1609667678306">
 <node TEXT="&lt;element&gt;.childNodes" ID="ID_782832837" CREATED="1609672449278" MODIFIED="1609674745273">
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4582,11 +4282,9 @@
       &#33719;&#21462;&#20803;&#32032;&#25152;&#26377;&#30340;&#23376;&#33410;&#28857;&#65288;&#21253;&#25324;&#20803;&#32032;&#33410;&#28857; &#12289;&#20869;&#23481;&#33410;&#28857;&#65292;&#22909;&#20687;&#19981;&#21253;&#21547;&#23646;&#24615;&#33410;&#28857;&#65289;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&lt;element&gt;.children" ID="ID_682212329" CREATED="1609672527000" MODIFIED="1609672698746"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;element&gt;.children" ID="ID_682212329" CREATED="1609672527000" MODIFIED="1609672698746"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4596,11 +4294,9 @@
       &#21482;&#33719;&#21462;&#20803;&#32032;&#25152;&#26377;&#23376;&#20803;&#32032;&#33410;&#28857;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&lt;element&gt;.parentNode" ID="ID_648188327" CREATED="1609672713277" MODIFIED="1609672760003"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;element&gt;.parentNode" ID="ID_648188327" CREATED="1609672713277" MODIFIED="1609672760003"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4610,13 +4306,11 @@
       &#33719;&#21462;&#20803;&#32032;&#29238;&#33410;&#28857;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;element&gt;.firstChild" ID="ID_832768414" CREATED="1609672798879" MODIFIED="1609672808994"/>
 <node TEXT="&lt;element&gt;.lastChild" ID="ID_1809208142" CREATED="1609672809273" MODIFIED="1609672841591"/>
-<node TEXT="&lt;element&gt;.nextSibling" ID="ID_1382116481" CREATED="1609673367698" MODIFIED="1609673566216"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;element&gt;.nextSibling" ID="ID_1382116481" CREATED="1609673367698" MODIFIED="1609673566216"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4626,14 +4320,12 @@
       sibling: &#20804;&#24351;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;element&gt;.previousSibling" ID="ID_1778761923" CREATED="1609673445575" MODIFIED="1609673457410"/>
 <node TEXT="&lt;element&gt;.firstElementChild" ID="ID_1306638140" CREATED="1609672842517" MODIFIED="1609673823671">
 <icon BUILTIN="info"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4643,8 +4335,7 @@
       &#21487;&#33021;&#26377;&#20860;&#23481;&#38382;&#39064;&#65292;&#32769;&#29256;&#26412;&#27983;&#35272;&#22120;&#21487;&#33021;&#19981;&#20860;&#23481;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;element&gt;.lastElementChild" ID="ID_1707523691" CREATED="1609672861064" MODIFIED="1609673787192">
 <icon BUILTIN="info"/>
@@ -4657,8 +4348,7 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5143;&#x7d20;&#x64cd;&#x4f5c;" ID="ID_745118796" CREATED="1601997550340" MODIFIED="1602038196214"><richcontent TYPE="NOTE">
-
+<node TEXT="元素操作" FOLDED="true" ID="ID_745118796" CREATED="1601997550340" MODIFIED="1602038196214"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4680,9 +4370,8 @@
       &#35774;&#32622;&#26679;&#24335;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5143;&#x7d20;&#x83b7;&#x53d6;&#x589e;&#x5220;&#x6539;&#x67e5;" ID="ID_328440457" CREATED="1602064591349" MODIFIED="1609672749300">
+</html></richcontent>
+<node TEXT="元素获取增删改查" FOLDED="true" ID="ID_328440457" CREATED="1602064591349" MODIFIED="1609672749300">
 <node ID="ID_1371519817" CREATED="1607847380020" MODIFIED="1608478350426"><richcontent TYPE="NODE">
 
 <html>
@@ -4696,8 +4385,7 @@
   </body>
 </html>
 </richcontent>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4707,10 +4395,8 @@
       &#21482;&#26377;document&#23545;&#35937;&#26377;&#36825;&#20010;&#26041;&#27861;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -4720,11 +4406,9 @@
       <font color="#0000c0">document&#19987;&#26377;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="getElementByName()" ID="ID_1082598101" CREATED="1608476784418" MODIFIED="1608478363670"><richcontent TYPE="DETAILS">
-
+<node TEXT="getElementByName()" ID="ID_1082598101" CREATED="1608476784418" MODIFIED="1608478363670"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -4734,11 +4418,9 @@
       <font color="#0000c0">document&#19987;&#26377;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="getElementByTagName()" ID="ID_924230827" CREATED="1608476065928" MODIFIED="1608476566261"><richcontent TYPE="NOTE">
-
+<node TEXT="getElementByTagName()" ID="ID_924230827" CREATED="1608476065928" MODIFIED="1608476566261"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4748,12 +4430,10 @@
       &#38500;&#20102;document&#19979;&#38754;&#30340;&#23376;&#33410;&#28857;&#20063;&#25317;&#26377;&#36825;&#20010;&#26041;&#27861;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="getElementByClassName()" ID="ID_1142996278" CREATED="1608476731527" MODIFIED="1608476752671"/>
-<node TEXT="querySelectorAll()" ID="ID_334069414" CREATED="1608477316735" MODIFIED="1608479129130"><richcontent TYPE="NOTE">
-
+<node TEXT="querySelectorAll()" ID="ID_334069414" CREATED="1608477316735" MODIFIED="1608479129130"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4763,11 +4443,9 @@
       &#36890;&#36807;&#36873;&#25321;&#22120;&#23383;&#31526;&#20018;&#65288;DOMString&#65289;&#26597;&#25214;&#25152;&#26377;&#31526;&#21512;&#30340;&#20803;&#32032;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="querySelector()" ID="ID_1743405206" CREATED="1608478524816" MODIFIED="1608478572559"><richcontent TYPE="NOTE">
-
+<node TEXT="querySelector()" ID="ID_1743405206" CREATED="1608478524816" MODIFIED="1608478572559"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4777,11 +4455,9 @@
       &#21482;&#36820;&#22238;&#31532;&#19968;&#20010;&#21305;&#37197;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="document.all (&#x5df2;&#x5e9f;&#x5f03;)" ID="ID_474855812" CREATED="1608478674996" MODIFIED="1608478740010"><richcontent TYPE="NOTE">
-
+<node TEXT="document.all (已废弃)" ID="ID_474855812" CREATED="1608478674996" MODIFIED="1608478740010"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4791,12 +4467,10 @@
       &#33719;&#21462;document&#25152;&#26377;&#20803;&#32032;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="document.body" ID="ID_1349396403" CREATED="1608479218230" MODIFIED="1608479227600"/>
-<node TEXT="document.documentElement" ID="ID_1342509835" CREATED="1608479227810" MODIFIED="1608479445403"><richcontent TYPE="NOTE">
-
+<node TEXT="document.documentElement" ID="ID_1342509835" CREATED="1608479227810" MODIFIED="1608479445403"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4806,12 +4480,10 @@
       &#23545;&#24212;html&#20803;&#32032;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="document.createElement()" ID="ID_847912038" CREATED="1609674843439" MODIFIED="1609678973296"/>
-<node TEXT="&lt;element&gt;.appendChild()" ID="ID_766643774" CREATED="1609678973713" MODIFIED="1609679137326"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;element&gt;.appendChild()" ID="ID_766643774" CREATED="1609678973713" MODIFIED="1609679137326"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4821,12 +4493,10 @@
       &#22312;&#29238;&#20803;&#32032;&#26368;&#21518;&#38754;&#25554;&#20837;&#20803;&#32032;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;element&gt;.insertBefore()" ID="ID_848889880" CREATED="1609679138004" MODIFIED="1609679174043"/>
-<node TEXT="&lt;element&gt;.remove()" ID="ID_531610867" CREATED="1609679558819" MODIFIED="1609679582083"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;element&gt;.remove()" ID="ID_531610867" CREATED="1609679558819" MODIFIED="1609679582083"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4836,12 +4506,10 @@
       &#20803;&#32032;&#21024;&#38500;&#33258;&#24049;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="&lt;element&gt;.remvoeChild()" ID="ID_1169234620" CREATED="1609679584559" MODIFIED="1609679614547"/>
-<node TEXT="&lt;element&gt;.cloneNode()" ID="ID_112605375" CREATED="1609680091131" MODIFIED="1609680159748"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;element&gt;.cloneNode()" ID="ID_112605375" CREATED="1609680091131" MODIFIED="1609680159748"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4860,12 +4528,10 @@
       // &#40664;&#35748;&#21442;&#25968;false &#34920;&#31034;&#27973;&#25335;&#36125; &#21482;&#22797;&#21046;&#26631;&#31614;&#26412;&#36523;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x5143;&#x7d20;&#x521b;&#x5efa;&#x7684;&#x51e0;&#x79cd;&#x65b9;&#x5f0f;&#x5bf9;&#x6bd4;" ID="ID_631767865" CREATED="1609680557519" MODIFIED="1609680728089"><richcontent TYPE="NOTE">
-
+<node TEXT="元素创建的几种方式对比" ID="ID_631767865" CREATED="1609680557519" MODIFIED="1609680728089"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4887,22 +4553,20 @@
       3 document.createElement() + &lt;element&gt;.appendChild()
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5143;&#x7d20;&#x7684;&#x5c42;&#x6b21;&#x5173;&#x7cfb;" ID="ID_1017164787" CREATED="1607847382372" MODIFIED="1607848392840">
+<node TEXT="元素的层次关系" ID="ID_1017164787" CREATED="1607847382372" MODIFIED="1607848392840">
 <icon BUILTIN="idea"/>
 </node>
-<node TEXT="&#x5c5e;&#x6027;&#x64cd;&#x4f5c;" ID="ID_1594057925" CREATED="1607847393125" MODIFIED="1607847400179">
+<node TEXT="属性操作" FOLDED="true" ID="ID_1594057925" CREATED="1607847393125" MODIFIED="1607847400179">
 <node TEXT="&lt;element&gt;.&lt;attr&gt; = &lt;value&gt;" ID="ID_622916480" CREATED="1609663915201" MODIFIED="1609663947872"/>
 <node TEXT="&lt;element&gt;[&quot;attrName&quot;] = &lt;value&gt;" ID="ID_348195920" CREATED="1609683210382" MODIFIED="1609683248322"/>
 <node TEXT="&lt;element&gt;.getAttribute()" ID="ID_839719790" CREATED="1609663593837" MODIFIED="1609663654914"/>
 <node TEXT="&lt;element&gt;.setAttribute()" ID="ID_1589158701" CREATED="1609663625931" MODIFIED="1609663664446"/>
 <node TEXT="&lt;element&gt;.removeAttribute()" ID="ID_1974847034" CREATED="1609663967915" MODIFIED="1609663984582"/>
 </node>
-<node TEXT="&#x5185;&#x5bb9;&#x64cd;&#x4f5c;" ID="ID_1357973261" CREATED="1607847449274" MODIFIED="1607847458265"/>
-<node TEXT="&#x83b7;&#x53d6;&#x4f4d;&#x7f6e;&#x4fe1;&#x606f;" ID="ID_885494041" CREATED="1615697622127" MODIFIED="1615818483112" LINK="js/dom1212/imgs/JS_DOM_size_offset.jpg"><richcontent TYPE="DETAILS">
-
+<node TEXT="内容操作" ID="ID_1357973261" CREATED="1607847449274" MODIFIED="1607847458265"/>
+<node TEXT="获取位置信息" FOLDED="true" ID="ID_885494041" CREATED="1615697622127" MODIFIED="1615818483112" LINK="js/dom1212/imgs/JS_DOM_size_offset.jpg"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -4915,12 +4579,9 @@
       <font color="#0000c0">&#26159;&#20803;&#32032;&#30340;&#23646;&#24615;</font>
     </p>
   </body>
-</html>
-
-</richcontent>
-<node TEXT="offset" ID="ID_1879536939" CREATED="1615724490003" MODIFIED="1615724493329">
-<node TEXT="offsetParent" ID="ID_211438078" CREATED="1615699118962" MODIFIED="1615719045698"><richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<node TEXT="offset" FOLDED="true" ID="ID_1879536939" CREATED="1615724490003" MODIFIED="1615724493329">
+<node TEXT="offsetParent" ID="ID_211438078" CREATED="1615699118962" MODIFIED="1615719045698"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -4930,11 +4591,9 @@
       <font color="#0000c0">&#26368;&#36817;&#24102;&#26377;&#23450;&#20301;&#30340;&#31062;&#20808;&#20803;&#32032;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="offsetHeight" ID="ID_748355122" CREATED="1615698883880" MODIFIED="1615724490024"><richcontent TYPE="NOTE">
-
+<node TEXT="offsetHeight" ID="ID_748355122" CREATED="1615698883880" MODIFIED="1615724490024"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4947,11 +4606,9 @@
       <font color="rgb(51, 51, 51)" face="arial, x-locale-body, sans-serif"><i>border*2 + padding*2 + height </i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="offsetWidth" ID="ID_1521929338" CREATED="1615699129226" MODIFIED="1615724509271"><richcontent TYPE="NOTE">
-
+<node TEXT="offsetWidth" ID="ID_1521929338" CREATED="1615699129226" MODIFIED="1615724509271"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4961,13 +4618,11 @@
       <font color="rgb(51, 51, 51)" face="arial, x-locale-body, sans-serif"><i>border*2 + padding*2 + width</i></font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="offsetLeft" ID="ID_1738867447" CREATED="1615699112724" MODIFIED="1615723701594">
+<node TEXT="offsetLeft" FOLDED="true" ID="ID_1738867447" CREATED="1615699112724" MODIFIED="1615723701594">
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -4977,10 +4632,8 @@
       &#20803;&#32032;border&#24038;&#22806;&#22260;&#21040;&#29238;&#23450;&#20301;&#20803;&#32032;&#30340;&#20869;&#23481;&#21306;&#24038;&#36793;&#30028;&#30340;&#20687;&#32032;&#20540;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -4993,15 +4646,13 @@
       <font color="#0000c0">&#26597;&#21040;&#30340;&#25551;&#36848;&#37117;&#35828;&#30340;&#19981;&#28165;&#19981;&#26970;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5143;&#x7d20;border&#x5de6;&#x5916;&#x56f4;&#x5230;&#x7236;&#x5b9a;&#x4f4d;&#x5143;&#x7d20;&#x7684;&#x5185;&#x5bb9;&#x533a;&#x5de6;&#x8fb9;&#x754c;&#x7684;&#x50cf;&#x7d20;&#x503c;" ID="ID_567593988" CREATED="1615723603346" MODIFIED="1615723614609"/>
-<node TEXT="! &#x5982;&#x679c;&#x7236;&#x5b9a;&#x4f4d;&#x5143;&#x7d20;&#x662f;body&#x5219;&#x8fd4;&#x56de;&#x5b50;&#x5143;&#x7d20;&#x5916;&#x8fb9;&#x754c;&#x5230;body&#x6700;&#x5916;&#x56f4;&#x7684;&#x50cf;&#x7d20;&#x503c;" ID="ID_1700495883" CREATED="1615722917410" MODIFIED="1615723031987"/>
+</html></richcontent>
+<node TEXT="元素border左外围到父定位元素的内容区左边界的像素值" ID="ID_567593988" CREATED="1615723603346" MODIFIED="1615723614609"/>
+<node TEXT="! 如果父定位元素是body则返回子元素外边界到body最外围的像素值" ID="ID_1700495883" CREATED="1615722917410" MODIFIED="1615723031987"/>
 </node>
 <node TEXT="offsetTop" ID="ID_316910794" CREATED="1615699125380" MODIFIED="1615722679747">
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5011,13 +4662,11 @@
       &#20803;&#32032;border&#19978;&#22806;&#22260;&#21040;&#29238;&#23450;&#20301;&#20803;&#32032;&#30340;&#20869;&#23481;&#21306;&#19978;&#36793;&#30028;&#30340;&#20687;&#32032;&#20540;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="client" ID="ID_1570213462" CREATED="1615724494625" MODIFIED="1615724498621">
-<node TEXT="clientWidth" ID="ID_1114806404" CREATED="1615817635821" MODIFIED="1615817712670"><richcontent TYPE="DETAILS">
-
+<node TEXT="client" FOLDED="true" ID="ID_1570213462" CREATED="1615724494625" MODIFIED="1615724498621">
+<node TEXT="clientWidth" ID="ID_1114806404" CREATED="1615817635821" MODIFIED="1615817712670"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5027,12 +4676,9 @@
       <font color="#0000c0">padding&#24038;&#21491; + width</font>
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="clientHeight" ID="ID_38505482" CREATED="1615817644286" MODIFIED="1615817723713"><richcontent TYPE="DETAILS">
-
+<node TEXT="clientHeight" ID="ID_38505482" CREATED="1615817644286" MODIFIED="1615817723713"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5042,12 +4688,9 @@
       <font color="#0000c0">padding&#19978;&#19979; + height</font>
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="clientLeft" ID="ID_1148039252" CREATED="1615817650630" MODIFIED="1615817763025"><richcontent TYPE="DETAILS">
-
+<node TEXT="clientLeft" ID="ID_1148039252" CREATED="1615817650630" MODIFIED="1615817763025"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5057,12 +4700,9 @@
       <font color="#0000c0">border&#24038;</font>
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="clientTop" ID="ID_565951680" CREATED="1615817658001" MODIFIED="1615817773671"><richcontent TYPE="DETAILS">
-
+<node TEXT="clientTop" ID="ID_565951680" CREATED="1615817658001" MODIFIED="1615817773671"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5072,14 +4712,11 @@
       <font color="#0000c0">border&#19978;</font>
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="scroll" ID="ID_1554710966" CREATED="1615724499108" MODIFIED="1615724502227">
-<node TEXT="scrollWidth" ID="ID_1982138833" CREATED="1615817806083" MODIFIED="1615818147229"><richcontent TYPE="DETAILS">
-
+<node TEXT="scroll" FOLDED="true" ID="ID_1554710966" CREATED="1615724499108" MODIFIED="1615724502227">
+<node TEXT="scrollWidth" ID="ID_1982138833" CREATED="1615817806083" MODIFIED="1615818147229"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5089,12 +4726,9 @@
       <font color="#0000c0">&#20803;&#32032;&#23637;&#24320;&#21518;&#23454;&#38469;&#23485;&#24230;, &#19981;&#21253;&#21547;&#36793;&#26694;</font>
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="scrollHeight" ID="ID_1384287644" CREATED="1615817814823" MODIFIED="1615818158393"><richcontent TYPE="DETAILS">
-
+<node TEXT="scrollHeight" ID="ID_1384287644" CREATED="1615817814823" MODIFIED="1615818158393"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5104,12 +4738,9 @@
       <font color="#0000c0">&#20803;&#32032;&#23637;&#24320;&#21518;&#23454;&#38469;&#39640;&#24230;, &#19981;&#21253;&#21547;&#36793;&#26694;</font>
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="scrollLeft" ID="ID_1780814367" CREATED="1615817819177" MODIFIED="1615819017830"><richcontent TYPE="DETAILS">
-
+<node TEXT="scrollLeft" ID="ID_1780814367" CREATED="1615817819177" MODIFIED="1615819017830"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5119,12 +4750,9 @@
       <font color="#0000c0">&#20803;&#32032;&#24038;border&#22823;&#23567;</font>
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="scrollTop" ID="ID_1018351640" CREATED="1615817822637" MODIFIED="1615819030385"><richcontent TYPE="NOTE">
-
+<node TEXT="scrollTop" ID="ID_1018351640" CREATED="1615817822637" MODIFIED="1615819030385"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5162,11 +4790,8 @@
     </p>
     &#36890;&#36807; DTD&#65292;&#24744;&#30340;&#27599;&#19968;&#20010; XML &#25991;&#20214;&#22343;&#21487;&#25658;&#24102;&#19968;&#20010;&#26377;&#20851;&#20854;&#33258;&#36523;&#26684;&#24335;&#30340;&#25551;&#36848;&#12290; &#36890;&#36807; DTD&#65292;&#29420;&#31435;&#30340;&#22242;&#20307;&#21487;&#19968;&#33268;&#22320;&#20351;&#29992;&#26576;&#20010;&#26631;&#20934;&#30340; DTD &#26469;&#20132;&#25442;&#25968;&#25454;&#12290; &#32780;&#24744;&#30340;&#24212;&#29992;&#31243;&#24207;&#20063;&#21487;&#20351;&#29992;&#26576;&#20010;&#26631;&#20934;&#30340; DTD &#26469;&#39564;&#35777;&#20174;&#22806;&#37096;&#25509;&#25910;&#21040;&#30340;&#25968;&#25454;&#12290; &#24744;&#36824;&#21487;&#20197;&#20351;&#29992; DTD &#26469;&#39564;&#35777;&#24744;&#33258;&#36523;&#30340;&#25968;&#25454;&#12290;  
   </body>
-</html>
-
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5176,14 +4801,11 @@
       <font color="#0000c0">&#20803;&#32032;&#21491;border&#22823;&#23567;</font>
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x5e94;&#x7528;&#x6848;&#x4f8b;" ID="ID_1322334010" CREATED="1615818308233" MODIFIED="1615818312537">
-<node TEXT="&#x653e;&#x5927;&#x955c;" ID="ID_709455225" CREATED="1615818668179" MODIFIED="1615828770267"><richcontent TYPE="NOTE">
-
+<node TEXT="应用案例" FOLDED="true" ID="ID_1322334010" CREATED="1615818308233" MODIFIED="1615818312537">
+<node TEXT="放大镜" ID="ID_709455225" CREATED="1615818668179" MODIFIED="1615828770267"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5205,12 +4827,9 @@
       &#160;&#160;&#160;&#160;3 &#22823;&#22270;&#38543;&#30528;&#36974;&#32617;&#23618;&#25353;&#22823;&#23567;&#22270;&#27604;&#20363;&#21453;&#26041;&#21521;&#31227;&#21160;
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x6a21;&#x6001;&#x6846;" ID="ID_316891347" CREATED="1615818592691" MODIFIED="1615819151878"><richcontent TYPE="NOTE">
-
+<node TEXT="模态框" ID="ID_316891347" CREATED="1615818592691" MODIFIED="1615819151878"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5223,16 +4842,13 @@
       &#20197;&#20445;&#35777;&#22312;&#19981;&#21047;&#26032;&#32593;&#39029;&#30340;&#21069;&#25552;&#19979;&#21644;&#21518;&#21488;&#23436;&#25104;&#20132;&#20114;&#12290;
     </p>
   </body>
-</html>
-
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x6dd8;&#x5b9d;&#x4fa7;&#x8fb9;&#x680f;" ID="ID_812334346" CREATED="1615818724008" MODIFIED="1615818731920"/>
-<node TEXT="&#x9875;&#x9762;&#x4e0b;&#x62c9;&#x4e00;&#x5b9a;&#x9ad8;&#x5ea6;&#x540e;&#x5c55;&#x793a;&#x5bfc;&#x822a;&#x680f;" ID="ID_1075187767" CREATED="1615818313905" MODIFIED="1615818346363"/>
+<node TEXT="淘宝侧边栏" ID="ID_812334346" CREATED="1615818724008" MODIFIED="1615818731920"/>
+<node TEXT="页面下拉一定高度后展示导航栏" ID="ID_1075187767" CREATED="1615818313905" MODIFIED="1615818346363"/>
 </node>
 </node>
-<node TEXT="document.write()" ID="ID_1795668447" CREATED="1609680377823" MODIFIED="1609680460297"><richcontent TYPE="NOTE">
-
+<node TEXT="document.write()" ID="ID_1795668447" CREATED="1609680377823" MODIFIED="1609680460297"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5245,12 +4861,10 @@
       &#25991;&#26723;&#27969;&#21152;&#36733;&#36807;&#31243;&#20013;&#25191;&#34892;document.write() &#20250;&#36861;&#21152;&#20869;&#23481;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x4e8b;&#x4ef6;" ID="ID_892279546" CREATED="1602038590243" MODIFIED="1608479520536"><richcontent TYPE="NOTE">
-
+<node TEXT="事件" FOLDED="true" ID="ID_892279546" CREATED="1602038590243" MODIFIED="1608479520536"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5260,23 +4874,21 @@
       &#39044;&#20808;&#23450;&#20041;&#22909;&#30340;&#34892;&#20026;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x624b;&#x518c;" ID="ID_1201496754" CREATED="1610253363376" MODIFIED="1610253369974">
-<node TEXT="HTML DOM Event &#x5bf9;&#x8c61;" ID="ID_1186544864" CREATED="1610253889233" MODIFIED="1610253901469" LINK="https://www.w3school.com.cn/jsref/dom_obj_event.asp"/>
-<node TEXT="HTML DOM &#x4e8b;&#x4ef6;" ID="ID_1576371996" CREATED="1610253371728" MODIFIED="1610253389006" LINK="https://www.runoob.com/jsref/dom-obj-event.html"/>
+</html></richcontent>
+<node TEXT="手册" FOLDED="true" ID="ID_1201496754" CREATED="1610253363376" MODIFIED="1610253369974">
+<node TEXT="HTML DOM Event 对象" ID="ID_1186544864" CREATED="1610253889233" MODIFIED="1610253901469" LINK="https://www.w3school.com.cn/jsref/dom_obj_event.asp"/>
+<node TEXT="HTML DOM 事件" ID="ID_1576371996" CREATED="1610253371728" MODIFIED="1610253389006" LINK="https://www.runoob.com/jsref/dom-obj-event.html"/>
 </node>
-<node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x6a21;&#x578b;" ID="ID_162688640" CREATED="1602064952223" MODIFIED="1602064965115">
-<node TEXT="&#x4e8b;&#x4ef6;&#x6e90;.&#x4e8b;&#x4ef6; = &#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_1792986979" CREATED="1602064965975" MODIFIED="1602065003922"/>
+<node TEXT="事件处理模型" FOLDED="true" ID="ID_162688640" CREATED="1602064952223" MODIFIED="1602064965115">
+<node TEXT="事件源.事件 = 事件处理函数" ID="ID_1792986979" CREATED="1602064965975" MODIFIED="1602065003922"/>
 </node>
-<node TEXT="&#x4e8b;&#x4ef6;&#x6e90;" ID="ID_1315723216" CREATED="1602038601047" MODIFIED="1609672755286">
-<node TEXT="&#x5143;&#x7d20;" ID="ID_571470025" CREATED="1602065041611" MODIFIED="1602065048149"/>
-<node TEXT="window&#x662f;&#x6839;&#x5143;&#x7d20;" ID="ID_917495590" CREATED="1602065220785" MODIFIED="1602065230605"/>
+<node TEXT="事件源" FOLDED="true" ID="ID_1315723216" CREATED="1602038601047" MODIFIED="1609672755286">
+<node TEXT="元素" ID="ID_571470025" CREATED="1602065041611" MODIFIED="1602065048149"/>
+<node TEXT="window是根元素" ID="ID_917495590" CREATED="1602065220785" MODIFIED="1602065230605"/>
 </node>
-<node TEXT="&#x4e8b;&#x4ef6;&#x53e5;&#x67c4;" ID="ID_722103745" CREATED="1602038610714" MODIFIED="1610254251943" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalEventHandlers">
-<node TEXT="DOM&#x5143;&#x7d20;&#x52a0;&#x8f7d;&#x5b8c;&#x6210; window.onload" ID="ID_570685437" CREATED="1602039348140" MODIFIED="1602065809164"/>
-<node TEXT="&#x9f20;&#x6807;&#x4e8b;&#x4ef6;" ID="ID_708907678" CREATED="1609581872665" MODIFIED="1609956647802"><richcontent TYPE="DETAILS">
-
+<node TEXT="事件句柄" FOLDED="true" ID="ID_722103745" CREATED="1602038610714" MODIFIED="1610254251943" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/GlobalEventHandlers">
+<node TEXT="DOM元素加载完成 window.onload" ID="ID_570685437" CREATED="1602039348140" MODIFIED="1602065809164"/>
+<node TEXT="鼠标事件" FOLDED="true" ID="ID_708907678" CREATED="1609581872665" MODIFIED="1609956647802"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5286,10 +4898,8 @@
       <font color="#0000c0">MouseEvent</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="onclick &#x5355;&#x51fb;" ID="ID_111110445" CREATED="1602038290929" MODIFIED="1610253129241"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="onclick 单击" ID="ID_111110445" CREATED="1602038290929" MODIFIED="1610253129241"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5299,18 +4909,16 @@
       &#40736;&#26631;&#25353;&#19979;&#24182;&#24377;&#36215;&#21518;&#25165;&#20250;&#35302;&#21457;&#20107;&#20214;&#22788;&#29702;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="ondblclick &#x53cc;&#x51fb;" ID="ID_135253765" CREATED="1602038328148" MODIFIED="1610253453167"/>
-<node TEXT="onmousedown &#x9f20;&#x6807;&#x6309;&#x4e0b;" ID="ID_1012998406" CREATED="1609582443443" MODIFIED="1610253118768"/>
-<node TEXT="onmouseup &#x9f20;&#x6807;&#x5f39;&#x8d77;" ID="ID_1414311221" CREATED="1609582454937" MODIFIED="1610253110290"/>
-<node TEXT="onmouseenter &#x9f20;&#x6807;&#x79fb;&#x5165;" ID="ID_1018662231" CREATED="1602038365802" MODIFIED="1610253100860"/>
-<node TEXT="onmouseleave &#x9f20;&#x6807;&#x79fb;&#x5f00;" ID="ID_970084293" CREATED="1602038374008" MODIFIED="1610253091577"/>
-<node TEXT="onmousemove &#x9f20;&#x6807;&#x5728;&#x5143;&#x7d20;&#x4e0a;&#x79fb;&#x52a8;" ID="ID_795100860" CREATED="1609583115243" MODIFIED="1610253082116"/>
-<node TEXT="onmouseover &#x9f20;&#x6807;&#x5728;&#x5143;&#x7d20;&#x4e0a;" ID="ID_1037965304" CREATED="1609583145660" MODIFIED="1610253071941"/>
-<node TEXT="&#x533a;&#x522b;" ID="ID_1937143823" CREATED="1609583419892" MODIFIED="1609583429957"><richcontent TYPE="NOTE">
-
+<node TEXT="ondblclick 双击" ID="ID_135253765" CREATED="1602038328148" MODIFIED="1610253453167"/>
+<node TEXT="onmousedown 鼠标按下" ID="ID_1012998406" CREATED="1609582443443" MODIFIED="1610253118768"/>
+<node TEXT="onmouseup 鼠标弹起" ID="ID_1414311221" CREATED="1609582454937" MODIFIED="1610253110290"/>
+<node TEXT="onmouseenter 鼠标移入" ID="ID_1018662231" CREATED="1602038365802" MODIFIED="1610253100860"/>
+<node TEXT="onmouseleave 鼠标移开" ID="ID_970084293" CREATED="1602038374008" MODIFIED="1610253091577"/>
+<node TEXT="onmousemove 鼠标在元素上移动" ID="ID_795100860" CREATED="1609583115243" MODIFIED="1610253082116"/>
+<node TEXT="onmouseover 鼠标在元素上" ID="ID_1037965304" CREATED="1609583145660" MODIFIED="1610253071941"/>
+<node TEXT="区别" ID="ID_1937143823" CREATED="1609583419892" MODIFIED="1609583429957"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5332,14 +4940,12 @@
       &#160;&#160;&#160;&#160;// onmouseleave &#40736;&#26631;&#31163;&#24320;&#25351;&#23450;&#20803;&#32032;&#35302;&#21457;&#20107;&#20214;&#65292;&#19981;&#21253;&#21547;&#23376;&#20803;&#32032;&#21306;&#22495;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="contextmenu &#x53f3;&#x952e;&#x83dc;&#x5355;" ID="ID_44055291" CREATED="1610252686813" MODIFIED="1610253054671"/>
-<node TEXT="selectstart &#x9f20;&#x6807;&#x9009;&#x4e2d;" ID="ID_250308261" CREATED="1610253034666" MODIFIED="1610253042823"/>
+<node TEXT="contextmenu 右键菜单" ID="ID_44055291" CREATED="1610252686813" MODIFIED="1610253054671"/>
+<node TEXT="selectstart 鼠标选中" ID="ID_250308261" CREATED="1610253034666" MODIFIED="1610253042823"/>
 </node>
-<node TEXT="&#x952e;&#x76d8;&#x4e8b;&#x4ef6;" ID="ID_1712243822" CREATED="1602038379453" MODIFIED="1610255244881"><richcontent TYPE="DETAILS">
-
+<node TEXT="键盘事件" FOLDED="true" ID="ID_1712243822" CREATED="1602038379453" MODIFIED="1610255244881"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5349,12 +4955,10 @@
       <font color="#0000c0">KeyBoardEvent</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="onkeydown &#x952e;&#x6309;&#x4e0b;" ID="ID_706566837" CREATED="1610255343496" MODIFIED="1610256413531"/>
-<node TEXT="onkeyup &#x952e;&#x5f39;&#x8d77;" ID="ID_1706673400" CREATED="1610255338753" MODIFIED="1610256421250"/>
-<node TEXT="onkeypress &#x952e;&#x6309;&#x4e0b;" ID="ID_924853925" CREATED="1610255346731" MODIFIED="1610259757719"><richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<node TEXT="onkeydown 键按下" ID="ID_706566837" CREATED="1610255343496" MODIFIED="1610256413531"/>
+<node TEXT="onkeyup 键弹起" ID="ID_1706673400" CREATED="1610255338753" MODIFIED="1610256421250"/>
+<node TEXT="onkeypress 键按下" ID="ID_924853925" CREATED="1610255346731" MODIFIED="1610259757719"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5367,25 +4971,23 @@
       <font color="#0000c0">ctrL+shift+A&#20063;&#26159;&#21487;&#20197;&#35782;&#21035;&#30340;, &#19988;keyCode&#19981;&#21516;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x6846;&#x67b6;/&#x5bf9;&#x8c61;&#x4e8b;&#x4ef6;" ID="ID_1474972414" CREATED="1610253400830" MODIFIED="1610253416929"/>
-<node TEXT="&#x8868;&#x5355;&#x4e8b;&#x4ef6;" ID="ID_140618028" CREATED="1610253417914" MODIFIED="1610253431718">
+<node TEXT="框架/对象事件" ID="ID_1474972414" CREATED="1610253400830" MODIFIED="1610253416929"/>
+<node TEXT="表单事件" FOLDED="true" ID="ID_140618028" CREATED="1610253417914" MODIFIED="1610253431718">
 <node TEXT="onfocus" ID="ID_789667919" CREATED="1609584898334" MODIFIED="1609584907034"/>
 <node TEXT="onblur" ID="ID_1632200042" CREATED="1609584907314" MODIFIED="1609584911380"/>
 </node>
-<node TEXT="&#x526a;&#x5207;&#x677f;&#x4e8b;&#x4ef6;" ID="ID_1377268337" CREATED="1610253459294" MODIFIED="1610253471880"/>
-<node TEXT="&#x6253;&#x5370;&#x4e8b;&#x4ef6;" ID="ID_1687357641" CREATED="1610253473039" MODIFIED="1610253479285"/>
-<node TEXT="&#x62d6;&#x52a8;&#x4e8b;&#x4ef6;" ID="ID_619930869" CREATED="1610253479465" MODIFIED="1610253485592"/>
-<node TEXT="&#x591a;&#x5a92;&#x4f53;&#x4e8b;&#x4ef6;" ID="ID_1687179753" CREATED="1610253492666" MODIFIED="1610253506171"/>
-<node TEXT="&#x52a8;&#x753b;&#x4e8b;&#x4ef6;" ID="ID_218918352" CREATED="1610253507238" MODIFIED="1610253514243"/>
-<node TEXT="&#x8fc7;&#x6e21;&#x4e8b;&#x4ef6;" ID="ID_1477424161" CREATED="1610253514707" MODIFIED="1610253523416"/>
+<node TEXT="剪切板事件" ID="ID_1377268337" CREATED="1610253459294" MODIFIED="1610253471880"/>
+<node TEXT="打印事件" ID="ID_1687357641" CREATED="1610253473039" MODIFIED="1610253479285"/>
+<node TEXT="拖动事件" ID="ID_619930869" CREATED="1610253479465" MODIFIED="1610253485592"/>
+<node TEXT="多媒体事件" ID="ID_1687179753" CREATED="1610253492666" MODIFIED="1610253506171"/>
+<node TEXT="动画事件" ID="ID_218918352" CREATED="1610253507238" MODIFIED="1610253514243"/>
+<node TEXT="过渡事件" ID="ID_1477424161" CREATED="1610253514707" MODIFIED="1610253523416"/>
 <node TEXT="..." ID="ID_1980362554" CREATED="1602038417902" MODIFIED="1610253532284" LINK="https://www.runoob.com/jsref/dom-obj-event.html"/>
 </node>
-<node TEXT="&#x4e8b;&#x4ef6;&#x5c5e;&#x6027;" ID="ID_1323533528" CREATED="1610254448359" MODIFIED="1610255198604" LINK="https://developer.mozilla.org/en-US/docs/Web/API"><richcontent TYPE="DETAILS">
-
+<node TEXT="事件属性" FOLDED="true" ID="ID_1323533528" CREATED="1610254448359" MODIFIED="1610255198604" LINK="https://developer.mozilla.org/en-US/docs/Web/API"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5398,10 +5000,8 @@
       <font color="#0000c0">&#26597;&#25509;&#21475;&#25991;&#26723;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x9f20;&#x6807;&#x4e8b;&#x4ef6;" ID="ID_419609542" CREATED="1610254454628" MODIFIED="1610255911102" LINK="https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="鼠标事件" FOLDED="true" ID="ID_419609542" CREATED="1610254454628" MODIFIED="1610255911102" LINK="https://developer.mozilla.org/en-US/docs/Web/API/MouseEvent"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5541,10 +5141,8 @@
       </ol>
     </ol>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5554,8 +5152,7 @@
       <font color="#0000c0">MouseEvent</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="clientX" ID="ID_812119620" CREATED="1610254893602" MODIFIED="1610254913060"/>
 <node TEXT="clientY" ID="ID_935559583" CREATED="1610254915490" MODIFIED="1610254918691"/>
 <node TEXT="pageX" ID="ID_25255219" CREATED="1610254939748" MODIFIED="1610254943998"/>
@@ -5566,8 +5163,7 @@
 <node TEXT="movementY" ID="ID_1378601383" CREATED="1610254933523" MODIFIED="1610254939262"/>
 <node TEXT="..." ID="ID_1066273726" CREATED="1610254954342" MODIFIED="1610254956935"/>
 </node>
-<node TEXT="&#x952e;&#x76d8;&#x4e8b;&#x4ef6;" ID="ID_847195091" CREATED="1610255247926" MODIFIED="1610255923089" LINK="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent"><richcontent TYPE="DETAILS">
-
+<node TEXT="键盘事件" ID="ID_847195091" CREATED="1610255247926" MODIFIED="1610255923089" LINK="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -5577,13 +5173,11 @@
       <font color="#0000c0">KeyBoardEvent</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="..." ID="ID_1192153695" CREATED="1610255302422" MODIFIED="1610255304079"/>
 </node>
-<node TEXT="&#x4e8b;&#x4ef6;&#x6d41;" ID="ID_723081079" CREATED="1609683647043" MODIFIED="1609953761445"><richcontent TYPE="NOTE">
-
+<node TEXT="事件流" FOLDED="true" ID="ID_723081079" CREATED="1609683647043" MODIFIED="1609953761445"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5596,10 +5190,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x4e09;&#x4e2a;&#x9636;&#x6bb5;" ID="ID_227223180" CREATED="1609953732368" MODIFIED="1609955371272"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="三个阶段" ID="ID_227223180" CREATED="1609953732368" MODIFIED="1609955371272"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5621,11 +5213,9 @@
       3.&#20882;&#27873;&#38454;&#27573;&#65306;&#20107;&#20214;&#23545;&#35937;&#20197;&#19968;&#20010;&#30456;&#21453;&#30340;&#26041;&#21521;&#36827;&#34892;&#20256;&#36882;&#65292;&#20174;&#30446;&#26631;&#24320;&#22987;&#65292;&#21040;Window&#23545;&#35937;&#32467;&#26463;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&lt;element&gt;.addEventListener()&#xa;&#x6700;&#x540e;&#x4e00;&#x4e2a;&#x53c2;&#x6570;&#x5207;&#x6362;&#xff1a;&#x4e8b;&#x4ef6;&#x6355;&#x83b7;&#x6a21;&#x5f0f; &amp; &#x4e8b;&#x4ef6;&#x5192;&#x6ce1;&#x6a21;&#x5f0f;" ID="ID_150238564" CREATED="1609953786643" MODIFIED="1609954347608"><richcontent TYPE="NOTE">
-
+<node TEXT="&lt;element&gt;.addEventListener()&#xa;最后一个参数切换：事件捕获模式 &amp; 事件冒泡模式" ID="ID_150238564" CREATED="1609953786643" MODIFIED="1609954347608"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5650,13 +5240,11 @@
       }, true);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="attachEvent &#x53ea;&#x652f;&#x6301;&#x5192;&#x6ce1;&#x6a21;&#x5f0f;" ID="ID_1788843997" CREATED="1609954348393" MODIFIED="1609954590358"/>
-<node TEXT="onblur onfocus onmouseenter onmouseleave &#x4e0d;&#x652f;&#x6301;&#x5192;&#x6ce1;" ID="ID_1174017784" CREATED="1609955734917" MODIFIED="1609955745607"/>
-<node TEXT="&#x4e8b;&#x4ef6;&#x59d4;&#x6258;" ID="ID_474887797" CREATED="1609955832619" MODIFIED="1610251259847"><richcontent TYPE="NOTE">
-
+<node TEXT="attachEvent 只支持冒泡模式" ID="ID_1788843997" CREATED="1609954348393" MODIFIED="1609954590358"/>
+<node TEXT="onblur onfocus onmouseenter onmouseleave 不支持冒泡" ID="ID_1174017784" CREATED="1609955734917" MODIFIED="1609955745607"/>
+<node TEXT="事件委托" FOLDED="true" ID="ID_474887797" CREATED="1609955832619" MODIFIED="1610251259847"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5678,14 +5266,12 @@
       &#31867;&#20284;Java&#31867;&#21152;&#36733;&#22120;&#30340;&#22996;&#25176;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x6b64;&#x65f6;&#x4e8b;&#x4ef6;&#x7ed1;&#x5b9a;&#x5143;&#x7d20;&#x548c;&#x4e8b;&#x4ef6;&#x89e6;&#x53d1;&#x5143;&#x7d20;&#x53ef;&#x80fd;&#x4e0d;&#x4e00;&#x6837;" ID="ID_1489007897" CREATED="1610248108559" MODIFIED="1610248179907">
+</html></richcontent>
+<node TEXT="此时事件绑定元素和事件触发元素可能不一样" ID="ID_1489007897" CREATED="1610248108559" MODIFIED="1610248179907">
 <icon BUILTIN="yes"/>
 </node>
 </node>
-<node TEXT="&#x963b;&#x6b62;&#x5192;&#x6ce1;" ID="ID_183439451" CREATED="1609955839115" MODIFIED="1609956093112"><richcontent TYPE="NOTE">
-
+<node TEXT="阻止冒泡" FOLDED="true" ID="ID_183439451" CREATED="1609955839115" MODIFIED="1609956093112"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5695,16 +5281,14 @@
       <b>&#38450;&#27490;&#20107;&#20214;&#20256;&#36882;&#21040;&#31062;&#20808;&#20803;&#32032;&#12290;</b>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="&lt;event&gt;.stopPropagation()" ID="ID_39515449" CREATED="1610249864052" MODIFIED="1610249892355"/>
-<node TEXT="IE6-8: cancelBuble&#x5c5e;&#x6027;" ID="ID_610482312" CREATED="1610249943002" MODIFIED="1610249958462"/>
+<node TEXT="IE6-8: cancelBuble属性" ID="ID_610482312" CREATED="1610249943002" MODIFIED="1610249958462"/>
 </node>
-<node TEXT="&#x963b;&#x6b62;&#x4e8b;&#x4ef6;&#x9ed8;&#x8ba4;&#x884c;&#x4e3a;" ID="ID_909706746" CREATED="1610249900286" MODIFIED="1610249912423">
+<node TEXT="阻止事件默认行为" FOLDED="true" ID="ID_909706746" CREATED="1610249900286" MODIFIED="1610249912423">
 <node TEXT="&lt;event&gt;.preventDefault()" ID="ID_1834258326" CREATED="1610249913884" MODIFIED="1610249927533"/>
-<node TEXT="IE6-8: returnVlue&#x5c5e;&#x6027;" ID="ID_1735348209" CREATED="1610249961445" MODIFIED="1610249984647"/>
-<node TEXT="addEventListener&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x65b9;&#x6cd5;&#x8fd4;&#x56de;false" ID="ID_1098372008" CREATED="1610250195282" MODIFIED="1610250295838"><richcontent TYPE="NOTE">
-
+<node TEXT="IE6-8: returnVlue属性" ID="ID_1735348209" CREATED="1610249961445" MODIFIED="1610249984647"/>
+<node TEXT="addEventListener事件处理方法返回false" ID="ID_1098372008" CREATED="1610250195282" MODIFIED="1610250295838"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5714,13 +5298,11 @@
       &#35813;&#21477;&#27809;&#26377;&#20860;&#23481;&#24615; &#20294;&#26159;&#21482;&#33021;&#29992;&#22312;dom0&#30340;&#20107;&#20214;(dom0&#20107;&#20214;&#26377;&#21738;&#20123;?)&#32465;&#23450;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_658079866" CREATED="1601997544420" MODIFIED="1602065091926"><richcontent TYPE="NOTE">
-
+<node TEXT="事件处理函数" FOLDED="true" ID="ID_658079866" CREATED="1601997544420" MODIFIED="1602065091926"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5730,10 +5312,8 @@
       &#31995;&#32479;&#39044;&#23450;&#20041;&#22909;&#30340;&#34892;&#20026;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x4e00;&#x4e2a;&#x4e8b;&#x4ef6;&#x7ed1;&#x5b9a;&#x591a;&#x4e2a;&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_378686646" CREATED="1609682116837" MODIFIED="1609683494948"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="一个事件绑定多个事件处理函数" FOLDED="true" ID="ID_378686646" CREATED="1609682116837" MODIFIED="1609683494948"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5770,8 +5350,7 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;}
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_811806983" CREATED="1609683484476" MODIFIED="1609683489586"><richcontent TYPE="NODE">
 
 <html>
@@ -5785,8 +5364,7 @@
   </body>
 </html>
 </richcontent>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5796,11 +5374,9 @@
       btns[0].addEventListener('click', fun);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="attachEvent()" ID="ID_817417203" CREATED="1609683519730" MODIFIED="1609683585507"><richcontent TYPE="NOTE">
-
+<node TEXT="attachEvent()" ID="ID_817417203" CREATED="1609683519730" MODIFIED="1609683585507"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5810,13 +5386,11 @@
       ie&#20302;&#29256;&#26412;&#19981;&#25903;&#25345;addEventListener&#65292;&#35201;&#20351;&#29992;&#36825;&#20010;&#26041;&#27861;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x79fb;&#x9664;&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x51fd;&#x6570;" ID="ID_642864134" CREATED="1609683297541" MODIFIED="1609683510628">
-<node TEXT="removeEventListener" ID="ID_564968846" CREATED="1609683502845" MODIFIED="1609683513373"><richcontent TYPE="NOTE">
-
+<node TEXT="移除事件处理函数" FOLDED="true" ID="ID_642864134" CREATED="1609683297541" MODIFIED="1609683510628">
+<node TEXT="removeEventListener" ID="ID_564968846" CREATED="1609683502845" MODIFIED="1609683513373"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5826,11 +5400,9 @@
       btns[0].removeEventListener('click', fun);
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="detachEvent" ID="ID_1393942953" CREATED="1609683535193" MODIFIED="1609683598953"><richcontent TYPE="NOTE">
-
+<node TEXT="detachEvent" ID="ID_1393942953" CREATED="1609683535193" MODIFIED="1609683598953"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5840,17 +5412,15 @@
       ie&#20302;&#29256;&#26412;&#29992;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 </node>
-<node TEXT="&#x5de5;&#x5177;" ID="ID_878066206" CREATED="1607847043701" MODIFIED="1607847049299">
-<node TEXT="console.dir()" ID="ID_1773156792" CREATED="1607847901029" MODIFIED="1608475710395">
+<node TEXT="工具" FOLDED="true" ID="ID_878066206" CREATED="1607847043701" MODIFIED="1607847049299">
+<node TEXT="console.dir()" FOLDED="true" ID="ID_1773156792" CREATED="1607847901029" MODIFIED="1608475710395">
 <icon BUILTIN="idea"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5860,14 +5430,12 @@
       &#25171;&#21360;&#23545;&#35937;&#25152;&#26377;&#23646;&#24615;&#21644;&#26041;&#27861;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x901a;&#x8fc7;&#x8fd9;&#x4e2a;&#x65b9;&#x6cd5;&#x53ef;&#x4ee5;&#x67e5;&#x770b;&#x5143;&#x7d20;&#x7684;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;&#xa;&#x7136;&#x540e;&#x8fdb;&#x884c;&#x4fee;&#x6539;&#x548c;&#x64cd;&#x4f5c;" ID="ID_9436921" CREATED="1609663492767" MODIFIED="1609952606613">
+</html></richcontent>
+<node TEXT="通过这个方法可以查看元素的属性和方法&#xa;然后进行修改和操作" ID="ID_9436921" CREATED="1609663492767" MODIFIED="1609952606613">
 <icon BUILTIN="idea"/>
 </node>
 </node>
-<node TEXT="prompt()" ID="ID_1264421287" CREATED="1601806412422" MODIFIED="1608475701382"><richcontent TYPE="NOTE">
-
+<node TEXT="prompt()" ID="ID_1264421287" CREATED="1601806412422" MODIFIED="1608475701382"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5877,14 +5445,12 @@
       &#36755;&#20837;&#24377;&#31383;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x6d4f;&#x89c8;&#x5668;console&#x4e2d;&#x53ef;&#x4ee5;&#x67e5;&#x770b;&#x6587;&#x6863;&#x5bf9;&#x8c61;&#x7684;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;" ID="ID_1733445549" CREATED="1608475893840" MODIFIED="1608476002136"/>
+<node TEXT="浏览器console中可以查看文档对象的属性和方法" ID="ID_1733445549" CREATED="1608475893840" MODIFIED="1608476002136"/>
 </node>
 </node>
-<node TEXT="BOM" ID="ID_263402758" CREATED="1599963546040" MODIFIED="1607846336783" STYLE="bubble"><richcontent TYPE="NOTE">
-
+<node TEXT="BOM" FOLDED="true" ID="ID_263402758" CREATED="1599963546040" MODIFIED="1607846336783" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5900,10 +5466,8 @@
       &#33719;&#21462;&#27983;&#35272;&#22120;&#30340;&#23646;&#24615;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="window" FOLDED="true" ID="ID_1036684497" CREATED="1615609985566" MODIFIED="1615610534638" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/Window"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="window" FOLDED="true" ID="ID_1036684497" CREATED="1615609985566" MODIFIED="1615610534638" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/Window"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5916,11 +5480,9 @@
       &#21487;&#20197;&#23454;&#29616;&#31383;&#21475;&#28378;&#21160;&#65292;&#25918;&#22823;&#32553;&#23567;&#31561;&#31561;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5e38;&#x7528;&#x6210;&#x5458;&#x5bf9;&#x8c61;" ID="ID_647268554" CREATED="1615610614438" MODIFIED="1615610629124">
-<node TEXT="document" ID="ID_237954074" CREATED="1615610019644" MODIFIED="1615610316126"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="常用成员对象" FOLDED="true" ID="ID_647268554" CREATED="1615610614438" MODIFIED="1615610629124">
+<node TEXT="document" ID="ID_237954074" CREATED="1615610019644" MODIFIED="1615610316126"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -5930,11 +5492,9 @@
       document&#23545;&#35937;&#26159;window&#23545;&#35937;&#19979;&#30340;&#19968;&#20010;&#23646;&#24615;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="location" ID="ID_1736951087" CREATED="1615610385940" MODIFIED="1615692211692"><richcontent TYPE="NOTE">
-
+<node TEXT="location" FOLDED="true" ID="ID_1736951087" CREATED="1615610385940" MODIFIED="1615692211692"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6004,11 +5564,9 @@
       __proto__: Location
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x53ef;&#x4ee5;&#x5b9e;&#x73b0;&#x9875;&#x9762;&#x8df3;&#x8f6c;&#x3001;&#x5237;&#x65b0;&#x3001;&#x83b7;&#x53d6;&#x67e5;&#x8be2;&#x53c2;&#x6570;" ID="ID_284473201" CREATED="1615692408739" MODIFIED="1615696226351"/>
-<node TEXT="reload()" ID="ID_1976107478" CREATED="1615694556477" MODIFIED="1615695000896"><richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<node TEXT="可以实现页面跳转、刷新、获取查询参数" ID="ID_284473201" CREATED="1615692408739" MODIFIED="1615696226351"/>
+<node TEXT="reload()" ID="ID_1976107478" CREATED="1615694556477" MODIFIED="1615695000896"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6018,14 +5576,12 @@
       <font color="#0000c0">&#21047;&#26032;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="" ID="ID_444338715" CREATED="1615695455368" MODIFIED="1615695455368">
 <hook NAME="FirstGroupNode"/>
 </node>
-<node TEXT="assign()" ID="ID_726104541" CREATED="1615694539986" MODIFIED="1615695487895"><richcontent TYPE="NOTE">
-
+<node TEXT="assign()" ID="ID_726104541" CREATED="1615694539986" MODIFIED="1615695487895"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6035,10 +5591,8 @@
       &#39029;&#38754;&#36339;&#36716;&#65292;&#31867;&#20284;&#30452;&#25509;&#25805;&#20316;location.href&#23646;&#24615;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6048,11 +5602,9 @@
       &#39029;&#38754;&#36339;&#36716;, &#20250;&#26032;&#22686;&#21382;&#21490;&#35760;&#24405;&#65292;&#21487;&#20197;&#22238;&#36864;&#21040;&#20043;&#21069;&#39029;&#38754;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="replace()" ID="ID_1675548060" CREATED="1615694551337" MODIFIED="1615695665056"><richcontent TYPE="DETAILS">
-
+<node TEXT="replace()" ID="ID_1675548060" CREATED="1615694551337" MODIFIED="1615695665056"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6062,17 +5614,15 @@
       &#26367;&#25442;&#39029;&#38754;, &#19981;&#20250;&#26032;&#22686;&#21382;&#21490;&#35760;&#24405;&#65292;&#26080;&#27861;&#22238;&#36864;&#21040;&#20043;&#21069;&#39029;&#38754;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="" ID="ID_278650364" CREATED="1615695455364" MODIFIED="1615695455368">
 <hook NAME="SummaryNode"/>
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="&#x53c2;&#x8003;history&#x5c5e;&#x6027;" ID="ID_1096569002" CREATED="1615695455368" MODIFIED="1615695478329"/>
+<node TEXT="参考history属性" ID="ID_1096569002" CREATED="1615695455368" MODIFIED="1615695478329"/>
 </node>
 </node>
-<node TEXT="navigator" ID="ID_755411077" CREATED="1615610390473" MODIFIED="1615696188917" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator"><richcontent TYPE="NOTE">
-
+<node TEXT="navigator" FOLDED="true" ID="ID_755411077" CREATED="1615610390473" MODIFIED="1615696188917" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6082,10 +5632,8 @@
       &#29992;&#25143;&#20195;&#29702;(User-Agent)&#30340;&#29366;&#24577;&#21644;&#26631;&#35782;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x53ef;&#x4ee5;&#x7528;&#x4e8e;&#x67e5;&#x8be2;&#x3001;&#x4fee;&#x6539;&#x6d4f;&#x89c8;&#x5668;&#x7ec8;&#x7aef;&#x4fe1;&#x606f;" ID="ID_1456283299" CREATED="1615695945567" MODIFIED="1615696551485"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="可以用于查询、修改浏览器终端信息" ID="ID_1456283299" CREATED="1615695945567" MODIFIED="1615696551485"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6194,13 +5742,11 @@
       }&#160;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="screen" ID="ID_1916293385" CREATED="1615610394691" MODIFIED="1615610398682"/>
-<node TEXT="history" ID="ID_1038149099" CREATED="1615610399355" MODIFIED="1615696631297" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/History"><richcontent TYPE="NOTE">
-
+<node TEXT="history" FOLDED="true" ID="ID_1038149099" CREATED="1615610399355" MODIFIED="1615696631297" LINK="https://developer.mozilla.org/zh-CN/docs/Web/API/History"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6210,10 +5756,8 @@
       &#25805;&#20316;&#27983;&#35272;&#22120;&#21382;&#21490;&#35760;&#24405;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="back()" ID="ID_377455687" CREATED="1615696599695" MODIFIED="1615696795039"><richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<node TEXT="back()" ID="ID_377455687" CREATED="1615696599695" MODIFIED="1615696795039"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6223,11 +5767,9 @@
       <font color="#0000c0">go(-1)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="forward()" ID="ID_1787083594" CREATED="1615696653081" MODIFIED="1615696802722"><richcontent TYPE="DETAILS">
-
+<node TEXT="forward()" ID="ID_1787083594" CREATED="1615696653081" MODIFIED="1615696802722"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6237,12 +5779,10 @@
       <font color="#0000c0">go(1)</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="go()" ID="ID_1894212450" CREATED="1615696658567" MODIFIED="1615696660427"/>
-<node TEXT="pushState()" ID="ID_885597831" CREATED="1615696669031" MODIFIED="1615696834922"><richcontent TYPE="NOTE">
-
+<node TEXT="pushState()" ID="ID_885597831" CREATED="1615696669031" MODIFIED="1615696834922"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6252,11 +5792,9 @@
       <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(33, 33, 33); font-family: arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.0444444px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(33, 33, 33)" face="arial, x-locale-body, sans-serif" size="16px">&#25353;&#25351;&#23450;&#30340;&#21517;&#31216;&#21644;URL&#65288;&#22914;&#26524;&#25552;&#20379;&#35813;&#21442;&#25968;&#65289;&#23558;&#25968;&#25454;push&#36827;&#20250;&#35805;&#21382;&#21490;&#26632;</font></span> 
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="replaceState()" ID="ID_85469758" CREATED="1615696678796" MODIFIED="1615696843504"><richcontent TYPE="NOTE">
-
+<node TEXT="replaceState()" ID="ID_85469758" CREATED="1615696678796" MODIFIED="1615696843504"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6266,14 +5804,12 @@
       <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(33, 33, 33); font-family: arial, x-locale-body, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: -0.0444444px; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(33, 33, 33)" face="arial, x-locale-body, sans-serif" size="16px">&#25353;&#25351;&#23450;&#30340;&#25968;&#25454;&#65292;&#21517;&#31216;&#21644;URL(&#22914;&#26524;&#25552;&#20379;&#35813;&#21442;&#25968;)&#65292;&#26356;&#26032;&#21382;&#21490;&#26632;&#19978;&#26368;&#26032;&#30340;&#20837;&#21475;&#12290;</font></span> 
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 <node TEXT="..." ID="ID_1209148922" CREATED="1615613965703" MODIFIED="1615613966899"/>
 </node>
-<node TEXT="&#x5e38;&#x7528;&#x65b9;&#x6cd5;" ID="ID_219498679" CREATED="1615610635251" MODIFIED="1615613152467"><richcontent TYPE="NOTE">
-
+<node TEXT="常用方法" FOLDED="true" ID="ID_219498679" CREATED="1615610635251" MODIFIED="1615613152467"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6286,14 +5822,12 @@
       &#22914; alert(), setTimeout()&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="alert()" ID="ID_875857704" CREATED="1615610642178" MODIFIED="1615610646560"/>
 <node TEXT="..." ID="ID_394980157" CREATED="1615613960550" MODIFIED="1615613962565"/>
 </node>
-<node TEXT="&#x5e38;&#x89c1;&#x4e8b;&#x4ef6;" ID="ID_1373955510" CREATED="1615611565084" MODIFIED="1615611569138">
-<node TEXT="window.onload = function () {}" ID="ID_1420906788" CREATED="1615611570552" MODIFIED="1615612624899"><richcontent TYPE="DETAILS">
-
+<node TEXT="常见事件" FOLDED="true" ID="ID_1373955510" CREATED="1615611565084" MODIFIED="1615611569138">
+<node TEXT="window.onload = function () {}" ID="ID_1420906788" CREATED="1615611570552" MODIFIED="1615612624899"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6303,10 +5837,8 @@
       <font color="#0000c0">&#31383;&#21475;&#23436;&#20840;&#21152;&#36733;&#23436;&#27605;(html,css,js,&#22270;&#29255;&#31561;)&#21518;&#35302;&#21457;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6316,11 +5848,9 @@
       html css js &#20840;&#37096;&#21152;&#36733;&#23436;&#25104;&#20043;&#21518;&#31435;&#21363;&#25191;&#34892;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="DOMContentLoaded" ID="ID_1092813555" CREATED="1615611584962" MODIFIED="1615612574556"><richcontent TYPE="DETAILS">
-
+<node TEXT="DOMContentLoaded" FOLDED="true" ID="ID_1092813555" CREATED="1615611584962" MODIFIED="1615612574556"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6330,10 +5860,8 @@
       <font color="#0000c0">&#20165;&#24403;DOM&#25991;&#26723;&#23436;&#20840;&#21152;&#36733;&#23436;&#25104;&#23601;&#31435;&#21363;&#25191;&#34892;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="document.addEventListener(&apos;DOMContentLoaded&apos;, function () {});" ID="ID_705236469" CREATED="1615612420809" MODIFIED="1615612493211"><richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<node TEXT="document.addEventListener(&apos;DOMContentLoaded&apos;, function () {});" ID="ID_705236469" CREATED="1615612420809" MODIFIED="1615612493211"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6343,12 +5871,10 @@
       <font color="#0000c0">&#19981;&#25903;&#25345;&quot;onDOMContentLoaded&quot;&#20256;&#32479;&#32465;&#23450;&#26041;&#24335;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="window.onresize = function () {}" ID="ID_285345195" CREATED="1615612663616" MODIFIED="1615612717533"><richcontent TYPE="DETAILS">
-
+<node TEXT="window.onresize = function () {}" ID="ID_285345195" CREATED="1615612663616" MODIFIED="1615612717533"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6358,13 +5884,11 @@
       <font color="#0000c0">&#31383;&#21475;&#22823;&#23567;&#25913;&#21464;&#21518;&#35302;&#21457;&#25191;&#34892;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="..." ID="ID_1984600533" CREATED="1615613954433" MODIFIED="1615613956832"/>
 </node>
-<node TEXT="&#x4e24;&#x4e2a;&#x5b9a;&#x65f6;&#x5668;&#x65b9;&#x6cd5;" ID="ID_1988112966" CREATED="1615613100785" MODIFIED="1615614990929"><richcontent TYPE="DETAILS">
-
+<node TEXT="两个定时器方法" FOLDED="true" ID="ID_1988112966" CREATED="1615613100785" MODIFIED="1615614990929"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6374,10 +5898,8 @@
       <font color="#0000c0">&#23450;&#26102;&#22120;&#24212;&#35813;&#22312;window&#26576;&#20010;&#23481;&#22120;&#37324;&#38754;&#23384;&#30528;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5e38;&#x7528;&#x65b9;&#x6cd5;" ID="ID_196216057" CREATED="1615614976381" MODIFIED="1615614996617"><richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<node TEXT="常用方法" FOLDED="true" ID="ID_196216057" CREATED="1615614976381" MODIFIED="1615614996617"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6387,16 +5909,14 @@
       <font color="#0000c0">&#24863;&#35273;&quot;set&quot;&#25913;&#20026;&quot;add&quot;&#26356;&#21512;&#36866; </font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="setTimeout()" ID="ID_1616566171" CREATED="1615613114322" MODIFIED="1615613120097"/>
 <node TEXT="setInterval()" ID="ID_1896096206" CREATED="1615613120837" MODIFIED="1615613126067"/>
 <node TEXT="clearTimeout()" ID="ID_665525949" CREATED="1615614203964" MODIFIED="1615614207207"/>
 <node TEXT="clearInterval()" ID="ID_439639570" CREATED="1615614207532" MODIFIED="1615614213249"/>
 </node>
-<node TEXT="&#x5b58;&#x5728;&#x7684;&#x95ee;&#x9898;" ID="ID_1221102975" CREATED="1615615499013" MODIFIED="1615615515824">
-<node TEXT="JS&#x5b9a;&#x65f6;&#x5668;&#x5e76;&#x4e0d;&#x7cbe;&#x786e;" ID="ID_530001144" CREATED="1615615506355" MODIFIED="1615615744464"><richcontent TYPE="NOTE">
-
+<node TEXT="存在的问题" FOLDED="true" ID="ID_1221102975" CREATED="1615615499013" MODIFIED="1615615515824">
+<node TEXT="JS定时器并不精确" ID="ID_530001144" CREATED="1615615506355" MODIFIED="1615615744464"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6409,10 +5929,8 @@
       Eventloop &#24490;&#29615;&#26426;&#21046;&#20013;&#65292;&#24322;&#27493;&#20107;&#20214; setInterval &#21040;&#26102;&#21518;&#20250;&#25226;&#22238;&#35843;&#20989;&#25968;&#25918;&#20837;&#28040;&#24687;&#38431;&#21015;&#20013;&#65292;&#20027;&#32447;&#31243;&#30340;&#20219;&#21153;&#25191;&#34892;&#23436;&#27605;&#21518;&#20381;&#27425;&#25191;&#34892;&#28040;&#24687;&#38431;&#21015;&#30340;&#20219;&#21153;&#65292;&#30001;&#20110;&#28040;&#24687;&#38431;&#21015;&#20013;&#23384;&#22312;&#22823;&#37327;&#20219;&#21153;&#65292;&#20854;&#20182;&#20219;&#21153;&#25191;&#34892;&#26102;&#38388;&#23601;&#20250;&#36896;&#25104;&#23450;&#26102;&#22120;&#22238;&#35843;&#20989;&#25968;&#30340;&#24310;&#36831;&#65292;&#22914;&#26524;&#19981;&#22788;&#29702;&#21017;&#20250;&#19968;&#30452;&#21472;&#21152;&#24310;&#36831;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6422,13 +5940,11 @@
       <font color="#0000c0">&#22914;&#26524;&#20219;&#21153;&#27809;&#26377;&#21450;&#26102;&#22788;&#29702;&#20250;&#21472;&#21152;&#24310;&#26102;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x5e94;&#x7528;&#x6848;&#x4f8b;" ID="ID_802778221" CREATED="1615615003936" MODIFIED="1615615018930">
-<node TEXT="&#x5012;&#x8ba1;&#x65f6;&#x5668;" ID="ID_939804203" CREATED="1615615019927" MODIFIED="1615615053589"><richcontent TYPE="NOTE">
-
+<node TEXT="应用案例" FOLDED="true" ID="ID_802778221" CREATED="1615615003936" MODIFIED="1615615018930">
+<node TEXT="倒计时器" ID="ID_939804203" CREATED="1615615019927" MODIFIED="1615615053589"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6438,12 +5954,11 @@
       &#23454;&#29616;&#20498;&#35745;&#26102;&#22120;&#65288;&#26085;&#26399;&#23545;&#35937;+&#23450;&#26102;&#22120;&#65289;&#23450;&#26102;&#27599;&#38548;&#19968;&#31186;&#37325;&#26032;&#21047;&#26032;&#26174;&#31034;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&lt;script&gt;&#x6807;&#x7b7e;&#x4e0b;&#x5b9a;&#x4e49;&#x7684;&#x53d8;&#x91cf;&#x548c;&#x65b9;&#x6cd5;&#xa;&#x9ed8;&#x8ba4;&#x4f1a;&#x53d8;&#x4e3a;window&#x7684;&#x6210;&#x5458;&#x53d8;&#x91cf;&#x548c;&#x65b9;&#x6cd5;" ID="ID_642331796" CREATED="1615610820670" MODIFIED="1615610893392"/>
+<node TEXT="&lt;script&gt;标签下定义的变量和方法&#xa;默认会变为window的成员变量和方法" ID="ID_642331796" CREATED="1615610820670" MODIFIED="1615610893392"/>
 </node>
 </node>
 </node>
@@ -6458,8 +5973,7 @@
 </node>
 <node TEXT="Vue" POSITION="right" ID="ID_488848733" CREATED="1599966467309" MODIFIED="1611461921459" LINK="https://cn.vuejs.org/v2/guide/" STYLE="bubble">
 <edge COLOR="#7c007c"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6481,19 +5995,17 @@
       &#35270;&#22270;&#23618;&#38754;&#30340;&#21464;&#21270;&#26159;&#21709;&#24212;&#24335;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x8d44;&#x6599;" ID="ID_631241317" CREATED="1611413729340" MODIFIED="1611413740276" STYLE="bubble">
-<node TEXT="&#x5b98;&#x65b9;&#x7f51;&#x7ad9;" ID="ID_1852427079" CREATED="1611413741741" MODIFIED="1611413864609" LINK="https://cn.vuejs.org/index.html"/>
+</html></richcontent>
+<node TEXT="资料" FOLDED="true" ID="ID_631241317" CREATED="1611413729340" MODIFIED="1611413740276" STYLE="bubble">
+<node TEXT="官方网站" ID="ID_1852427079" CREATED="1611413741741" MODIFIED="1611413864609" LINK="https://cn.vuejs.org/index.html"/>
 </node>
-<node TEXT="&#x6280;&#x672f;&#x5bf9;&#x6bd4;" ID="ID_1878994009" CREATED="1611414779663" MODIFIED="1611414816626" STYLE="bubble">
-<node TEXT="&#x4e0e;JQuery&#x5bf9;&#x6bd4;" ID="ID_1525921294" CREATED="1611418095179" MODIFIED="1611418112975"/>
+<node TEXT="技术对比" FOLDED="true" ID="ID_1878994009" CREATED="1611414779663" MODIFIED="1611414816626" STYLE="bubble">
+<node TEXT="与JQuery对比" ID="ID_1525921294" CREATED="1611418095179" MODIFIED="1611418112975"/>
 </node>
-<node TEXT="&#x57fa;&#x7840;" ID="ID_660847022" CREATED="1611413113755" MODIFIED="1611413119587" STYLE="bubble">
-<node TEXT="&#x57fa;&#x672c;&#x4f7f;&#x7528;" ID="ID_623472360" CREATED="1611415039100" MODIFIED="1611415043186" STYLE="bubble">
-<node TEXT="&#x6d4f;&#x89c8;&#x5668;&#x5b89;&#x88c5;Vue Devtools" ID="ID_220696856" CREATED="1611416672593" MODIFIED="1611417477679"/>
-<node TEXT="&#x5f15;&#x5165;Vue&#x7684;&#x4e09;&#x79cd;&#x65b9;&#x5f0f;" ID="ID_1086170011" CREATED="1611417295505" MODIFIED="1611418134222"><richcontent TYPE="NOTE">
-
+<node TEXT="基础" FOLDED="true" ID="ID_660847022" CREATED="1611413113755" MODIFIED="1611413119587" STYLE="bubble">
+<node TEXT="基本使用" FOLDED="true" ID="ID_623472360" CREATED="1611415039100" MODIFIED="1611415043186" STYLE="bubble">
+<node TEXT="浏览器安装Vue Devtools" ID="ID_220696856" CREATED="1611416672593" MODIFIED="1611417477679"/>
+<node TEXT="引入Vue的三种方式" ID="ID_1086170011" CREATED="1611417295505" MODIFIED="1611418134222"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6509,12 +6021,10 @@
       3) CLI&#26500;&#24314;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="Vue&#x5b9e;&#x4f8b;" ID="ID_1709588673" CREATED="1611859627394" MODIFIED="1611980434251" STYLE="bubble">
-<node TEXT="&#x751f;&#x547d;&#x5468;&#x671f;(&#x94a9;&#x5b50;&#x51fd;&#x6570;)" ID="ID_332743484" CREATED="1611859636091" MODIFIED="1611860137446" LINK="https://cn.vuejs.org/v2/guide/instance.html#%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%9B%BE%E7%A4%BA"><richcontent TYPE="DETAILS">
-
+<node TEXT="Vue实例" FOLDED="true" ID="ID_1709588673" CREATED="1611859627394" MODIFIED="1611980434251" STYLE="bubble">
+<node TEXT="生命周期(钩子函数)" ID="ID_332743484" CREATED="1611859636091" MODIFIED="1611860137446" LINK="https://cn.vuejs.org/v2/guide/instance.html#%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E5%9B%BE%E7%A4%BA"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6524,14 +6034,12 @@
       <font color="#0000c0">&#22238;&#35843;&#20989;&#25968;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x91cd;&#x8981;&#x7684;&#x5c5e;&#x6027;&#x548c;&#x65b9;&#x6cd5;" ID="ID_797692099" CREATED="1611979863538" MODIFIED="1611979917640">
+<node TEXT="重要的属性和方法" FOLDED="true" ID="ID_797692099" CREATED="1611979863538" MODIFIED="1611979917640">
 <node TEXT="$el" ID="ID_143245178" CREATED="1611979873831" MODIFIED="1611979881160"/>
 <node TEXT="$data" ID="ID_879010669" CREATED="1611979875226" MODIFIED="1611979883886"/>
-<node TEXT="$methods" ID="ID_230263145" CREATED="1611979885152" MODIFIED="1611979946629"><richcontent TYPE="NOTE">
-
+<node TEXT="$methods" ID="ID_230263145" CREATED="1611979885152" MODIFIED="1611979946629"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6541,11 +6049,9 @@
       &#29992;&#20110;&#23450;&#20041;&#33258;&#23450;&#20041;&#26041;&#27861;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="$computed" ID="ID_1553053223" CREATED="1611979892096" MODIFIED="1611980574295"><richcontent TYPE="NOTE">
-
+<node TEXT="$computed" ID="ID_1553053223" CREATED="1611979892096" MODIFIED="1611980574295"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6555,17 +6061,15 @@
       &#29992;&#20110;&#23384;&#25918;&#35745;&#31639;&#23646;&#24615;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="$watch" ID="ID_387215100" CREATED="1611982542146" MODIFIED="1611982545756"/>
 </node>
 </node>
 </node>
-<node TEXT="&#x6a21;&#x677f;&#x8bed;&#x6cd5;" ID="ID_1293748108" CREATED="1611413293289" MODIFIED="1611971611132" LINK="https://cn.vuejs.org/v2/guide/syntax.html" STYLE="bubble">
-<node TEXT="&#x63d2;&#x503c;" ID="ID_867454777" CREATED="1611980372361" MODIFIED="1611980429935" STYLE="bubble">
-<node TEXT="&#x6587;&#x672c;&#x63d2;&#x503c; {{ }}" ID="ID_1617672119" CREATED="1611972821794" MODIFIED="1611974872210"><richcontent TYPE="NOTE">
-
+<node TEXT="模板语法" FOLDED="true" ID="ID_1293748108" CREATED="1611413293289" MODIFIED="1611971611132" LINK="https://cn.vuejs.org/v2/guide/syntax.html" STYLE="bubble">
+<node TEXT="插值" FOLDED="true" ID="ID_867454777" CREATED="1611980372361" MODIFIED="1611980429935" STYLE="bubble">
+<node TEXT="文本插值 {{ }}" ID="ID_1617672119" CREATED="1611972821794" MODIFIED="1611974872210"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6575,8 +6079,7 @@
       <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#8220;Mustache&#8221;&#35821;&#27861; (&#21452;&#22823;&#25324;&#21495;)</font></span> 
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node ID="ID_981143801" CREATED="1611972828035" MODIFIED="1611976593784"><richcontent TYPE="NODE">
 
@@ -6591,8 +6094,7 @@
   </body>
 </html>
 </richcontent>
-<richcontent TYPE="DETAILS">
-
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6602,11 +6104,9 @@
       <font color="#0000c0">&#35814;&#30475;api&#25991;&#26723;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x52a8;&#x6001;&#x7ed1;&#x5b9a;&#x5c5e;&#x6027; v-bind" ID="ID_112205247" CREATED="1611976176942" MODIFIED="1611976675808"><richcontent TYPE="NOTE">
-
+<node TEXT="动态绑定属性 v-bind" ID="ID_112205247" CREATED="1611976176942" MODIFIED="1611976675808"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6616,11 +6116,9 @@
       Mustache &#35821;&#27861;&#19981;&#33021;&#20316;&#29992;&#22312; HTML attribute &#19978;&#65292;&#36935;&#21040;&#36825;&#31181;&#24773;&#20917;&#24212;&#35813;&#20351;&#29992; v-bind &#25351;&#20196;.
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="JS&#x8868;&#x8fbe;&#x5f0f;&#x63d2;&#x503c;" ID="ID_862959746" CREATED="1611977126557" MODIFIED="1611977157636"><richcontent TYPE="NOTE">
-
+<node TEXT="JS表达式插值" FOLDED="true" ID="ID_862959746" CREATED="1611977126557" MODIFIED="1611977157636"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6636,18 +6134,16 @@
       &#27169;&#26495;&#34920;&#36798;&#24335;&#37117;&#34987;&#25918;&#22312;&#27801;&#30418;&#20013;&#65292;&#21482;&#33021;&#35775;&#38382;&#20840;&#23616;&#21464;&#37327;&#30340;&#19968;&#20010;&#30333;&#21517;&#21333;&#65292;&#22914; Math &#21644; Date &#12290;&#20320;&#19981;&#24212;&#35813;&#22312;&#27169;&#26495;&#34920;&#36798;&#24335;&#20013;&#35797;&#22270;&#35775;&#38382;&#29992;&#25143;&#23450;&#20041;&#30340;&#20840;&#23616;&#21464;&#37327;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="{{message.split(&apos;&apos;).reverse().join(&apos;&apos;)}}" ID="ID_911172418" CREATED="1611981788105" MODIFIED="1611981816702"/>
 <node TEXT="reversedMessage()" ID="ID_1450107020" CREATED="1611981823916" MODIFIED="1611981831317"/>
 </node>
 </node>
-<node TEXT="&#x6307;&#x4ee4;" ID="ID_909444944" CREATED="1611413304914" MODIFIED="1611973138649" LINK="https://cn.vuejs.org/v2/api/#%E6%8C%87%E4%BB%A4" STYLE="bubble">
-<node TEXT="&#x5e38;&#x89c1;&#x6307;&#x4ee4;" ID="ID_212432583" CREATED="1611980316927" MODIFIED="1611980331393">
+<node TEXT="指令" FOLDED="true" ID="ID_909444944" CREATED="1611413304914" MODIFIED="1611973138649" LINK="https://cn.vuejs.org/v2/api/#%E6%8C%87%E4%BB%A4" STYLE="bubble">
+<node TEXT="常见指令" FOLDED="true" ID="ID_212432583" CREATED="1611980316927" MODIFIED="1611980331393">
 <node TEXT="v-once" ID="ID_742869994" CREATED="1611975098007" MODIFIED="1611975111684"/>
 <node TEXT="v-html" ID="ID_1470864087" CREATED="1611975101541" MODIFIED="1611975104787"/>
-<node TEXT="v-bind &#x5355;&#x5411;&#x7ed1;&#x5b9a;" ID="ID_198455166" CREATED="1611975105033" MODIFIED="1614709546714"><richcontent TYPE="DETAILS">
-
+<node TEXT="v-bind 单向绑定" ID="ID_198455166" CREATED="1611975105033" MODIFIED="1614709546714"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6657,13 +6153,11 @@
       <font color="#0000c0">:</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="v-model &#x53cc;&#x5411;&#x7ed1;&#x5b9a;" ID="ID_449395176" CREATED="1614709484528" MODIFIED="1614709553269"/>
+<node TEXT="v-model 双向绑定" ID="ID_449395176" CREATED="1614709484528" MODIFIED="1614709553269"/>
 <node TEXT="v-if v-else-if v-else" ID="ID_1910438054" CREATED="1611978980681" MODIFIED="1611978991309"/>
-<node TEXT="v-on" ID="ID_1109131490" CREATED="1611978992206" MODIFIED="1611980509193"><richcontent TYPE="DETAILS">
-
+<node TEXT="v-on" ID="ID_1109131490" CREATED="1611978992206" MODIFIED="1611980509193"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6673,11 +6167,9 @@
       <font color="#0000c0">@</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="v-show" ID="ID_1676673975" CREATED="1612071715987" MODIFIED="1612071862722"><richcontent TYPE="NOTE">
-
+<node TEXT="v-show" FOLDED="true" ID="ID_1676673975" CREATED="1612071715987" MODIFIED="1612071862722"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6690,10 +6182,8 @@
       &#26080;&#35770;&#34920;&#36798;&#24335;&#26159;&#21542;&#20026;true, dom&#37117;&#20250;&#34987;&#28210;&#26579;&#65292;&#36890;&#36807;&#25913;&#21464;css&#26679;&#24335;&#65288;css display&#23646;&#24615;&#65289;&#36798;&#21040;&#20803;&#32032;&#30340;&#26174;&#31034;&#21644;&#38544;&#34255;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="v-show vs v-if" ID="ID_132309159" CREATED="1612071892907" MODIFIED="1612072090336"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="v-show vs v-if" ID="ID_132309159" CREATED="1612071892907" MODIFIED="1612072090336"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6712,10 +6202,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6728,12 +6216,10 @@
       <font color="#0000c0">&#21518;&#32773;&#29992;&#21040;&#26102;&#36890;&#36807;&#20803;&#32032;&#38144;&#27585;&#21644;&#37325;&#24314;&#28210;&#26579;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="v-for" ID="ID_1977157266" CREATED="1612072109971" MODIFIED="1612099685029"><richcontent TYPE="NOTE">
-
+<node TEXT="v-for" FOLDED="true" ID="ID_1977157266" CREATED="1612072109971" MODIFIED="1612099685029"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6755,19 +6241,17 @@
       <span class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px"><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px">&lt;/</font></span><font color="rgb(41, 115, 183)" face="Roboto Mono, Monaco, courier, monospace" size="13.6px"><span class="hljs-name">div</span><span class="hljs-tag" style="color: rgb(41, 115, 183); font-family: Roboto Mono, Monaco, courier, monospace; font-size: 13.6px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: pre; word-spacing: 0px">&gt;</span></font> 
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5199;&#x6cd5;" ID="ID_1778228453" CREATED="1612315462058" MODIFIED="1612315465210">
+</html></richcontent>
+<node TEXT="写法" FOLDED="true" ID="ID_1778228453" CREATED="1612315462058" MODIFIED="1612315465210">
 <node TEXT="&lt;elementAlias&gt; in &lt;arrayName&gt;&#xa;(&lt;elementAlias&gt;, &lt;idx&gt;) in &lt;arrayName&gt;" ID="ID_1033569936" CREATED="1612313957048" MODIFIED="1612314458949"/>
 <node TEXT="&lt;elementAlias&gt; of &lt;arrayName&gt;&#xa;(&lt;elementAlias&gt;, &lt;idx&gt;) of &lt;arrayName&gt;" ID="ID_522719626" CREATED="1612314015333" MODIFIED="1612314464147"/>
 <node TEXT="&lt;propertyAlias&gt; in &lt;objectName&gt;&#xa;(&lt;propertyAlias&gt;, &lt;propertyName&gt;) in &lt;objectName&gt;&#xa;(&lt;propertyAlias&gt;, &lt;propertyName&gt;, &lt;idx&gt;) in &lt;objectName&gt;" ID="ID_1380833815" CREATED="1612314228647" MODIFIED="1612314432235"/>
 <node TEXT="&lt;propertyAlias&gt; of &lt;objectName&gt;&#xa;(&lt;propertyAlias&gt;, &lt;propertyName&gt;) of &lt;objectName&gt; (&lt;propertyAlias&gt;, &lt;propertyName&gt;, &lt;idx&gt;) of &lt;objectName&gt;" ID="ID_1627015096" CREATED="1612314468903" MODIFIED="1612314495210"/>
 </node>
-<node TEXT="v-for key &#x7ef4;&#x62a4;&#x72b6;&#x6001;" ID="ID_295249064" CREATED="1612315062630" MODIFIED="1612315079435" LINK="https://cn.vuejs.org/v2/guide/list.html#%E7%BB%B4%E6%8A%A4%E7%8A%B6%E6%80%81"/>
-<node TEXT="&#x6570;&#x7ec4;&#x66f4;&#x65b0;&#x68c0;&#x6d4b;" ID="ID_253436452" CREATED="1612315482413" MODIFIED="1613449107385">
+<node TEXT="v-for key 维护状态" ID="ID_295249064" CREATED="1612315062630" MODIFIED="1612315079435" LINK="https://cn.vuejs.org/v2/guide/list.html#%E7%BB%B4%E6%8A%A4%E7%8A%B6%E6%80%81"/>
+<node TEXT="数组更新检测" FOLDED="true" ID="ID_253436452" CREATED="1612315482413" MODIFIED="1613449107385">
 <icon BUILTIN="yes"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6777,13 +6261,12 @@
       &#36890;&#36807;&#25968;&#32452;&#32034;&#24341;&#30452;&#25509;&#20462;&#25913;&#20803;&#32032;&#20540; &#19981;&#33021;&#34987;&#26816;&#27979;&#21040;&#65292;&#22240;&#20026;Object.defineProperty() &#19981;&#33021;&#26816;&#27979;&#25968;&#32452;&#30340;&#21464;&#21270;&#65292;&#21482;&#33021;&#26816;&#27979;&#21040;&#23545;&#35937;&#30340;&#21464;&#21270;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x76f4;&#x63a5;&#x4fee;&#x6539;&#x4e0d;&#x80fd;&#x88ab;&#x68c0;&#x6d4b;&#x5230;&#x66f4;&#x65b0;" ID="ID_47458231" CREATED="1612610688415" MODIFIED="1612610705475"/>
-<node TEXT="&#x53ef;&#x4ee5;&#x901a;&#x8fc7;vue set()&#x65b9;&#x6cd5;&#x66f4;&#x65b0;&#xa;&#x6216;&#x901a;&#x8fc7;vue&#x91cd;&#x65b0;&#x5c01;&#x88c5;&#x7684;&#x6570;&#x7ec4;&#x65b9;&#x6cd5;&#x66f4;&#x65b0;" ID="ID_1449816914" CREATED="1612610706748" MODIFIED="1612610750452">
+</html></richcontent>
+<node TEXT="直接修改不能被检测到更新" ID="ID_47458231" CREATED="1612610688415" MODIFIED="1612610705475"/>
+<node TEXT="可以通过vue set()方法更新&#xa;或通过vue重新封装的数组方法更新" FOLDED="true" ID="ID_1449816914" CREATED="1612610706748" MODIFIED="1612610750452">
 <node TEXT="Vue.set()" ID="ID_1093583691" CREATED="1612610780251" MODIFIED="1612610785239"/>
 <node TEXT="vm.$set()" ID="ID_445855987" CREATED="1612610763226" MODIFIED="1612610779274"/>
-<node TEXT="&#x91cd;&#x65b0;&#x5c01;&#x88c5;&#x7684;&#x6570;&#x7ec4;&#x65b9;&#x6cd5;" ID="ID_518675896" CREATED="1612606084972" MODIFIED="1612606095222">
+<node TEXT="重新封装的数组方法" FOLDED="true" ID="ID_518675896" CREATED="1612606084972" MODIFIED="1612606095222">
 <node ID="ID_860894544" CREATED="1612606146917" MODIFIED="1612606146917"><richcontent TYPE="NODE">
 
 <html>
@@ -6899,11 +6382,10 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x5bf9;&#x8c61;&#x66f4;&#x65b0;&#x68c0;&#x6d4b;" ID="ID_1950963437" CREATED="1612610795589" MODIFIED="1612610806081">
-<node TEXT="&#x9884;&#x5148;&#x5b9a;&#x4e49;&#x7684;&#x6210;&#x5458;&#x5c5e;&#x6027;&#x662f;&#x53ef;&#x4ee5;&#x68c0;&#x6d4b;&#x66f4;&#x65b0;&#x7684;" ID="ID_1386815102" CREATED="1612610816507" MODIFIED="1612610868654"/>
-<node TEXT="&#x540e;&#x6dfb;&#x52a0;&#x7684;&#x6210;&#x5458;&#x5c5e;&#x6027;&#x662f;&#x65e0;&#x6cd5;&#x68c0;&#x6d4b;&#x66f4;&#x65b0;&#x7684;" ID="ID_176848547" CREATED="1612610851296" MODIFIED="1612610892416"/>
-<node TEXT="! &#x68c0;&#x6d4b;&#x5230;&#x6570;&#x636e;&#x66f4;&#x65b0;&#x540e;&#x66f4;&#x65b0;&#x89c6;&#x56fe;&#x662f;&#x5f02;&#x6b65;&#x7684;" ID="ID_422638435" CREATED="1612610893977" MODIFIED="1612610979931"><richcontent TYPE="NOTE">
-
+<node TEXT="对象更新检测" FOLDED="true" ID="ID_1950963437" CREATED="1612610795589" MODIFIED="1612610806081">
+<node TEXT="预先定义的成员属性是可以检测更新的" ID="ID_1386815102" CREATED="1612610816507" MODIFIED="1612610868654"/>
+<node TEXT="后添加的成员属性是无法检测更新的" ID="ID_176848547" CREATED="1612610851296" MODIFIED="1612610892416"/>
+<node TEXT="! 检测到数据更新后更新视图是异步的" ID="ID_422638435" CREATED="1612610893977" MODIFIED="1612610979931"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6919,14 +6401,12 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; //&#22240;&#20026;&#19978;&#19968;&#21477;&#26159;&#21487;&#20197;&#26816;&#27979;&#26356;&#26032;&#30340;&#65292;&#32780;&#19988;&#22240;&#20026;&#19978;&#19968;&#21477;&#26816;&#27979;&#21040;&#26356;&#26032;&#21518;&#26356;&#26032;&#35270;&#22270;&#26159;&#24322;&#27493;&#30340;&#65292;&#36825;&#26102;vm.obj.b=2&#20808;&#25191;&#34892;&#65292;&#28982;&#21518;&#20877;&#26356;&#26032;&#35270;&#22270;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x7ed3;&#x5408;&#x8ba1;&#x7b97;&#x5c5e;&#x6027;&#x4f7f;&#x7528;" ID="ID_1748214320" CREATED="1612611680693" MODIFIED="1612611777500"/>
-<node TEXT="&#x7ed3;&#x5408;&#x65b9;&#x6cd5;&#x5c5e;&#x6027;&#x4f7f;&#x7528;" ID="ID_316344859" CREATED="1612611777796" MODIFIED="1612611787070"/>
-<node TEXT="&#x4f7f;&#x7528;&#x503c;&#x8303;&#x56f4;" ID="ID_1122147221" CREATED="1612611768293" MODIFIED="1612611857383"><richcontent TYPE="NOTE">
-
+<node TEXT="结合计算属性使用" ID="ID_1748214320" CREATED="1612611680693" MODIFIED="1612611777500"/>
+<node TEXT="结合方法属性使用" ID="ID_316344859" CREATED="1612611777796" MODIFIED="1612611787070"/>
+<node TEXT="使用值范围" ID="ID_1122147221" CREATED="1612611768293" MODIFIED="1612611857383"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6942,20 +6422,18 @@
       &#25171;&#21360;1 2 3 4 5 6 7 8 9 10
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="v-for &#x4f18;&#x5148;&#x7ea7;&#x5927;&#x4e8e; v-if" ID="ID_1229171783" CREATED="1612611010536" MODIFIED="1612611029023"/>
-</node>
-</node>
-<node TEXT="&#x6307;&#x4ee4;&#x4fee;&#x9970;&#x7b26;" ID="ID_1748127253" CREATED="1611980338803" MODIFIED="1611980416595"/>
-<node TEXT="&#x6307;&#x4ee4;&#x7f29;&#x5199;" ID="ID_898913245" CREATED="1611980416824" MODIFIED="1611980423919"/>
+<node TEXT="v-for 优先级大于 v-if" ID="ID_1229171783" CREATED="1612611010536" MODIFIED="1612611029023"/>
 </node>
 </node>
-<node TEXT="&#x6e32;&#x67d3;&#x51fd;&#x6570;&amp;JSX" ID="ID_663864565" CREATED="1611972989990" MODIFIED="1611980389830" STYLE="bubble"/>
-<node TEXT="&#x8ba1;&#x7b97;&#x5c5e;&#x6027;&amp;&#x76d1;&#x542c;&#x5668;" ID="ID_1224617457" CREATED="1611980617919" MODIFIED="1611980642616" LINK="https://cn.vuejs.org/v2/guide/computed.html" STYLE="bubble">
-<node TEXT="&#x8ba1;&#x7b97;&#x5c5e;&#x6027; $computed" ID="ID_1584012211" CREATED="1611980656570" MODIFIED="1611985448408"><richcontent TYPE="NOTE">
-
+<node TEXT="指令修饰符" ID="ID_1748127253" CREATED="1611980338803" MODIFIED="1611980416595"/>
+<node TEXT="指令缩写" ID="ID_898913245" CREATED="1611980416824" MODIFIED="1611980423919"/>
+</node>
+</node>
+<node TEXT="渲染函数&amp;JSX" ID="ID_663864565" CREATED="1611972989990" MODIFIED="1611980389830" STYLE="bubble"/>
+<node TEXT="计算属性&amp;监听器" FOLDED="true" ID="ID_1224617457" CREATED="1611980617919" MODIFIED="1611980642616" LINK="https://cn.vuejs.org/v2/guide/computed.html" STYLE="bubble">
+<node TEXT="计算属性 $computed" FOLDED="true" ID="ID_1584012211" CREATED="1611980656570" MODIFIED="1611985448408"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -6974,10 +6452,8 @@
       &#35745;&#31639;&#23646;&#24615;&#20855;&#26377;&#32531;&#23384;&#25928;&#26524;&#65292;&#38500;&#38750;&#25968;&#25454;&#26377;&#26356;&#26032;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -6990,10 +6466,8 @@
       <font color="#0000c0">&#35745;&#31639;&#23646;&#24615;&#26412;&#36523;&#26159;&#20540;&#19981;&#26159;&#26041;&#27861;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x540c;&#x6837;&#x662f;&#x5b9a;&#x4e49;&#x65b9;&#x6cd5;&#xa;&#x4e3a;&#x4f55;&#x9009;&#x62e9;&#x5728;$computed&#x4e2d;&#x5b9a;&#x4e49;&#x8ba1;&#x7b97;&#x5c5e;&#x6027;&#x800c;&#x4e0d;&#x662f;&#x5728;$method&#x4e2d;&#x5b9a;&#x4e49;&#x65b9;&#x6cd5;?" ID="ID_1248245855" CREATED="1611981424521" MODIFIED="1611981585952"><richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<node TEXT="同样是定义方法&#xa;为何选择在$computed中定义计算属性而不是在$method中定义方法?" ID="ID_1248245855" CREATED="1611981424521" MODIFIED="1611981585952"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7003,13 +6477,11 @@
       <font color="#0000c0">&#22240;&#20026;$computed&#32467;&#26524;&#26377;&#32531;&#23384;&#65292;$method&#32467;&#26524;&#27809;&#26377;&#32531;&#23384;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x8ba1;&#x7b97;&#x5c5e;&#x6027;&#x662f;&#x600e;&#x4e48;&#x76d1;&#x542c;&#x6570;&#x636e;&#x53d8;&#x5316;&#x7684;&#xff1f;&#x4f9d;&#x8d56;&#x6570;&#x636e;&#x6539;&#x53d8;&#x4e3a;&#x4f55;&#x53ef;&#x4ee5;&#x89e6;&#x53d1;&#x91cd;&#x65b0;&#x8ba1;&#x7b97;&#xff1f;" ID="ID_635578159" CREATED="1613550844325" MODIFIED="1613550881042"/>
+<node TEXT="计算属性是怎么监听数据变化的？依赖数据改变为何可以触发重新计算？" ID="ID_635578159" CREATED="1613550844325" MODIFIED="1613550881042"/>
 </node>
-<node TEXT="&#x76d1;&#x542c;&#x5668; $watch" ID="ID_455509303" CREATED="1611980662262" MODIFIED="1611985010721" LINK="https://cn.vuejs.org/v2/api/#watch"><richcontent TYPE="NOTE">
-
+<node TEXT="监听器 $watch" FOLDED="true" ID="ID_455509303" CREATED="1611980662262" MODIFIED="1611985010721" LINK="https://cn.vuejs.org/v2/api/#watch"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7025,10 +6497,8 @@
       &#34429;&#28982;&#35745;&#31639;&#23646;&#24615;&#22312;&#22823;&#22810;&#25968;&#24773;&#20917;&#19979;&#26356;&#21512;&#36866;&#65292;&#20294;&#26377;&#26102;&#20063;&#38656;&#35201;&#19968;&#20010;&#33258;&#23450;&#20041;&#30340;&#20390;&#21548;&#22120;&#12290;&#36825;&#23601;&#26159;&#20026;&#20160;&#20040; Vue &#36890;&#36807; watch &#36873;&#39033;&#25552;&#20379;&#20102;&#19968;&#20010;&#26356;&#36890;&#29992;&#30340;&#26041;&#27861;&#65292;&#26469;&#21709;&#24212;&#25968;&#25454;&#30340;&#21464;&#21270;&#12290;&#24403;&#38656;&#35201;&#22312;&#25968;&#25454;&#21464;&#21270;&#26102;&#25191;&#34892;&#24322;&#27493;&#25110;&#24320;&#38144;&#36739;&#22823;&#30340;&#25805;&#20316;&#26102;&#65292;&#36825;&#20010;&#26041;&#24335;&#26159;&#26368;&#26377;&#29992;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7038,15 +6508,13 @@
       <font color="#0000c0">&#20027;&#35201;&#22788;&#29702;&#24322;&#27493;&#25110;&#24320;&#38144;&#36739;&#22823;&#30340;&#25805;&#20316;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x6d45;&#x68c0;&#x6d4b;(&#x9ed8;&#x8ba4;&#xff0c;&#x68c0;&#x6d4b;&#x5bf9;&#x8c61;&#x5f15;&#x7528;&#x662f;&#x5426;&#x53d8;&#x5316;)" ID="ID_159980188" CREATED="1611983137176" MODIFIED="1611985028037"/>
-<node TEXT="&#x6df1;&#x5ea6;&#x68c0;&#x6d4b;(&#x68c0;&#x6d4b;&#x5f15;&#x7528;&#x548c;&#x5185;&#x90e8;&#x6210;&#x5458;&#x7684;&#x5f15;&#x7528;&#x662f;&#x5426;&#x53d8;&#x5316;)" ID="ID_34952431" CREATED="1611983143094" MODIFIED="1611983205952"/>
+</html></richcontent>
+<node TEXT="浅检测(默认，检测对象引用是否变化)" ID="ID_159980188" CREATED="1611983137176" MODIFIED="1611985028037"/>
+<node TEXT="深度检测(检测引用和内部成员的引用是否变化)" ID="ID_34952431" CREATED="1611983143094" MODIFIED="1611983205952"/>
 </node>
 </node>
-<node TEXT="&#x6761;&#x4ef6;&#x6e32;&#x67d3;" ID="ID_958606808" CREATED="1612068546591" MODIFIED="1612068558640" STYLE="bubble">
-<node TEXT="template&#x5206;&#x7ec4;&#x6e32;&#x67d3;" ID="ID_188248293" CREATED="1612068559583" MODIFIED="1612068695209"><richcontent TYPE="NOTE">
-
+<node TEXT="条件渲染" FOLDED="true" ID="ID_958606808" CREATED="1612068546591" MODIFIED="1612068558640" STYLE="bubble">
+<node TEXT="template分组渲染" ID="ID_188248293" CREATED="1612068559583" MODIFIED="1612068695209"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7059,11 +6527,9 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x901a;&#x8fc7;key&#x5c5e;&#x6027;&#x907f;&#x514d;&#x590d;&#x7528;&#x5143;&#x7d20;" ID="ID_1567861619" CREATED="1612069742824" MODIFIED="1612071570015"><richcontent TYPE="NOTE">
-
+<node TEXT="通过key属性避免复用元素" ID="ID_1567861619" CREATED="1612069742824" MODIFIED="1612071570015"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7073,15 +6539,13 @@
       &#36890;&#36807;key&#26631;&#35782;&#22810;&#20010;&#20803;&#32032;&#26159;&#23436;&#20840;&#29420;&#31435;&#30340;&#65292;&#19981;&#35201;&#28210;&#26579;&#26102;&#22797;&#29992;&#20182;&#20204;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x4e8b;&#x4ef6;&#x5904;&#x7406;" ID="ID_1807688462" CREATED="1612612586316" MODIFIED="1612612601319" STYLE="bubble">
-<node TEXT="v-on &#x6307;&#x4ee4;&#x76d1;&#x542c;DOM&#x4e8b;&#x4ef6;" ID="ID_969506527" CREATED="1612612673621" MODIFIED="1612612888705"/>
-<node TEXT="&#x7ed1;&#x5b9a;&#x4e8b;&#x4ef6;&#x5904;&#x7406;&#x65b9;&#x6cd5;" ID="ID_466364810" CREATED="1612612889090" MODIFIED="1612612890116"/>
-<node TEXT="&#x5185;&#x8054;&#x8c03;&#x7528;" ID="ID_1979267760" CREATED="1612612722850" MODIFIED="1612612912341"><richcontent TYPE="NOTE">
-
+<node TEXT="事件处理" FOLDED="true" ID="ID_1807688462" CREATED="1612612586316" MODIFIED="1612612601319" STYLE="bubble">
+<node TEXT="v-on 指令监听DOM事件" ID="ID_969506527" CREATED="1612612673621" MODIFIED="1612612888705"/>
+<node TEXT="绑定事件处理方法" ID="ID_466364810" CREATED="1612612889090" MODIFIED="1612612890116"/>
+<node TEXT="内联调用" FOLDED="true" ID="ID_1979267760" CREATED="1612612722850" MODIFIED="1612612912341"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7127,12 +6591,10 @@
       })
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x4e8b;&#x4ef6;&#x4f20;&#x9012; $event" ID="ID_1887305407" CREATED="1612612985921" MODIFIED="1612613014809"/>
+</html></richcontent>
+<node TEXT="事件传递 $event" ID="ID_1887305407" CREATED="1612612985921" MODIFIED="1612613014809"/>
 </node>
-<node TEXT="&#x4e8b;&#x4ef6;&#x4fee;&#x9970;&#x7b26;" ID="ID_38018817" CREATED="1612613102082" MODIFIED="1612614496966"><richcontent TYPE="DETAILS">
-
+<node TEXT="事件修饰符" FOLDED="true" ID="ID_38018817" CREATED="1612613102082" MODIFIED="1612614496966"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7145,12 +6607,10 @@
       <font color="#0000c0">&#31867;&#20284;&#38142;&#24335;&#35843;&#29992;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT=".stop (&#x963b;&#x6b62;&#x5192;&#x6ce1;)" ID="ID_483455208" CREATED="1612614341713" MODIFIED="1612614413991"/>
-<node TEXT=".prevent (&#x963b;&#x6b62;&#x9ed8;&#x8ba4;&#x884c;&#x4e3a;)" ID="ID_872992637" CREATED="1612614344706" MODIFIED="1612614535520"/>
-<node TEXT=".capture (&#x4e8b;&#x4ef6;&#x6355;&#x83b7;&#x6a21;&#x5f0f;)" ID="ID_1237975422" CREATED="1612614348351" MODIFIED="1612614673877"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT=".stop (阻止冒泡)" ID="ID_483455208" CREATED="1612614341713" MODIFIED="1612614413991"/>
+<node TEXT=".prevent (阻止默认行为)" ID="ID_872992637" CREATED="1612614344706" MODIFIED="1612614535520"/>
+<node TEXT=".capture (事件捕获模式)" ID="ID_1237975422" CREATED="1612614348351" MODIFIED="1612614673877"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7166,13 +6626,11 @@
       &#21363;&#30001;&#22806;&#21521;&#20869;&#35302;&#21457;&#20107;&#20214;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT=".self (&#x53ea;&#x6709;&#x81ea;&#x5df1;&#x4e3a;&#x4e8b;&#x4ef6;&#x6e90;&#x624d;&#x6267;&#x884c;)" ID="ID_1763975233" CREATED="1612614351904" MODIFIED="1612614735609"/>
-<node TEXT=".once (&#x4e8b;&#x4ef6;&#x53ea;&#x89e6;&#x53d1;&#x4e00;&#x6b21;)" ID="ID_1420867550" CREATED="1612614354599" MODIFIED="1612614806786"/>
-<node TEXT=".passive" ID="ID_1612845982" CREATED="1612614357711" MODIFIED="1612614890153"><richcontent TYPE="NOTE">
-
+<node TEXT=".self (只有自己为事件源才执行)" ID="ID_1763975233" CREATED="1612614351904" MODIFIED="1612614735609"/>
+<node TEXT=".once (事件只触发一次)" ID="ID_1420867550" CREATED="1612614354599" MODIFIED="1612614806786"/>
+<node TEXT=".passive" ID="ID_1612845982" CREATED="1612614357711" MODIFIED="1612614890153"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7197,12 +6655,10 @@
       &lt;div v-on:scroll.passive=&quot;onScroll&quot;&gt;...&lt;/div&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x6309;&#x952e;&#x4fee;&#x9970;&#x7b26;" ID="ID_390246225" CREATED="1612614897448" MODIFIED="1612615128107"><richcontent TYPE="DETAILS">
-
+<node TEXT="按键修饰符" FOLDED="true" ID="ID_390246225" CREATED="1612614897448" MODIFIED="1612615128107"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7212,9 +6668,8 @@
       <font color="#0000c0">&#23601;&#26159;&#25353;&#38190;&#21035;&#21517;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5e38;&#x7528;" ID="ID_656128982" CREATED="1612615146729" MODIFIED="1612615194318">
+</html></richcontent>
+<node TEXT="常用" FOLDED="true" ID="ID_656128982" CREATED="1612615146729" MODIFIED="1612615194318">
 <node ID="ID_881246865" CREATED="1612615218976" MODIFIED="1612615218976"><richcontent TYPE="NODE">
 
 <html>
@@ -7360,9 +6815,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="&#x6309;&#x952e;&#x7801;" ID="ID_987944455" CREATED="1612615130078" MODIFIED="1612615292423"/>
-<node TEXT="&#x53ef;&#x4ee5;&#x4f7f;&#x7528;&#x6309;&#x952e;&#x7801;&#x81ea;&#x5b9a;&#x4e49;&#x6848;&#x4ef6;&#x4fee;&#x9970;&#x7b26;" ID="ID_572050468" CREATED="1612615243015" MODIFIED="1612615361700"><richcontent TYPE="NOTE">
-
+<node TEXT="按键码" ID="ID_987944455" CREATED="1612615130078" MODIFIED="1612615292423"/>
+<node TEXT="可以使用按键码自定义案件修饰符" ID="ID_572050468" CREATED="1612615243015" MODIFIED="1612615361700"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7375,12 +6829,10 @@
       Vue.config.keyCodes.f1 = 112
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x7cfb;&#x7edf;&#x4fee;&#x9970;&#x952e;" ID="ID_139166091" CREATED="1612615409506" MODIFIED="1612615550707"><richcontent TYPE="DETAILS">
-
+<node TEXT="系统修饰键" FOLDED="true" ID="ID_139166091" CREATED="1612615409506" MODIFIED="1612615550707"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7393,10 +6845,8 @@
       <font color="#0000c0">&#37197;&#21512;&#20351;&#29992;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7418,8 +6868,7 @@
       &lt;div v-on:click.ctrl=&quot;doSomething&quot;&gt;Do something&lt;/div&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node ID="ID_571862743" CREATED="1612615494647" MODIFIED="1612615494647"><richcontent TYPE="NODE">
 
 <html>
@@ -7485,8 +6934,8 @@
 </richcontent>
 </node>
 </node>
-<node TEXT=".exact &#x4fee;&#x9970;&#x7b26;" ID="ID_336332431" CREATED="1612615732787" MODIFIED="1612615757550"/>
-<node TEXT="&#x9f20;&#x6807;&#x6309;&#x94ae;&#x4fee;&#x9970;&#x7b26;" ID="ID_260302233" CREATED="1612628207695" MODIFIED="1612628233397">
+<node TEXT=".exact 修饰符" ID="ID_336332431" CREATED="1612615732787" MODIFIED="1612615757550"/>
+<node TEXT="鼠标按钮修饰符" FOLDED="true" ID="ID_260302233" CREATED="1612628207695" MODIFIED="1612628233397">
 <node ID="ID_873803393" CREATED="1612628241751" MODIFIED="1612628241751"><richcontent TYPE="NODE">
 
 <html>
@@ -7537,9 +6986,8 @@
 </node>
 </node>
 </node>
-<node TEXT="&#x8868;&#x5355;&#x8f93;&#x5165;&#x7ed1;&#x5b9a;" ID="ID_1810486521" CREATED="1612612602594" MODIFIED="1612612614307" STYLE="bubble">
-<node TEXT="v-model &#x6307;&#x4ee4;&#x53cc;&#x5411;&#x6570;&#x636e;&#x7ed1;&#x5b9a;" ID="ID_1628870402" CREATED="1612629511092" MODIFIED="1612631509726"><richcontent TYPE="DETAILS">
-
+<node TEXT="表单输入绑定" FOLDED="true" ID="ID_1810486521" CREATED="1612612602594" MODIFIED="1612612614307" STYLE="bubble">
+<node TEXT="v-model 指令双向数据绑定" ID="ID_1628870402" CREATED="1612629511092" MODIFIED="1612631509726"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7549,10 +6997,8 @@
       <font color="#0000c0">&#21487;&#29992;&#22312; &lt;input&gt;&#12289;&lt;textarea&gt; &#21450; &lt;select&gt;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7562,20 +7008,18 @@
       <code http-equiv="content-type" content="text/html; charset=utf-8" style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(239, 239, 239); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">v-model</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none">&#20250;&#24573;&#30053;&#25152;&#26377;&#34920;&#21333;&#20803;&#32032;&#30340;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(239, 239, 239); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">value</font></code><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#12289;</font></span><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(239, 239, 239); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">checked</font></code><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#12289;</font></span><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(239, 239, 239); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">selected</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none">attribute &#30340;&#21021;&#22987;&#20540;&#32780;&#24635;&#26159;&#23558; Vue &#23454;&#20363;&#30340;&#25968;&#25454;&#20316;&#20026;&#25968;&#25454;&#26469;&#28304;&#12290;&#20320;&#24212;&#35813;&#36890;&#36807; JavaScript &#22312;&#32452;&#20214;&#30340;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(239, 239, 239); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">data</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(248, 248, 248); display: inline !important; float: none">&#36873;&#39033;&#20013;&#22768;&#26126;&#21021;&#22987;&#20540;&#12290;</span></font> 
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5404;&#x7c7b;&#x578b;&#x8868;&#x5355;&#x4f7f;&#x7528;" ID="ID_1712996845" CREATED="1612633539812" MODIFIED="1612633550963">
-<node TEXT="&#x6587;&#x672c;" ID="ID_1205588393" CREATED="1612633406309" MODIFIED="1612633409970"/>
-<node TEXT="&#x591a;&#x884c;&#x6587;&#x672c;" ID="ID_1299342570" CREATED="1612633410156" MODIFIED="1612633416825"/>
-<node TEXT="&#x590d;&#x9009;&#x6846;" ID="ID_1968477439" CREATED="1612633417154" MODIFIED="1612633426475"/>
-<node TEXT="&#x5355;&#x9009;&#x6309;&#x94ae;" ID="ID_1210281199" CREATED="1612633427448" MODIFIED="1612633434797"/>
-<node TEXT="&#x9009;&#x62e9;&#x6846;" ID="ID_1712603338" CREATED="1612633434982" MODIFIED="1612633443534"/>
+<node TEXT="各类型表单使用" FOLDED="true" ID="ID_1712996845" CREATED="1612633539812" MODIFIED="1612633550963">
+<node TEXT="文本" ID="ID_1205588393" CREATED="1612633406309" MODIFIED="1612633409970"/>
+<node TEXT="多行文本" ID="ID_1299342570" CREATED="1612633410156" MODIFIED="1612633416825"/>
+<node TEXT="复选框" ID="ID_1968477439" CREATED="1612633417154" MODIFIED="1612633426475"/>
+<node TEXT="单选按钮" ID="ID_1210281199" CREATED="1612633427448" MODIFIED="1612633434797"/>
+<node TEXT="选择框" ID="ID_1712603338" CREATED="1612633434982" MODIFIED="1612633443534"/>
 </node>
-<node TEXT="&#x503c;&#x7ed1;&#x5b9a;" ID="ID_1724672201" CREATED="1612633524372" MODIFIED="1612633536753"/>
+<node TEXT="值绑定" ID="ID_1724672201" CREATED="1612633524372" MODIFIED="1612633536753"/>
 </node>
-<node TEXT="&#x7ec4;&#x4ef6;&#x57fa;&#x7840;" ID="ID_468815450" CREATED="1612612618176" MODIFIED="1613578819346" LINK="https://cn.vuejs.org/v2/guide/components.html" STYLE="bubble"><richcontent TYPE="NOTE">
-
+<node TEXT="组件基础" FOLDED="true" ID="ID_468815450" CREATED="1612612618176" MODIFIED="1613578819346" LINK="https://cn.vuejs.org/v2/guide/components.html" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7597,10 +7041,8 @@
       
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7610,11 +7052,9 @@
       <font color="#0000c0">&#23601;&#20687;&#33258;&#23450;&#20041;&#20102;&#26032;&#30340;&#26631;&#31614;&#21644;&#23646;&#24615;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5206;&#x7c7b;" ID="ID_1285461898" CREATED="1613561638238" MODIFIED="1613561640739">
-<node TEXT="&#x5168;&#x5c40;&#x7ec4;&#x4ef6;" ID="ID_1886881430" CREATED="1613561641897" MODIFIED="1613567855568"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="分类" FOLDED="true" ID="ID_1285461898" CREATED="1613561638238" MODIFIED="1613561640739">
+<node TEXT="全局组件" ID="ID_1886881430" CREATED="1613561641897" MODIFIED="1613567855568"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7648,11 +7088,9 @@
       });
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5c40;&#x90e8;&#x7ec4;&#x4ef6;" ID="ID_580100320" CREATED="1613561655118" MODIFIED="1613887497834"><richcontent TYPE="NOTE">
-
+<node TEXT="局部组件" ID="ID_580100320" CREATED="1613561655118" MODIFIED="1613887497834"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7680,13 +7118,11 @@
       &#160;&#160;&#160;&#160;});
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x7ec4;&#x4ef6;&#x5b9a;&#x4e49;" ID="ID_205018945" CREATED="1613568195865" MODIFIED="1613577021486" LINK="https://cn.vuejs.org/v2/guide/components.html#%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6">
-<node TEXT="&#x5b57;&#x7b26;&#x4e32;(&#x4f8b;&#x5982;&#xff1a;template: &apos;...&apos;)" ID="ID_1211952732" CREATED="1613568799067" MODIFIED="1613577092177"><richcontent TYPE="NOTE">
-
+<node TEXT="组件定义" FOLDED="true" ID="ID_205018945" CREATED="1613568195865" MODIFIED="1613577021486" LINK="https://cn.vuejs.org/v2/guide/components.html#%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6">
+<node TEXT="字符串(例如：template: &apos;...&apos;)" ID="ID_1211952732" CREATED="1613568799067" MODIFIED="1613577092177"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7759,15 +7195,13 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;});
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5355;&#x6587;&#x4ef6;&#x7ec4;&#x4ef6;(.vue)" ID="ID_406574088" CREATED="1613568678799" MODIFIED="1613568710492"/>
+<node TEXT="单文件组件(.vue)" ID="ID_406574088" CREATED="1613568678799" MODIFIED="1613568710492"/>
 <node TEXT="&lt;script type=&quot;text/x-template&quot;&gt;" ID="ID_158559043" CREATED="1613568712938" MODIFIED="1613568736293"/>
 </node>
-<node TEXT="&#x7ea6;&#x675f;" ID="ID_442836169" CREATED="1613565598647" MODIFIED="1613565613439">
-<node TEXT="&#x7ec4;&#x4ef6;&#x53ea;&#x80fd;&#x6709;&#x4e00;&#x4e2a;&#x6839;&#x5143;&#x7d20;" ID="ID_1993228101" CREATED="1613565614273" MODIFIED="1613885967410"><richcontent TYPE="NOTE">
-
+<node TEXT="约束" FOLDED="true" ID="ID_442836169" CREATED="1613565598647" MODIFIED="1613565613439">
+<node TEXT="组件只能有一个根元素" ID="ID_1993228101" CREATED="1613565614273" MODIFIED="1613885967410"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7777,11 +7211,9 @@
       &#25152;&#26377;&#20869;&#23481;&#37117;&#35201;&#22312;&#36825;&#20010;&#26681;&#20803;&#32032;&#20013;&#21253;&#21547;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="data &#x5fc5;&#x987b;&#x662f;&#x4e00;&#x4e2a;&#x51fd;&#x6570;" ID="ID_405622744" CREATED="1613567538938" MODIFIED="1613885833015"><richcontent TYPE="NOTE">
-
+<node TEXT="data 必须是一个函数" ID="ID_405622744" CREATED="1613567538938" MODIFIED="1613885833015"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7809,10 +7241,8 @@
       }
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7822,16 +7252,14 @@
       <font color="#0000c0">&#20026;&#20102;&#35753;&#21508;&#20010;&#32452;&#20214;&#30340;&#25968;&#25454;&#20114;&#19981;&#24433;&#21709;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x7ec4;&#x4ef6;&#x6ce8;&#x518c;&#x5fc5;&#x987b;&#x5728;Vue&#x5b9e;&#x4f8b;&#x521b;&#x5efa;&#x4e4b;&#x524d;&#x5b8c;&#x6210;,&#xa;&#x88ab;&#x4f9d;&#x8d56;&#x7ec4;&#x4ef6;&#x5fc5;&#x987b;&#x5728;&#x5b50;&#x7ec4;&#x4ef6;&#x524d;&#x6ce8;&#x518c;" ID="ID_1076570390" CREATED="1613885882925" MODIFIED="1613886454046"/>
-<node TEXT="&#x7ec4;&#x4ef6;&#x540d;&#x547d;&#x540d;" ID="ID_1005334855" CREATED="1613886060685" MODIFIED="1613886067651">
-<node TEXT="kebab-case(&#x77ed;&#x6a2a;&#x7ebf;&#x5206;&#x9694;&#x547d;&#x540d;)" ID="ID_165805902" CREATED="1613886084668" MODIFIED="1613886362972">
+<node TEXT="组件注册必须在Vue实例创建之前完成,&#xa;被依赖组件必须在子组件前注册" ID="ID_1076570390" CREATED="1613885882925" MODIFIED="1613886454046"/>
+<node TEXT="组件名命名" FOLDED="true" ID="ID_1005334855" CREATED="1613886060685" MODIFIED="1613886067651">
+<node TEXT="kebab-case(短横线分隔命名)" ID="ID_165805902" CREATED="1613886084668" MODIFIED="1613886362972">
 <icon BUILTIN="button_ok"/>
 </node>
-<node TEXT="PascalCase(&#x5e15;&#x65af;&#x5361;&#x547d;&#x540d;:&#x9996;&#x5b57;&#x6bcd;&#x5927;&#x5199;&#x547d;&#x540d;)" ID="ID_1599703844" CREATED="1613886117206" MODIFIED="1613887108831"><richcontent TYPE="NOTE">
-
+<node TEXT="PascalCase(帕斯卡命名:首字母大写命名)" ID="ID_1599703844" CREATED="1613886117206" MODIFIED="1613887108831"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7847,17 +7275,15 @@
       &#20294;&#26159;&#20854;&#20182;html DOM&#20013;&#20351;&#29992;&#26102;&#38656;&#35201;&#20351;&#29992;&#23545;&#24212;&#30340;kebab-case&#21629;&#21517;&#26684;&#24335;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="&#x7279;&#x70b9;" ID="ID_568008533" CREATED="1613567392657" MODIFIED="1613567397389">
-<node TEXT="&#x7ec4;&#x4ef6;&#x5b9e;&#x4f8b;&#x7684;&#x6570;&#x636e;&#x662f;&#x72ec;&#x7acb;&#x7684;" ID="ID_861341207" CREATED="1613567398225" MODIFIED="1613567425838"/>
+<node TEXT="特点" FOLDED="true" ID="ID_568008533" CREATED="1613567392657" MODIFIED="1613567397389">
+<node TEXT="组件实例的数据是独立的" ID="ID_861341207" CREATED="1613567398225" MODIFIED="1613567425838"/>
 </node>
-<node TEXT="&#x7ec4;&#x4ef6;&#x901a;&#x4fe1;" ID="ID_168589274" CREATED="1613887753465" MODIFIED="1613887759822">
-<node TEXT="&#x7236;&#x7ec4;&#x4ef6;&#x6570;&#x636e;&#x4f20;&#x9012;&#x4e2a;&#x5b50;&#x7ec4;&#x4ef6;(&#x901a;&#x8fc7;Prop&#x5c5e;&#x6027;&#x5b9e;&#x73b0;)" ID="ID_596368722" CREATED="1613567886622" MODIFIED="1614444063234"><richcontent TYPE="NOTE">
-
+<node TEXT="组件通信" FOLDED="true" ID="ID_168589274" CREATED="1613887753465" MODIFIED="1613887759822">
+<node TEXT="父组件数据传递个子组件(通过Prop属性实现)" FOLDED="true" ID="ID_596368722" CREATED="1613567886622" MODIFIED="1614444063234"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7879,10 +7305,8 @@
       &lt;/base-layout&gt;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7892,13 +7316,11 @@
       <font color="#0000c0">&#24517;&#39035;&#36880;&#32423;&#20256;&#36882;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="js&#x4e2d;&#x5199;&#x6cd5;&#x5fc5;&#x987b;&#x662f;&#x9a7c;&#x5cf0;&#x5f0f;" ID="ID_557643802" CREATED="1613888027795" MODIFIED="1613888043121"/>
-<node TEXT="prop&#x6821;&#x9a8c;" ID="ID_638285069" CREATED="1614430909881" MODIFIED="1614430953062" LINK="https://cn.vuejs.org/v2/guide/components-props.html#Prop-%E9%AA%8C%E8%AF%81"/>
+</html></richcontent>
+<node TEXT="js中写法必须是驼峰式" ID="ID_557643802" CREATED="1613888027795" MODIFIED="1613888043121"/>
+<node TEXT="prop校验" ID="ID_638285069" CREATED="1614430909881" MODIFIED="1614430953062" LINK="https://cn.vuejs.org/v2/guide/components-props.html#Prop-%E9%AA%8C%E8%AF%81"/>
 </node>
-<node TEXT="&#x5b50;&#x7ec4;&#x4ef6;&#x6570;&#x636e;&#x4f20;&#x9012;&#x7ed9;&#x7236;&#x7ec4;&#x4ef6;(&#x901a;&#x8fc7;&#x4e8b;&#x4ef6;&#x5b9e;&#x73b0;)" ID="ID_1949636908" CREATED="1613898402774" MODIFIED="1614444077659"><richcontent TYPE="DETAILS">
-
+<node TEXT="子组件数据传递给父组件(通过事件实现)" ID="ID_1949636908" CREATED="1613898402774" MODIFIED="1614444077659"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7908,11 +7330,9 @@
       <font color="#0000c0">&#24517;&#39035;&#36880;&#32423;&#20256;&#36882;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x4efb;&#x610f;&#x7ec4;&#x4ef6;&#x6570;&#x636e;&#x4e92;&#x4f20;(&#x901a;&#x8fc7;&#x4e8b;&#x4ef6;&#x603b;&#x7ebf;&#x5b9e;&#x73b0;)" ID="ID_1262477374" CREATED="1613900341213" MODIFIED="1614446756743"><richcontent TYPE="DETAILS">
-
+<node TEXT="任意组件数据互传(通过事件总线实现)" ID="ID_1262477374" CREATED="1613900341213" MODIFIED="1614446756743"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7922,10 +7342,8 @@
       <font color="#0000c0">&#19981;&#20855;&#26377;&#21709;&#24212;&#24335;&#65288;&#26412;&#36523;&#26159;&#36890;&#36807;&#21457;&#20107;&#20214;&#36890;&#20449;&#30340;&#65292;&#28304;&#25968;&#25454;&#25913;&#21464;&#24182;&#19981;&#20250;&#33258;&#21160;&#21457;&#20107;&#20214;, &#30446;&#26631;&#25968;&#25454;&#20063;&#19981;&#20250;&#21464;&#65292;&#25152;&#20197;&#19981;&#20855;&#26377;&#21709;&#24212;&#24335;&#65289; &#20294;&#26159;&#21487;&#20197;&#33258;&#24049;&#23454;&#29616;&#30417;&#21548;&#25968;&#25454;&#21464;&#21270;&#28982;&#21518;&#33258;&#21160;&#21457;&#20107;&#20214;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7935,11 +7353,9 @@
       &#27604;&#22914; A B &#20004;&#20010;&#32452;&#20214;&#36890;&#36807;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x8bbf;&#x95ee;&#x5143;&#x7d20;&amp;&#x7ec4;&#x4ef6;" ID="ID_758039144" CREATED="1614431123591" MODIFIED="1614437901103"><richcontent TYPE="DETAILS">
-
+<node TEXT="访问元素&amp;组件" FOLDED="true" ID="ID_758039144" CREATED="1614431123591" MODIFIED="1614437901103"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -7955,10 +7371,8 @@
       <font color="#0000c0">&#22823;&#22810;&#25968;&#24773;&#20917;&#25512;&#33616;&#20351;&#29992;Vuex&#23454;&#29616;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7968,15 +7382,13 @@
       &#21487;&#20197;&#35835;&#21462;&#21644;&#35774;&#32622;&#32452;&#20214;&#23646;&#24615;&#20540;&#65292;&#35843;&#29992;&#32452;&#20214;&#26041;&#27861;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 <node TEXT="$root" ID="ID_753561479" CREATED="1614431304094" MODIFIED="1614431307602"/>
 <node TEXT="$parent" ID="ID_1947431125" CREATED="1614431366662" MODIFIED="1614431370528"/>
 <node TEXT="$children" ID="ID_435314280" CREATED="1614444768033" MODIFIED="1614444774282"/>
 <node TEXT="ref" ID="ID_1964897077" CREATED="1614443387288" MODIFIED="1614443389185"/>
 </node>
-<node TEXT="provide inject (&#x4f9d;&#x8d56;&#x6ce8;&#x5165;, &#x53ef;&#x4ee5;&#x662f;&#x6570;&#x636e;&#x6216;&#x65b9;&#x6cd5;)" ID="ID_1752321584" CREATED="1614444387740" MODIFIED="1614447325613"><richcontent TYPE="NOTE">
-
+<node TEXT="provide inject (依赖注入, 可以是数据或方法)" ID="ID_1752321584" CREATED="1614444387740" MODIFIED="1614447325613"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -7989,10 +7401,8 @@
       <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#20351;&#29992;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">inject</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#36873;&#39033;&#26469;&#25509;&#25910;&#25351;&#23450;&#30340;&#25105;&#20204;&#24819;&#35201;&#28155;&#21152;&#22312;&#36825;&#20010;&#23454;&#20363;&#19978;&#30340; property</span></font>&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8002,14 +7412,12 @@
       <font color="#0000c0">&#20219;&#20309;&#21518;&#20195;&#32452;&#20214;&#37117;&#21487;&#20197;&#27880;&#20837;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="$attr / $listeners" ID="ID_1611196259" CREATED="1614444871236" MODIFIED="1614444882282"/>
 <node TEXT="vuex" ID="ID_1070255798" CREATED="1614444401708" MODIFIED="1614444404834"/>
 </node>
-<node TEXT="&#x63d2;&#x69fd;&lt;slot&gt;" ID="ID_942898948" CREATED="1613886023202" MODIFIED="1614406418444" LINK="https://cn.vuejs.org/v2/guide/components-slots.html"><richcontent TYPE="NOTE">
-
+<node TEXT="插槽&lt;slot&gt;" FOLDED="true" ID="ID_942898948" CREATED="1613886023202" MODIFIED="1614406418444" LINK="https://cn.vuejs.org/v2/guide/components-slots.html"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8019,10 +7427,8 @@
       Vue&#20869;&#37096;&#23553;&#35013;&#30340;&#19968;&#20010;&#32452;&#20214;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8032,10 +7438,8 @@
       <font color="#0000c0">&#21521;&#32452;&#20214;&#20256;&#36882;&#20869;&#23481;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x7f16;&#x8bd1;&#x4f5c;&#x7528;&#x57df;" ID="ID_1757448370" CREATED="1614406854517" MODIFIED="1614406872186"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="编译作用域" ID="ID_1757448370" CREATED="1614406854517" MODIFIED="1614406872186"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8045,11 +7449,9 @@
       &#29238;&#32423;&#27169;&#26495;&#37324;&#30340;&#25152;&#26377;&#20869;&#23481;&#37117;&#26159;&#22312;&#29238;&#32423;&#20316;&#29992;&#22495;&#20013;&#32534;&#35793;&#30340;&#65307;&#23376;&#27169;&#26495;&#37324;&#30340;&#25152;&#26377;&#20869;&#23481;&#37117;&#26159;&#22312;&#23376;&#20316;&#29992;&#22495;&#20013;&#32534;&#35793;&#30340;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x9ed8;&#x8ba4;&#x5185;&#x5bb9;&#xff08;&#x540e;&#x5907;&#x5185;&#x5bb9;&#xff09;" ID="ID_969409455" CREATED="1614406952341" MODIFIED="1614407027157"><richcontent TYPE="NOTE">
-
+<node TEXT="默认内容（后备内容）" ID="ID_969409455" CREATED="1614406952341" MODIFIED="1614407027157"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8071,11 +7473,9 @@
       &lt;/button&gt;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5177;&#x540d;&#x63d2;&#x69fd;" ID="ID_1156161498" CREATED="1614407312039" MODIFIED="1614408745242"><richcontent TYPE="NOTE">
-
+<node TEXT="具名插槽" ID="ID_1156161498" CREATED="1614407312039" MODIFIED="1614408745242"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8085,11 +7485,9 @@
       <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#19968;&#20010;&#19981;&#24102;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">name</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#30340;</span><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">&lt;slot&gt;</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#20986;&#21475;&#20250;&#24102;&#26377;&#38544;&#21547;&#30340;&#21517;&#23383;&#8220;default&#8221;&#12290;</span></font> 
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x4f5c;&#x7528;&#x57df;&#x63d2;&#x69fd; (&#x63d2;&#x69fd;prop)" ID="ID_1569583947" CREATED="1614409061674" MODIFIED="1614411797978"><richcontent TYPE="DETAILS">
-
+<node TEXT="作用域插槽 (插槽prop)" FOLDED="true" ID="ID_1569583947" CREATED="1614409061674" MODIFIED="1614411797978"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8099,10 +7497,8 @@
       <font color="#0000c0">&#20026;&#20102;&#22312;&#29238;&#32452;&#20214;&#20316;&#29992;&#22495;&#35775;&#38382;&#21040;&#23376;&#25554;&#27133;&#32452;&#20214;&#30340;&#25968;&#25454;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8124,14 +7520,12 @@
       <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#36825;&#24847;&#21619;&#30528;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span>&#160;</span></font><code style="font-family: Roboto Mono, Monaco, courier, monospace; font-size: 0.85em; background-color: rgb(248, 248, 248); color: rgb(214, 50, 0); padding-top: 3px; padding-bottom: 3px; padding-right: 5px; padding-left: 5px; margin-top: 0px; margin-bottom: 0px; margin-right: 2px; margin-left: 2px; white-space: nowrap; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; word-spacing: 0.8px"><font face="Roboto Mono, Monaco, courier, monospace" size="0.85em" color="rgb(214, 50, 0)">v-slot</font></code><span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px">&#160;</font></span><font color="rgb(48, 68, 85)" face="Source Sans Pro, Helvetica Neue, Arial, sans-serif" size="16px"><span style="color: rgb(48, 68, 85); font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0.8px; background-color: rgb(255, 255, 255); display: inline !important; float: none">&#30340;&#20540;&#23454;&#38469;&#19978;&#21487;&#20197;&#26159;&#20219;&#20309;&#33021;&#22815;&#20316;&#20026;&#20989;&#25968;&#23450;&#20041;&#20013;&#30340;&#21442;&#25968;&#30340; JavaScript &#34920;&#36798;&#24335;&#12290;</span></font> 
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x652f;&#x6301;&#x5185;&#x5bb9;&#x89e3;&#x6784;&#x8868;&#x8fbe;&#x5f0f;" ID="ID_1462294255" CREATED="1614412263298" MODIFIED="1614412325689" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#%E8%A7%A3%E6%9E%84%E5%AF%B9%E8%B1%A1"/>
+</html></richcontent>
+<node TEXT="支持内容解构表达式" ID="ID_1462294255" CREATED="1614412263298" MODIFIED="1614412325689" LINK="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#%E8%A7%A3%E6%9E%84%E5%AF%B9%E8%B1%A1"/>
 </node>
-<node TEXT="&#x52a8;&#x6001;&#x63d2;&#x69fd;&#x540d;&#xff08;&#x4f9d;&#x8d56;&#x52a8;&#x6001;&#x6307;&#x4ee4;&#x53c2;&#x6570;&#xff09;" ID="ID_1970131537" CREATED="1614412609420" MODIFIED="1614412629598"/>
+<node TEXT="动态插槽名（依赖动态指令参数）" ID="ID_1970131537" CREATED="1614412609420" MODIFIED="1614412629598"/>
 </node>
-<node TEXT="&#x52a8;&#x6001;&#x7ec4;&#x4ef6;" ID="ID_731614984" CREATED="1614412524975" MODIFIED="1614412682791"><richcontent TYPE="DETAILS">
-
+<node TEXT="动态组件" FOLDED="true" ID="ID_731614984" CREATED="1614412524975" MODIFIED="1614412682791"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8141,20 +7535,18 @@
       <font color="#0000c0">&#32452;&#20214;&#38388;&#20999;&#25442;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x72b6;&#x6001;&#x4fdd;&#x5b58;keep-alive" ID="ID_1664546826" CREATED="1614412685679" MODIFIED="1614429213520"/>
+</html></richcontent>
+<node TEXT="状态保存keep-alive" ID="ID_1664546826" CREATED="1614412685679" MODIFIED="1614429213520"/>
 </node>
-<node TEXT="&#x8fb9;&#x754c;&#x60c5;&#x51b5;" ID="ID_1263713091" CREATED="1614431183556" MODIFIED="1614431188888"/>
+<node TEXT="边界情况" ID="ID_1263713091" CREATED="1614431183556" MODIFIED="1614431188888"/>
 </node>
 <node TEXT="..." ID="ID_479694399" CREATED="1611413331046" MODIFIED="1611413332778"/>
-<node TEXT="&#x7591;&#x95ee;" ID="ID_697487286" CREATED="1614489949505" MODIFIED="1614490009575" STYLE="bubble">
+<node TEXT="疑问" FOLDED="true" ID="ID_697487286" CREATED="1614489949505" MODIFIED="1614490009575" STYLE="bubble">
 <icon BUILTIN="help"/>
-<node TEXT="&#x54cd;&#x5e94;&#x5f0f;&#x662f;&#x600e;&#x4e48;&#x5b9e;&#x73b0;&#x7684;&#xff1f;&#x90a3;&#x4e48;&#x591a;&#x53ef;&#x80fd;&#x53d8;&#x5316;&#x7684;&#x503c;&#xff0c;&#x662f;&#x600e;&#x4e48;&#x76d1;&#x63a7;&#x53d8;&#x5316;&#x5e76;&#x91cd;&#x65b0;&#x6e32;&#x67d3;&#x7684;&#xff1f;" ID="ID_1805042157" CREATED="1614489960371" MODIFIED="1614490002955"/>
+<node TEXT="响应式是怎么实现的？那么多可能变化的值，是怎么监控变化并重新渲染的？" ID="ID_1805042157" CREATED="1614489960371" MODIFIED="1614490002955"/>
 </node>
 </node>
-<node TEXT="&#x751f;&#x6001;" ID="ID_890487604" CREATED="1611413121410" MODIFIED="1611413250154" STYLE="bubble"><richcontent TYPE="NOTE">
-
+<node TEXT="生态" FOLDED="true" ID="ID_890487604" CREATED="1611413121410" MODIFIED="1611413250154" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8164,10 +7556,8 @@
       &#20272;&#35745;&#23601;&#20687;Hadoop&#19968;&#26679;&#65292;&#20063;&#26377;&#33258;&#24049;&#30340;&#19968;&#22871;&#29983;&#24577;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x8def;&#x7531; Router" ID="ID_1641296461" CREATED="1611413335269" MODIFIED="1615020239617" LINK="https://router.vuejs.org/zh/" STYLE="bubble"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="路由 Router" FOLDED="true" ID="ID_1641296461" CREATED="1611413335269" MODIFIED="1615020239617" LINK="https://router.vuejs.org/zh/" STYLE="bubble"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8180,10 +7570,8 @@
       &#21487;&#20197;&#29992;&#20110;&#24320;&#21457;&#21333;&#39029;&#38754;&#24212;&#29992;&#65288;&#21482;&#26377;&#19968;&#20010;html&#25991;&#20214;&#65292;&#20869;&#23481;&#30340;&#19981;&#21516;&#26159;&#36890;&#36807;ajax&#36827;&#34892;&#23616;&#37096;&#21047;&#26032;&#30340;&#65289;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8193,13 +7581,11 @@
       <font color="#0000c0">Vue.$router</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&lt;router-link&gt;&#x5b9a;&#x4e49;&#x5bfc;&#x822a;&#xff0c; &lt;router-view&gt;&#x5b9a;&#x4e49;&#x5bfc;&#x822a;&#x9875;&#x5185;&#x5bb9;" ID="ID_1005963653" CREATED="1615005866070" MODIFIED="1615022541729"/>
-<node TEXT="&#x8def;&#x7531;&#x6a21;&#x5f0f;mode" ID="ID_1088710913" CREATED="1614507242323" MODIFIED="1615020000176" LINK="https://router.vuejs.org/zh/guide/essentials/history-mode.html#html5-history-%E6%A8%A1%E5%BC%8F"/>
-<node TEXT="&#x52a8;&#x6001;&#x8def;&#x7531;" ID="ID_1744718847" CREATED="1614708014710" MODIFIED="1614708024819">
-<node TEXT="&#x8def;&#x7531;&#x5bf9;&#x8c61; this.$route" ID="ID_153585941" CREATED="1615017631439" MODIFIED="1615020393415" LINK="https://router.vuejs.org/zh/api/#%E8%B7%AF%E7%94%B1%E5%AF%B9%E8%B1%A1"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="&lt;router-link&gt;定义导航， &lt;router-view&gt;定义导航页内容" ID="ID_1005963653" CREATED="1615005866070" MODIFIED="1615022541729"/>
+<node TEXT="路由模式mode" ID="ID_1088710913" CREATED="1614507242323" MODIFIED="1615020000176" LINK="https://router.vuejs.org/zh/guide/essentials/history-mode.html#html5-history-%E6%A8%A1%E5%BC%8F"/>
+<node TEXT="动态路由" FOLDED="true" ID="ID_1744718847" CREATED="1614708014710" MODIFIED="1614708024819">
+<node TEXT="路由对象 this.$route" ID="ID_153585941" CREATED="1615017631439" MODIFIED="1615020393415" LINK="https://router.vuejs.org/zh/api/#%E8%B7%AF%E7%94%B1%E5%AF%B9%E8%B1%A1"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8236,10 +7622,8 @@
       &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;};
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8249,11 +7633,9 @@
       <font color="#0000c0">Vue.$route &#24403;&#21069;&#36335;&#30001;&#20449;&#24687;, &#25171;&#24320;&#30340;&#32593;&#39029;&#36335;&#30001;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x52a8;&#x6001;&#x8def;&#x7531;&#x53c2;&#x6570;" ID="ID_190280491" CREATED="1614708128373" MODIFIED="1615021804396"><richcontent TYPE="DETAILS">
-
+<node TEXT="动态路由参数" FOLDED="true" ID="ID_190280491" CREATED="1614708128373" MODIFIED="1615021804396"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8263,10 +7645,8 @@
       <font color="#0000c0">Vue.$route.params</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x4ee5;:&#x5f00;&#x5934;&#xff0c;&#x8def;&#x7531;&#x53c2;&#x6570;&#x503c;&#x4f1a;&#x88ab;&#x8bbe;&#x7f6e;&#x5230;$route.params&#x4e2d;" ID="ID_1057321934" CREATED="1615017433405" MODIFIED="1615017596980"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="以:开头，路由参数值会被设置到$route.params中" ID="ID_1057321934" CREATED="1615017433405" MODIFIED="1615017596980"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8309,12 +7689,10 @@
     </table>
      
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x6355;&#x83b7;&#x6240;&#x6709;&#x8def;&#x7531;" ID="ID_1253348717" CREATED="1614708142899" MODIFIED="1615021817650"><richcontent TYPE="DETAILS">
-
+<node TEXT="捕获所有路由" FOLDED="true" ID="ID_1253348717" CREATED="1614708142899" MODIFIED="1615021817650"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8324,15 +7702,13 @@
       <font color="#0000c0">Vue.$router.options.routes.path</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5982; path: &apos;*&apos;" ID="ID_429522124" CREATED="1615018002217" MODIFIED="1615021826116"/>
+</html></richcontent>
+<node TEXT="如 path: &apos;*&apos;" ID="ID_429522124" CREATED="1615018002217" MODIFIED="1615021826116"/>
 </node>
-<node TEXT="&#x9ad8;&#x7ea7;&#x5339;&#x914d;&#x6a21;&#x5f0f;" ID="ID_1934080561" CREATED="1614708156327" MODIFIED="1614708167179">
+<node TEXT="高级匹配模式" FOLDED="true" ID="ID_1934080561" CREATED="1614708156327" MODIFIED="1614708167179">
 <node TEXT="Path-to-RegExp" ID="ID_1144657600" CREATED="1615018835020" MODIFIED="1615018848600" LINK="https://github.com/pillarjs/path-to-regexp/tree/v1.7.0"/>
 </node>
-<node TEXT="&#x5339;&#x914d;&#x4f18;&#x5148;&#x7ea7;" ID="ID_251082111" CREATED="1614708168751" MODIFIED="1615018886546"><richcontent TYPE="NOTE">
-
+<node TEXT="匹配优先级" ID="ID_251082111" CREATED="1614708168751" MODIFIED="1615018886546"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8342,13 +7718,11 @@
       <span http-equiv="content-type" content="text/html; charset=utf-8" style="color: rgb(44, 62, 80); font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; font-size: 16px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; word-spacing: 0px; background-color: rgb(255, 255, 255); display: inline !important; float: none"><font color="rgb(44, 62, 80)" face="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif" size="16px">&#21305;&#37197;&#30340;&#20248;&#20808;&#32423;&#23601;&#25353;&#29031;&#36335;&#30001;&#30340;&#23450;&#20041;&#39034;&#24207;&#65306;&#35841;&#20808;&#23450;&#20041;&#30340;&#65292;&#35841;&#30340;&#20248;&#20808;&#32423;&#23601;&#26368;&#39640;&#12290;</font></span> 
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x54cd;&#x5e94;&#x8def;&#x7531;&#x53c2;&#x6570;&#x53d8;&#x5316;" ID="ID_1945317712" CREATED="1615019266151" MODIFIED="1615019446517">
+<node TEXT="响应路由参数变化" FOLDED="true" ID="ID_1945317712" CREATED="1615019266151" MODIFIED="1615019446517">
 <icon BUILTIN="help"/>
-<richcontent TYPE="NOTE">
-
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8367,14 +7741,12 @@
       &#20160;&#20040;&#24773;&#20917;&#19979;&#38656;&#35201;&#29983;&#21629;&#21608;&#26399;&#38057;&#23376;&#20877;&#25191;&#34892;&#19968;&#27425;&#65311;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="watch $route &#x53d8;&#x5316;" ID="ID_795257116" CREATED="1615019288033" MODIFIED="1615019309506"/>
-<node TEXT="&#x5bfc;&#x822a;&#x5b88;&#x536b;" ID="ID_110706320" CREATED="1615007250177" MODIFIED="1615007255002"/>
+</html></richcontent>
+<node TEXT="watch $route 变化" ID="ID_795257116" CREATED="1615019288033" MODIFIED="1615019309506"/>
+<node TEXT="导航守卫" ID="ID_110706320" CREATED="1615007250177" MODIFIED="1615007255002"/>
 </node>
 </node>
-<node TEXT="&#x5d4c;&#x5957;&#x8def;&#x7531;" ID="ID_543747286" CREATED="1614708028494" MODIFIED="1615022177116"><richcontent TYPE="DETAILS">
-
+<node TEXT="嵌套路由" ID="ID_543747286" CREATED="1614708028494" MODIFIED="1615022177116"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8384,11 +7756,9 @@
       <font color="#0000c0">Vue.$router.options.routes.children</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x7f16;&#x7a0b;&#x5f0f;&#x5bfc;&#x822a;" ID="ID_1516736645" CREATED="1615006443685" MODIFIED="1615022931343"><richcontent TYPE="NOTE">
-
+<node TEXT="编程式导航" FOLDED="true" ID="ID_1516736645" CREATED="1615006443685" MODIFIED="1615022931343"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8407,10 +7777,8 @@
       &#20854;&#23454;&#28857;&#20987;&#23548;&#33322;&#36873;&#39033;&#36339;&#36716;&#20869;&#37096;&#23454;&#29616;&#23601;&#26159;&#36890;&#36807;&#35843;&#29992;&#36825;&#20010;&#26041;&#27861;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8420,14 +7788,12 @@
       <font color="#0000c0">Vue.$router.push()</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="push&#x4f20;&#x53c2;" ID="ID_1427463002" CREATED="1615023470441" MODIFIED="1615023480497">
-<node TEXT="// &#x5b57;&#x7b26;&#x4e32;&#xa;router.push(&apos;home&apos;)&#xa;// &#x5bf9;&#x8c61;&#xa;router.push({ path: &apos;home&apos; })&#xa;// &#x547d;&#x540d;&#x7684;&#x8def;&#x7531; -&gt; /user/123&#xa;router.push({ name: &apos;user&apos;, params: { userId: &apos;123&apos; }})&#xa;router.push({ name: &apos;user/${userId}&apos;})&#xa;// &#x5e26;&#x67e5;&#x8be2;&#x53c2;&#x6570; -&gt; /register?plan=private&#xa;router.push({ path: &apos;register&apos;, query: { plan: &apos;private&apos; }})" ID="ID_857371715" CREATED="1615023543713" MODIFIED="1615023695473"/>
+</html></richcontent>
+<node TEXT="push传参" FOLDED="true" ID="ID_1427463002" CREATED="1615023470441" MODIFIED="1615023480497">
+<node TEXT="// 字符串&#xa;router.push(&apos;home&apos;)&#xa;// 对象&#xa;router.push({ path: &apos;home&apos; })&#xa;// 命名的路由 -&gt; /user/123&#xa;router.push({ name: &apos;user&apos;, params: { userId: &apos;123&apos; }})&#xa;router.push({ name: &apos;user/${userId}&apos;})&#xa;// 带查询参数 -&gt; /register?plan=private&#xa;router.push({ path: &apos;register&apos;, query: { plan: &apos;private&apos; }})" ID="ID_857371715" CREATED="1615023543713" MODIFIED="1615023695473"/>
 </node>
 </node>
-<node TEXT="&#x547d;&#x540d;&#x8def;&#x7531;" ID="ID_22815159" CREATED="1615024521484" MODIFIED="1615024554115"><richcontent TYPE="DETAILS">
-
+<node TEXT="命名路由" FOLDED="true" ID="ID_22815159" CREATED="1615024521484" MODIFIED="1615024554115"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8437,12 +7803,10 @@
       <font color="#0000c0">Vue.$router.options.routes.name</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x7ed9;&#x8def;&#x7531;&#x8d77;&#x4e2a;&#x540d;&#x5b57;&#xff0c;:to &#x548c; push() &#x4e2d;&#x5c31;&#x53ef;&#x4ee5;&#x901a;&#x8fc7;&#x8fd9;&#x4e2a;&#x540d;&#x5b57;&#xa;&#x5339;&#x914d;&#x8def;&#x7531;&#x89c4;&#x5219;" ID="ID_1177330110" CREATED="1615024532484" MODIFIED="1615024607273"/>
+</html></richcontent>
+<node TEXT="给路由起个名字，:to 和 push() 中就可以通过这个名字&#xa;匹配路由规则" ID="ID_1177330110" CREATED="1615024532484" MODIFIED="1615024607273"/>
 </node>
-<node TEXT="&#x547d;&#x540d;&#x89c6;&#x56fe;" ID="ID_1625709695" CREATED="1615006466807" MODIFIED="1615024546803"><richcontent TYPE="DETAILS">
-
+<node TEXT="命名视图" FOLDED="true" ID="ID_1625709695" CREATED="1615006466807" MODIFIED="1615024546803"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8455,10 +7819,8 @@
       <font color="#0000c0">&#27880;&#24847;&#36825;&#37324;&#21464;&#25104;&#20102;components &#21464;&#25104;&#20102;&#22797;&#25968;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8474,12 +7836,10 @@
       <font color="#0000c0">&#22312;&#36825;&#37324;&#38754;&#23450;&#20041;&#21305;&#37197;&#21040;&#36825;&#20010;&#36335;&#30001;&#26102;&#22810;&#20010;&#35270;&#22270;&#27599;&#20010;&#35270;&#22270;&#21508;&#20010;&#24212;&#35813;&#24590;&#20040;&#28210;&#26579;&#12290;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x6b64;&#x5904;&#x547d;&#x540d;&#x662f;&#x4e3a;&#x4e86;&#x533a;&#x5206;&#xff0c;&#x5f53;&#x6709;&#x591a;&#x4e2a;&#x89c6;&#x56fe;&#x540c;&#x7ea7;&#x540c;&#x65f6;&#x5c55;&#x793a;&#x65f6;&#xa;&#x9700;&#x8981;&#x533a;&#x5206;&#x5e94;&#x8be5;&#x5237;&#x65b0;&#x54ea;&#x4e2a;&#x89c6;&#x56fe;&#xff0c;&#x5c31;&#x662f;&#x901a;&#x8fc7;&#x547d;&#x540d;&#x6307;&#x5b9a;" ID="ID_1427121764" CREATED="1615024064861" MODIFIED="1615024620761"/>
+</html></richcontent>
+<node TEXT="此处命名是为了区分，当有多个视图同级同时展示时&#xa;需要区分应该刷新哪个视图，就是通过命名指定" ID="ID_1427121764" CREATED="1615024064861" MODIFIED="1615024620761"/>
 </node>
-<node TEXT="&#x91cd;&#x5b9a;&#x5411;&#x4e0e;&#x522b;&#x540d;" ID="ID_327253769" CREATED="1615024433859" MODIFIED="1615024701927"><richcontent TYPE="DETAILS">
-
+<node TEXT="重定向与别名" ID="ID_327253769" CREATED="1615024433859" MODIFIED="1615024701927"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8492,11 +7852,9 @@
       <font color="#0000c0">Vue.$router.options.routes.alias</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x8def;&#x7531;&#x7ec4;&#x4ef6;&#x4f20;&#x53c2;(&#x4e3a;&#x4e86;&#x964d;&#x4f4e;&#x8026;&#x5408;)" ID="ID_1327289617" CREATED="1615006486518" MODIFIED="1615027450911" LINK="https://router.vuejs.org/zh/guide/essentials/passing-props.html"><richcontent TYPE="NOTE">
-
+<node TEXT="路由组件传参(为了降低耦合)" FOLDED="true" ID="ID_1327289617" CREATED="1615006486518" MODIFIED="1615027450911" LINK="https://router.vuejs.org/zh/guide/essentials/passing-props.html"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8587,18 +7945,16 @@
       })
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="props&#x89e3;&#x5076;" ID="ID_429921871" CREATED="1615025394146" MODIFIED="1615025398774">
-<node TEXT="&#x5e03;&#x5c14;&#x6a21;&#x5f0f;" ID="ID_360481313" CREATED="1615025469401" MODIFIED="1615025486947"/>
-<node TEXT="&#x5bf9;&#x8c61;&#x6a21;&#x5f0f;" ID="ID_1226756122" CREATED="1615025478434" MODIFIED="1615025484647"/>
-<node TEXT="&#x51fd;&#x6570;&#x6a21;&#x5f0f;" ID="ID_88668045" CREATED="1615025487193" MODIFIED="1615025491055"/>
+</html></richcontent>
+<node TEXT="props解偶" FOLDED="true" ID="ID_429921871" CREATED="1615025394146" MODIFIED="1615025398774">
+<node TEXT="布尔模式" ID="ID_360481313" CREATED="1615025469401" MODIFIED="1615025486947"/>
+<node TEXT="对象模式" ID="ID_1226756122" CREATED="1615025478434" MODIFIED="1615025484647"/>
+<node TEXT="函数模式" ID="ID_88668045" CREATED="1615025487193" MODIFIED="1615025491055"/>
 </node>
 </node>
-<node TEXT="&#x5bfc;&#x822a;&#x5b88;&#x536b;" ID="ID_1310042943" CREATED="1615027453158" MODIFIED="1615027461339">
-<node TEXT="&#x4f5c;&#x7528;: &#x5728;&#x5bfc;&#x822a;&#x8fc7;&#x7a0b;&#x4e2d;&#x690d;&#x5165;&#x4e00;&#x4e9b;&#x5176;&#x4ed6;&#x7684;&#x903b;&#x8f91;, &#x5c31;&#x50cf;&#x540e;&#x7aef;&#x7684;&#x8fc7;&#x6ee4;&#x5668;&#x4e00;&#x6837;" ID="ID_439996797" CREATED="1615027463480" MODIFIED="1615027576285"/>
-<node TEXT="&#x5bfc;&#x822a;&#x89e3;&#x6790;&#x6d41;&#x7a0b;(&#x4ece;&#x4e00;&#x4e2a;&#x8def;&#x7531;&#x4f4d;&#x7f6e;&#x5230;&#x53e6;&#x4e00;&#x4e2a;&#x8def;&#x7531;&#x4f4d;&#x7f6e;)" ID="ID_148998818" CREATED="1615027609323" MODIFIED="1615027798949"><richcontent TYPE="NOTE">
-
+<node TEXT="导航守卫" FOLDED="true" ID="ID_1310042943" CREATED="1615027453158" MODIFIED="1615027461339">
+<node TEXT="作用: 在导航过程中植入一些其他的逻辑, 就像后端的过滤器一样" ID="ID_439996797" CREATED="1615027463480" MODIFIED="1615027576285"/>
+<node TEXT="导航解析流程(从一个路由位置到另一个路由位置)" ID="ID_148998818" CREATED="1615027609323" MODIFIED="1615027798949"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8644,10 +8000,8 @@
     </ol>
      
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8657,18 +8011,16 @@
       <font color="#0000c0">&#29702;&#35299;&#21508;&#31181;&#23432;&#21355;&#22312;&#20160;&#20040;&#26102;&#20505;&#36215;&#20316;&#29992;, &#25191;&#34892;&#39034;&#24207;</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
-<node TEXT="&#x8def;&#x7531;&#x5143;&#x4fe1;&#x606f;" ID="ID_1928356332" CREATED="1615007271495" MODIFIED="1615007282315"/>
-<node TEXT="&#x8fc7;&#x6e21;&#x52a8;&#x6548;" ID="ID_933088319" CREATED="1615007282778" MODIFIED="1615007299416"/>
-<node TEXT="&#x6570;&#x636e;&#x83b7;&#x53d6;" ID="ID_1721519225" CREATED="1615007300890" MODIFIED="1615007307406"/>
-<node TEXT="&#x6eda;&#x52a8;&#x884c;&#x4e3a;" ID="ID_1885462427" CREATED="1615007308862" MODIFIED="1615007315085"/>
-<node TEXT="&#x8def;&#x7531;&#x61d2;&#x52a0;&#x8f7d;" ID="ID_713427311" CREATED="1615007315965" MODIFIED="1615007323916"/>
+<node TEXT="路由元信息" ID="ID_1928356332" CREATED="1615007271495" MODIFIED="1615007282315"/>
+<node TEXT="过渡动效" ID="ID_933088319" CREATED="1615007282778" MODIFIED="1615007299416"/>
+<node TEXT="数据获取" ID="ID_1721519225" CREATED="1615007300890" MODIFIED="1615007307406"/>
+<node TEXT="滚动行为" ID="ID_1885462427" CREATED="1615007308862" MODIFIED="1615007315085"/>
+<node TEXT="路由懒加载" ID="ID_713427311" CREATED="1615007315965" MODIFIED="1615007323916"/>
 </node>
-<node TEXT="vuex" ID="ID_1587144219" CREATED="1611413342382" MODIFIED="1615028706955" STYLE="bubble"><richcontent TYPE="DETAILS">
-
+<node TEXT="vuex" FOLDED="true" ID="ID_1587144219" CREATED="1611413342382" MODIFIED="1615028706955" STYLE="bubble"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8678,10 +8030,8 @@
       <font color="#0000c0">&#29366;&#24577;&#31649;&#29702;&#27169;&#24335;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="NOTE">
-
+</html></richcontent>
+<richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8703,15 +8053,13 @@
       Vuex&#20351;&#35843;&#35797;&#26356;&#21152;&#26041;&#20415;&#12290;Vuex&#24050;&#32463;&#38598;&#25104;&#21040;Vue&#23448;&#26041;&#35843;&#35797;&#24037;&#20855; devtool extension &#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x67b6;&#x6784;&#x56fe;" ID="ID_628690516" CREATED="1615029131187" MODIFIED="1615029141047" LINK="https://vuex.vuejs.org/vuex.png"/>
-<node TEXT="&#x4f7f;&#x7528;&#x573a;&#x666f;" ID="ID_63203838" CREATED="1615029203402" MODIFIED="1615029213051"/>
-<node TEXT="state&#x5185;&#x5c5e;&#x6027;&#x4fee;&#x6539;" ID="ID_455704882" CREATED="1615091793021" MODIFIED="1615091808378">
+</html></richcontent>
+<node TEXT="架构图" ID="ID_628690516" CREATED="1615029131187" MODIFIED="1615029141047" LINK="https://vuex.vuejs.org/vuex.png"/>
+<node TEXT="使用场景" ID="ID_63203838" CREATED="1615029203402" MODIFIED="1615029213051"/>
+<node TEXT="state内属性修改" FOLDED="true" ID="ID_455704882" CREATED="1615091793021" MODIFIED="1615091808378">
 <node TEXT="this.$store.state.&lt;prop&gt; = xxx;" ID="ID_1230250059" CREATED="1615091809644" MODIFIED="1615091865178"/>
 <node TEXT="this.$store.commit(commitType, payload)" ID="ID_759338370" CREATED="1615091877913" MODIFIED="1615091885227"/>
-<node TEXT="this.$store.dispatch(actionType, payload)" ID="ID_1596466862" CREATED="1615091867149" MODIFIED="1615099804044"><richcontent TYPE="DETAILS">
-
+<node TEXT="this.$store.dispatch(actionType, payload)" ID="ID_1596466862" CREATED="1615091867149" MODIFIED="1615099804044"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8721,11 +8069,9 @@
       <font color="#0000c0">&#36825;&#31181;&#26041;&#24335;&#20869;&#37096;&#20063;&#26159;&#36890;&#36807;commit</font>
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x5b98;&#x65b9;&#x8bf4;&#xff1a;&#x201c;&#x4e0d;&#x80fd;&#x76f4;&#x63a5;&#x6539;&#x53d8; store &#x4e2d;&#x7684;&#x72b6;&#x6001;&#x3002;&#x6539;&#x53d8; store &#x4e2d;&#x7684;&#x72b6;&#x6001;&#x7684;&#x552f;&#x4e00;&#x9014;&#x5f84;&#x5c31;&#x662f;&#x663e;&#x5f0f;&#x5730;&#x63d0;&#x4ea4; (commit) mutation&#x3002;&#x201d;" ID="ID_1249326299" CREATED="1615091915012" MODIFIED="1615092565515"><richcontent TYPE="NOTE">
-
+<node TEXT="官方说：“不能直接改变 store 中的状态。改变 store 中的状态的唯一途径就是显式地提交 (commit) mutation。”" FOLDED="true" ID="ID_1249326299" CREATED="1615091915012" MODIFIED="1615092565515"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8753,10 +8099,8 @@
       &#20854;&#23454;&#23448;&#26041;&#25512;&#33616;&#26368;&#22909;&#35774;&#32622;&#20005;&#26684;&#27169;&#24335;&#65292;&#24182;&#19988;&#27599;&#27425;&#37117;&#35201;commit&#26469;&#20462;&#25913;state&#65292;&#32780;&#19981;&#33021;&#30452;&#25509;&#20462;&#25913;state&#65292;&#20197;<b>&#20415;&#20110;&#35843;&#35797;</b>&#31561;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<richcontent TYPE="DETAILS">
-
+</html></richcontent>
+<richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8766,15 +8110,13 @@
       <font color="#0000c0">&#29366;&#24577;&#24555;&#29031;&#65292;&#20415;&#20110;&#35843;&#35797;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="strict&#x6a21;&#x5f0f;&#x4e0b;&#x4e0d;&#x80fd;&#x901a;&#x8fc7;&#xa;this.$store.state.&lt;prop&gt; = xxx;&#xa;&#x8fd9;&#x79cd;&#x65b9;&#x5f0f;&#x4fee;&#x6539;state" ID="ID_1381924863" CREATED="1615092451473" MODIFIED="1615092473860"/>
+</html></richcontent>
+<node TEXT="strict模式下不能通过&#xa;this.$store.state.&lt;prop&gt; = xxx;&#xa;这种方式修改state" ID="ID_1381924863" CREATED="1615092451473" MODIFIED="1615092473860"/>
 </node>
 </node>
 </node>
-<node TEXT="&#x5de5;&#x5177;" ID="ID_1352734175" CREATED="1615099991285" MODIFIED="1615099994734" STYLE="bubble">
-<node TEXT="Vue Cli" ID="ID_570245994" CREATED="1615099895598" MODIFIED="1615100039357" STYLE="bubble"><richcontent TYPE="DETAILS">
-
+<node TEXT="工具" FOLDED="true" ID="ID_1352734175" CREATED="1615099991285" MODIFIED="1615099994734" STYLE="bubble">
+<node TEXT="Vue Cli" FOLDED="true" ID="ID_570245994" CREATED="1615099895598" MODIFIED="1615100039357" STYLE="bubble"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
 <html>
   <head>
     
@@ -8784,10 +8126,8 @@
       <font color="#0000c0">&#33050;&#25163;&#26550;</font>
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x5b89;&#x88c5;" ID="ID_1299781193" CREATED="1615100104321" MODIFIED="1615388278450"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="安装" ID="ID_1299781193" CREATED="1615100104321" MODIFIED="1615388278450"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8815,29 +8155,27 @@
       &#160;&#160;&#160;vue --version
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="&#x6574;&#x5408;&#x5de5;&#x5177;" ID="ID_1556905590" CREATED="1615101951514" MODIFIED="1615101967129">
-<node TEXT="webpack" ID="ID_235729896" CREATED="1615101968325" MODIFIED="1615101971528">
+<node TEXT="整合工具" FOLDED="true" ID="ID_1556905590" CREATED="1615101951514" MODIFIED="1615101967129">
+<node TEXT="webpack" FOLDED="true" ID="ID_235729896" CREATED="1615101968325" MODIFIED="1615101971528">
 <node TEXT="Vue Loader" ID="ID_1721373976" CREATED="1615101974013" MODIFIED="1615101981594"/>
 </node>
 </node>
 </node>
 <node TEXT="Devtools" ID="ID_1375628199" CREATED="1615100019232" MODIFIED="1615100029768" STYLE="bubble"/>
 </node>
-<node TEXT="&#x5de5;&#x7a0b;&#x5316;" ID="ID_1743613945" CREATED="1611413365175" MODIFIED="1611413378791" STYLE="bubble"/>
+<node TEXT="工程化" ID="ID_1743613945" CREATED="1611413365175" MODIFIED="1611413378791" STYLE="bubble"/>
 <node TEXT="..." ID="ID_1000736667" CREATED="1611413348745" MODIFIED="1611413352390"/>
 </node>
-<node TEXT="&#x5168;&#x5bb6;&#x6876;" ID="ID_1149103894" CREATED="1611413390136" MODIFIED="1611413405052" STYLE="bubble"/>
-<node TEXT="&#x8fdb;&#x9636;" ID="ID_397012123" CREATED="1611413436784" MODIFIED="1611413442706" STYLE="bubble">
-<node TEXT="&#x6e90;&#x7801;&#x5b9e;&#x73b0;" ID="ID_1443683504" CREATED="1611413456818" MODIFIED="1611413607789" STYLE="bubble">
-<node TEXT="Vue&#x54cd;&#x5e94;&#x5f0f;&#x539f;&#x7406;" ID="ID_152227709" CREATED="1611985538223" MODIFIED="1611985567907"/>
+<node TEXT="全家桶" ID="ID_1149103894" CREATED="1611413390136" MODIFIED="1611413405052" STYLE="bubble"/>
+<node TEXT="进阶" FOLDED="true" ID="ID_397012123" CREATED="1611413436784" MODIFIED="1611413442706" STYLE="bubble">
+<node TEXT="源码实现" FOLDED="true" ID="ID_1443683504" CREATED="1611413456818" MODIFIED="1611413607789" STYLE="bubble">
+<node TEXT="Vue响应式原理" ID="ID_152227709" CREATED="1611985538223" MODIFIED="1611985567907"/>
 </node>
 </node>
-<node TEXT="&#x6ce8;&#x610f;&#x4e8b;&#x9879;" ID="ID_1823179789" CREATED="1611977817192" MODIFIED="1611977826088" STYLE="bubble">
-<node TEXT="&#x89c4;&#x8303;" ID="ID_1056645326" CREATED="1611977827058" MODIFIED="1611977855661"><richcontent TYPE="NOTE">
-
+<node TEXT="注意事项" FOLDED="true" ID="ID_1823179789" CREATED="1611977817192" MODIFIED="1611977826088" STYLE="bubble">
+<node TEXT="规范" ID="ID_1056645326" CREATED="1611977827058" MODIFIED="1611977855661"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8847,24 +8185,22 @@
       1 &#22312; DOM &#20013;&#20351;&#29992;&#27169;&#26495;&#26102; (&#30452;&#25509;&#22312;&#19968;&#20010; HTML &#25991;&#20214;&#37324;&#25776;&#20889;&#27169;&#26495;)&#65292;&#36824;&#38656;&#35201;&#36991;&#20813;&#20351;&#29992;&#22823;&#20889;&#23383;&#31526;&#26469;&#21629;&#21517;&#38190;&#21517;&#65292;&#22240;&#20026;&#27983;&#35272;&#22120;&#20250;&#25226; attribute &#21517;&#20840;&#37096;&#24378;&#21046;&#36716;&#20026;&#23567;&#20889;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
 <node TEXT="React" POSITION="right" ID="ID_1050019187" CREATED="1599966460569" MODIFIED="1599966467104" STYLE="bubble">
 <edge COLOR="#007c00"/>
 </node>
-<node TEXT="&#x89c4;&#x8303;" POSITION="right" ID="ID_1799369577" CREATED="1599967672615" MODIFIED="1599967676798" STYLE="bubble">
+<node TEXT="规范" FOLDED="true" POSITION="right" ID="ID_1799369577" CREATED="1599967672615" MODIFIED="1599967676798" STYLE="bubble">
 <edge COLOR="#0000ff"/>
-<node TEXT="JS&#x6700;&#x4f73;&#x5b9e;&#x73b0;" ID="ID_1144769528" CREATED="1599967678678" MODIFIED="1599967694575" LINK="https://dev.opera.com/articles/javascript-best-practices/"/>
+<node TEXT="JS最佳实现" ID="ID_1144769528" CREATED="1599967678678" MODIFIED="1599967694575" LINK="https://dev.opera.com/articles/javascript-best-practices/"/>
 </node>
-<node TEXT="&#x5b9e;&#x6218;" POSITION="right" ID="ID_232926957" CREATED="1601869076081" MODIFIED="1601869090688" STYLE="bubble">
+<node TEXT="实战" FOLDED="true" POSITION="right" ID="ID_232926957" CREATED="1601869076081" MODIFIED="1601869090688" STYLE="bubble">
 <edge COLOR="#00ffff"/>
-<node TEXT="&#x9875;&#x9762;&#x8bbe;&#x8ba1;" ID="ID_1001545947" CREATED="1601869092010" MODIFIED="1601869104895" STYLE="bubble">
-<node TEXT="1&#xff09;&#x9875;&#x9762;&#x7ec4;&#x6210;&#x5212;&#x5206;" ID="ID_611581202" CREATED="1601869106124" MODIFIED="1601869119083"/>
-<node TEXT="2&#xff09;&#x91cd;&#x7f6e;&#x6837;&#x5f0f;" ID="ID_1141466884" CREATED="1601869119319" MODIFIED="1601869810110"><richcontent TYPE="NOTE">
-
+<node TEXT="页面设计" FOLDED="true" ID="ID_1001545947" CREATED="1601869092010" MODIFIED="1601869104895" STYLE="bubble">
+<node TEXT="1）页面组成划分" ID="ID_611581202" CREATED="1601869106124" MODIFIED="1601869119083"/>
+<node TEXT="2）重置样式" FOLDED="true" ID="ID_1141466884" CREATED="1601869119319" MODIFIED="1601869810110"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8874,11 +8210,9 @@
       &#22240;&#20026;&#26576;&#20123;&#20803;&#32032;&#27983;&#35272;&#22120;&#20250;&#40664;&#35748;&#28155;&#21152;&#26679;&#24335;&#65292;&#28155;&#21152;&#30340;&#26679;&#24335;&#21487;&#33021;&#19981;&#31526;&#21512;&#23454;&#38469;&#38656;&#35201;&#65292;&#23601;&#38656;&#35201;&#37325;&#32622;&#26679;&#24335;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
-<node TEXT="&#x91cd;&#x7f6e;&#x65b9;&#x6848;" ID="ID_966275867" CREATED="1601869184583" MODIFIED="1601869193920">
-<node TEXT="a) * {...}" ID="ID_648375854" CREATED="1601869194856" MODIFIED="1601873569428"><richcontent TYPE="NOTE">
-
+</html></richcontent>
+<node TEXT="重置方案" FOLDED="true" ID="ID_966275867" CREATED="1601869184583" MODIFIED="1601869193920">
+<node TEXT="a) * {...}" ID="ID_648375854" CREATED="1601869194856" MODIFIED="1601873569428"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8888,11 +8222,9 @@
       &#24615;&#33021;&#38382;&#39064;&#24182;&#19981;&#24120;&#29992;&#12290;
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="b) reset.css" ID="ID_114964839" CREATED="1601869234752" MODIFIED="1601869655537"><richcontent TYPE="NOTE">
-
+<node TEXT="b) reset.css" ID="ID_114964839" CREATED="1601869234752" MODIFIED="1601869655537"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -8911,12 +8243,10 @@
       https://cssreset.com/scripts/yahoo-css-reset-yui-3/
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 <node TEXT="c) normalize.css" ID="ID_1824615702" CREATED="1601870970741" MODIFIED="1601870981761"/>
-<node TEXT="&#x8303;&#x4f8b;" ID="ID_1512836063" CREATED="1602463060689" MODIFIED="1602463111160"><richcontent TYPE="NOTE">
-
+<node TEXT="范例" ID="ID_1512836063" CREATED="1602463060689" MODIFIED="1602463111160"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9240,22 +8570,20 @@
       </div>
     </div>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
-<node TEXT="3) &#x7f51;&#x9875;&#x7248;&#x5fc3;" ID="ID_1067618501" CREATED="1602983975200" MODIFIED="1602984004233"/>
+<node TEXT="3) 网页版心" ID="ID_1067618501" CREATED="1602983975200" MODIFIED="1602984004233"/>
 </node>
 </node>
-<node TEXT="&#x6d4b;&#x8bd5;" POSITION="right" ID="ID_990480695" CREATED="1599966485181" MODIFIED="1599966492728" STYLE="bubble">
+<node TEXT="测试" POSITION="right" ID="ID_990480695" CREATED="1599966485181" MODIFIED="1599966492728" STYLE="bubble">
 <edge COLOR="#007c7c"/>
 </node>
-<node TEXT="&#x804c;&#x4e1a;&#x5e02;&#x573a;" POSITION="right" ID="ID_49625601" CREATED="1611412896533" MODIFIED="1611412921681" STYLE="bubble">
+<node TEXT="职业市场" FOLDED="true" POSITION="right" ID="ID_49625601" CREATED="1611412896533" MODIFIED="1611412921681" STYLE="bubble">
 <edge COLOR="#007c00"/>
-<node TEXT="&#x6982;&#x5ff5;&#x626b;&#x76f2;" ID="ID_1072674901" CREATED="1611414205315" MODIFIED="1611414216062">
-<node TEXT="&#x5355;&#x9875;&#x9762;&#x5e94;&#x7528;&#x7a0b;&#x5e8f;SPA" ID="ID_1567237020" CREATED="1611414218527" MODIFIED="1611972974937"><richcontent TYPE="NOTE">
-
+<node TEXT="概念扫盲" FOLDED="true" ID="ID_1072674901" CREATED="1611414205315" MODIFIED="1611414216062">
+<node TEXT="单页面应用程序SPA" ID="ID_1567237020" CREATED="1611414218527" MODIFIED="1611972974937"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9271,13 +8599,11 @@
       &#22914;&#26524;&#20320;&#29087;&#24713;&#34394;&#25311; DOM &#24182;&#19988;&#20559;&#29233; JavaScript &#30340;&#21407;&#22987;&#21147;&#37327;&#65292;&#20320;&#20063;&#21487;&#20197;&#19981;&#29992;&#27169;&#26495;&#65292;&#30452;&#25509;&#20889;&#28210;&#26579; (render) &#20989;&#25968;&#65292;&#20351;&#29992;&#21487;&#36873;&#30340; JSX &#35821;&#27861;&#12290; 
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
-<node TEXT="MVVM&#x601d;&#x60f3;" ID="ID_1660762810" CREATED="1611414718659" MODIFIED="1611414739139"/>
+<node TEXT="MVVM思想" ID="ID_1660762810" CREATED="1611414718659" MODIFIED="1611414739139"/>
 </node>
-<node TEXT="&#x73b0;&#x72b6;" ID="ID_479259436" CREATED="1611412923041" MODIFIED="1611413059922"><richcontent TYPE="NOTE">
-
+<node TEXT="现状" ID="ID_479259436" CREATED="1611412923041" MODIFIED="1611413059922"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
 <html>
   <head>
     
@@ -9290,8 +8616,7 @@
       
     </p>
   </body>
-</html>
-</richcontent>
+</html></richcontent>
 </node>
 </node>
 </node>
