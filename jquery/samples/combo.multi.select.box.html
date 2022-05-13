@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 多选下拉框 -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="../lib/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="combo.multi.select.box.css">
+</head>
+<body>
+<table id="" class="" style="width: 100%;" cellspacing="1" cellpadding="3">
+    <tr>
+        <td class="biz1" style="width: 150px;" align="left">biz1</td>
+        <td class="showTableTd" align="left">
+            <input id="inp_biz1" name="inp_biz1" type="text"/>
+        </td>
+    </tr>
+    <tr>
+        <td class="biz2" style="width: 150px;" align="left">biz2</td>
+        <td class="showTableTd" align="left">
+
+            <!-- 下拉复选框开始 -->
+            <div class="multiple-select">
+                <span class="placeholder">请选择要展示的数据</span>
+            </div>
+            <div class="multiple-parent">
+                <ul>
+                    <li class="group" data-group="group1">
+                        <input type="checkbox" name="showData" id="showDataTitle1"/><label for="showDataTitle1">GROUP1</label>
+                    </li>
+                    <li class="li-group1">
+                        <input type="checkbox" name="showData" id="showData1"/><label for="showData1">group1-1</label>
+                    </li>
+                    <li class="li-group1">
+                        <input type="checkbox" name="showData" id="showData2"/><label for="showData2">group1-2</label>
+                    </li>
+                    <li class="li-group1">
+                        <input type="checkbox" name="showData" id="showData3"/><label for="showData3">group1-3</label>
+                    </li>
+                    <li class="li-group1">
+                        <input type="checkbox" name="showData" id="showData4"/><label for="showData4">group1-4</label>
+                    </li>
+                    <li class="group"  data-group="group2">
+                        <input type="checkbox" name="showData" id="showDataTitle2"/><label for="showDataTitle2">GROUP2</label>
+                    </li>
+                    <li class="li-group2">
+                        <input type="checkbox" name="showData" id="showData5"/><label for="showData5">group1-5</label>
+                    </li>
+                    <li class="li-group2">
+                        <input type="checkbox" name="showData" id="showData6"/><label for="showData6">group1-6</label>
+                    </li>
+                </ul>
+            </div>
+            <!-- 下拉复选框结束 -->
+        </td>
+    </tr>
+    <tr>
+        <td class="biz3" style="width: 150px;" align="left">biz3</td>
+        <td class="showTableTd" align="left">
+            <input id="inp_biz3" name="inp_biz3" type="text"/>
+        </td>
+    </tr>
+</table>
+
+<script>
+    /*下拉复选框相关操作开始*/
+    $(".multiple-select").click(function(){
+        if ($(".multiple-parent").css("display")=="none"){
+            $(".multiple-parent").css("display","block")
+        }else{
+            $(".multiple-parent").css("display","none")
+        }
+    })
+    $(".multiple-parent").on("click","li",function(e){
+        e.stopPropagation()
+        e.preventDefault()
+        var $label=$(this).children("label")
+        var input=this.getElementsByTagName("input")[0]
+        if (input.checked){
+            input.checked=false
+        }else{
+            input.checked=true
+        }
+        //全选
+        if ($(this).attr("class")=="group"){
+            var group=$(this).attr("data-group")
+            var className="li-"+group
+            var lis=document.getElementsByClassName(className)
+            if (input.checked){
+                // 全选
+                for (var i=0;i<lis.length;i++){
+                    lis[i].getElementsByTagName("input")[0].checked=true;
+                }
+            }else{
+                // 取消全选
+                for (var i=0;i<lis.length;i++){
+                    lis[i].getElementsByTagName("input")[0].checked=false;
+                }
+            }
+        }else{
+            //所有选项已选择则为全选
+            var className=$(this).attr("class")
+            var flag=true;
+            var lis=document.getElementsByClassName(className);
+            var group=className.slice(3,className.length)
+            for (var i=0;i<lis.length;i++){
+                //var ck=lis[i].getElementsByTagName("input")[0].checked;
+                var ck=$(lis[i]).children("input")[0].checked;
+                if (!ck){
+                    flag=false;
+                }
+            }
+            if (flag){
+                $(".group").each(function(index,elem){
+                    if ($(elem).attr("data-group")==group){
+                        elem.getElementsByTagName("input")[0].checked=true;
+                        return false;
+                    }
+                })
+            }else{
+                $(".group").each(function(index,elem){
+                    if ($(elem).attr("data-group")==group){
+                        elem.getElementsByTagName("input")[0].checked=false;
+                        return false;
+                    }
+                })
+            }
+        }
+        //获取所有选项的值
+        var contents=[];
+        $(".multiple-parent li").each(function(index,elem){
+            if (!$(elem).hasClass("group")){
+                //var ck=elem.getElementsByTagName("input")[0].checked
+                var ck=$(elem).find("input")[0].checked
+                if (ck){
+                    var html=$(elem).children("label").html();
+                    contents.push(html);
+                }
+            }
+        })
+        if (contents.length>0){
+            //把选择的值显示在div.multiple-select中
+            $(".multiple-select").empty();
+            for (var i=0;i<contents.length;i++){
+                var span=`<span class='select-content'><span class='select-value'>${contents[i]}</span><span class='select-delete'>&times;</span></span>`
+                $(".multiple-select").append(span)
+            }
+        }else{
+            $(".multiple-select").empty();
+            var span="<span class='placeholder'>请选择要展示的数据</span>"
+            $(".multiple-select").append(span)
+        }
+    });
+    // 点击X按钮时删去相应的选择值
+    $(".multiple-select").on("click",".select-delete",function(e){
+        e.stopPropagation()
+        var value=$(this).parent().children(".select-value").html();
+        $(".multiple-parent ul li").each(function(index,elem){
+            if($(elem).children("label").html()==value){
+                elem.getElementsByTagName("input")[0].checked=false;
+            }
+        })
+        $(this).parent().remove();
+        var len=$(".multiple-select").children().length;
+        if (len==0){
+            var span="<span class='placeholder'>请选择要展示的数据</span>"
+            $(".multiple-select").append(span)
+        }
+    })
+    /*下拉复选框相关操作结束*/
+</script>
+</body>
+</html>

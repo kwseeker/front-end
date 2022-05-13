@@ -1,19 +1,16 @@
-<map version="freeplane 1.9.13">
-<!--To view this file, download free mind mapping software Freeplane from https://www.freeplane.org -->
+<map version="freeplane 1.8.0">
+<!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="JQuery" FOLDED="false" ID="ID_696401721" CREATED="1610381621824" MODIFIED="1652333531168" STYLE="oval">
 <font SIZE="18"/>
 <hook NAME="MapStyle">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false" associatedTemplateLocation="template:/standard-1.6.mm" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1651300690000" show_icon_for_attributes="true" show_note_icons="true"/>
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" show_icon_for_attributes="true" associatedTemplateLocation="template:/standard-1.6.mm" show_note_icons="true" followedTemplateLocation="template:/standard-1.6.mm" followedMapLastTime="1651300690000" fit_to_viewport="false"/>
 
 <map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24 pt">
+<stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
 <font SIZE="24"/>
 <stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="default" ID="ID_271890427" ICON_SIZE="12 pt" COLOR="#000000" STYLE="fork">
-<arrowlink SHAPE="CUBIC_CURVE" COLOR="#000000" WIDTH="2" TRANSPARENCY="200" DASH="" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_271890427" STARTARROW="NONE" ENDARROW="DEFAULT"/>
+<stylenode LOCALIZED_TEXT="default" ICON_SIZE="12.0 pt" COLOR="#000000" STYLE="fork" ID="ID_271890427">
 <font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-<richcontent CONTENT-TYPE="plain/auto" TYPE="DETAILS"/>
-<richcontent TYPE="NOTE" CONTENT-TYPE="plain/auto"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="defaultstyle.details"/>
 <stylenode LOCALIZED_TEXT="defaultstyle.attributes">
@@ -38,11 +35,10 @@
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.important" ID="ID_67550811">
 <icon BUILTIN="yes"/>
-<arrowlink COLOR="#003399" TRANSPARENCY="255" DESTINATION="ID_67550811"/>
 </stylenode>
 </stylenode>
 <stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right" STYLE="bubble">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10 pt" SHAPE_VERTICAL_MARGIN="10 pt">
+<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000" STYLE="oval" SHAPE_HORIZONTAL_MARGIN="10.0 pt" SHAPE_VERTICAL_MARGIN="10.0 pt">
 <font SIZE="18"/>
 </stylenode>
 <stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
@@ -79,7 +75,8 @@
 <node TEXT="2 知识点" POSITION="right" ID="ID_623018212" CREATED="1652334306223" MODIFIED="1652334335334" STYLE="bubble">
 <edge COLOR="#0000ff"/>
 <node TEXT="前置知识" ID="ID_1146796680" CREATED="1652335431237" MODIFIED="1652335443859" STYLE="bubble">
-<node TEXT="网页加载流程" ID="ID_1329877569" CREATED="1652335445648" MODIFIED="1652340137648"><richcontent CONTENT-TYPE="xml/" TYPE="DETAILS">
+<node TEXT="网页加载流程" ID="ID_1329877569" CREATED="1652335445648" MODIFIED="1652340137648"><richcontent TYPE="DETAILS">
+
 <html>
   <head>
     
@@ -95,7 +92,8 @@
 </html>
 </richcontent>
 <node TEXT="网页下载" ID="ID_176591750" CREATED="1652339732516" MODIFIED="1652339738064"/>
-<node TEXT="网页渲染" ID="ID_1564814537" CREATED="1652339738438" MODIFIED="1652340792581"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="网页渲染" ID="ID_1564814537" CREATED="1652339738438" MODIFIED="1652340792581"><richcontent TYPE="NOTE">
+
 <html>
   <head>
     
@@ -112,7 +110,39 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="window对象" ID="ID_1745534417" CREATED="1652352946419" MODIFIED="1652352955594"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="JS引擎工作原理" ID="ID_1205999906" CREATED="1652422560478" MODIFIED="1652422719716"><richcontent TYPE="DETAILS">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      <font color="#0000c0">对比Java的JVM</font>
+    </p>
+  </body>
+</html>
+
+</richcontent>
+<node TEXT="网文参考" ID="ID_546960441" CREATED="1652422725261" MODIFIED="1652423051055"><richcontent TYPE="NOTE">
+
+<html>
+  <head>
+    
+  </head>
+  <body>
+    <p>
+      网文的内容基本都内容不全，不知道从哪本书或哪个官网抄的？也不写来源。
+    </p>
+  </body>
+</html>
+
+</richcontent>
+</node>
+</node>
+<node TEXT="" ID="ID_601907827" CREATED="1652422609452" MODIFIED="1652422609452"/>
+<node TEXT="window对象" ID="ID_1745534417" CREATED="1652352946419" MODIFIED="1652352955594"><richcontent TYPE="NOTE">
+
 <html>
   <head>
     
@@ -129,7 +159,8 @@
 </richcontent>
 <node TEXT="onload事件处理" ID="ID_1091648681" CREATED="1652352971929" MODIFIED="1652352977743"/>
 </node>
-<node TEXT="window.jQuery = window.$ = jQuery" ID="ID_1510925827" CREATED="1652353227672" MODIFIED="1652353311514"><richcontent TYPE="NOTE" CONTENT-TYPE="xml/">
+<node TEXT="window.jQuery = window.$ = jQuery" ID="ID_1510925827" CREATED="1652353227672" MODIFIED="1652435943722"><richcontent TYPE="NOTE">
+
 <html>
   <head>
     
@@ -138,8 +169,48 @@
     <p>
       jQuery库一旦加载完毕就会自动为window对象添加jQuery属性。
     </p>
+    <p>
+      
+    </p>
+    <p>
+      jQuery 是个函数，使用时后面带着小括号。
+    </p>
+    <p>
+      功能：
+    </p>
+    <p>
+      Return a collection of matched elements either found in the DOM based on passed argument(s) or created by passing an HTML string.
+    </p>
+    <p>
+      
+    </p>
+    <p>
+      下面四种写法效果一样：
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// window.jQuery('#which-button').click(function () {
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// jQuery('#which-button').click(function () {
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;// window.$('#which-button').click(function () {
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;$('#which-button').click(function () {
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;var checkedValue = jQuery('input:radio[name=&quot;some-radio-group&quot;]:checked').val();
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jQuery('#result').text(checkedValue);
+    </p>
+    <p>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}).click();
+    </p>
   </body>
 </html>
+
 </richcontent>
 </node>
 </node>
