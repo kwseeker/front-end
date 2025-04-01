@@ -50,3 +50,58 @@ yarn install
 yarn dev
 ```
 
+使用模板构建生成的目录结构：
+
+```shell
+.
+├── build				# 存放静态资源（如图标、安装程序素材），打包时会复制到最终输出目录。
+├── node_modules		# 存放项目依赖的 npm 包
+├── out					# 打包后的输出目录（包含可执行文件、安装包等），由 electron-builder 生成。
+├── resources			# 存放应用专属资源（如数据库、配置文件、额外二进制文件），打包时会被包含。
+├── src	
+  	├── main			# 主进程入口，启动 Electron 应用，创建窗口
+    │   └── index.ts
+    ├── preload			# 预加载脚本，在渲染进程加载前执行
+    │   ├── index.d.ts
+    │   └── index.ts
+    └── renderer		# 渲染进程
+        ├── index.html
+        └── src
+            ├── App.tsx
+            ├── assets
+            │   ├── base.css
+            │   ├── electron.svg
+            │   ├── main.css
+            │   └── wavy-lines.svg
+            ├── components
+            │   └── Versions.tsx
+            ├── env.d.ts
+            └── main.tsx
+├── .editorconfig			# 统一代码编辑器风格（缩进、换行符等）。
+├── .gitignore
+├── .npmrc					# npm 配置（如镜像源、缓存路径）。
+├── .prettierignore			# 指定不需要格式化的文件/目录
+├── .prettierrc.yaml		# 代码格式化规则（Prettier 配置）
+├── .vscode
+├── electron-builder.yml	# 打包配置（应用名称、版本、图标、目标平台等），由 electron-builder 使用。
+├── electron.vite.config.ts	# Electron-Vite 主配置，定义主进程、渲染进程、预加载脚本的构建规则。
+├── eslint.config.mjs		# ESLint 静态检查规则
+├── package.json			# 项目元数据、依赖项、脚本命令（如 dev、build）。
+├── README.md
+├── tsconfig.json			# TypeScript 通用配置（基础编译规则）。
+├── tsconfig.node.json		# 主进程/Node 环境的 TypeScript 配置。
+├── tsconfig.web.json		# 渲染进程/Browser 环境的 TypeScript 配置。
+└── yarn.lock
+```
+
+## Yarn 添加依赖
+
+开发中可能需要添加新的依赖：
+
+```shell
+yarn add electron-store@8.2.0
+yarn add electron-window-state@5.0.3
+```
+
+## Electron 应用调试
+
