@@ -4,6 +4,7 @@ import { configureStore, createSlice } from '@reduxjs/toolkit'
 import { useSelector, useDispatch } from 'react-redux'
 
 // Getting Started with React Redux: https://react-redux.js.org/introduction/getting-started
+// API Reference: https://react-redux.js.org/api/provider
 // 使用 useSelector 和 useDispatch 这两个钩子在 React组件中与 Redux 存储交互
 // useSelector 从存储状态读取值并订阅更新
 // useDispatch 返回存储的 dispatch 方法以允许您分发操作。
