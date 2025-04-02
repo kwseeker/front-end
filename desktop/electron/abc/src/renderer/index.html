@@ -1,17 +1,50 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Electron</title>
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:"
-    />
-  </head>
+<!-- 设置语言为中文 -->
+<html lang="zh-CN">
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <!-- 用于控制视口的大小和形状 https://developer.mozilla.org/zh-CN/docs/Web/HTML/Viewport_meta_tag -->
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <!-- 内容安全策略  https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <!-- 默认只允许从同源加载资源、允许连接到任何源头、允许从同源加载脚本和样式 等 -->
+  <meta http-equiv="Content-Security-Policy"
+    content="default-src 'self'; connect-src blob: *; script-src 'self' 'unsafe-eval' *; worker-src 'self' blob:; style-src 'self' 'unsafe-inline' *; font-src 'self' data: *; img-src 'self' data: file: * blob:; frame-src * file:" />
+  <title>Abc</title>
+
+  <style>
+    html,
+    body {
+      margin: 0;
+    }
+
+    /* 加载动画的样式 */
+    #spinner {
+      position: fixed;
+      width: 100vw;
+      height: 100vh;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      display: none;
+    }
+
+    #spinner img {
+      width: 100px;
+      border-radius: 50px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="root"></div>
+  <div id="spinner">
+    <img src="/src/assets/images/logo.png" />
+  </div>
+  <!-- 初始化应用组件 -->
+  <script type="module" src="/src/init.ts"></script>
+  <!-- 渲染应用主窗口 -->
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>

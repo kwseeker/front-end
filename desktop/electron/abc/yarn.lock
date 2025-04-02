@@ -436,6 +436,11 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
+"@kangfenmao/keyv-storage@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.npmmirror.com/@kangfenmao/keyv-storage/-/keyv-storage-0.1.0.tgz"
+  integrity sha512-QxQ87ODM30pwtRbw9lzQRvve7Xz3+hPbo22tcb5o8jz19YxO5BKvsT2IheDj5zKdIRtsGkoMHKdyIKpftF0BPQ==
+
 "@malept/cross-spawn-promise@^2.0.0":
   version "2.0.0"
   resolved "https://registry.npmmirror.com/@malept/cross-spawn-promise/-/cross-spawn-promise-2.0.0.tgz"

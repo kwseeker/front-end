@@ -291,6 +291,9 @@ export class WindowService {
     } else {
       // 加载本地html文件
       mainWindow.loadFile(join(__dirname, '../renderer/index.html'))
+      // mainWindow.loadFile(join(__dirname, '../renderer/index.html'), { //TODO 这个判断标识符没效果
+      //   hash: '#/mini' 
+      // })
     }
   }
 
