@@ -2,6 +2,9 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import { configureStore, createSlice } from '@reduxjs/toolkit'
 import { useSelector, useDispatch } from 'react-redux'
+import { persistStore, persistReducer } from 'redux-persist'
+import storage from 'redux-persist/lib/storage'
+import { PersistGate } from 'redux-persist/integration/react'
 
 // Getting Started with React Redux: https://react-redux.js.org/introduction/getting-started
 // API Reference: https://react-redux.js.org/api/provider
@@ -21,15 +24,26 @@ const counterSlice = createSlice({
 })
 
 // 创建 Redux store
+const rootReducer = counterSlice.reducer
+
+const persistedReducer = persistReducer({
+    key: 'root',
+    storage,
+    whitelist: ['clickCount']  // 现在直接匹配 state 中的字段名
+  },
+  rootReducer
+)
+
 const store = configureStore({
-  reducer: {
-    buttonClickCount: counterSlice.reducer
-  }
+  reducer: persistedReducer
 })
+
+// 持久化存储
+const persistor = persistStore(store)
 
 // 计数显示组件
 const Counter = () => {
-  const count = useSelector(state => state.buttonClickCount.clickCount)   // state.<slice.name>.<stateValueName>
+  const count = useSelector(state => state.clickCount)   // 直接访问 state.clickCount
   return <h2>按钮点击次数：{count}</h2>
 }
 
@@ -74,12 +88,17 @@ function App() {
   return (
     <div>
       <Provider store={store}>
-        <div>
-          <h1>React-Redux 按钮计数示例</h1>
-          <Counter />
-          <FirstComponent />
-          <SecondComponent />
-        </div>
+        {/* 延迟应用程序 UI 的渲染，直到持久化状态被检索并保存到 redux 中
+            loading 参数接收一个 React 节点，用于在持久化数据加载期间显示（比如显示一个加载中的动图），设置为null表示不显示任何加载指示器
+        */}
+        <PersistGate loading={null} persistor={persistor}>
+          <div>
+            <h1>React-Redux 按钮计数示例</h1>
+            <Counter />
+            <FirstComponent />
+            <SecondComponent />
+          </div>
+        </PersistGate>
       </Provider>
       {/* <div>
         <ThirdComponent />
