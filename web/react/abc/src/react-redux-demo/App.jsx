@@ -2,9 +2,9 @@ import React from 'react'
 import { Provider } from 'react-redux'
 import { configureStore, createSlice } from '@reduxjs/toolkit'
 import { useSelector, useDispatch } from 'react-redux'
-import { persistStore, persistReducer } from 'redux-persist'
 import storage from 'redux-persist/lib/storage'
 import { PersistGate } from 'redux-persist/integration/react'
+import { FLUSH, PAUSE, PERSIST, persistReducer, persistStore, PURGE, REGISTER, REHYDRATE } from 'redux-persist'
 
 // Getting Started with React Redux: https://react-redux.js.org/introduction/getting-started
 // API Reference: https://react-redux.js.org/api/provider
@@ -29,13 +29,24 @@ const rootReducer = counterSlice.reducer
 const persistedReducer = persistReducer({
     key: 'root',
     storage,
-    whitelist: ['clickCount']  // 现在直接匹配 state 中的字段名
+    whitelist: ['clickCount'],  // 现在直接匹配 state 中的字段名, whitelist 中到底是传什么？
+    debug: true,
+    migrate: (state) => new Promise(resolve => 
+      setTimeout(() => resolve(state), 3000) // 模拟加载持久化数据有3秒延迟
+    )
   },
   rootReducer
 )
 
 const store = configureStore({
-  reducer: persistedReducer
+  reducer: persistedReducer,
+  middleware: (getDefaultMiddleware) => {
+    return getDefaultMiddleware({
+      serializableCheck: {
+        ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER]
+      }
+    })
+  }
 })
 
 // 持久化存储
@@ -83,15 +94,24 @@ const SecondComponent = () => {
   )
 }
 
+const Loader = () => (
+  <div style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100vh',
+    fontSize: '24px'
+  }}>
+    正在加载持久化数据...
+  </div>
+)
+
 // App 组件
 function App() {
   return (
     <div>
       <Provider store={store}>
-        {/* 延迟应用程序 UI 的渲染，直到持久化状态被检索并保存到 redux 中
-            loading 参数接收一个 React 节点，用于在持久化数据加载期间显示（比如显示一个加载中的动图），设置为null表示不显示任何加载指示器
-        */}
-        <PersistGate loading={null} persistor={persistor}>
+        <PersistGate loading={<Loader />} persistor={persistor}>
           <div>
             <h1>React-Redux 按钮计数示例</h1>
             <Counter />
